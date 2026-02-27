@@ -27,6 +27,14 @@ export async function fetchQuestions() {
 }
 
 /**
+ * Get all questions (alias for fetchQuestions).
+ * @returns {Promise<Array>}
+ */
+export async function getAllQuestions() {
+  return fetchQuestions();
+}
+
+/**
  * Get all flashcards (alias for fetchQuestions).
  * @returns {Promise<Array>}
  */
@@ -35,33 +43,75 @@ export async function getFlashcards() {
 }
 
 /**
- * Get questions filtered by category (case-insensitive match).
+ * Get questions filtered by subject/category (case-insensitive match).
+ * Checks both "subject" and "category" fields for compatibility.
+ * @param {string} subject
+ * @returns {Promise<Array>}
+ */
+export async function getQuestionsBySubject(subject) {
+  const questions = await fetchQuestions();
+  const target = subject.toLowerCase();
+  return questions.filter(q =>
+    (q.subject && q.subject.toLowerCase() === target) ||
+    (q.category && q.category.toLowerCase() === target)
+  );
+}
+
+/**
+ * Get questions filtered by difficulty.
+ * Supports both string ("easy","medium","hard") and numeric (1,2,3) formats.
+ * @param {string|number} level
+ * @returns {Promise<Array>}
+ */
+export async function getQuestionsByDifficulty(level) {
+  const questions = await fetchQuestions();
+  const numMap = { easy: 1, medium: 2, hard: 3 };
+  const strMap = { 1: 'easy', 2: 'medium', 3: 'hard' };
+
+  return questions.filter(q => {
+    if (typeof level === 'string') {
+      return q.difficulty === level || q.difficulty === numMap[level.toLowerCase()];
+    }
+    return q.difficulty === level || q.difficulty === strMap[level];
+  });
+}
+
+/**
+ * Get questions filtered by academic year (1-5).
+ * Only applies to questions that have a "year" field.
+ * @param {number} year
+ * @returns {Promise<Array>}
+ */
+export async function getQuestionsByYear(year) {
+  const questions = await fetchQuestions();
+  return questions.filter(q => q.year === year);
+}
+
+/**
+ * Get questions filtered by category (legacy alias for getQuestionsBySubject).
  * @param {string} category
  * @returns {Promise<Array>}
  */
 export async function getCategoryQuestions(category) {
-  const questions = await fetchQuestions();
-  const target = category.toLowerCase();
-  return questions.filter(q => q.category.toLowerCase() === target);
+  return getQuestionsBySubject(category);
 }
 
 /**
- * Get questions filtered by difficulty level (1-3).
+ * Get questions filtered by difficulty level (legacy numeric alias).
  * @param {number} level
  * @returns {Promise<Array>}
  */
 export async function getDifficultyQuestions(level) {
-  const questions = await fetchQuestions();
-  return questions.filter(q => q.difficulty === level);
+  return getQuestionsByDifficulty(level);
 }
 
 /**
- * Get a list of all unique categories.
+ * Get a list of all unique subjects/categories.
  * @returns {Promise<string[]>}
  */
 export async function getCategories() {
   const questions = await fetchQuestions();
-  return [...new Set(questions.map(q => q.category))];
+  return [...new Set(questions.map(q => q.subject || q.category))];
 }
 
 /**
