@@ -232,27 +232,46 @@ body {
   </div>
 </div>
 
-<!-- HOME -->
+<!-- HOME (MODE SELECT) -->
 <div id="home" class="screen">
-  <div class="home-top-bar">
-    <div></div>
-    <button class="lang-switch" id="lang-switch-btn" onclick="showScreen('lang-select')">🇦🇱/🇬🇧</button>
+  <div style="padding:20px;padding-top:env(safe-area-inset-top, 20px);">
+    <div class="home-top-bar">
+      <div></div>
+      <button class="lang-switch" id="lang-switch-btn" onclick="showScreen('lang-select')">🇦🇱/🇬🇧</button>
+    </div>
+    <div class="home-header">
+      <h1>🦷 DentPrep</h1>
+      <p id="home-subtitle"></p>
+    </div>
+    <div class="stats-bar">
+      <div class="stat-card"><div class="num" id="stat-answered">0</div><div class="label" id="lbl-answered"></div></div>
+      <div class="stat-card"><div class="num" id="stat-accuracy">0%</div><div class="label" id="lbl-accuracy"></div></div>
+      <div class="stat-card"><div class="num" id="stat-streak">0</div><div class="label" id="lbl-streak"></div></div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:12px;margin-top:24px;">
+      <div class="mode-btn" onclick="selectMode('exam')" style="background:linear-gradient(135deg,rgba(225,112,85,0.15),rgba(214,48,49,0.15));border-color:rgba(225,112,85,0.3);">
+        <div class="mode-icon">📋</div>
+        <div class="mode-info">
+          <div class="mode-title" id="home-exam-title">Provimi</div>
+          <div class="mode-desc" id="home-exam-desc">Testo veten me kohë dhe rezultat</div>
+        </div>
+      </div>
+      <div class="mode-btn" onclick="selectMode('questions')">
+        <div class="mode-icon">📝</div>
+        <div class="mode-info">
+          <div class="mode-title" id="home-q-title">Pyetje</div>
+          <div class="mode-desc" id="home-q-desc">Mëso me përgjigje të menjëhershme</div>
+        </div>
+      </div>
+      <div class="mode-btn" onclick="selectMode('flashcards')">
+        <div class="mode-icon">📚</div>
+        <div class="mode-info">
+          <div class="mode-title" id="home-fc-title">Flashcards</div>
+          <div class="mode-desc" id="home-fc-desc">Karta përmbledhëse për rishikim</div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="home-header">
-    <h1>🦷 DentPrep</h1>
-    <p id="home-subtitle"></p>
-  </div>
-  <div class="stats-bar">
-    <div class="stat-card"><div class="num" id="stat-answered">0</div><div class="label" id="lbl-answered"></div></div>
-    <div class="stat-card"><div class="num" id="stat-accuracy">0%</div><div class="label" id="lbl-accuracy"></div></div>
-    <div class="stat-card"><div class="num" id="stat-streak">0</div><div class="label" id="lbl-streak"></div></div>
-  </div>
-  
-  <div style="margin:16px 0;text-align:center;">
-    <button id="exam-btn" onclick="showScreen('exam-config')" style="background:linear-gradient(135deg, #e17055, #d63031);color:#fff;border:none;border-radius:14px;padding:14px 28px;font-size:16px;font-weight:600;cursor:pointer;width:100%;max-width:320px;">📋 Provimi / Exam</button>
-  </div>
-  <div class="section-title" id="lbl-subjects"></div>
-  <div class="subject-grid" id="subject-grid"></div>
 </div>
 
 <!-- FLASHCARDS -->
@@ -260,7 +279,7 @@ body {
   <div>
     <div class="quiz-top">
       <span class="quiz-counter" id="fc-counter">1 / 50</span>
-      <button class="quit" id="fc-quit-btn" onclick="showScreen('subject-mode')"></button>
+      <button class="quit" id="fc-quit-btn" onclick="showScreen('home')"></button>
     </div>
     <div class="quiz-progress"><div class="fill" id="fc-progress-fill" style="width:0%"></div></div>
     <div style="padding:20px;">
@@ -297,96 +316,9 @@ body {
   </div>
 </div>
 
-<!-- SUBJECT MODE SELECT -->
-<div id="subject-mode" class="screen">
-  <button class="back-btn" id="back-mode" onclick="showScreen('home')"></button>
-  <div class="topic-header">
-    <h2 id="mode-subject-name"></h2>
-    <p id="mode-subject-desc"></p>
-  </div>
-  <div class="mode-buttons">
-    <div class="mode-btn" onclick="openSubjectTopics()">
-      <div class="mode-icon">📝</div>
-      <div class="mode-info">
-        <div class="mode-title" id="mode-quiz-title">Pyetje</div>
-        <div class="mode-desc" id="mode-quiz-desc">Teste me zgjedhje të shumëfishtë</div>
-      </div>
-    </div>
-    <div class="mode-btn" onclick="startSubjectFlashcards()">
-      <div class="mode-icon">📚</div>
-      <div class="mode-info">
-        <div class="mode-title" id="mode-fc-title">Flashcards</div>
-        <div class="mode-desc" id="mode-fc-desc">Mëso me karta përmbledhëse</div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- EXAM CONFIG -->
-<div id="exam-config" class="screen">
-  <button class="back-btn" id="exam-back-btn" onclick="showScreen('home')"></button>
-  <div class="exam-config">
-    <h2 id="exam-config-title">📋 Provimi</h2>
-    <div class="exam-field">
-      <label id="lbl-exam-subject">Lënda</label>
-      <select id="exam-subject-select"></select>
-    </div>
-    <div class="exam-field">
-      <label id="lbl-exam-count">Numri i pyetjeve</label>
-      <select id="exam-count-select">
-        <option value="10">10</option>
-        <option value="20" selected>20</option>
-        <option value="40">40</option>
-        <option value="60">60</option>
-      </select>
-    </div>
-    <div class="exam-field">
-      <label id="lbl-exam-time">Koha për pyetje</label>
-      <select id="exam-time-select">
-        <option value="30">30 sekonda</option>
-        <option value="60" selected>1 minutë</option>
-        <option value="90">1.5 minuta</option>
-        <option value="120">2 minuta</option>
-        <option value="0">Pa limit</option>
-      </select>
-    </div>
-    <button class="exam-start-btn" id="exam-start-btn" onclick="startExam()">Fillo Provimin</button>
-  </div>
-</div>
-
-<!-- EXAM QUIZ -->
-<div id="exam-quiz" class="screen">
-  <div class="exam-timer" id="exam-timer-bar">
-    <span class="timer-left" id="exam-q-info">1 / 20</span>
-    <span class="timer-clock" id="exam-clock">01:00</span>
-  </div>
-  <div class="exam-q-area">
-    <div class="question-text" id="exam-q-text" style="margin-bottom:20px;font-size:17px;line-height:1.5;font-weight:600;"></div>
-    <div id="exam-opts"></div>
-    <div class="exam-nav">
-      <button class="skip-btn" id="exam-skip-btn" onclick="examNext(false)">Kalo →</button>
-      <button class="next-btn" id="exam-confirm-btn" onclick="examNext(true)">Konfirmo →</button>
-    </div>
-  </div>
-</div>
-
-<!-- EXAM RESULTS -->
-<div id="exam-results" class="screen">
-  <div style="text-align:center;padding:30px 20px 10px;">
-    <div style="font-size:48px;margin-bottom:12px;">📋</div>
-    <h2 id="exam-res-title" style="margin-bottom:4px;"></h2>
-    <div id="exam-res-score" style="font-size:36px;font-weight:800;margin:12px 0;"></div>
-    <div id="exam-res-sub" style="color:var(--text-dim);font-size:14px;margin-bottom:4px;"></div>
-    <div id="exam-res-time" style="color:var(--text-dim);font-size:14px;margin-bottom:20px;"></div>
-    <button onclick="showScreen('home')" style="background:var(--primary);color:#fff;border:none;border-radius:12px;padding:14px 28px;font-size:15px;font-weight:600;cursor:pointer;width:80%;margin-bottom:12px;">🏠 Kthehu</button>
-  </div>
-  <div class="exam-review-list" id="exam-review-list"></div>
-</div>
-
 <!-- TOPICS -->
 <div id="topics" class="screen">
-  <button class="back-btn" id="back-topics" onclick="showScreen('subject-mode')"></button>
+  <button class="back-btn" id="back-topics" onclick="showScreen('home')"></button>
   <div class="topic-header">
     <h2 id="topic-subject-name"></h2>
     <p id="topic-subject-desc"></p>
@@ -510,7 +442,7 @@ function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
   if (id === 'home') renderHome();
-  if (id === 'exam-config') initExamConfig();
+  if (id === 'mode-config') initModeConfig();
 }
 
 // ===== HOME =====
@@ -519,26 +451,25 @@ function renderHome() {
   document.getElementById('lbl-answered').textContent = ui('answered');
   document.getElementById('lbl-accuracy').textContent = ui('accuracy');
   document.getElementById('lbl-streak').textContent = ui('streak');
-  document.getElementById('lbl-subjects').textContent = ui('subjects');
   document.getElementById('stat-answered').textContent = stats.answered;
   document.getElementById('stat-accuracy').textContent = stats.answered ? Math.round(stats.correct/stats.answered*100)+'%' : '0%';
   document.getElementById('stat-streak').textContent = stats.best_streak;
-
-  const grid = document.getElementById('subject-grid');
-  grid.innerHTML = '';
-  SUBJECTS.forEach(sub => {
-    const totalQ = sub.topics.reduce((a,tp) => a + tp.questions.length, 0);
-    const answeredQ = sub.topics.reduce((a,tp) => {
-      const key = sub.id + '_' + (tp.name.en || tp.name);
-      return a + (stats.topicScores[key]?.answered || 0);
-    }, 0);
-    const pct = totalQ ? Math.min(100, Math.round(answeredQ/totalQ*100)) : 0;
-    const card = document.createElement('div');
-    card.className = 'subject-card';
-    card.innerHTML = `<div class="emoji">${sub.emoji}</div><div class="name">${t(sub.name)}</div><div class="count">${totalQ} ${ui('questions')}</div><div class="progress-bar" style="width:${pct}%"></div>`;
-    card.onclick = () => openSubject(sub);
-    grid.appendChild(card);
-  });
+  // Localize mode buttons
+  if (lang === 'sq') {
+    document.getElementById('home-exam-title').textContent = 'Provimi';
+    document.getElementById('home-exam-desc').textContent = 'Testo veten me kohë dhe rezultat';
+    document.getElementById('home-q-title').textContent = 'Pyetje';
+    document.getElementById('home-q-desc').textContent = 'Mëso me përgjigje të menjëhershme';
+    document.getElementById('home-fc-title').textContent = 'Flashcards';
+    document.getElementById('home-fc-desc').textContent = 'Karta përmbledhëse për rishikim';
+  } else {
+    document.getElementById('home-exam-title').textContent = 'Exam';
+    document.getElementById('home-exam-desc').textContent = 'Test yourself with timer and scoring';
+    document.getElementById('home-q-title').textContent = 'Questions';
+    document.getElementById('home-q-desc').textContent = 'Learn with instant feedback';
+    document.getElementById('home-fc-title').textContent = 'Flashcards';
+    document.getElementById('home-fc-desc').textContent = 'Review cards for quick study';
+  }
 }
 
 // ===== TOPICS =====
@@ -748,8 +679,15 @@ let examTimeLeft = 0;
 let examStartTime = 0;
 let examTotalTime = 0;
 
-function initExamConfig() {
-  const sel = document.getElementById('exam-subject-select');
+let selectedMode = 'exam';
+
+function selectMode(mode) {
+  selectedMode = mode;
+  showScreen('mode-config');
+}
+
+function initModeConfig() {
+  const sel = document.getElementById('config-subject-select');
   sel.innerHTML = '';
   const allOpt = document.createElement('option');
   allOpt.value = 'all';
@@ -761,25 +699,50 @@ function initExamConfig() {
     opt.textContent = t(s.name);
     sel.appendChild(opt);
   });
-  // Localize
-  document.getElementById('exam-config-title').textContent = lang === 'sq' ? '📋 Provimi' : '📋 Exam';
-  document.getElementById('lbl-exam-subject').textContent = lang === 'sq' ? 'Lënda' : 'Subject';
-  document.getElementById('lbl-exam-count').textContent = lang === 'sq' ? 'Numri i pyetjeve' : 'Number of questions';
-  document.getElementById('lbl-exam-time').textContent = lang === 'sq' ? 'Koha për pyetje' : 'Time per question';
-  document.getElementById('exam-start-btn').textContent = lang === 'sq' ? 'Fillo Provimin' : 'Start Exam';
-  document.getElementById('exam-back-btn').textContent = ui('back');
+
+  // Title based on mode
+  const titles = { exam: '📋 ' + (lang==='sq'?'Provimi':'Exam'), questions: '📝 ' + (lang==='sq'?'Pyetje':'Questions'), flashcards: '📚 Flashcards' };
+  document.getElementById('config-title').textContent = titles[selectedMode] || titles.exam;
+  document.getElementById('config-back-btn').textContent = ui('back');
+  document.getElementById('lbl-config-subject').textContent = lang === 'sq' ? 'Lënda' : 'Subject';
+  document.getElementById('lbl-config-count').textContent = lang === 'sq' ? 'Numri i pyetjeve' : 'Number of questions';
+  document.getElementById('lbl-config-time').textContent = lang === 'sq' ? 'Koha për pyetje' : 'Time per question';
+  document.getElementById('lbl-config-diff').textContent = lang === 'sq' ? 'Vështirësia' : 'Difficulty';
+  
+  // Localize difficulty options
+  const diffSel = document.getElementById('config-diff-select');
+  const diffTexts = lang === 'sq' ? ['Të gjitha','E lehtë','E mesme','E vështirë'] : ['All','Easy','Medium','Hard'];
+  Array.from(diffSel.options).forEach((o,i) => o.textContent = diffTexts[i]);
+  
   // Localize time options
-  const timeSel = document.getElementById('exam-time-select');
+  const timeSel = document.getElementById('config-time-select');
   const timeTexts = lang === 'sq' ? ['30 sekonda','1 minutë','1.5 minuta','2 minuta','Pa limit kohor'] : ['30 seconds','1 minute','1.5 minutes','2 minutes','No time limit'];
   Array.from(timeSel.options).forEach((o,i) => o.textContent = timeTexts[i]);
+
+  // Localize count - add 'all' option text
+  const countSel = document.getElementById('config-count-select');
+  Array.from(countSel.options).forEach(o => { if(o.value==='all') o.textContent = lang==='sq' ? 'Të gjitha' : 'All'; });
+
+  // Show/hide fields based on mode
+  document.getElementById('config-time-field').style.display = selectedMode === 'exam' ? '' : 'none';
+  document.getElementById('config-count-field').style.display = selectedMode === 'flashcards' ? 'none' : '';
+
+  // Button text
+  const btnTexts = { exam: lang==='sq'?'Fillo Provimin':'Start Exam', questions: lang==='sq'?'Fillo Pyetjet':'Start Questions', flashcards: lang==='sq'?'Fillo Flashcards':'Start Flashcards' };
+  document.getElementById('config-start-btn').textContent = btnTexts[selectedMode];
+  
+  // Style button based on mode
+  const btn = document.getElementById('config-start-btn');
+  if (selectedMode === 'exam') {
+    btn.style.background = 'linear-gradient(135deg, #e17055, #d63031)';
+  } else {
+    btn.style.background = 'var(--primary)';
+  }
 }
 
-function startExam() {
-  const subjId = document.getElementById('exam-subject-select').value;
-  const count = parseInt(document.getElementById('exam-count-select').value);
-  examTimePerQ = parseInt(document.getElementById('exam-time-select').value);
-  
-  // Gather questions
+function getFilteredQuestions() {
+  const subjId = document.getElementById('config-subject-select').value;
+  const diff = document.getElementById('config-diff-select').value;
   let pool = [];
   if (subjId === 'all') {
     SUBJECTS.forEach(s => s.topics.forEach(tp => pool = pool.concat(tp.questions)));
@@ -787,7 +750,58 @@ function startExam() {
     const s = SUBJECTS.find(s => s.id === subjId);
     if (s) s.topics.forEach(tp => pool = pool.concat(tp.questions));
   }
+  if (diff !== 'all') {
+    pool = pool.filter(q => (q.difficulty || 'medium') === diff);
+  }
+  return pool;
+}
+
+function startSelectedMode() {
+  if (selectedMode === 'exam') {
+    startExam();
+  } else if (selectedMode === 'questions') {
+    startQuestionsMode();
+  } else if (selectedMode === 'flashcards') {
+    startFlashcardsMode();
+  }
+}
+
+function startQuestionsMode() {
+  const countVal = document.getElementById('config-count-select').value;
+  let pool = getFilteredQuestions();
+  pool = shuffle(pool);
+  if (countVal !== 'all') pool = pool.slice(0, Math.min(parseInt(countVal), pool.length));
+  if (pool.length === 0) { alert(lang==='sq'?'Nuk ka pyetje për këtë përzgjedhje.':'No questions for this selection.'); return; }
+  const combinedTopic = { name: {en:'Questions',sq:'Pyetje'}, questions: pool };
+  currentSubject = { id:'mixed', name:{en:'Mixed',sq:'Të përziera'}, emoji:'📝' };
+  startQuiz(combinedTopic);
+}
+
+async function startFlashcardsMode() {
+  const subjId = document.getElementById('config-subject-select').value;
+  const all = await loadFlashcards();
+  let cards;
+  if (subjId === 'all') {
+    cards = all;
+  } else {
+    const s = SUBJECTS.find(s => s.id === subjId);
+    const subjectName = s ? (s.name.en || s.name) : '';
+    cards = all.filter(fc => fc.subject === subjectName);
+  }
+  if (cards.length === 0) { alert(lang==='sq'?'Nuk ka flashcards për këtë përzgjedhje.':'No flashcards for this selection.'); return; }
+  fcCards = shuffle(cards);
+  fcIdx = 0;
+  fcKnew = 0;
+  showScreen('flashcards');
+  renderFlashcard();
+}
+
+function startExam() {
+  const countVal = document.getElementById('config-count-select').value;
+  examTimePerQ = parseInt(document.getElementById('config-time-select').value);
+  let pool = getFilteredQuestions();
   
+  const count = countVal === 'all' ? pool.length : parseInt(countVal);
   examQuestions = shuffle(pool).slice(0, Math.min(count, pool.length));
   examAnswers = new Array(examQuestions.length).fill(-1);
   examIdx = 0;
@@ -952,4 +966,46 @@ if ('serviceWorker' in navigator) {
 
 </script>
 </body>
-</html>
+</html<!-- MODE CONFIG (unified for all modes) -->
+<div id="mode-config" class="screen">
+  <button class="back-btn" id="config-back-btn" onclick="showScreen('home')"></button>
+  <div class="exam-config">
+    <h2 id="config-title">📋 Provimi</h2>
+    <div class="exam-field">
+      <label id="lbl-config-subject">Lënda</label>
+      <select id="config-subject-select"></select>
+    </div>
+    <div class="exam-field" id="config-count-field">
+      <label id="lbl-config-count">Numri i pyetjeve</label>
+      <select id="config-count-select">
+        <option value="10">10</option>
+        <option value="20" selected>20</option>
+        <option value="40">40</option>
+        <option value="60">60</option>
+        <option value="all">Të gjitha</option>
+      </select>
+    </div>
+    <div class="exam-field" id="config-time-field">
+      <label id="lbl-config-time">Koha për pyetje</label>
+      <select id="config-time-select">
+        <option value="30">30 sekonda</option>
+        <option value="60" selected>1 minutë</option>
+        <option value="90">1.5 minuta</option>
+        <option value="120">2 minuta</option>
+        <option value="0">Pa limit kohor</option>
+      </select>
+    </div>
+    <div class="exam-field" id="config-diff-field">
+      <label id="lbl-config-diff">Vështirësia</label>
+      <select id="config-diff-select">
+        <option value="all" selected>Të gjitha</option>
+        <option value="easy">E lehtë</option>
+        <option value="medium">E mesme</option>
+        <option value="hard">E vështirë</option>
+      </select>
+    </div>
+    <button class="exam-start-btn" id="config-start-btn" onclick="startSelectedMode()">Fillo</button>
+  </div>
+</div>
+
+>
