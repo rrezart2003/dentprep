@@ -175,6 +175,42 @@ body {
 .mode-btn .mode-info .mode-title { font-size: 16px; font-weight: 600; color: var(--text); }
 .mode-btn .mode-info .mode-desc { font-size: 13px; color: var(--text-dim); margin-top: 4px; }
 
+
+/* EXAM MODE */
+.exam-config { padding: 20px; }
+.exam-config h2 { text-align: center; margin-bottom: 24px; }
+.exam-field { margin-bottom: 20px; }
+.exam-field label { display: block; color: var(--text-dim); font-size: 13px; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+.exam-field select, .exam-field input { width: 100%; background: var(--card); border: 1px solid var(--card-border); color: var(--text); border-radius: 12px; padding: 14px 16px; font-size: 15px; appearance: none; -webkit-appearance: none; }
+.exam-field select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%238888aa' fill='none' stroke-width='2'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 16px center; }
+.exam-start-btn { width: 100%; background: linear-gradient(135deg, #e17055, #d63031); color: #fff; border: none; border-radius: 14px; padding: 16px; font-size: 16px; font-weight: 700; cursor: pointer; margin-top: 12px; }
+.exam-start-btn:active { transform: scale(0.97); }
+.exam-timer { position: fixed; top: env(safe-area-inset-top, 0); left: 0; right: 0; background: rgba(10,10,15,0.95); backdrop-filter: blur(10px); padding: 8px 20px; display: flex; justify-content: space-between; align-items: center; z-index: 100; border-bottom: 1px solid var(--card-border); }
+.exam-timer .timer-left { font-size: 14px; color: var(--text-dim); }
+.exam-timer .timer-clock { font-size: 18px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.exam-timer .timer-clock.warning { color: var(--danger); animation: pulse 1s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.5} }
+.exam-q-area { padding: 20px; padding-top: 60px; }
+.exam-option-btn { width: 100%; background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 14px 16px; margin-bottom: 10px; cursor: pointer; text-align: left; display: flex; align-items: center; gap: 12px; color: var(--text); font-size: 15px; transition: all 0.15s; }
+.exam-option-btn:active { transform: scale(0.98); }
+.exam-option-btn.selected { border-color: var(--primary); background: rgba(108,92,231,0.15); }
+.exam-option-btn .letter { min-width: 28px; height: 28px; border-radius: 50%; background: var(--card-border); display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; }
+.exam-option-btn.selected .letter { background: var(--primary); color: #fff; }
+.exam-nav { display: flex; gap: 10px; margin-top: 20px; }
+.exam-nav button { flex: 1; padding: 14px; border-radius: 12px; font-size: 15px; font-weight: 600; cursor: pointer; border: none; }
+.exam-nav .skip-btn { background: var(--card); color: var(--text-dim); border: 1px solid var(--card-border); }
+.exam-nav .next-btn { background: var(--primary); color: #fff; }
+/* EXAM REVIEW */
+.exam-review-list { padding: 20px; }
+.exam-review-item { background: var(--card); border: 1px solid var(--card-border); border-radius: 14px; padding: 16px; margin-bottom: 12px; }
+.exam-review-item.correct-answer { border-left: 3px solid var(--success); }
+.exam-review-item.wrong-answer { border-left: 3px solid var(--danger); }
+.eri-question { font-weight: 600; font-size: 15px; margin-bottom: 10px; line-height: 1.4; }
+.eri-row { font-size: 13px; margin-bottom: 4px; color: var(--text-dim); }
+.eri-row.correct { color: var(--success); }
+.eri-row.wrong { color: var(--danger); }
+.eri-explanation { font-size: 13px; color: var(--text-dim); margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--card-border); line-height: 1.5; }
+
 </style>
 </head>
 <body>
@@ -212,6 +248,9 @@ body {
     <div class="stat-card"><div class="num" id="stat-streak">0</div><div class="label" id="lbl-streak"></div></div>
   </div>
   
+  <div style="margin:16px 0;text-align:center;">
+    <button id="exam-btn" onclick="showScreen('exam-config')" style="background:linear-gradient(135deg, #e17055, #d63031);color:#fff;border:none;border-radius:14px;padding:14px 28px;font-size:16px;font-weight:600;cursor:pointer;width:100%;max-width:320px;">📋 Provimi / Exam</button>
+  </div>
   <div class="section-title" id="lbl-subjects"></div>
   <div class="subject-grid" id="subject-grid"></div>
 </div>
@@ -281,6 +320,68 @@ body {
       </div>
     </div>
   </div>
+</div>
+
+
+<!-- EXAM CONFIG -->
+<div id="exam-config" class="screen">
+  <button class="back-btn" id="exam-back-btn" onclick="showScreen('home')"></button>
+  <div class="exam-config">
+    <h2 id="exam-config-title">📋 Provimi</h2>
+    <div class="exam-field">
+      <label id="lbl-exam-subject">Lënda</label>
+      <select id="exam-subject-select"></select>
+    </div>
+    <div class="exam-field">
+      <label id="lbl-exam-count">Numri i pyetjeve</label>
+      <select id="exam-count-select">
+        <option value="10">10</option>
+        <option value="20" selected>20</option>
+        <option value="40">40</option>
+        <option value="60">60</option>
+      </select>
+    </div>
+    <div class="exam-field">
+      <label id="lbl-exam-time">Koha për pyetje</label>
+      <select id="exam-time-select">
+        <option value="30">30 sekonda</option>
+        <option value="60" selected>1 minutë</option>
+        <option value="90">1.5 minuta</option>
+        <option value="120">2 minuta</option>
+        <option value="0">Pa limit</option>
+      </select>
+    </div>
+    <button class="exam-start-btn" id="exam-start-btn" onclick="startExam()">Fillo Provimin</button>
+  </div>
+</div>
+
+<!-- EXAM QUIZ -->
+<div id="exam-quiz" class="screen">
+  <div class="exam-timer" id="exam-timer-bar">
+    <span class="timer-left" id="exam-q-info">1 / 20</span>
+    <span class="timer-clock" id="exam-clock">01:00</span>
+  </div>
+  <div class="exam-q-area">
+    <div class="question-text" id="exam-q-text" style="margin-bottom:20px;font-size:17px;line-height:1.5;font-weight:600;"></div>
+    <div id="exam-opts"></div>
+    <div class="exam-nav">
+      <button class="skip-btn" id="exam-skip-btn" onclick="examNext(false)">Kalo →</button>
+      <button class="next-btn" id="exam-confirm-btn" onclick="examNext(true)">Konfirmo →</button>
+    </div>
+  </div>
+</div>
+
+<!-- EXAM RESULTS -->
+<div id="exam-results" class="screen">
+  <div style="text-align:center;padding:30px 20px 10px;">
+    <div style="font-size:48px;margin-bottom:12px;">📋</div>
+    <h2 id="exam-res-title" style="margin-bottom:4px;"></h2>
+    <div id="exam-res-score" style="font-size:36px;font-weight:800;margin:12px 0;"></div>
+    <div id="exam-res-sub" style="color:var(--text-dim);font-size:14px;margin-bottom:4px;"></div>
+    <div id="exam-res-time" style="color:var(--text-dim);font-size:14px;margin-bottom:20px;"></div>
+    <button onclick="showScreen('home')" style="background:var(--primary);color:#fff;border:none;border-radius:12px;padding:14px 28px;font-size:15px;font-weight:600;cursor:pointer;width:80%;margin-bottom:12px;">🏠 Kthehu</button>
+  </div>
+  <div class="exam-review-list" id="exam-review-list"></div>
 </div>
 
 <!-- TOPICS -->
@@ -409,6 +510,7 @@ function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
   if (id === 'home') renderHome();
+  if (id === 'exam-config') initExamConfig();
 }
 
 // ===== HOME =====
@@ -632,6 +734,196 @@ function showFcResults() {
   document.getElementById('fc-results-score').textContent = `${fcKnew}/${fcCards.length} (${pct}%)`;
   document.getElementById('fc-progress-fill').style.width = '100%';
   showScreen('fc-results');
+}
+
+
+// ===== EXAM MODE =====
+let examQuestions = [];
+let examAnswers = [];
+let examIdx = 0;
+let examSelected = -1;
+let examTimerInterval = null;
+let examTimePerQ = 60;
+let examTimeLeft = 0;
+let examStartTime = 0;
+let examTotalTime = 0;
+
+function initExamConfig() {
+  const sel = document.getElementById('exam-subject-select');
+  sel.innerHTML = '';
+  const allOpt = document.createElement('option');
+  allOpt.value = 'all';
+  allOpt.textContent = lang === 'sq' ? 'Të gjitha lëndët' : 'All subjects';
+  sel.appendChild(allOpt);
+  SUBJECTS.forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s.id;
+    opt.textContent = t(s.name);
+    sel.appendChild(opt);
+  });
+  // Localize
+  document.getElementById('exam-config-title').textContent = lang === 'sq' ? '📋 Provimi' : '📋 Exam';
+  document.getElementById('lbl-exam-subject').textContent = lang === 'sq' ? 'Lënda' : 'Subject';
+  document.getElementById('lbl-exam-count').textContent = lang === 'sq' ? 'Numri i pyetjeve' : 'Number of questions';
+  document.getElementById('lbl-exam-time').textContent = lang === 'sq' ? 'Koha për pyetje' : 'Time per question';
+  document.getElementById('exam-start-btn').textContent = lang === 'sq' ? 'Fillo Provimin' : 'Start Exam';
+  document.getElementById('exam-back-btn').textContent = ui('back');
+  // Localize time options
+  const timeSel = document.getElementById('exam-time-select');
+  const timeTexts = lang === 'sq' ? ['30 sekonda','1 minutë','1.5 minuta','2 minuta','Pa limit kohor'] : ['30 seconds','1 minute','1.5 minutes','2 minutes','No time limit'];
+  Array.from(timeSel.options).forEach((o,i) => o.textContent = timeTexts[i]);
+}
+
+function startExam() {
+  const subjId = document.getElementById('exam-subject-select').value;
+  const count = parseInt(document.getElementById('exam-count-select').value);
+  examTimePerQ = parseInt(document.getElementById('exam-time-select').value);
+  
+  // Gather questions
+  let pool = [];
+  if (subjId === 'all') {
+    SUBJECTS.forEach(s => s.topics.forEach(tp => pool = pool.concat(tp.questions)));
+  } else {
+    const s = SUBJECTS.find(s => s.id === subjId);
+    if (s) s.topics.forEach(tp => pool = pool.concat(tp.questions));
+  }
+  
+  examQuestions = shuffle(pool).slice(0, Math.min(count, pool.length));
+  examAnswers = new Array(examQuestions.length).fill(-1);
+  examIdx = 0;
+  examSelected = -1;
+  examStartTime = Date.now();
+  
+  showScreen('exam-quiz');
+  renderExamQ();
+}
+
+function renderExamQ() {
+  const q = examQuestions[examIdx];
+  examSelected = examAnswers[examIdx];
+  
+  document.getElementById('exam-q-info').textContent = (examIdx + 1) + ' / ' + examQuestions.length;
+  document.getElementById('exam-q-text').textContent = t(q.q);
+  
+  const opts = document.getElementById('exam-opts');
+  opts.innerHTML = '';
+  const letters = ['A','B','C','D'];
+  const options = t(q.options);
+  options.forEach((opt, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'exam-option-btn' + (examSelected === i ? ' selected' : '');
+    btn.innerHTML = '<span class="letter">' + letters[i] + '</span><span>' + opt + '</span>';
+    btn.onclick = () => selectExamAnswer(i);
+    opts.appendChild(btn);
+  });
+  
+  // Localize buttons
+  document.getElementById('exam-skip-btn').textContent = lang === 'sq' ? 'Kalo →' : 'Skip →';
+  const isLast = examIdx >= examQuestions.length - 1;
+  document.getElementById('exam-confirm-btn').textContent = isLast ? (lang === 'sq' ? 'Përfundo' : 'Finish') : (lang === 'sq' ? 'Konfirmo →' : 'Confirm →');
+  
+  // Timer
+  if (examTimerInterval) clearInterval(examTimerInterval);
+  if (examTimePerQ > 0) {
+    examTimeLeft = examTimePerQ;
+    updateExamClock();
+    examTimerInterval = setInterval(() => {
+      examTimeLeft--;
+      updateExamClock();
+      if (examTimeLeft <= 0) {
+        clearInterval(examTimerInterval);
+        examNext(false);
+      }
+    }, 1000);
+  } else {
+    document.getElementById('exam-clock').textContent = '∞';
+    document.getElementById('exam-clock').classList.remove('warning');
+  }
+}
+
+function updateExamClock() {
+  const m = Math.floor(examTimeLeft / 60);
+  const s = examTimeLeft % 60;
+  const el = document.getElementById('exam-clock');
+  el.textContent = String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+  el.classList.toggle('warning', examTimeLeft <= 10);
+}
+
+function selectExamAnswer(idx) {
+  examSelected = idx;
+  examAnswers[examIdx] = idx;
+  document.querySelectorAll('.exam-option-btn').forEach((btn, i) => {
+    btn.classList.toggle('selected', i === idx);
+  });
+}
+
+function examNext(confirmed) {
+  if (confirmed && examSelected >= 0) {
+    examAnswers[examIdx] = examSelected;
+  }
+  if (examTimerInterval) clearInterval(examTimerInterval);
+  examIdx++;
+  if (examIdx >= examQuestions.length) {
+    showExamResults();
+  } else {
+    examSelected = examAnswers[examIdx];
+    renderExamQ();
+  }
+}
+
+function showExamResults() {
+  if (examTimerInterval) clearInterval(examTimerInterval);
+  examTotalTime = Math.round((Date.now() - examStartTime) / 1000);
+  
+  let correct = 0;
+  examQuestions.forEach((q, i) => { if (examAnswers[i] === q.correct) correct++; });
+  const pct = Math.round(correct / examQuestions.length * 100);
+  
+  // Title
+  const titles = lang === 'sq' 
+    ? (pct >= 90 ? 'Shkëlqyeshëm!' : pct >= 70 ? 'Shumë mirë!' : pct >= 50 ? 'Mjaftueshëm' : 'Duhet të studiosh më shumë')
+    : (pct >= 90 ? 'Excellent!' : pct >= 70 ? 'Good job!' : pct >= 50 ? 'Passing' : 'Needs improvement');
+  
+  document.getElementById('exam-res-title').textContent = titles;
+  document.getElementById('exam-res-score').textContent = pct + '%';
+  document.getElementById('exam-res-sub').textContent = correct + '/' + examQuestions.length + (lang === 'sq' ? ' përgjigje të sakta' : ' correct answers');
+  
+  const mins = Math.floor(examTotalTime / 60);
+  const secs = examTotalTime % 60;
+  document.getElementById('exam-res-time').textContent = (lang === 'sq' ? 'Koha: ' : 'Time: ') + mins + 'm ' + secs + 's';
+  
+  // Review list
+  const list = document.getElementById('exam-review-list');
+  list.innerHTML = '';
+  const letters = ['A','B','C','D'];
+  examQuestions.forEach((q, i) => {
+    const isCorrect = examAnswers[i] === q.correct;
+    const opts = t(q.options);
+    const div = document.createElement('div');
+    div.className = 'exam-review-item ' + (isCorrect ? 'correct-answer' : 'wrong-answer');
+    
+    let html = '<div class="eri-question">' + (i+1) + '. ' + t(q.q) + '</div>';
+    if (examAnswers[i] >= 0) {
+      html += '<div class="eri-row ' + (isCorrect ? 'correct' : 'wrong') + '">' + (lang === 'sq' ? 'Përgjigja jote: ' : 'Your answer: ') + letters[examAnswers[i]] + ') ' + opts[examAnswers[i]] + '</div>';
+    } else {
+      html += '<div class="eri-row wrong">' + (lang === 'sq' ? 'Pa përgjigje' : 'No answer') + '</div>';
+    }
+    if (!isCorrect) {
+      html += '<div class="eri-row correct">' + (lang === 'sq' ? 'Përgjigja e saktë: ' : 'Correct answer: ') + letters[q.correct] + ') ' + opts[q.correct] + '</div>';
+    }
+    if (q.explanation) {
+      html += '<div class="eri-explanation">' + t(q.explanation) + '</div>';
+    }
+    div.innerHTML = html;
+    list.appendChild(div);
+  });
+  
+  // Save exam result
+  const examResults = JSON.parse(localStorage.getItem('dentprep_exams') || '[]');
+  examResults.push({ date: Date.now(), total: examQuestions.length, correct, pct, time: examTotalTime });
+  localStorage.setItem('dentprep_exams', JSON.stringify(examResults));
+  
+  showScreen('exam-results');
 }
 
 // ===== INIT =====

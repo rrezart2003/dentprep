@@ -504,16 +504,16 @@
                 "Masseter"
               ],
               "sq": [
+                "Maseteri",
+                "Pterigoideu lateral",
                 "Digastriku",
-                "Bucinatori",
-                "Pterigoid lateral",
-                "Maseteri"
+                "Bucinatori"
               ]
             },
             "correct": 3,
             "explanation": {
               "en": "The masseter is the strongest jaw elevator, originating from the zygomatic arch and inserting on the mandibular ramus and angle.",
-              "sq": "Maseteri është ngritësi më i fortë i nofulles, me origjinë nga harku zigomatik dhe insersion në ramusin dhe këndin mandibular."
+              "sq": "Maseteri është muskuli më i fuqishëm ngritës i mandibulës. Origjina e tij ndodhet në harkun zigomatik, ndërsa insercioni në ramusin dhe këndin e mandibulës."
             }
           },
           {
@@ -569,7 +569,7 @@
           {
             "q": {
               "en": "The parotid gland duct (Stensen's duct) opens opposite which tooth?",
-              "sq": "Dukti i gjëndrës parotide (dukti i Stensen-it) hapet përballë cilit dhëmb?"
+              "sq": "Dukti i gjëndrës parotide (dukti i Stensenit) hapet përballë cilit dhëmb?"
             },
             "options": {
               "en": [
@@ -588,7 +588,7 @@
             "correct": 1,
             "explanation": {
               "en": "Stensen's duct opens on the buccal mucosa opposite the maxillary second molar, at the parotid papilla.",
-              "sq": "Dukti i Stensen-it hapet në mukozën bukale përballë molarit të dytë maksillare, te papila parotide."
+              "sq": "Dukti i Stensenit derdhet në mukozën bukale në nivelin e molarit të dytë maksillare, te papila parotideale."
             }
           },
           {
@@ -619,7 +619,7 @@
           {
             "q": {
               "en": "The temporomandibular joint (TMJ) is classified as which type of joint?",
-              "sq": "Artikulacioni temporomandibular (TMJ) klasifikohet si çfarë lloji artikulacioni?"
+              "sq": "Si klasifikohet artikulacioni temporomandibular (ATM)?"
             },
             "options": {
               "en": [
@@ -638,13 +638,13 @@
             "correct": 1,
             "explanation": {
               "en": "The TMJ is a synovial ginglymoarthrodial joint, meaning it allows both hinge (rotation) and gliding (translation) movements. It contains an articular disc dividing it into superior and inferior compartments.",
-              "sq": "TMJ është artikulacion sinovial ginglioartrodial, duke lejuar lëvizje rrotulluese dhe rrëshqitëse. Përmban disk artikular që e ndan në ndarje superiore dhe inferiore."
+              "sq": "ATM është artikulacion sinovial i dyfishtë (ginglimo-artrodial), që mundëson lëvizje rrotulluese dhe rrëshqitëse. Përfshin diskun artikular që e ndan në dhomë superiore dhe inferiore."
             }
           },
           {
             "q": {
               "en": "Which salivary gland produces predominantly serous secretion?",
-              "sq": "Cila gjëndër e pështymës prodhon kryesisht sekrecion seroz?"
+              "sq": "Cila gjëndër pështymore prodhon sekrecion kryesisht seroz?"
             },
             "options": {
               "en": [
@@ -663,7 +663,7 @@
             "correct": 3,
             "explanation": {
               "en": "The parotid gland produces purely serous (watery, enzyme-rich) secretion. The submandibular is mixed (mostly serous), while the sublingual is mixed (mostly mucous).",
-              "sq": "Gjëndra parotide prodhon sekrecion krejtësisht seroz. Submandibularja është e përzier (kryesisht seroze), ndërsa sublingualja është e përzier (kryesisht mukoze)."
+              "sq": "Gjëndra parotide prodhon sekrecion krejtësisht seroz (ujor, i pasur me enzima). Gjëndra submandibulare është e përzier me mbizotërim seroz, ndërsa gjëndra sublinguale ka mbizotërim mukoz."
             }
           },
           {
@@ -713,13 +713,13 @@
             "correct": 2,
             "explanation": {
               "en": "After third molars, the maxillary lateral incisor and mandibular second premolar are the most commonly congenitally absent teeth (hypodontia/agenesis).",
-              "sq": "Pas molarëve të tretë, incizivi lateral maksillare dhe premolari i dytë mandibular janë dhëmbët që mungojnë më shpesh kongjenitalisht."
+              "sq": "Pas molarëve të tretë, incizivi lateral maksillare dhe premolari i dytë mandibular janë dhëmbët që mungojnë më shpesh si pasojë e agenezisë dentare (hipodoncisë)."
             }
           },
           {
             "q": {
               "en": "The lingual nerve provides sensation to:",
-              "sq": "Nervi lingual siguron ndjeshmëri për:"
+              "sq": "Nervi lingual siguron inervimin sensorik për cilin rajon?"
             },
             "options": {
               "en": [
@@ -729,22 +729,22 @@
                 "Tip of the tongue only"
               ],
               "sq": [
-                "2/3 anteriore të gjuhës",
+                "Qiellzën e fortë",
                 "Mukozën bukale të molarëve",
-                "Qielzën",
-                "Vetëm majën e gjuhës"
+                "Vetëm majën e gjuhës",
+                "2/3 anteriore të gjuhës"
               ]
             },
             "correct": 0,
             "explanation": {
               "en": "The lingual nerve (branch of V3) provides general sensation (touch, pain, temperature) to the anterior 2/3 of the tongue, floor of mouth, and lingual gingiva.",
-              "sq": "Nervi lingual (degë e V3) siguron ndjeshmëri të përgjithshme për 2/3 anteriore të gjuhës, dyshemenë e gojës dhe gingivën linguale."
+              "sq": "Nervi lingual (degë e V3) siguron ndjeshmërinë e përgjithshme (prekje, dhimbje, temperaturë) për 2/3 anteriore të gjuhës, dyshemenë e gojës dhe gingivën linguale."
             }
           },
           {
             "q": {
               "en": "The floor of the mouth is primarily formed by which muscle?",
-              "sq": "Dyshemeja e gojës formohet kryesisht nga cili muskul?"
+              "sq": "Cili muskul formon kryesisht dyshemenë e zgavrës gojore?"
             },
             "options": {
               "en": [
@@ -763,13 +763,13 @@
             "correct": 2,
             "explanation": {
               "en": "The mylohyoid muscle forms a muscular diaphragm (floor of the mouth), separating the oral cavity from the submandibular region.",
-              "sq": "Milohioidi formon diafragmën muskulore të gojës."
+              "sq": "Muskuli milohioid formon diafragmën muskulore të dyshemesë së gojës, duke ndarë zgavrën gojore nga rajoni submandibular."
             }
           },
           {
             "q": {
               "en": "Which artery is the main blood supply to the face?",
-              "sq": "Cila arterie është furnizimi kryesor me gjak i fytyrës?"
+              "sq": "Cila arterie siguron furnizimin kryesor me gjak të fytyrës?"
             },
             "options": {
               "en": [
@@ -788,13 +788,13 @@
             "correct": 3,
             "explanation": {
               "en": "The facial artery (branch of external carotid) provides the main blood supply to the face, giving off inferior/superior labial and angular arteries.",
-              "sq": "Arteria faciale (degë e karotidës eksterne) është furnizuesi kryesor."
+              "sq": "Arteria faciale (degë e arteries karotide eksterne) është furnizuesja kryesore e fytyrës, duke dhënë degët labiale inferiore/superiore dhe arterien angulare."
             }
           },
           {
             "q": {
               "en": "The mandibular foramen is located on which surface of the ramus?",
-              "sq": "Forameni mandibular ndodhet në cilën sipërfaqe të ramusit?"
+              "sq": "Në cilën sipërfaqe të ramusit mandibular ndodhet forameni mandibular?"
             },
             "options": {
               "en": [
@@ -813,13 +813,13 @@
             "correct": 0,
             "explanation": {
               "en": "The mandibular foramen is on the medial surface of the ramus. The lingula is a bony projection anterior to it — landmark for IAN block injection.",
-              "sq": "Forameni mandibular është në sipërfaqen mediale të ramusit. Lingula është pikë referuese për bllokun e IAN."
+              "sq": "Forameni mandibular gjendet në sipërfaqen mediale të ramusit. Lingula mandibulare ndodhet anteriorisht nga forameni dhe shërben si pikë orientimi për anestezinë trunkulare të nervit alveolar inferior."
             }
           },
           {
             "q": {
               "en": "How many primary (deciduous) teeth does a child have?",
-              "sq": "Sa dhëmbë primarë (qumështorë) ka një fëmijë?"
+              "sq": "Sa dhëmbë primarë (të qumështit) ka një fëmijë?"
             },
             "options": {
               "en": [
@@ -838,13 +838,13 @@
             "correct": 0,
             "explanation": {
               "en": "Children have 20 primary teeth: 8 incisors, 4 canines, 8 molars. No premolars in primary dentition. Primary dentition is complete by approximately age 2.5-3 years.",
-              "sq": "Fëmijët kanë 20 dhëmbë primarë: 8 incizivë, 4 kaninë, 8 molarë. Përfundon rreth moshës 2.5-3 vjeç."
+              "sq": "Fëmijët kanë gjithsej 20 dhëmbë primar: 8 incizivë, 4 kaninë dhe 8 molarë. Në dentiturën primare nuk ka premolarë. Dalja e plotë përfundon rreth moshës 2.5-3 vjeç."
             }
           },
           {
             "q": {
               "en": "The retromolar pad is located:",
-              "sq": "Zona retromolare ndodhet:"
+              "sq": "Ku ndodhet zona retromolare?"
             },
             "options": {
               "en": [
@@ -863,7 +863,7 @@
             "correct": 0,
             "explanation": {
               "en": "The retromolar pad is a soft tissue pad posterior to the last mandibular molar. Important landmark in prosthodontics for denture extension and in surgery for third molar access.",
-              "sq": "Zona retromolare është ind i butë pas molarit të fundit. E rëndësishme në protetikë dhe kirurgji."
+              "sq": "Zona retromolare është një strukturë indi i butë që ndodhet mbrapa molarit të fundit mandibular. Ka rëndësi klinike në protetikë si pikë orientimi për shtrirjen e protezës dhe në kirurgji për qasjen ndaj molarëve të tretë."
             }
           }
         ]
@@ -927,7 +927,7 @@
           {
             "q": {
               "en": "At what age does the first permanent molar typically erupt?",
-              "sq": "Në çfarë moshe del zakonisht molari i parë permanent?"
+              "sq": "Në cilën moshë del molari i parë permanent?"
             },
             "options": {
               "en": [
@@ -946,7 +946,7 @@
             "correct": 2,
             "explanation": {
               "en": "The first permanent molar (the '6-year molar') erupts around age 6, distal to the primary second molar. It does not replace any primary tooth.",
-              "sq": "Molari i parë permanent ('molari 6-vjeçar') del rreth moshës 6 vjeç, distalisht nga molari i dytë primar. Nuk zëvendëson asnjë dhëmb primar."
+              "sq": "Molari i parë permanent (\"molari gjashtëvjeçar\") del rreth moshës 6 vjeç, distalisht nga molari i dytë primar. Ai nuk zëvendëson asnjë dhëmb të qumështit."
             }
           }
         ]
@@ -974,7 +974,7 @@
           {
             "q": {
               "en": "What is the maximum dose of lidocaine 2% with epinephrine for a 70kg patient?",
-              "sq": "Cila është doza maksimale e lidokainës 2% me epinefrinë për një pacient 70kg?"
+              "sq": "Sa është doza maksimale e lidokainës me epinefrinë për një pacient adult me peshë 70 kg?"
             },
             "options": {
               "en": [
@@ -993,7 +993,7 @@
             "correct": 1,
             "explanation": {
               "en": "Lidocaine with epi: <strong>7 mg/kg</strong>, max 500mg. Know BOTH values — examiners test either.",
-              "sq": "Lidokaina me epi: <strong>7 mg/kg</strong>, max 500mg. Dini TË DY vlerat — provuesit pyesin cilindo."
+              "sq": "Doza maksimale e lidokainës me epinefrinë është 7 mg/kg (maksimumi absolut 500 mg). Për pacientin 70 kg: 490 mg, që korrespondon me rreth 13 karpula lidokainë 2% (çdo karpulë 1.8 ml përmban 36 mg lidokainë)."
             }
           },
           {
@@ -1265,7 +1265,7 @@
           {
             "q": {
               "en": "What is the mechanism of action of NSAIDs in dental pain management?",
-              "sq": "Cili është mekanizmi i veprimit të NSAID-ve në menaxhimin e dhimbjes dentare?"
+              "sq": "Cili është mekanizmi i veprimit të AINS-ve në trajtimin e dhimbjes dentare?"
             },
             "options": {
               "en": [
@@ -1275,22 +1275,22 @@
                 "Inhibition of cyclooxygenase (COX) enzymes"
               ],
               "sq": [
-                "Inhibimi i rimarrjes së GABA-s",
-                "Aktivizimi i receptorëve opioidë",
+                "Inhibimi i enzimave ciklooksigjenazë (COX)",
                 "Bllokimi i kanaleve të natriumit",
-                "Inhibimi i enzimave ciklooksigjenazë (COX)"
+                "Aktivizimi i receptorëve opioidë",
+                "Inhibimi i rimarrjes së GABA-s"
               ]
             },
             "correct": 3,
             "explanation": {
               "en": "NSAIDs inhibit COX-1 and COX-2 enzymes, reducing prostaglandin synthesis. This decreases inflammation, pain, and fever. COX-2 selective inhibitors (celecoxib) have fewer GI side effects.",
-              "sq": "NSAID-të inhibojnë enzimat COX-1 dhe COX-2, duke zvogëluar sintezën e prostaglandinave. Kjo ul inflamacionin, dhimbjen dhe temperaturën."
+              "sq": "AINS-të inhibojnë enzimat COX-1 dhe COX-2, duke ulur sintezën e prostaglandinave. Kjo sjell ulje të inflamacionit, dhimbjes dhe ethës. Inhibitorët selektivë të COX-2 (celekoksibi) kanë më pak efekte anësore gastrointestinale."
             }
           },
           {
             "q": {
               "en": "Metronidazole is particularly effective against which type of bacteria in periodontal infections?",
-              "sq": "Metronidazoli është veçanërisht efektiv kundër cilit tip bakteriesh në infeksione periodontale?"
+              "sq": "Kundrejt cilit tipi të bakterieve është metronidazoli veçanërisht efektiv në infeksionet periodontale?"
             },
             "options": {
               "en": [
@@ -1309,13 +1309,13 @@
             "correct": 0,
             "explanation": {
               "en": "Metronidazole is highly effective against obligate anaerobes, particularly Porphyromonas gingivalis, Prevotella, and Fusobacterium species common in periodontal disease. Often combined with amoxicillin.",
-              "sq": "Metronidazoli është shumë efektiv kundër anaerobëve të detyruar, veçanërisht P. gingivalis, Prevotella dhe Fusobacterium. Shpesh kombinohet me amoksiçilinë."
+              "sq": "Metronidazoli ka efektivitet të lartë kundër anaerobëve obligatë, veçanërisht Porphyromonas gingivalis, Prevotella dhe specieve Fusobacterium, të cilat janë të zakonshme në sëmundjen periodontale. Shpesh kombinohet me amoksiçilinë."
             }
           },
           {
             "q": {
               "en": "What is the antidote for benzodiazepine overdose in dental sedation?",
-              "sq": "Cili është antidoti për mbidozimin me benzodiazepina në sedacion dentar?"
+              "sq": "Cili është antidoti specifik për mbidozimin me benzodiazepina gjatë sedacionit dentar?"
             },
             "options": {
               "en": [
@@ -1334,13 +1334,13 @@
             "correct": 0,
             "explanation": {
               "en": "Flumazenil is a competitive antagonist at the benzodiazepine binding site on GABA-A receptors. Dose: 0.2mg IV, may repeat every 60 seconds to max 1mg. Monitor for re-sedation.",
-              "sq": "Flumazenili është antagonist kompetitiv në vendin e lidhjes së benzodiazepinave në receptorët GABA-A. Doza: 0.2mg IV, mund të përsëritet çdo 60 sekonda deri në maks 1mg."
+              "sq": "Flumazenili është antagonist kompetitiv i receptorëve benzodiazepinikë në kompleksin GABA-A. Administrohet 0.2 mg IV, me mundësi përsëritjeje çdo 60 sekonda deri në dozën totale 1 mg. Pacienti duhet monitoruar për risedacion."
             }
           },
           {
             "q": {
               "en": "Which drug is used to manage anaphylaxis in a dental office?",
-              "sq": "Cili medikament përdoret për menaxhimin e anafilaksisë në ordinancë dentare?"
+              "sq": "Cili medikament përdoret si linjë e parë në menaxhimin e anafilaksisë në ambjentet dentare?"
             },
             "options": {
               "en": [
@@ -1350,22 +1350,22 @@
                 "Hydrocortisone"
               ],
               "sq": [
-                "Epinefrina (adrenalina)",
+                "Hidrokortizona",
                 "Difenhidramina",
                 "Atropina",
-                "Hidrokortizona"
+                "Epinefrina (adrenalina)"
               ]
             },
             "correct": 0,
             "explanation": {
               "en": "Epinephrine 0.3-0.5mg IM (anterolateral thigh) is the first-line treatment for anaphylaxis. It reverses bronchospasm, hypotension, and angioedema. Must be available in every dental office.",
-              "sq": "Epinefrina 0.3-0.5mg IM (kofsha anterolaterale) është trajtimi i linjës së parë për anafilaksinë. Duhet të jetë e disponueshme në çdo ordinancë dentare."
+              "sq": "Epinefrina 0.3-0.5 mg IM (në kofshën anterolaterale) është trajtimi i linjës së parë për anafilaksinë. Ajo kundërvepron bronkospazmin, hipotensionin dhe angioedemën. Çdo ordinancë dentare duhet ta ketë në dispozicion."
             }
           },
           {
             "q": {
               "en": "Articaine differs from other amide local anesthetics because it contains:",
-              "sq": "Artikaina dallon nga anestetikët e tjerë lokalë amidë sepse përmban:"
+              "sq": "Si dallon artikaina nga anestetikët e tjerë lokalë të grupit amid?"
             },
             "options": {
               "en": [
@@ -1375,16 +1375,16 @@
                 "A thiophene ring instead of benzene"
               ],
               "sq": [
-                "Pa vazokonstriktor",
-                "Grup sulfhidril",
-                "Vetëm grup esteri",
-                "Unazë tiofeni në vend të benzenit"
+                "Përmban unazë tiofeni në vend të benzenit",
+                "Ka vetëm grup esteri",
+                "Nuk përmban vazokonstriktor",
+                "Ka grup sulfhidril"
               ]
             },
             "correct": 3,
             "explanation": {
               "en": "Articaine is unique among amides — it has a thiophene ring (not benzene), increasing lipid solubility and tissue penetration. It also has an ester linkage that allows rapid plasma hydrolysis, reducing systemic toxicity.",
-              "sq": "Artikaina ka unazë tiofeni (jo benzen), duke rritur tretëshmërinë lipide dhe depërtimin në inde. Ka edhe lidhje ester që lejon hidrolizë të shpejtë plazmatike."
+              "sq": "Artikaina dallon nga amidet e tjera — përmban unazë tiofeni (jo benzeni), gjë që rrit tretësinë në lipide dhe depërtimin në inde. Gjithashtu ka një lidhje esteri që mundëson hidrolizë të shpejtë plazmatike, duke ulur toksicitetin sistemik."
             }
           },
           {
@@ -1415,7 +1415,7 @@
           {
             "q": {
               "en": "Clindamycin is the antibiotic of choice in dentistry when:",
-              "sq": "Klindamicina është antibiotiku i zgjedhur në stomatologji kur:"
+              "sq": "Kur zgjidhet klindamicina si antibiotik në stomatologji?"
             },
             "options": {
               "en": [
@@ -1434,13 +1434,13 @@
             "correct": 0,
             "explanation": {
               "en": "Clindamycin 300mg QID is the primary alternative for patients with penicillin/amoxicillin allergy. Effective against most oral pathogens. Risk: Clostridioides difficile-associated diarrhea (rare but serious).",
-              "sq": "Klindamicina 300mg QID është alternativa kryesore për pacientët alergjikë ndaj penicilinës/amoksiçilinës. Efektive kundër shumicës së patogjenëve oralë. Rreziku: diarre e asociuar me C. difficile."
+              "sq": "Klindamicina 300 mg katër herë në ditë është alternativa kryesore për pacientët me alergjni ndaj penicilinës/amoksiçilinës. Efektive kundër shumicës së patogjenëve oralë. Rreziku kryesor: diarrea e asociuar me Clostridioides difficile."
             }
           },
           {
             "q": {
               "en": "Corticosteroids are used in dentistry primarily for:",
-              "sq": "Kortikosteroidet përdoren në stomatologji kryesisht për:"
+              "sq": "Për çfarë qëllimi përdoren kortikosteroidet në stomatologji?"
             },
             "options": {
               "en": [
@@ -1450,16 +1450,16 @@
                 "Bacterial infections"
               ],
               "sq": [
+                "Infeksione bakteriale",
                 "Parandalim kariesi",
-                "Kontroll tensioni",
-                "Zvogëlim inflamacioni dhe edeme",
-                "Infeksione bakteriale"
+                "Reduktim të inflamacionit dhe edemës",
+                "Rregullim të tensionit arterial"
               ]
             },
             "correct": 2,
             "explanation": {
               "en": "Dexamethasone 4-8mg before oral surgery reduces post-operative swelling and trismus. Also used for oral mucosal conditions (lichen planus, aphthous ulcers) as topical preparations.",
-              "sq": "Deksametazona 4-8mg para kirurgjisë orale zvogëlon ënjtjen dhe trizmusin pas-operativ. Përdoret edhe për gjendje mukozale (liken plan, ulçera aftoze) si preparate topikale."
+              "sq": "Deksametazona 4-8 mg e administruar para ndërhyrjes kirurgjikale orale redukton ënjtjen dhe trizmusin pasoperator. Përdoret gjithashtu për gjendje të mukozës gojore (liken plan, ulçera aftoze) në formë preparatesh topikale."
             }
           },
           {
@@ -1687,7 +1687,7 @@
           {
             "q": {
               "en": "What is the most common complication after surgical extraction of mandibular third molars?",
-              "sq": "Cila është komplikacioni më i zakonshëm pas ekstraktimit kirurgjik të molarëve të tretë mandibular?"
+              "sq": "Cili është komplikacioni më i zakonshëm pas ekstraktimit kirurgjik të molarëve të tretë mandibular?"
             },
             "options": {
               "en": [
@@ -1712,7 +1712,7 @@
           {
             "q": {
               "en": "Which nerve is most at risk during extraction of impacted mandibular third molars?",
-              "sq": "Cili nerv është më i rrezikuar gjatë ekstraktimit të molarëve të tretë mandibular të impaktuar?"
+              "sq": "Cili nerv rrezikohet më shumë gjatë ekstraktimit të molarëve të tretë mandibularë të përfshirë?"
             },
             "options": {
               "en": [
@@ -1731,7 +1731,7 @@
             "correct": 1,
             "explanation": {
               "en": "The <strong>lingual nerve</strong> is most commonly damaged (0.4-0.6% temporary).",
-              "sq": "<strong>Nervi lingual</strong> dëmtohet më shpesh (0.4-0.6% e përkohshme)."
+              "sq": "Nervi alveolar inferior kalon nëpër kanalin mandibular, shpesh në afërsi të ngushtë me rrënjët e molarit të tretë. Dëmtimi shkakton parestezi/anestezi të buzës së poshtme dhe mjekrës. Rekomandohet CBCT kur shenjat radiografike tregojnë afërsi."
             }
           },
           {
@@ -1820,7 +1820,7 @@
           {
             "q": {
               "en": "What is the most common complication caused by supernumerary teeth?",
-              "sq": "Cila është komplikacioni më i zakonshëm i shkaktuar nga dhëmbët supranumerar?"
+              "sq": "Cili është komplikacioni më i zakonshëm i shkaktuar nga dhëmbët supranumerar?"
             },
             "options": {
               "en": [
@@ -2003,7 +2003,7 @@
           {
             "q": {
               "en": "Ludwig's angina is a life-threatening condition because of:",
-              "sq": "Angina e Ludwig-ut është kërcënuese për jetën për shkak të:"
+              "sq": "Angina e Ludvigut përfaqëson infeksion serioz të cilit rajon anatomik?"
             },
             "options": {
               "en": [
@@ -2022,7 +2022,7 @@
             "correct": 1,
             "explanation": {
               "en": "<strong>Ludwig's angina</strong> is a rapidly spreading bilateral cellulitis of submandibular/sublingual/submental spaces. Life-threatening due to <strong>airway obstruction</strong>. Emergency: secure airway, IV antibiotics, surgical drainage.",
-              "sq": "<strong>Angina e Ludwig-ut</strong> është celulit dypalësh i përhapur shpejt. Kërcënim për jetën nga <strong>bllokimi i rrugëve të frymëmarrjes</strong>."
+              "sq": "Angina e Ludvigut është celulitit bilateral me përhapje të shpejtë i hapësirave submandibulare, sublinguale dhe submentale. Zakonisht buron nga molarët mandibularë të infektuar. Përfaqëson urgjencë mjekësore — mund të shkaktojë obstruksion të rrugëve të frymëmarrjes. Menaxhimi: sigurimi i rrugëve ajrore, antibiotikë IV, drenim kirurgjik."
             }
           },
           {
@@ -2111,7 +2111,7 @@
           {
             "q": {
               "en": "What is the most common complication after third molar extraction?",
-              "sq": "Cila është komplikacioni më i shpeshtë pas ekstraktimit të molarit të tretë?"
+              "sq": "Cili është komplikimi më i shpeshtë pas ekstraktimit të molarit të tretë?"
             },
             "options": {
               "en": [
@@ -2130,7 +2130,7 @@
             "correct": 3,
             "explanation": {
               "en": "Alveolar osteitis occurs in 2-5% of routine extractions and up to 30% of impacted mandibular third molars. Risk factors: smoking, oral contraceptives, traumatic extraction, female gender.",
-              "sq": "Osteiti alveolar ndodh në 2-5% të ekstraktimeve rutinore dhe deri në 30% të molarëve të tretë të impaktuar mandibularë."
+              "sq": "Osteiti alveolar (dry socket) ndodh në 2-5% të ekstraktimeve rutinore dhe deri në 30% të molarëve të tretë mandibularë të përfshirë. Faktorët predispozues: pirja e duhanit, kontraceptivët oralë, ekstraktimi traumatik, gjinia femërore."
             }
           },
           {
@@ -2355,7 +2355,7 @@
             "correct": 1,
             "explanation": {
               "en": "The radicular (periapical) cyst is the most common odontogenic cyst (~50-70% of all jaw cysts). It develops from epithelial cell rests of Malassez stimulated by periapical inflammation from a non-vital tooth.",
-              "sq": "Cista radikulare (periapikale) është cista odontogjene më e shpeshtë (~50-70%). Zhvillohet nga mbetjet epiteliale të Malassez të stimuluara nga inflamacioni periapìkal."
+              "sq": "Cista radikulare (periapikale) është cista odontogjene më e shpeshtë (~50-70%). Zhvillohet nga mbetjet epiteliale të Malassez të stimuluara nga inflamacioni periapikal."
             }
           },
           {
@@ -2641,7 +2641,7 @@
           {
             "q": {
               "en": "What is the function of EDTA in root canal irrigation?",
-              "sq": "Cila është funksioni i EDTA në irigimin e kanalit të rrënjës?"
+              "sq": "Cili është funksioni i EDTA në irigimin e kanalit të rrënjës?"
             },
             "options": {
               "en": [
@@ -2691,7 +2691,7 @@
           {
             "q": {
               "en": "What are the indications for intentional replantation?",
-              "sq": "Cilat janë indikacionet për riplantimin e qëllimshëm?"
+              "sq": "Cilat janë indikimet për riplantimin e qëllimshëm?"
             },
             "options": {
               "en": [
@@ -2874,7 +2874,7 @@
           {
             "q": {
               "en": "What is the most common cause of endodontic treatment failure?",
-              "sq": "Cila është shkaku më i shpeshtë i dështimit të trajtimit endodontik?"
+              "sq": "Cili është shkaku më i shpeshtë i dështimit të trajtimit endodontik?"
             },
             "options": {
               "en": [
@@ -2893,13 +2893,13 @@
             "correct": 0,
             "explanation": {
               "en": "Missed canals and incomplete debridement are the primary causes of endodontic failure. The MB2 canal of maxillary molars is most commonly missed. CBCT and dental operating microscope improve detection.",
-              "sq": "Kanalet e pashkuara dhe debridimi i paplotë janë shkaqet kryesore. Kanali MB2 i molarëve maksillarë hiqet më shpesh. CBCT dhe mikroskopi përmirësojnë zbulimin."
+              "sq": "Debridimi i paplotë dhe kanalet e paidentifikuara janë shkaqet kryesore të dështimit endodontik. Kanali MB2 i molarit të parë maksillare humbet më shpesh. CBCT-ja dhe mikroskopi operativ përmirësojnë ndjeshëm identifikimin e kanaleve."
             }
           },
           {
             "q": {
               "en": "Sodium hypochlorite (NaOCl) is the primary irrigant in root canal treatment because it:",
-              "sq": "Hipokloriti i natriumit (NaOCl) është iriganti kryesor në trajtimin e kanalit sepse:"
+              "sq": "Pse hipokloriti i natriumit (NaOCl) është iriganti kryesor në trajtimin endodontik?"
             },
             "options": {
               "en": [
@@ -2918,7 +2918,7 @@
             "correct": 0,
             "explanation": {
               "en": "NaOCl (1-5.25%) dissolves organic pulp tissue and necrotic debris, kills bacteria (including biofilm), and has a wide spectrum of antimicrobial activity. It does NOT remove the smear layer — EDTA is needed for that.",
-              "sq": "NaOCl (1-5.25%) tret indin organik të pulpës, vret bakteriet (përfshirë biofilmin). NUK heq shtresën e smear-it — për këtë nevojitet EDTA."
+              "sq": "NaOCl (1-5.25%) tret indin organik pulpar dhe mbetjet nekrotike, eliminon bakteriet përfshirë biofilmin, dhe ka spektër të gjerë antimikrobial. NUK e heq shtresën e smear-it — për këtë qëllim nevojitet EDTA."
             }
           },
           {
@@ -2943,13 +2943,13 @@
             "correct": 2,
             "explanation": {
               "en": "Obturation aims to achieve a fluid-tight, three-dimensional seal of the root canal system to prevent reinfection. Gold standard: gutta-percha with sealer. Techniques: lateral condensation, warm vertical compaction, continuous wave.",
-              "sq": "Obturacioni synon vulim tredimensional të sistemit kanalik për të parandaluar riinfeksionin. Standardi i artë: guta-perka me vulosës. Teknika: kondensim lateral, kompaktim vertikal i ngrohtë."
+              "sq": "Obturacioni synon arritjen e mbylljes tridimensionale hermetike të sistemit kanalik radikular, me qëllim parandalimin e riinfeksionit. Standardi: gutaperkë me çimento kanalare. Teknikat: kondensim lateral, kompaktim vertikal i ngrohtë, valë e vazhdueshme."
             }
           },
           {
             "q": {
               "en": "Irreversible pulpitis is characterized by:",
-              "sq": "Pulpiti ireversibël karakterizohet nga:"
+              "sq": "Cilat janë karakteristikat klinike të pulpitit ireversibël?"
             },
             "options": {
               "en": [
@@ -2968,7 +2968,7 @@
             "correct": 3,
             "explanation": {
               "en": "Irreversible pulpitis: spontaneous pain, lingering response to thermal stimuli (>30 seconds), may be sharp or dull/throbbing, often worse at night, may radiate. Treatment: pulpectomy (root canal treatment) or extraction.",
-              "sq": "Pulpiti ireversibël: dhimbje spontane, përgjigje e zgjatur ndaj stimujve termikë (>30 sekonda), shpesh më keq natën, mund të përhapet. Trajtimi: pulpektomi (trajtim kanali) ose ekstraktim."
+              "sq": "Pulpiti ireversibël manifestohet me: dhimbje spontane, përgjigje të zgjatur ndaj stimujve termikë (>30 sekonda), mund të jetë e mprehtë ose pulsuese, zakonisht përkeqësohet natën dhe mund të irradiohet. Trajtimi: pulpektomi (trajtim endodontik) ose ekstraktim."
             }
           },
           {
@@ -2984,9 +2984,9 @@
                 "Amputation of one root of a multirooted tooth"
               ],
               "sq": [
-                "Riimplantimi i dhëmbit të avulzuar",
+                "Reimplantimi i dhëmbit të avulzuar",
                 "Heqja e gjithë rrënjës",
-                "Heqja kirurgjikale e majës së rrënjës dhe indit periapìkal të infektuar",
+                "Heqja kirurgjikale e majës së rrënjës dhe indit periapikal të infektuar",
                 "Amputimi i një rrënje të dhëmbit shumërrënjësor"
               ]
             },
@@ -3110,7 +3110,7 @@
               ],
               "sq": [
                 "Hidhe dhëmbin dhe vendos implant",
-                "Riimplanto menjëherë ose ruaj në qumësht, shko te dentisti brenda 30 min",
+                "Reimplanto menjëherë ose ruaj në qumësht, shko te dentisti brenda 30 min",
                 "Ruaj në ujë për 24 orë",
                 "Pastro me alkool dhe ruaj thatë"
               ]
@@ -3118,7 +3118,7 @@
             "correct": 1,
             "explanation": {
               "en": "For permanent tooth avulsion: reimplant within 5 min if possible. If not, store in milk, saline, or saliva (NOT water). Time is critical — PDL cell viability decreases rapidly after 60 min. Splint for 2 weeks, start endodontic treatment within 2 weeks.",
-              "sq": "Për avulzion: riimplanto brenda 5 min nëse mundur. Nëse jo, ruaj në qumësht, solucion fiziologjik. Koha është kritike — qelizat e PDL-së vdesin shpejt pas 60 min. Splintim 2 javë."
+              "sq": "Për avulzion: reimplanto brenda 5 min nëse mundur. Nëse jo, ruaj në qumësht, solucion fiziologjik. Koha është kritike — qelizat e PDL-së vdesin shpejt pas 60 min. Splintim 2 javë."
             }
           },
           {
@@ -3187,13 +3187,13 @@
                 "Shëndet periodontal",
                 "Gingivit",
                 "Kancer oral",
-                "Absces kronik periapìkal"
+                "Absces kronik periapikal"
               ]
             },
             "correct": 3,
             "explanation": {
               "en": "A sinus tract (parulis/gum boil) indicates chronic periapical infection with drainage. The tooth is non-vital. May be traced to source with gutta-percha cone on radiograph. Treatment: root canal therapy eliminates the source.",
-              "sq": "Trakti sinusal tregon infeksion kronik periapìkal me drenim. Dhëmbi është jo-vital. Trajtimi: terapi kanali."
+              "sq": "Trakti sinusal tregon infeksion kronik periapikal me drenim. Dhëmbi është jo-vital. Trajtimi: terapi kanali."
             }
           },
           {
@@ -3473,7 +3473,7 @@
             "correct": 2,
             "explanation": {
               "en": "Lamina dura is the thin layer of compact bone lining the tooth socket (alveolar bone proper). Appears as a continuous radiopaque line. Loss of lamina dura continuity suggests pathology: periapical infection, periodontal disease, or malignancy.",
-              "sq": "Lamina dura është shtresa e hollë e kockës kompakte. Duket si vijë e pandërprerë radioopake. Humbja tregon patologji: infeksion periapìkal, sëmundje periodontale."
+              "sq": "Lamina dura është shtresa e hollë e kockës kompakte. Duket si vijë e pandërprerë radioopake. Humbja tregon patologji: infeksion periapikal, sëmundje periodontale."
             }
           },
           {
@@ -3984,7 +3984,7 @@
           {
             "q": {
               "en": "The new classification of periodontal diseases (2018) classifies periodontitis based on:",
-              "sq": "Klasifikimi i ri i sëmundjeve periodontale (2018) klasifikon periodontitin bazuar në:"
+              "sq": "Sipas klasifikimit të ri të sëmundjeve periodontale (2018), si klasifikohet periodontiti?"
             },
             "options": {
               "en": [
@@ -4003,7 +4003,7 @@
             "correct": 0,
             "explanation": {
               "en": "2018 Classification: Stage (I-IV) based on severity and complexity. Grade (A-C) based on rate of progression and risk factors. Replaces old 'chronic/aggressive' terminology. Also describes extent (localized <30% / generalized ≥30%).",
-              "sq": "Klasifikimi 2018: Faza (I-IV) bazuar në ashpërsinë dhe kompleksitetin. Grada (A-C) bazuar në shpejtësinë e progresionit. Zëvendëson terminologjinë e vjetër 'kronike/agresive'."
+              "sq": "Klasifikimi 2018: Stadi (I-IV) bazuar në ashpërsinë dhe kompleksitetin e sëmundjes. Grada (A-C) bazuar në shpejtësinë e progresionit dhe faktorët e rrezikut. Ky klasifikim zëvendëson terminologjinë e mëparshme \"kronike/agresive\". Gjithashtu përshkruan shtrirjen: e lokalizuar (<30%) / e gjeneralizuar (≥30%)."
             }
           },
           {
@@ -4234,7 +4234,7 @@
           {
             "q": {
               "en": "What probing depth is considered a periodontal pocket?",
-              "sq": "Cila thellësi sondimi konsiderohet xhep periodontal?"
+              "sq": "Cilat vlera të thellësisë së sondimit konsiderohen xhep periodontal?"
             },
             "options": {
               "en": [
@@ -4253,13 +4253,13 @@
             "correct": 2,
             "explanation": {
               "en": "Normal sulcus depth: 1-3mm. Probing depth ≥4mm with clinical attachment loss indicates a periodontal pocket. However, depth alone isn't diagnostic — must correlate with attachment loss, BOP, and radiographic bone loss.",
-              "sq": "Sulkus normal: 1-3mm. Thellësi sondimi ≥4mm me humbje atashimi = xhep periodontal."
+              "sq": "Thellësia normale e sulkusit gingival është 1-3 mm. Thellësi sondimi ≥4 mm me humbje të nivelit të atashimit klinik përfaqëson xhep periodontal. Megjithatë, thellësia vetëm nuk mjafton për diagnozë — duhet korreluar me humbjen e atashimit, gjakderdhjen në sondim dhe humbjen kockore radiografike."
             }
           },
           {
             "q": {
               "en": "What is the function of the junctional epithelium?",
-              "sq": "Cili është funksioni i epitelit junkional?"
+              "sq": "Cili është funksioni i epitelit bashkues (junkional)?"
             },
             "options": {
               "en": [
@@ -4278,7 +4278,7 @@
             "correct": 2,
             "explanation": {
               "en": "Junctional epithelium (JE): non-keratinized epithelium attaching gingiva to tooth via hemidesmosomes. Forms the epithelial attachment at the base of the gingival sulcus. In disease, JE migrates apically → pocket formation. High turnover rate (4-6 days).",
-              "sq": "Epiteli junkional lidh gingivën me dhëmbin. Në sëmundje migron apikalisht → formim xhepi."
+              "sq": "Epiteli bashkues (junkional) është epitel i pakeratinizuar që lidh gingivën me sipërfaqen e dhëmbit nëpërmjet hemidesmozomeve. Formon atashimin epitelial në bazën e sulkusit gingival. Në sëmundjen periodontale, ai migron apikalisht duke sjellë formimin e xhepit. Ka ritëm të lartë rinovimi qelizor (4-6 ditë)."
             }
           },
           {
@@ -6603,7 +6603,7 @@
           {
             "q": {
               "en": "What is the C-factor in composite restorations?",
-              "sq": "Çfarë është C-faktori në restaurimet kompozite?"
+              "sq": "Çfarë përfaqëson C-faktori në restaurimet kompozite?"
             },
             "options": {
               "en": [
@@ -6622,7 +6622,7 @@
             "correct": 0,
             "explanation": {
               "en": "C-factor = bonded surfaces ÷ unbonded surfaces. Higher C-factor → more polymerization stress → higher risk of debonding, gap formation, post-op sensitivity. Class I (box): high C-factor (5:1). Class IV: low C-factor. Manage with incremental placement.",
-              "sq": "C-faktori = sipërfaqe të lidhura ÷ sipërfaqe të palidhura. C-faktor më i lartë → më shumë stres → rrezik më i lartë debondimi. Menaxhohet me shtresim inkremental."
+              "sq": "C-faktori = sipërfaqe të lidhura ÷ sipërfaqe të lira. Sa më i lartë C-faktori, aq më i madh stresi i polimerizimit → rrezik i shtuar i shkëputjes, formimit të boshllëqeve dhe ndjeshmërisë pasoperative. Kaviteti Klasa I ka C-faktor të lartë (5:1). Menaxhohet nëpërmjet teknikës së shtresimit inkremental."
             }
           },
           {
@@ -6875,7 +6875,7 @@
           {
             "q": {
               "en": "Remineralization of enamel involves:",
-              "sq": "Rimineralizimi i smaltit përfshin:"
+              "sq": "Remineralizimi i smaltit përfshin:"
             },
             "options": {
               "en": [
@@ -6894,7 +6894,7 @@
             "correct": 1,
             "explanation": {
               "en": "<strong>Remineralization</strong> is the natural repair process where ions from saliva are redeposited into demineralized enamel, reversing early carious lesions.",
-              "sq": "<strong>Rimineralizimi</strong> është procesi natyral ku jonet nga pështyma ridepozohen në smaltin e demineralizuar."
+              "sq": "<strong>Remineralizimi</strong> është procesi natyral ku jonet nga pështyma ridepozohen në smaltin e demineralizuar."
             }
           },
           {
@@ -7052,7 +7052,7 @@
             "correct": 0,
             "explanation": {
               "en": "Caries balance: pathological factors (acid-producing bacteria, reduced saliva, dietary sugars) vs protective factors (saliva flow, fluoride, antibacterials, diet control). Caries occurs when pathological factors dominate.",
-              "sq": "Balanca e kariesit: faktorë patologjikë (bakterie acidoprodhese, pështymë e zvogëluar, sheqerna) kundrejt faktorë mbrojtës (pështymë, fluorid). Kariesi ndodh kur faktorët patologjikë dominojnë."
+              "sq": "Balanca e kariesit: faktorë patologjikë (bakterie acidogjenike, pështymë e zvogëluar, sheqerna) kundrejt faktorë mbrojtës (pështymë, fluorid). Kariesi ndodh kur faktorët patologjikë dominojnë."
             }
           },
           {
@@ -7083,7 +7083,7 @@
           {
             "q": {
               "en": "Which dietary sugar is most cariogenic?",
-              "sq": "Cili sheqer dietik është më kariogjeník?"
+              "sq": "Cili sheqer ushqimor ka potencialin më të lartë kariogjen?"
             },
             "options": {
               "en": [
@@ -7102,13 +7102,13 @@
             "correct": 0,
             "explanation": {
               "en": "Sucrose is the most cariogenic sugar because S. mutans uses it to produce both acid AND insoluble glucans (via glucosyltransferase) that strengthen biofilm adhesion. Other sugars produce acid but not glucans.",
-              "sq": "Sakaroza është sheqeri më kariogjeník sepse S. mutans e përdor për të prodhuar acid DHE glukane të patretshme që forcojnë ngjitjen e biofilmit."
+              "sq": "Sakaroza është sheqeri më kariogjen sepse S. mutans e përdor jo vetëm për prodhimin e acidit, por edhe për sintezën e glukaneve të patretshme (nëpërmjet glukoziltransferazës), të cilat forcojnë aderencën e biofilmit. Sheqerërat e tjerë prodhojnë acid por jo glukane."
             }
           },
           {
             "q": {
               "en": "Fluoride prevents dental caries by:",
-              "sq": "Fluoridi parandalon kariesin dentar duke:"
+              "sq": "Si vepron fluoridi në parandalimin e kariesit dentar?"
             },
             "options": {
               "en": [
@@ -7120,20 +7120,20 @@
               "sq": [
                 "Bërë dhëmbët më të mëdhenj",
                 "Vrarë të gjitha bakteriet",
-                "Nxitur rimineralizimin, inhibuar demineralizimin, dhe qenë antibakterial në përqendrime të larta",
+                "Nxitur remineralizimin, inhibuar demineralizimin, dhe qenë antibakterial në përqendrime të larta",
                 "Zëvendësuar funksionin e pështymës"
               ]
             },
             "correct": 2,
             "explanation": {
               "en": "Fluoride mechanisms: 1) Promotes remineralization by attracting calcium and phosphate ions, 2) Forms fluorapatite (more acid-resistant than hydroxyapatite), 3) Inhibits bacterial enolase enzyme (reduces acid production) at high concentrations.",
-              "sq": "Mekanizmat e fluoridit: 1) Nxit rimineralizimin duke tërhequr jone kalciumi dhe fosfati, 2) Formon fluorapatit (më rezistent ndaj acidit), 3) Inhibon enzimën enolazë bakteriale."
+              "sq": "Mekanizmat e veprimit të fluoridit: 1) Nxit remineralizimin duke tërhequr jonet e kalciumit dhe fosfatit, 2) Formon fluorapatit (më rezistent ndaj tretjes acide se hidroksiapatiti), 3) Në përqendrime të larta inhibon enzimën enolazë bakteriale, duke ulur prodhimin e acidit."
             }
           },
           {
             "q": {
               "en": "What is the recommended fluoride concentration in toothpaste for adults?",
-              "sq": "Cila është përqendrimi i rekomanduar i fluoridit në pastën e dhëmbëve për adultë?"
+              "sq": "Cili është përqendrimi i rekomanduar i fluoridit në pastën e dhëmbëve për adultë?"
             },
             "options": {
               "en": [
@@ -7169,7 +7169,7 @@
               ],
               "sq": [
                 "Karies në dhëmbë permanentë të fëmijëve",
-                "Prania e një ose më shumë sipërfaqeve të kariozuara, të humbura ose të mbushura te fëmijë nën 6 vjeç",
+                "Prania e një ose më shumë sipërfaqeve të të kariuar, të humbura ose të mbushura te fëmijë nën 6 vjeç",
                 "Karies i shkaktuar vetëm nga gjenetika",
                 "Karies te fëmijë mbi 12 vjeç"
               ]
@@ -7227,7 +7227,7 @@
             "correct": 1,
             "explanation": {
               "en": "Active caries: light/yellow-brown, soft/leathery texture, matte surface, progressing. Arrested caries: dark brown/black, hard, shiny, not progressing. Arrested caries indicates successful remineralization — no treatment needed.",
-              "sq": "Karies aktiv: ngjyrë e çelët, i butë, mat, në progres. Karies i ndaluar: kafe e errët/zi, i fortë, me shkëlqim, jo në progres. Kariesi i ndaluar tregon rimineralizim të suksesshëm."
+              "sq": "Karies aktiv: ngjyrë e çelët, i butë, mat, në progres. Karies i ndaluar: kafe e errët/zi, i fortë, me shkëlqim, jo në progres. Kariesi i ndaluar tregon remineralizim të suksesshëm."
             }
           },
           {
@@ -7277,7 +7277,7 @@
             "correct": 2,
             "explanation": {
               "en": "Xylitol is a 5-carbon sugar alcohol that S. mutans cannot ferment to acid. It also: reduces S. mutans counts over time, stimulates saliva flow, promotes remineralization. Recommended: 5-10g/day via gum or lozenges.",
-              "sq": "Ksilitoli është alkool sheqeri 5-karbonësh që S. mutans nuk mund ta fermentojë në acid. Zvogëlon numrin e S. mutans, stimulon pështymën, nxit rimineralizimin."
+              "sq": "Ksilitoli është alkool sheqeri 5-karbonësh që S. mutans nuk mund ta fermentojë në acid. Zvogëlon numrin e S. mutans, stimulon pështymën, nxit remineralizimin."
             }
           },
           {
@@ -7327,7 +7327,7 @@
             "correct": 0,
             "explanation": {
               "en": "SDF (38%): silver provides antibacterial action, fluoride promotes remineralization, ammonia stabilizes the solution. Arrests caries non-invasively. Main disadvantage: turns carious dentin black. Ideal for: pediatric, elderly, special needs patients.",
-              "sq": "SDF: argjendi jep veprim antibakterial, fluoridi nxit rimineralizimin. Disavantazh: ngjyros dentinën në të zezë."
+              "sq": "SDF: argjendi jep veprim antibakterial, fluoridi nxit remineralizimin. Disavantazh: ngjyros dentinën në të zezë."
             }
           },
           {
@@ -7377,7 +7377,7 @@
             "correct": 1,
             "explanation": {
               "en": "Saliva is the most important natural defense against caries. Functions: acid buffering (bicarbonate), supersaturated with Ca/PO4 (remineralization), mechanical clearance, antimicrobial proteins (lysozyme, lactoferrin, IgA). Reduced flow = dramatically increased caries risk.",
-              "sq": "Pështyma është mbrojtja më e rëndësishme natyrale kundër kariesit: neutralizim, rimineralizim, pastrim, antibakterial."
+              "sq": "Pështyma është mbrojtja më e rëndësishme natyrale kundër kariesit: neutralizim, remineralizim, pastrim, antibakterial."
             }
           }
         ]
@@ -7388,7 +7388,7 @@
     "id": "prosthodontics",
     "name": {
       "en": "Prosthodontics",
-      "sq": "Protetika"
+      "sq": "Protetika Dentare"
     },
     "emoji": "🦿",
     "desc": {
@@ -7613,7 +7613,7 @@
           {
             "q": {
               "en": "What is the minimum occlusal reduction required for a porcelain-fused-to-metal (PFM) crown?",
-              "sq": "Cili është reduktimi minimal okluzal i nevojshëm për kurorë porcelani mbi metal (PFM)?"
+              "sq": "Sa është reduktimi minimal okluzal i nevojshëm gjatë preparimit për kurorë metalo-qeramike (PFM)?"
             },
             "options": {
               "en": [
@@ -7632,7 +7632,7 @@
             "correct": 0,
             "explanation": {
               "en": "PFM crown preparation: 1.5-2.0mm occlusal reduction (for metal + porcelain), 1.2-1.5mm axial reduction, shoulder or chamfer finish line on facial, chamfer on lingual. Adequate reduction ensures strength and esthetics.",
-              "sq": "Preparimi i kurorës PFM: 1.5-2.0mm reduktim okluzal, 1.2-1.5mm reduktim aksial, vijë përfundimi shoulder ose chamfer faciale."
+              "sq": "Preparimi për kurorë PFM: reduktim okluzal 1.5-2.0 mm (për shtresën metalike + qeramike), reduktim aksial 1.2-1.5 mm, vijë përfundimi tip shoulder ose chamfer në sipërfaqen faciale. Reduktimi adekuat siguron qëndrueshmërinë strukturore dhe rezultatin estetik."
             }
           },
           {
@@ -7813,7 +7813,7 @@
           {
             "q": {
               "en": "What material are complete denture bases most commonly made from?",
-              "sq": "Nga çfarë materiali bëhen më shpesh bazat e protezave totale?"
+              "sq": "Nga cili material prodhohen zakonisht bazat e protezave totale?"
             },
             "options": {
               "en": [
@@ -7823,16 +7823,16 @@
                 "Titanium"
               ],
               "sq": [
-                "Aliazh ari",
-                "PMMA (polimetil metakrilat)",
-                "Porcelan",
-                "Titanium"
+                "Porcelani",
+                "Aliazhi i arit",
+                "PMMA (polimetilmetakrilati)",
+                "Titaniumi"
               ]
             },
             "correct": 1,
             "explanation": {
               "en": "PMMA is the most widely used denture base material due to: easy processing, good esthetics (tissue-colored), adequate strength, repairability, low cost. Limitations: polymerization shrinkage, porosity, can harbor Candida. Processing: heat-cured or injection-molded.",
-              "sq": "PMMA është materiali më i përdorur për baza protezash: përpunim i lehtë, estetikë e mirë, forcë adekuate, i riparueshëm. Kufizime: tkurrje polimerizimi, porozitet."
+              "sq": "PMMA-ja është materiali më i përdorur për bazat e protezave për shkak të: përpunimit të lehtë, estetikës së mirë (ngjyrë indesh), qëndrueshmërisë adekuate, mundësisë së riparimit dhe kostos së ulët. Kufizimet: tkurrja gjatë polimerizimit, poroziteti, mundësia e kolonizimit nga Candida."
             }
           },
           {
@@ -7938,7 +7938,7 @@
           {
             "q": {
               "en": "What is the most common cause of implant failure?",
-              "sq": "Cila është shkaku më i shpeshtë i dështimit të implantit?"
+              "sq": "Cili është shkaku më i shpeshtë i dështimit të implantit?"
             },
             "options": {
               "en": [

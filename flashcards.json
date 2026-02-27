@@ -4,7 +4,7 @@
     "subject": "Endodontics",
     "question": {
       "en": "What is the function of EDTA in root canal irrigation?",
-      "sq": "Cila është funksioni i EDTA në irigimin e kanalit të rrënjës?"
+      "sq": "Cili është funksioni i EDTA në irigimin e kanalit të rrënjës?"
     },
     "answer": {
       "en": "EDTA is a chelating agent that removes the smear layer by dissolving inorganic components (calcium ions) from dentin. Use 17% EDTA as a final rinse for 1 minute before obturation.",
@@ -28,7 +28,7 @@
     "subject": "Endodontics",
     "question": {
       "en": "What are the indications for intentional replantation?",
-      "sq": "Cilat janë indikacionet për riplantimin e qëllimshëm?"
+      "sq": "Cilat janë indikimet për riplantimin e qëllimshëm?"
     },
     "answer": {
       "en": "Failed conventional retreatment, anatomical limitations preventing surgical access, and teeth with complex root anatomy where apicoectomy is impractical.",
@@ -136,7 +136,7 @@
     "subject": "Cariology",
     "question": {
       "en": "What is remineralization?",
-      "sq": "Çfarë është rimineralizimi?"
+      "sq": "Çfarë është remineralizimi?"
     },
     "answer": {
       "en": "The natural repair process where calcium, phosphate, and fluoride ions from saliva are redeposited into demineralized enamel, reversing early carious lesions.",
@@ -188,7 +188,7 @@
     },
     "answer": {
       "en": "Buffers acids, provides calcium/phosphate for remineralization, contains antimicrobial proteins (lysozyme, lactoferrin, IgA), and clears food debris.",
-      "sq": "Tamponon acidet, siguron minerale për rimineralizim, përmban proteina antimikrobiale dhe pastron mbeturinat ushqimore."
+      "sq": "Tamponon acidet, siguron minerale për remineralizim, përmban proteina antimikrobiale dhe pastron mbeturinat ushqimore."
     }
   },
   {
@@ -712,7 +712,7 @@
     "subject": "Oral Radiology",
     "question": {
       "en": "What is the difference between periapical and panoramic radiographs?",
-      "sq": "Cila është dallimi midis radiografive periapikale dhe panoramike?"
+      "sq": "Cili është dallimi midis radiografive periapikale dhe panoramike?"
     },
     "answer": {
       "en": "Periapical: shows 2-3 teeth with roots and surrounding bone in detail. Used for: caries detection, periapical pathology, root fractures. Panoramic (OPG): shows entire maxilla, mandible, TMJ, sinuses in one image. Used for: overview, impacted teeth, fractures, cysts. Lower resolution than periapical.",
@@ -976,7 +976,7 @@
     "subject": "Oral Surgery",
     "question": {
       "en": "What are the indications for tooth extraction?",
-      "sq": "Cilat janë indikacionet për ekstraktimin e dhëmbit?"
+      "sq": "Cilat janë indikimet për ekstraktimin e dhëmbit?"
     },
     "answer": {
       "en": "1) Non-restorable caries, 2) Advanced periodontal disease, 3) Failed endodontic treatment, 4) Orthodontic reasons, 5) Impacted teeth (symptomatic), 6) Teeth in fracture line, 7) Supernumerary teeth, 8) Pre-prosthetic surgery, 9) Pre-radiation therapy. Always consider alternatives before extraction.",
@@ -1112,7 +1112,7 @@
     },
     "answer": {
       "en": "Philosophy of maximum conservation of tooth structure. Principles: 1) Early caries detection (ICDAS), 2) Risk assessment, 3) Remineralization of early lesions (fluoride, CPP-ACP), 4) Minimally invasive operative treatment when needed, 5) Repair vs replacement of defective restorations. 'Prevention rather than cure'.",
-      "sq": "Filozofi e ruajtjes maksimale të strukturës dentare. Parimet: 1) Zbulim i hershëm, 2) Vlerësim rreziku, 3) Rimineralizim, 4) Trajtim minimal invaziv, 5) Riparim vs zëvendësim. 'Parandalim para kurimit'."
+      "sq": "Filozofi e ruajtjes maksimale të strukturës dentare. Parimet: 1) Zbulim i hershëm, 2) Vlerësim rreziku, 3) Remineralizim, 4) Trajtim minimal invaziv, 5) Riparim vs zëvendësim. 'Parandalim para kurimit'."
     }
   },
   {
@@ -1228,11 +1228,11 @@
     "subject": "Cariology",
     "question": {
       "en": "What is the difference between demineralization and remineralization?",
-      "sq": "Cili është dallimi midis demineralizimit dhe rimineralizimit?"
+      "sq": "Cili është dallimi midis demineralizimit dhe remineralizimit?"
     },
     "answer": {
       "en": "Demineralization: loss of calcium, phosphate, and carbonate ions from hydroxyapatite when pH drops below critical level (5.5 for enamel). Remineralization: redeposition of minerals from saliva back into crystal lattice when pH rises. Fluoride enhances remineralization by forming fluorapatite. Early enamel caries (white spots) are reversible through remineralization.",
-      "sq": "Demineralizim: humbje jonesh kur pH bie nën 5.5. Rimineralizim: ridepozitim mineralesh nga pështyma kur pH rritet. Fluoridi nxit rimineralizimin duke formuar fluorapatit."
+      "sq": "Demineralizim: humbje jonesh kur pH bie nën 5.5. Remineralizim: ridepozitim mineralesh nga pështyma kur pH rritet. Fluoridi nxit remineralizimin duke formuar fluorapatit."
     }
   },
   {
@@ -1377,6 +1377,198 @@
     "answer": {
       "en": "Primary caries: new lesion on a previously unaffected surface. Secondary (recurrent) caries: new caries developing at the margin of an existing restoration (most common reason for restoration replacement). Residual caries: demineralized dentin intentionally left under a restoration (indirect pulp cap). Important distinction for treatment planning.",
       "sq": "Primar: lezion i ri. Sekondar (rekurrent): karies i ri te skaji i restaurimit (arsyeja më e shpeshtë e zëvendësimit). Rezidual: dentinë e lënë qëllimisht nën restaurim."
+    }
+  },
+  {
+    "id": "fc_pharm_14",
+    "subject": "Pharmacology",
+    "question": {
+      "en": "What is the difference between bactericidal and bacteriostatic antibiotics?",
+      "sq": "Cili është dallimi ndërmjet antibiotikëve baktericidë dhe bakteriostatikë?"
+    },
+    "answer": {
+      "en": "Bactericidal antibiotics kill bacteria directly (amoxicillin, metronidazole, ciprofloxacin). Bacteriostatic antibiotics inhibit bacterial growth/reproduction (tetracycline, erythromycin, clindamycin). In immunocompromised patients, bactericidal agents are preferred.",
+      "sq": "Antibiotikët baktericidë shkatërrojnë bakteriet drejtpërdrejt (amoksiçilina, metronidazoli). Bakteriostatikët inhibojnë rritjen/riprodhimin e tyre (tetraçiklina, eritromicina, klindamicina). Te pacientët imunokompromituar, preferohen agjentët baktericidë."
+    }
+  },
+  {
+    "id": "fc_pharm_15",
+    "subject": "Pharmacology",
+    "question": {
+      "en": "What are the dental side effects of calcium channel blockers?",
+      "sq": "Cilat janë efektet anësore dentare të bllokuesve të kanaleve të kalciumit?"
+    },
+    "answer": {
+      "en": "Calcium channel blockers (nifedipine, amlodipine) can cause gingival overgrowth/hyperplasia in up to 20% of patients. Mechanism: altered collagen metabolism. Management: meticulous oral hygiene, possible drug substitution (consult physician), gingivectomy if severe.",
+      "sq": "Bllokuesit e kanaleve të kalciumit (nifedipina, amlodipina) mund të shkaktojnë hiperplazi gingivale deri në 20% të pacientëve. Mekanizmi: çrregullim i metabolizmit të kolagjenit. Menaxhimi: higjenë rigoroze orale, ndërrim i mundshëm i barit, gingivektomi nëse rasti është i rëndë."
+    }
+  },
+  {
+    "id": "fc_endo_15",
+    "subject": "Endodontics",
+    "question": {
+      "en": "What is the difference between vital and non-vital pulp therapy?",
+      "sq": "Cili është dallimi ndërmjet terapisë së pulpës vitale dhe asaj jo-vitale?"
+    },
+    "answer": {
+      "en": "Vital pulp therapy: preserves pulp vitality (direct/indirect pulp capping, pulpotomy). Indicated for reversible pulpitis, mechanical exposures, immature teeth. Non-vital therapy: complete removal of pulp tissue (pulpectomy/RCT). Indicated for irreversible pulpitis, necrosis, periapical pathology.",
+      "sq": "Terapia e pulpës vitale: ruan vitalitetin (mbulim direkt/indirekt, pulpotomi). Indikohet për pulpit reversibël, ekspozime mekanike, dhëmbë të papjekur. Terapia jo-vitale: heqje e plotë e pulpës (pulpektomi/trajtim endodontik). Indikohet për pulpit ireversibël, nekrozë, patologji periapikale."
+    }
+  },
+  {
+    "id": "fc_endo_16",
+    "subject": "Endodontics",
+    "question": {
+      "en": "What is MTA and what are its clinical applications in endodontics?",
+      "sq": "Çfarë është MTA-ja dhe cilat janë aplikimet e saj klinike në endodonci?"
+    },
+    "answer": {
+      "en": "MTA (Mineral Trioxide Aggregate): bioactive calcium silicate cement. Applications: direct pulp capping, pulpotomy, apexification, root-end filling (apicoectomy), perforation repair, internal resorption. Properties: excellent biocompatibility, sealing ability, sets in moisture, promotes hard tissue formation. Setting time: ~4 hours.",
+      "sq": "MTA (Agregat Mineral Trioksid): çimento bioaktive kalcium-silikate. Aplikimet: mbulim direkt i pulpës, pulpotomi, apeksifikim, mbushje retrograde, riparim perforacionesh. Vetitë: biokompatibilitet i shkëlqyer, aftësi vulimi, ngurtësohet në prani lagështie, nxit formimin e indit të fortë."
+    }
+  },
+  {
+    "id": "fc_perio_15",
+    "subject": "Periodontology",
+    "question": {
+      "en": "What is the role of dental plaque in periodontal disease?",
+      "sq": "Cili është roli i pllakës dentare në sëmundjen periodontale?"
+    },
+    "answer": {
+      "en": "Dental plaque (biofilm) is the primary etiological factor for both gingivitis and periodontitis. Bacterial biofilm triggers host immune response → inflammatory mediators (IL-1β, TNF-α, PGE2, MMPs) → tissue destruction. Key: disease is caused by host response to bacteria, not bacteria alone. Susceptibility varies individually.",
+      "sq": "Pllaka dentare (biofilmi) është faktori etiologjik primar si për gingivitin ashtu edhe për periodontitin. Biofilmi bakterial nxit përgjigjen imune të nikoqirit → mediatorë inflamatorë (IL-1β, TNF-α, PGE2, MMP) → shkatërrim indesh. Çelësi: sëmundja shkaktohet nga përgjigja e nikoqirit ndaj bakterieve, jo vetëm nga bakteriet."
+    }
+  },
+  {
+    "id": "fc_perio_16",
+    "subject": "Periodontology",
+    "question": {
+      "en": "What is osseous surgery in periodontics?",
+      "sq": "Çfarë është kirurgjia kockore në periodontologji?"
+    },
+    "answer": {
+      "en": "Osseous (bone) surgery reshapes alveolar bone to eliminate pockets and establish physiological bone contours. Types: osteoplasty (reshaping non-supporting bone) and ostectomy (removing supporting bone). Indicated for: horizontal bone defects, shallow infrabony defects, positive bone architecture needed. Aims to reduce pocket depth.",
+      "sq": "Kirurgjia kockore rimodellon kockën alveolare për eliminimin e xhepave dhe vendosjen e konturave fiziologjike. Tipet: osteoplastikë (rimodelim i kockës jombështetëse) dhe ostektomi (heqje e kockës mbështetëse). Indikohet për defekte kockore horizontale. Synon reduktimin e thellësisë së xhepave."
+    }
+  },
+  {
+    "id": "fc_prosth_14",
+    "subject": "Prosthodontics",
+    "question": {
+      "en": "What are the types of removable prostheses?",
+      "sq": "Cilat janë tipet e protezave të lëvizshme?"
+    },
+    "answer": {
+      "en": "1) Complete dentures: replace all teeth in an arch. 2) Removable partial dentures (RPD): replace some missing teeth, retained by clasps on remaining teeth. 3) Overdentures: fit over retained roots or implants for improved stability. 4) Interim/temporary prostheses: used during healing phase. Choice depends on number of remaining teeth and patient factors.",
+      "sq": "1) Proteza totale: zëvendësojnë të gjithë dhëmbët e një harku. 2) Proteza parciale të lëvizshme (PPL): zëvendësojnë disa dhëmbë, mbahen me grazhda. 3) Proteza mbidhëmbore (overdenture): mbështeten mbi rrënjë ose implante. 4) Proteza të përkohshme. Zgjedhja varet nga numri i dhëmbëve të mbetur."
+    }
+  },
+  {
+    "id": "fc_prosth_15",
+    "subject": "Prosthodontics",
+    "question": {
+      "en": "What is shade selection in prosthodontics and why is it important?",
+      "sq": "Çfarë është përzgjedhja e ngjyrës në protetikë dhe pse ka rëndësi?"
+    },
+    "answer": {
+      "en": "Shade selection: choosing the color of artificial teeth/restorations to match natural dentition. Three dimensions: hue (basic color), value (lightness/darkness - most important), chroma (intensity/saturation). Best conditions: natural daylight, neutral background, moist teeth, patient eye level, quick glances (avoid color fatigue).",
+      "sq": "Përzgjedhja e ngjyrës: zgjedhja e ngjyrës së dhëmbëve artificialë për përputhje me dentiturën natyrale. Tre dimensione: toni (ngjyra bazë), vlera (shkëlqimi/errësira - më e rëndësishmja), kroma (intensiteti). Kushtet optimale: dritë natyrale, sfond neutral, dhëmbë të lagur, në nivelin e syrit."
+    }
+  },
+  {
+    "id": "fc_surg_14",
+    "subject": "Oral Surgery",
+    "question": {
+      "en": "What is the difference between simple and surgical extraction?",
+      "sq": "Cili është dallimi ndërmjet ekstraktimit të thjeshtë dhe atij kirurgjik?"
+    },
+    "answer": {
+      "en": "Simple extraction: tooth visible, accessible, removed with forceps and elevators. No flap, no bone removal. Surgical extraction: requires mucoperiosteal flap, bone removal (bur), and/or tooth sectioning. Indicated for: impacted teeth, fractured roots, ankylosed teeth, teeth with abnormal root morphology.",
+      "sq": "Ekstraktimi i thjeshtë: dhëmbi i dukshëm dhe i qasshëm, hiqet me forceps dhe elevatorë. Pa flap apo heqje kocke. Ekstraktimi kirurgjik: kërkon ngritje flapi mukoperiostal, heqje kocke (me frezë) dhe/ose ndarje të dhëmbit. Indikohet për: dhëmbë të përfshirë, rrënjë të thyera, dhëmbë të ankilozuar."
+    }
+  },
+  {
+    "id": "fc_surg_15",
+    "subject": "Oral Surgery",
+    "question": {
+      "en": "What are the signs and symptoms of a dental abscess?",
+      "sq": "Cilat janë shenjat dhe simptomat e abscesit dentar?"
+    },
+    "answer": {
+      "en": "Local: severe throbbing pain, swelling (intraoral or extraoral), tooth tender to percussion/palpation, possible sinus tract (fistula), tooth mobility. Systemic: fever, malaise, lymphadenopathy, elevated WBC. Emergency if: trismus, dysphagia, dyspnea (risk of airway compromise). Treatment: drainage (I&D or RCT), antibiotics if systemic signs.",
+      "sq": "Lokale: dhimbje e fortë pulsuese, ënjtje (intraorale ose ekstraorale), dhëmbi i ndjeshëm në perkusion, mundësia e fistulës, lëvizje dhëmbi. Sistemike: ethe, lodhje, limfadenopati. Urgjencë nëse: trizëm, disfagji, dispne. Trajtimi: drenim (I&D ose trajtim endodontik), antibiotikë nëse ka shenja sistemike."
+    }
+  },
+  {
+    "id": "fc_anat_14",
+    "subject": "Oral Anatomy",
+    "question": {
+      "en": "What is the difference between cortical and cancellous (trabecular) bone?",
+      "sq": "Cili është dallimi ndërmjet kockës kortikale dhe asaj spongiore (trabekulare)?"
+    },
+    "answer": {
+      "en": "Cortical bone: dense, compact outer layer. Provides strength and protection. Slower remodeling. Cancellous (trabecular/spongy) bone: inner meshwork of bony trabeculae with marrow spaces. More vascular, faster healing/remodeling. In mandible: thick cortical plates (especially buccal). In maxilla: thinner cortical, more cancellous — easier extractions but less implant primary stability.",
+      "sq": "Kocka kortikale: shtresë e jashtme e dendur, kompakte. Siguron forcë dhe mbrojtje. Rimodelim më i ngadaltë. Kocka spongiore (trabekulare): rrjet i brendshëm trabekulash me hapësira palcore. Më vaskulare, shërim/rimodelim më i shpejtë. Mandibula: pllaka kortikale të trasha. Maksila: kortikal më e hollë, më shumë spongiore."
+    }
+  },
+  {
+    "id": "fc_anat_15",
+    "subject": "Oral Anatomy",
+    "question": {
+      "en": "What is the function of cementum?",
+      "sq": "Cili është funksioni i çementit dentar?"
+    },
+    "answer": {
+      "en": "Cementum is a thin mineralized tissue covering the root surface. Functions: 1) Anchors periodontal ligament fibers (Sharpey's fibers) to root, 2) Compensates for occlusal wear by continuous deposition (especially at apex), 3) Repairs root surface resorption. Types: acellular (cervical, mainly attachment) and cellular (apical, adaptive function). Thinnest at CEJ (~20μm), thickest at apex (~200μm).",
+      "sq": "Çementi është ind i hollë i mineralizuar që mbulon sipërfaqen e rrënjës. Funksionet: 1) Ankoron fibrat e ligamentit periodontal (fibrat e Sharpey-t) në rrënjë, 2) Kompenson konsumimin okluzal me depozitim të vazhdueshëm, 3) Riparon rezorbimin e rrënjës. Tipet: açelulare (çervikale) dhe çelulare (apikale). Më i hollë te KEÇ (~20μm), më i trashë te apeksi (~200μm)."
+    }
+  },
+  {
+    "id": "fc_cario_14",
+    "subject": "Cariology",
+    "question": {
+      "en": "What is the caries risk assessment and why is it important?",
+      "sq": "Çfarë është vlerësimi i rrezikut për karies dhe pse ka rëndësi?"
+    },
+    "answer": {
+      "en": "Systematic evaluation of individual patient's risk for developing new caries lesions. Assesses: caries history, diet (sugar frequency), oral hygiene, saliva (flow rate, buffering), fluoride exposure, socioeconomic factors. Importance: determines recall interval, preventive strategy intensity, and treatment approach (preventive vs operative). High-risk patients need more aggressive prevention.",
+      "sq": "Vlerësim sistematik i rrezikut individual të pacientit për zhvillimin e lezioneve të reja kariozë. Vlerëson: historinë e kariesit, dietën (frekuenca e sheqerit), higjenën orale, pështymën (rrjedhja, kapaciteti tamponues), ekspozimin ndaj fluoridit. Rëndësia: përcakton intervalin e vizitave, intensitetin e strategjisë parandaluese dhe qasjen terapeutike."
+    }
+  },
+  {
+    "id": "fc_rad_11",
+    "subject": "Oral Radiology",
+    "question": {
+      "en": "What is the significance of the PDL space on a radiograph?",
+      "sq": "Cila është rëndësia e hapësirës së ligamentit periodontal në radiografi?"
+    },
+    "answer": {
+      "en": "The PDL space appears as a thin, uniform radiolucent line (0.15-0.4mm) between root and lamina dura. Changes indicate pathology: widened uniformly = occlusal trauma; widened at apex = periapical pathology; loss of PDL space = ankylosis; irregular widening = malignancy. Compare with adjacent teeth for reference.",
+      "sq": "Hapësira e LP-së shfaqet si vijë e hollë radiotransparente (0.15-0.4mm) ndërmjet rrënjës dhe laminës dura. Ndryshimet tregojnë patologji: zgjërim uniform = traumë okluzale; zgjërim apikal = patologji periapikale; humbje hapësire = ankilozë; zgjërim i çrregullt = neoplazi malinje."
+    }
+  },
+  {
+    "id": "fc_oper_13",
+    "subject": "Operative Dentistry",
+    "question": {
+      "en": "What is the total-etch vs self-etch bonding technique?",
+      "sq": "Cili është dallimi ndërmjet teknikës adezive total-etch dhe self-etch?"
+    },
+    "answer": {
+      "en": "Total-etch (etch-and-rinse): separate acid etching step (37% H3PO4), rinse, then primer+adhesive. Stronger enamel bond, technique-sensitive (moisture control critical). Self-etch: acidic primer that simultaneously etches and primes (no rinse step). Less technique-sensitive, less post-op sensitivity, but slightly weaker enamel bond. Solution: selective enamel etch + self-etch on dentin.",
+      "sq": "Total-etch: hap i veçantë gravure acide (H3PO4 37%), larje, pastaj primer+adeziv. Lidhje më e fortë me smaltin, por teknikisht sensitive. Self-etch: primer acidik që gravuron dhe prajmon njëkohësisht (pa larje). Më pak sensitive teknikisht, më pak ndjeshmëri pasoperative, por lidhje paksa më e dobët me smaltin. Zgjidhja: gravurë selektive e smaltit + self-etch në dentinë."
+    }
+  },
+  {
+    "id": "fc_oper_14",
+    "subject": "Operative Dentistry",
+    "question": {
+      "en": "What is secondary (recurrent) caries and how is it detected?",
+      "sq": "Çfarë është kariesi sekondar (rekurrent) dhe si diagnostikohet?"
+    },
+    "answer": {
+      "en": "New caries at the margin of an existing restoration. Most common reason for restoration replacement. Detection: visual (discoloration, gap at margin), tactile (explorer catches at margin), radiographic (radiolucency at restoration margin). Risk factors: microleakage, poor oral hygiene, defective margins, high caries risk. Prevention: proper technique, smooth margins, patient hygiene.",
+      "sq": "Karies i ri në skajet e restaurimit ekzistues. Arsyeja më e shpeshtë e zëvendësimit të restaurimeve. Diagnostikimi: vizual (çngjyrim, boshllëk te skaji), taktil (sonda kapet te skaji), radiografik (radiotransparencë te skaji). Faktorë rreziku: mikrorrjedhja, higjenë e dobët, skaje defektoze."
     }
   }
 ]
