@@ -1018,5 +1018,245 @@
       "en": "All from trigeminal nerve (CN V). Upper teeth: V2 (maxillary) → posterior, middle, anterior superior alveolar nerves. Lower teeth: V3 (mandibular) → inferior alveolar nerve → enters mandibular foramen → dental plexus. Mental nerve: sensation to lower lip and chin (exits mental foramen at premolar region).",
       "sq": "Të gjitha nga nervi trigeminal (CN V). Dhëmbët e sipërm: V2 → nervat alveolare superiore. Dhëmbët e poshtëm: V3 → nervi alveolar inferior → hyn në foramenin mandibular. Nervi mental: ndjeshmëri e buzës së poshtme."
     }
+  },
+  {
+    "id": "fc_pharm_09",
+    "subject": "Pharmacology",
+    "question": {
+      "en": "What is the half-life of amoxicillin and its clinical significance?",
+      "sq": "Cila është gjysma-jeta e amoksiçilinës dhe rëndësia klinike?"
+    },
+    "answer": {
+      "en": "Half-life ~1 hour. Clinical significance: must be dosed TID (every 8 hours) to maintain therapeutic levels. Renal excretion — adjust dose in renal impairment. Food does not significantly affect absorption.",
+      "sq": "Gjysma-jeta ~1 orë. Duhet dozuar TID (çdo 8 orë) për të ruajtur nivelet terapeutike. Ekskrecion renal — rregullo dozën në dëmtim renal."
+    }
+  },
+  {
+    "id": "fc_pharm_10",
+    "subject": "Pharmacology",
+    "question": {
+      "en": "What are the signs of local anesthetic toxicity?",
+      "sq": "Cilat janë shenjat e toksicitetit të anestetikut lokal?"
+    },
+    "answer": {
+      "en": "Early CNS signs: circumoral numbness, tinnitus, metallic taste, dizziness, visual disturbances. Progressive: muscle twitching, tremors, seizures. Late cardiovascular: bradycardia, hypotension, cardiac arrest. Treatment: stop injection, supportive care, IV lipid emulsion for severe cases.",
+      "sq": "Shenja të hershme CNS: mpirje periorali, tingulli, shije metalike, marramendje. Progresive: dridhje muskulore, konvulsione. Të vona KV: bradikardia, hipotension, arrest kardiak."
+    }
+  },
+  {
+    "id": "fc_pharm_11",
+    "subject": "Pharmacology",
+    "question": {
+      "en": "When should antibiotics NOT be prescribed for dental conditions?",
+      "sq": "Kur NUK duhet të përshkruhen antibiotikë për gjendje dentare?"
+    },
+    "answer": {
+      "en": "Antibiotics NOT indicated for: irreversible pulpitis (pain without swelling), chronic periapical abscess without acute symptoms, dry socket, pericoronitis without systemic signs, localized dental abscess that can be drained. Definitive treatment (RCT, extraction, I&D) is the priority.",
+      "sq": "Antibiotikët NUK indikohen për: pulpit ireversibël, absces kronik pa simptoma akute, dry socket, perikoronit pa shenja sistemike. Trajtimi definitiv është prioriteti."
+    }
+  },
+  {
+    "id": "fc_rad_08",
+    "subject": "Oral Radiology",
+    "question": {
+      "en": "What are the common errors in periapical radiography?",
+      "sq": "Cilat janë gabimet e zakonshme në radiografinë periapikale?"
+    },
+    "answer": {
+      "en": "1) Elongation: beam too perpendicular, 2) Foreshortening: beam too steep, 3) Cone cut: beam not centered on sensor, 4) Overlap: beam not perpendicular to contact points, 5) Reversed film: dot pattern visible (herringbone), 6) Movement blur: patient moved during exposure.",
+      "sq": "1) Zgjatje: rreze shumë pingule, 2) Shkurtim: rreze shumë e pjerrët, 3) Cone cut: rreze e pacentruar, 4) Mbivendosje: rreze jo pingule, 5) Film i kthyer: model pikash, 6) Turbullim lëvizjeje."
+    }
+  },
+  {
+    "id": "fc_rad_09",
+    "subject": "Oral Radiology",
+    "question": {
+      "en": "What is the difference between radiolucent and radiopaque?",
+      "sq": "Cili është dallimi midis radiotransparent dhe radioopak?"
+    },
+    "answer": {
+      "en": "Radiolucent (dark on film): structures that allow X-rays to pass through easily — air, soft tissue, caries, cysts, granulomas. Radiopaque (white on film): dense structures that absorb X-rays — enamel, bone, metal restorations, calculus. Understanding this is fundamental for radiographic interpretation.",
+      "sq": "Radiotransparent (e errët): struktura që lejojnë rrezet X — ajër, ind i butë, karies. Radioopak (bardhë): struktura të dendura — smaltim, kockë, restaurime metalike."
+    }
+  },
+  {
+    "id": "fc_oper_09",
+    "subject": "Operative Dentistry",
+    "question": {
+      "en": "What is the sandwich technique in restorative dentistry?",
+      "sq": "Çfarë është teknika sandwich në stomatologjinë restaurative?"
+    },
+    "answer": {
+      "en": "A layered restoration using GIC as a base/liner under composite. Open sandwich: GIC extends to cavity margin (proximal box). Closed sandwich: GIC completely covered by composite. Benefits: fluoride release from GIC, chemical bond to dentin, reduced composite volume (less shrinkage).",
+      "sq": "Restaurim me shtresa: GIC si bazë nën kompozit. Sandwich i hapur: GIC shkon deri te skaji. I mbyllur: GIC mbulohet plotësisht. Përfitime: çlirim fluoridi, lidhje kimike me dentinë, tkurrje më e vogël."
+    }
+  },
+  {
+    "id": "fc_oper_10",
+    "subject": "Operative Dentistry",
+    "question": {
+      "en": "What causes post-operative sensitivity after composite restorations?",
+      "sq": "Çfarë shkakton ndjeshmërinë pas-operative pas restaurimeve kompozite?"
+    },
+    "answer": {
+      "en": "Causes: 1) Polymerization shrinkage (gap formation), 2) Incomplete bonding (contamination), 3) Over-etching dentin, 4) Inadequate curing, 5) High C-factor, 6) Occlusal interference (high spots). Prevention: proper isolation, incremental placement, adequate curing, check occlusion.",
+      "sq": "Shkaqet: 1) Tkurrje polimerizimi, 2) Lidhje e paplotë, 3) Mbigravim dentine, 4) Polimerizim i pamjaftueshëm, 5) C-faktor i lartë, 6) Kontakte okluzale të larta. Parandalimi: izolim i duhur, shtresim, kontroll okluzal."
+    }
+  },
+  {
+    "id": "fc_oper_11",
+    "subject": "Operative Dentistry",
+    "question": {
+      "en": "What is minimal intervention dentistry (MID)?",
+      "sq": "Çfarë është stomatologjia me ndërhyrje minimale (MID)?"
+    },
+    "answer": {
+      "en": "Philosophy of maximum conservation of tooth structure. Principles: 1) Early caries detection (ICDAS), 2) Risk assessment, 3) Remineralization of early lesions (fluoride, CPP-ACP), 4) Minimally invasive operative treatment when needed, 5) Repair vs replacement of defective restorations. 'Prevention rather than cure'.",
+      "sq": "Filozofi e ruajtjes maksimale të strukturës dentare. Parimet: 1) Zbulim i hershëm, 2) Vlerësim rreziku, 3) Rimineralizim, 4) Trajtim minimal invaziv, 5) Riparim vs zëvendësim. 'Parandalim para kurimit'."
+    }
+  },
+  {
+    "id": "fc_endo_12",
+    "subject": "Endodontics",
+    "question": {
+      "en": "What are the differences between NiTi rotary and stainless steel hand files?",
+      "sq": "Cilat janë dallimet midis fileve rrotulluese NiTi dhe fileve dorëzore çelik?"
+    },
+    "answer": {
+      "en": "NiTi rotary: super-elastic (follows curved canals), faster preparation, more centered preparations, reduced procedural errors. Stainless steel hand files: stiffer, better tactile feedback, used for initial negotiation and glide path, essential for calcified canals. Both have roles in modern endodontics.",
+      "sq": "NiTi rrotulluese: super-elastike (ndjekin kanale të lakuara), preparim më i shpejtë. File dorëzore çeliku: më të ngurta, feedback taktil më i mirë, për negocim fillestar. Të dyja kanë rol."
+    }
+  },
+  {
+    "id": "fc_endo_13",
+    "subject": "Endodontics",
+    "question": {
+      "en": "What is pulp capping and when is it indicated?",
+      "sq": "Çfarë është mbulimi i pulpës dhe kur indikohet?"
+    },
+    "answer": {
+      "en": "Direct pulp cap: placing biocompatible material (MTA, Ca(OH)2, Biodentine) directly on exposed pulp. Indicated for: small mechanical exposure in young vital teeth, no signs of irreversible pulpitis. Indirect pulp cap: leaving thin layer of affected dentin, capping with Ca(OH)2 or GIC. Goal: maintain pulp vitality.",
+      "sq": "Mbulim direkt: vendosje materiali (MTA, Ca(OH)2) direkt mbi pulpën e ekspozuar. Indirekt: lënie e shtresës së hollë të dentinës. Qëllimi: ruajtja e vitalitetit."
+    }
+  },
+  {
+    "id": "fc_perio_12",
+    "subject": "Periodontology",
+    "question": {
+      "en": "What is the modified Bass technique of toothbrushing?",
+      "sq": "Çfarë është teknika e modifikuar e Bass-it për pastrimin e dhëmbëve?"
+    },
+    "answer": {
+      "en": "Place bristles at 45° angle to gingival margin, tips directed into sulcus. Use short back-and-forth vibrating strokes (10 per area), then sweep coronally. Most recommended technique for plaque removal at the gingival margin and sulcus. Use soft-bristled brush, systematic approach covering all surfaces.",
+      "sq": "Vendos qimet në kënd 45° ndaj skajit gingival, majat drejt sulkusit. Lëvizje të shkurtra vibruese (10 për zonë), pastaj fshij koronalisht. Teknika më e rekomanduar për heqje pllake."
+    }
+  },
+  {
+    "id": "fc_perio_13",
+    "subject": "Periodontology",
+    "question": {
+      "en": "What are the types of bone defects in periodontal disease?",
+      "sq": "Cilat janë llojet e defekteve kockore në sëmundjen periodontale?"
+    },
+    "answer": {
+      "en": "Horizontal bone loss: even reduction of alveolar crest (most common). Vertical/angular defects: classified by number of remaining bony walls (1-wall, 2-wall, 3-wall). 3-wall defects have best regenerative potential. Furcation defects: bone loss between roots of multirooted teeth (Grade I-III).",
+      "sq": "Humbje horizontale: reduktim i barabartë i krestës (më e shpeshta). Defekte vertikale: klasifikohen sipas mureve kockore (1-mur, 2-mur, 3-mur). Defektet 3-mur kanë potencialin më të mirë rigjenerues."
+    }
+  },
+  {
+    "id": "fc_prosth_11",
+    "subject": "Prosthodontics",
+    "question": {
+      "en": "What is the difference between immediate and conventional complete dentures?",
+      "sq": "Cili është dallimi midis protezave totale imediate dhe konvencionale?"
+    },
+    "answer": {
+      "en": "Immediate denture: fabricated before extractions, inserted immediately after. Advantages: no edentulous period, acts as bandage. Disadvantages: no try-in possible, needs frequent relining due to resorption. Conventional: made 2-3 months after extractions when healing is complete. More accurate fit.",
+      "sq": "Protezë imediate: fabrikohet para ekstraktimeve, vendoset menjëherë pas. Konvencionale: bëhet 2-3 muaj pas kur shërimi ka mbaruar. Përshtatje më e saktë."
+    }
+  },
+  {
+    "id": "fc_prosth_12",
+    "subject": "Prosthodontics",
+    "question": {
+      "en": "What is occlusal vertical dimension (OVD) and why is it important?",
+      "sq": "Çfarë është dimensioni vertikal okluzal (OVD) dhe pse është i rëndësishëm?"
+    },
+    "answer": {
+      "en": "OVD: the distance between two points (usually nose tip to chin) when teeth are in maximum intercuspation. Critical in prosthodontics — incorrect OVD causes: if too high → muscle fatigue, clicking teeth, cheek biting; if too low → angular cheilitis, collapsed facial appearance, TMJ problems. Determined using various methods (rest position minus freeway space).",
+      "sq": "OVD: distanca kur dhëmbët janë në interkuspidim. Nëse shumë i lartë → lodhje muskulore; nëse shumë i ulët → keilit angular, pamje e kolapsuar faciale."
+    }
+  },
+  {
+    "id": "fc_surg_11",
+    "subject": "Oral Surgery",
+    "question": {
+      "en": "What is the Le Fort classification of maxillary fractures?",
+      "sq": "Cili është klasifikimi Le Fort i frakturave maksilare?"
+    },
+    "answer": {
+      "en": "Le Fort I: horizontal fracture above teeth apices (floating palate). Le Fort II: pyramidal fracture through nasion, orbits, zygomatic buttress (floating maxilla). Le Fort III: craniofacial disjunction — separation of entire midface from skull base. All cause malocclusion and facial swelling.",
+      "sq": "Le Fort I: frakturë horizontale (qiellzë lundruesе). Le Fort II: frakturë piramidale nëpër orbita. Le Fort III: shkëputje kraniofaciale — ndarje e gjithë mesit të fytyrës nga baza e kafkës."
+    }
+  },
+  {
+    "id": "fc_surg_12",
+    "subject": "Oral Surgery",
+    "question": {
+      "en": "What are the principles of surgical tooth extraction (open extraction)?",
+      "sq": "Cilat janë parimet e ekstraktimit kirurgjik (ekstraktim i hapur)?"
+    },
+    "answer": {
+      "en": "Steps: 1) Adequate anesthesia, 2) Mucoperiosteal flap raising, 3) Bone removal with bur (buccal bone guttering), 4) Tooth sectioning if needed (divide crown from roots, separate roots), 5) Elevation and delivery, 6) Socket debridement, 7) Irrigation, 8) Wound closure with sutures. Minimize bone removal.",
+      "sq": "Hapat: 1) Anestezi, 2) Ngritje flapi, 3) Heqje kocke me frezë, 4) Ndarje dhëmbi nëse nevojitet, 5) Elevim, 6) Debridim, 7) Irigim, 8) Suturim. Minimizo heqjen e kockës."
+    }
+  },
+  {
+    "id": "fc_cario_11",
+    "subject": "Cariology",
+    "question": {
+      "en": "What is the ecological plaque hypothesis?",
+      "sq": "Çfarë është hipoteza ekologjike e pllakës?"
+    },
+    "answer": {
+      "en": "Proposed by Marsh (1994): caries is not caused by specific pathogens alone, but by ecological shifts in the biofilm. Frequent sugar → low pH → selective advantage for acidogenic/aciduric bacteria (S. mutans, Lactobacillus) → they dominate → more acid → demineralization. Reversible by changing environment (reduce sugar, increase fluoride).",
+      "sq": "E propozuar nga Marsh: kariesi nuk shkaktohet vetëm nga patogjenë specifikë, por nga ndryshime ekologjike në biofilm. Sheqer i shpeshtë → pH i ulët → avantazh për bakterie acidogjene → dominim → më shumë acid."
+    }
+  },
+  {
+    "id": "fc_cario_12",
+    "subject": "Cariology",
+    "question": {
+      "en": "What is the difference between demineralization and remineralization?",
+      "sq": "Cili është dallimi midis demineralizimit dhe rimineralizimit?"
+    },
+    "answer": {
+      "en": "Demineralization: loss of calcium, phosphate, and carbonate ions from hydroxyapatite when pH drops below critical level (5.5 for enamel). Remineralization: redeposition of minerals from saliva back into crystal lattice when pH rises. Fluoride enhances remineralization by forming fluorapatite. Early enamel caries (white spots) are reversible through remineralization.",
+      "sq": "Demineralizim: humbje jonesh kur pH bie nën 5.5. Rimineralizim: ridepozitim mineralesh nga pështyma kur pH rritet. Fluoridi nxit rimineralizimin duke formuar fluorapatit."
+    }
+  },
+  {
+    "id": "fc_anat_11",
+    "subject": "Oral Anatomy",
+    "question": {
+      "en": "What are the muscles of mastication and their innervation?",
+      "sq": "Cilat janë muskujt e përtypjes dhe inervimi i tyre?"
+    },
+    "answer": {
+      "en": "Four muscles, ALL innervated by mandibular division (V3) of trigeminal nerve: 1) Masseter — elevation, 2) Temporalis — elevation and retraction, 3) Medial pterygoid — elevation, 4) Lateral pterygoid — protrusion and opening (depression). The lateral pterygoid is the only opener among the four.",
+      "sq": "Katër muskuj, TË GJITHË inervuar nga V3: 1) Maseteri — ngritje, 2) Temporalis — ngritje dhe tërheqje, 3) Pterigoid medial — ngritje, 4) Pterigoid lateral — protuzion dhe hapje."
+    }
+  },
+  {
+    "id": "fc_anat_12",
+    "subject": "Oral Anatomy",
+    "question": {
+      "en": "What is the clinical significance of the pterygomandibular raphe?",
+      "sq": "Cila është rëndësia klinike e rafesë pterigomandibulare?"
+    },
+    "answer": {
+      "en": "The pterygomandibular raphe is a tendinous band between buccinator and superior pharyngeal constrictor. Clinical significance: it serves as the landmark for inferior alveolar nerve block injection. The needle is inserted lateral to the raphe, at the level of the occlusal plane of mandibular molars.",
+      "sq": "Rafeja pterigomandibulare është pikë referuese për injeksionin e bllokut të nervit alveolar inferior. Gjilpëra futet lateralisht nga rafeja, në nivelin e planit okluzal."
+    }
   }
 ]
