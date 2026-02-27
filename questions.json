@@ -1,0 +1,374 @@
+[
+  {
+    "id": "endo_001",
+    "category": "Endodontics",
+    "question": { "en": "What is the most common cause of irreversible pulpitis?", "sq": "Cila është shkaku më i shpeshtë i pulpitit të pakthyeshëm?" },
+    "answer": { "en": "Deep carious lesion with bacterial invasion of the pulp.", "sq": "Lezion i thellë karioz me invazion bakterial të pulpës." },
+    "difficulty": 1,
+    "clinicalTip": "Irreversible pulpitis presents with spontaneous, lingering pain to thermal stimuli."
+  },
+  {
+    "id": "endo_002",
+    "category": "Endodontics",
+    "question": { "en": "What is the ideal working length in root canal treatment?", "sq": "Cila është gjatësia ideale e punës në trajtimin e kanalit të rrënjës?" },
+    "answer": { "en": "0.5–1 mm short of the radiographic apex, at the apical constriction.", "sq": "0.5–1 mm para apeksit radiografik, në ngushtimin apikal." },
+    "difficulty": 2
+  },
+  {
+    "id": "endo_003",
+    "category": "Endodontics",
+    "question": { "en": "Which irrigant is most commonly used during root canal treatment and why?", "sq": "Cili irigant përdoret më shpesh gjatë trajtimit endodontik dhe pse?" },
+    "answer": { "en": "Sodium hypochlorite (NaOCl) because it dissolves organic tissue and has broad antimicrobial activity.", "sq": "Hipokloriti i natriumit (NaOCl) sepse tret indin organik dhe ka aktivitet të gjerë antimikrobial." },
+    "difficulty": 1
+  },
+  {
+    "id": "endo_004",
+    "category": "Endodontics",
+    "question": { "en": "What material is most commonly used for root canal obturation?", "sq": "Cili material përdoret më shpesh për obturimin e kanalit të rrënjës?" },
+    "answer": { "en": "Gutta-percha with a sealer cement.", "sq": "Guta-perka me çimento mbyllëse." },
+    "difficulty": 1
+  },
+  {
+    "id": "endo_005",
+    "category": "Endodontics",
+    "question": { "en": "Name three signs that distinguish irreversible pulpitis from reversible pulpitis.", "sq": "Përmendni tri shenja që dallojnë pulpitin e pakthyeshëm nga ai i kthyeshëm." },
+    "answer": { "en": "Spontaneous pain, lingering response to thermal stimuli (>30 seconds), and pain that disrupts sleep.", "sq": "Dhimbje spontane, përgjigje e zgjatur ndaj stimujve termikë (>30 sekonda), dhe dhimbje që prish gjumin." },
+    "difficulty": 2
+  },
+  {
+    "id": "endo_006",
+    "category": "Endodontics",
+    "question": { "en": "What is MTA and when is it indicated in endodontics?", "sq": "Çfarë është MTA dhe kur indikohet në endodonci?" },
+    "answer": { "en": "Mineral Trioxide Aggregate; indicated for perforation repair, apexification, pulp capping, and root-end filling.", "sq": "Agregat Mineral Trioksid; indikohet për riparimin e perforacioneve, apeksifikimin, mbulimin e pulpës dhe mbushjen e fundit të rrënjës." },
+    "difficulty": 3
+  },
+  {
+    "id": "car_001",
+    "category": "Cariology",
+    "question": { "en": "What is the critical pH for enamel demineralization?", "sq": "Cili është pH kritik për demineralizimin e smaltit?" },
+    "answer": { "en": "Approximately 5.5.", "sq": "Përafërsisht 5.5." },
+    "difficulty": 1
+  },
+  {
+    "id": "car_002",
+    "category": "Cariology",
+    "question": { "en": "Which bacterium is most strongly associated with the initiation of dental caries?", "sq": "Cila bakteri lidhet më fort me inicimin e kariesit dentar?" },
+    "answer": { "en": "Streptococcus mutans.", "sq": "Streptococcus mutans." },
+    "difficulty": 1
+  },
+  {
+    "id": "car_003",
+    "category": "Cariology",
+    "question": { "en": "Describe the four factors in the Keyes/Newbrun caries model.", "sq": "Përshkruani katër faktorët në modelin e kariesit Keyes/Newbrun." },
+    "answer": { "en": "Host (tooth), microorganisms, substrate (diet), and time.", "sq": "Pritësi (dhëmbi), mikroorganizmat, substrati (dieta) dhe koha." },
+    "difficulty": 2
+  },
+  {
+    "id": "car_004",
+    "category": "Cariology",
+    "question": { "en": "How does fluoride prevent dental caries?", "sq": "Si e parandalon fluoridi kariesin dentar?" },
+    "answer": { "en": "It promotes remineralization, forms fluorapatite which is more acid-resistant, and inhibits bacterial metabolism.", "sq": "Nxit rimineralizimin, formon fluorapatitin që është më rezistent ndaj acidit dhe frenon metabolizmin bakterial." },
+    "difficulty": 2
+  },
+  {
+    "id": "car_005",
+    "category": "Cariology",
+    "question": { "en": "What is the ICDAS classification system used for?", "sq": "Për çfarë përdoret sistemi i klasifikimit ICDAS?" },
+    "answer": { "en": "For visual detection and assessment of dental caries severity, ranging from sound surface to extensive cavitation.", "sq": "Për zbulimin vizual dhe vlerësimin e ashpërsisë së kariesit dentar, nga sipërfaqja e shëndoshë deri në kavitacion të gjerë." },
+    "difficulty": 2
+  },
+  {
+    "id": "car_006",
+    "category": "Cariology",
+    "question": { "en": "What is the difference between arrested and active caries?", "sq": "Cili është ndryshimi midis kariesit të ndalur dhe atij aktiv?" },
+    "answer": { "en": "Arrested caries is hard, dark, and shiny with no progression; active caries is soft, light-colored, and progressing.", "sq": "Kariesi i ndalur është i fortë, i errët dhe me shkëlqim pa progresion; kariesi aktiv është i butë, me ngjyrë të çelët dhe në progresion." },
+    "difficulty": 2
+  },
+  {
+    "id": "pros_001",
+    "category": "Prosthodontics",
+    "question": { "en": "What is the minimum occlusal clearance needed for a full metal crown?", "sq": "Sa është hapësira minimale okluzale e nevojshme për një kurorë të plotë metalike?" },
+    "answer": { "en": "Approximately 1.0–1.5 mm.", "sq": "Përafërsisht 1.0–1.5 mm." },
+    "difficulty": 2
+  },
+  {
+    "id": "pros_002",
+    "category": "Prosthodontics",
+    "question": { "en": "What is Kennedy Class I in removable partial denture classification?", "sq": "Çfarë është Klasa I e Kennedy-t në klasifikimin e protezës së pjesshme?" },
+    "answer": { "en": "Bilateral edentulous areas posterior to the remaining natural teeth.", "sq": "Zona të dyanshme pa dhëmbë posteriore ndaj dhëmbëve natyralë të mbetur." },
+    "difficulty": 2
+  },
+  {
+    "id": "pros_003",
+    "category": "Prosthodontics",
+    "question": { "en": "What is the purpose of a post and core in a root-canal-treated tooth?", "sq": "Cili është qëllimi i shtyllës dhe bërthamës në një dhëmb të trajtuar endodontikisht?" },
+    "answer": { "en": "To retain the core restoration when insufficient coronal tooth structure remains to support a crown.", "sq": "Për të mbajtur restaurimin bërthamor kur nuk ka mbetur mjaftueshëm strukturë koronale për të mbështetur një kurorë." },
+    "difficulty": 2
+  },
+  {
+    "id": "pros_004",
+    "category": "Prosthodontics",
+    "question": { "en": "What impression material is most commonly used for fixed prosthodontics?", "sq": "Cili material për imprension përdoret më shpesh në protetikën fikse?" },
+    "answer": { "en": "Addition silicone (polyvinyl siloxane / PVS).", "sq": "Silikoni i adicionit (polivinil siloksan / PVS)." },
+    "difficulty": 1
+  },
+  {
+    "id": "pros_005",
+    "category": "Prosthodontics",
+    "question": { "en": "What is the Christensen phenomenon in complete denture prosthodontics?", "sq": "Çfarë është fenomeni i Christensen-it në protetikën e protezave të plota?" },
+    "answer": { "en": "A gap that appears between the posterior teeth during protrusive mandibular movement, compensated by the curve of Spee and condylar inclination.", "sq": "Një hapësirë që shfaqet midis dhëmbëve posteriorë gjatë lëvizjes protruzive mandibulare, e kompensuar nga kurba e Spee-t dhe inklinimi kondilar." },
+    "difficulty": 3
+  },
+  {
+    "id": "anat_001",
+    "category": "Anatomy",
+    "question": { "en": "Which nerve provides sensory innervation to the lower teeth?", "sq": "Cili nerv siguron inervimin senzor të dhëmbëve të poshtëm?" },
+    "answer": { "en": "The inferior alveolar nerve, a branch of the mandibular division (V3) of the trigeminal nerve.", "sq": "Nervi alveolar inferior, degë e ndarjes mandibulare (V3) të nervit trigeminal." },
+    "difficulty": 1
+  },
+  {
+    "id": "anat_002",
+    "category": "Anatomy",
+    "question": { "en": "How many roots does a maxillary first molar typically have?", "sq": "Sa rrënjë ka zakonisht molari i parë maksolar?" },
+    "answer": { "en": "Three roots: mesiobuccal, distobuccal, and palatal.", "sq": "Tri rrënjë: meziobukale, distobukale dhe palatinale." },
+    "difficulty": 1
+  },
+  {
+    "id": "anat_003",
+    "category": "Anatomy",
+    "question": { "en": "What is the blood supply to the dental pulp?", "sq": "Cila është furnizimi me gjak i pulpës dentare?" },
+    "answer": { "en": "Branches of the superior and inferior alveolar arteries enter through the apical foramen.", "sq": "Degët e arterieve alveolare superiore dhe inferiore hyjnë nëpërmjet foraminës apikale." },
+    "difficulty": 2
+  },
+  {
+    "id": "anat_004",
+    "category": "Anatomy",
+    "question": { "en": "What are the borders of the anatomical snuffbox?", "sq": "Cilat janë kufijtë e kutisë anatomike të duhani?" },
+    "answer": { "en": "Laterally: tendons of abductor pollicis longus and extensor pollicis brevis; medially: tendon of extensor pollicis longus; floor: scaphoid and trapezium.", "sq": "Anash: tendinat e abductor pollicis longus dhe extensor pollicis brevis; medialisht: tendina e extensor pollicis longus; dyshemeja: skafoidi dhe trapeziumi." },
+    "difficulty": 3
+  },
+  {
+    "id": "anat_005",
+    "category": "Anatomy",
+    "question": { "en": "Which foramen transmits the mental nerve?", "sq": "Cila foraminë transmeton nervin mental?" },
+    "answer": { "en": "The mental foramen, located on the body of the mandible, usually below the second premolar.", "sq": "Foramina mentale, e vendosur në trupin e mandibulës, zakonisht nën premolarin e dytë." },
+    "difficulty": 1
+  },
+  {
+    "id": "anat_006",
+    "category": "Anatomy",
+    "question": { "en": "What is the innervation of the muscles of mastication?", "sq": "Cili është inervimi i muskujve të përtypjes?" },
+    "answer": { "en": "The mandibular division (V3) of the trigeminal nerve (CN V).", "sq": "Ndarja mandibulare (V3) e nervit trigeminal (CN V)." },
+    "difficulty": 1
+  },
+  {
+    "id": "perio_001",
+    "category": "Periodontology",
+    "question": { "en": "What is the normal depth of a healthy gingival sulcus?", "sq": "Sa është thellësia normale e sulkusit gingival të shëndoshë?" },
+    "answer": { "en": "1–3 mm.", "sq": "1–3 mm." },
+    "difficulty": 1
+  },
+  {
+    "id": "perio_002",
+    "category": "Periodontology",
+    "question": { "en": "What is the difference between gingivitis and periodontitis?", "sq": "Cili është ndryshimi midis gingivitit dhe periodontitit?" },
+    "answer": { "en": "Gingivitis is reversible inflammation limited to the gingiva; periodontitis involves irreversible loss of attachment and alveolar bone.", "sq": "Gingiviti është inflamacion i kthyeshëm i kufizuar në gingiva; periodontiti përfshin humbje të pakthyeshme të atashimit dhe kockës alveolare." },
+    "difficulty": 1
+  },
+  {
+    "id": "perio_003",
+    "category": "Periodontology",
+    "question": { "en": "What is the biological width and why is it clinically important?", "sq": "Çfarë është gjerësia biologjike dhe pse është klinikisht e rëndësishme?" },
+    "answer": { "en": "The combined height of junctional epithelium (~0.97 mm) and connective tissue attachment (~1.07 mm) ≈ 2 mm. Violating it causes chronic inflammation.", "sq": "Lartësia e kombinuar e epitelit bashkues (~0.97 mm) dhe lidhjes së indit lidhor (~1.07 mm) ≈ 2 mm. Shkelja e saj shkakton inflamacion kronik." },
+    "difficulty": 3
+  },
+  {
+    "id": "perio_004",
+    "category": "Periodontology",
+    "question": { "en": "What are the main risk factors for periodontal disease?", "sq": "Cilat janë faktorët kryesorë të rrezikut për sëmundjen periodontale?" },
+    "answer": { "en": "Smoking, diabetes, poor oral hygiene, genetic predisposition, and stress.", "sq": "Pirja e duhanit, diabeti, higjienë e dobët orale, predispozicioni gjenetik dhe stresi." },
+    "difficulty": 1
+  },
+  {
+    "id": "perio_005",
+    "category": "Periodontology",
+    "question": { "en": "What is scaling and root planing (SRP)?", "sq": "Çfarë është pastrimi dhe rrafshimi i rrënjëve (SRP)?" },
+    "answer": { "en": "A non-surgical procedure to remove plaque, calculus, and bacterial toxins from tooth surfaces and root surfaces below the gumline.", "sq": "Një procedurë jokirurgjikale për heqjen e pllakës, gurit dhe toksinave bakteriale nga sipërfaqet e dhëmbëve dhe rrënjëve nën vijën e mishrave." },
+    "difficulty": 1
+  },
+  {
+    "id": "surg_001",
+    "category": "Oral Surgery",
+    "question": { "en": "What is the most common complication after extraction of a mandibular third molar?", "sq": "Cila është komplikacioni më i shpeshtë pas nxjerrjes së molarit të tretë mandibular?" },
+    "answer": { "en": "Alveolar osteitis (dry socket).", "sq": "Osteiti alveolar (alveoliti i thatë)." },
+    "difficulty": 1
+  },
+  {
+    "id": "surg_002",
+    "category": "Oral Surgery",
+    "question": { "en": "Which local anaesthetic is most commonly used in dentistry?", "sq": "Cili anestetik lokal përdoret më shpesh në stomatologji?" },
+    "answer": { "en": "Lidocaine 2% with 1:100,000 epinephrine.", "sq": "Lidokainë 2% me epinefrinë 1:100,000." },
+    "difficulty": 1
+  },
+  {
+    "id": "surg_003",
+    "category": "Oral Surgery",
+    "question": { "en": "What precautions should be taken before extracting a tooth in a patient on anticoagulant therapy?", "sq": "Cilat masa paraprake duhet të merren para nxjerrjes së një dhëmbi te pacienti nën terapi antikoagulante?" },
+    "answer": { "en": "Consult the physician, check INR (should be ≤3.5 for warfarin), use local hemostatic measures, and avoid stopping anticoagulants without medical advice.", "sq": "Konsultohuni me mjekun, kontrolloni INR (duhet të jetë ≤3.5 për varfarinë), përdorni masa hemostatike lokale dhe mos ndërprisni antikoagulantët pa këshillë mjekësore." },
+    "difficulty": 3
+  },
+  {
+    "id": "surg_004",
+    "category": "Oral Surgery",
+    "question": { "en": "What are the indications for surgical extraction of an impacted third molar?", "sq": "Cilat janë indikacionet për nxjerrjen kirurgjikale të molarit të tretë të impaktuar?" },
+    "answer": { "en": "Recurrent pericoronitis, caries on the third molar or adjacent tooth, cyst formation, orthodontic reasons, and pathology.", "sq": "Perikoroniti i përsëritur, kariesi në molarin e tretë ose dhëmbin ngjitur, formimi i cistës, arsye ortodontike dhe patologji." },
+    "difficulty": 2
+  },
+  {
+    "id": "surg_005",
+    "category": "Oral Surgery",
+    "question": { "en": "What is the difference between an incisional and excisional biopsy?", "sq": "Cili është ndryshimi midis biopsisë incizionale dhe ekscizionale?" },
+    "answer": { "en": "Incisional biopsy removes a representative portion of the lesion; excisional biopsy removes the entire lesion.", "sq": "Biopsia incizionale heq një pjesë përfaqësuese të lezionit; biopsia ekscizionale heq të gjithë lezionin." },
+    "difficulty": 2
+  },
+  {
+    "id": "ortho_001",
+    "category": "Orthodontics",
+    "question": { "en": "What is Angle's Class II Division 1 malocclusion?", "sq": "Çfarë është malokluzioni Klasa II Ndarja 1 e Angle-it?" },
+    "answer": { "en": "The mesiobuccal cusp of the upper first molar is mesial to the buccal groove of the lower first molar, with proclined upper incisors and increased overjet.", "sq": "Kuspidi meziobukale i molarit të parë të sipërm është mezial ndaj brazdës bukale të molarit të parë të poshtëm, me incizivë të sipërm të proklinarë dhe overjet të shtuar." },
+    "difficulty": 2
+  },
+  {
+    "id": "ortho_002",
+    "category": "Orthodontics",
+    "question": { "en": "What is the ideal overjet and overbite in normal occlusion?", "sq": "Sa janë overjet-i dhe overbite-i ideal në okulucionin normal?" },
+    "answer": { "en": "Overjet: 2–4 mm; Overbite: 2–4 mm (approximately one-third coverage of the lower incisors).", "sq": "Overjet: 2–4 mm; Overbite: 2–4 mm (përafërsisht një të tretën e mbulimit të incizivëve të poshtëm)." },
+    "difficulty": 1
+  },
+  {
+    "id": "ortho_003",
+    "category": "Orthodontics",
+    "question": { "en": "What is the difference between removable and fixed orthodontic appliances?", "sq": "Cili është ndryshimi midis aparaturave ortodontike të lëvizshme dhe fikse?" },
+    "answer": { "en": "Removable appliances are for simple tipping movements and can be taken out by the patient; fixed appliances allow precise three-dimensional tooth movement.", "sq": "Aparaturat e lëvizshme janë për lëvizje të thjeshta animit dhe mund të hiqen nga pacienti; aparaturat fikse lejojnë lëvizje precize tredimensionale të dhëmbit." },
+    "difficulty": 1
+  },
+  {
+    "id": "path_001",
+    "category": "Oral Pathology",
+    "question": { "en": "What is the most common odontogenic cyst?", "sq": "Cila është cista odontogjenike më e shpeshtë?" },
+    "answer": { "en": "Radicular (periapical) cyst.", "sq": "Cista radikulare (periapikale)." },
+    "difficulty": 1
+  },
+  {
+    "id": "path_002",
+    "category": "Oral Pathology",
+    "question": { "en": "What is leukoplakia and is it premalignant?", "sq": "Çfarë është leukoplakia dhe a është paraneoplazike?" },
+    "answer": { "en": "A white patch on the oral mucosa that cannot be scraped off or classified as any other disease. It is considered a potentially premalignant disorder with 1–5% malignant transformation rate.", "sq": "Një njollë e bardhë në mukozën orale që nuk mund të hiqet me fërkim ose të klasifikohet si ndonjë sëmundje tjetër. Konsiderohet çrregullim potencialisht paraneoplazik me shkallë transformimi malinj 1–5%." },
+    "difficulty": 2
+  },
+  {
+    "id": "path_003",
+    "category": "Oral Pathology",
+    "question": { "en": "What are the clinical features of oral lichen planus?", "sq": "Cilat janë tiparet klinike të liken planusit oral?" },
+    "answer": { "en": "White, reticular (Wickham's striae) pattern on buccal mucosa, may present as erosive/ulcerative form; bilateral; chronic.", "sq": "Model i bardhë, retikular (stritë të Wickham-it) në mukozën bukale, mund të shfaqet si formë erozive/ulcerative; bilateral; kronike." },
+    "difficulty": 2
+  },
+  {
+    "id": "path_004",
+    "category": "Oral Pathology",
+    "question": { "en": "What is an ameloblastoma?", "sq": "Çfarë është ameloblastoma?" },
+    "answer": { "en": "A benign but locally aggressive odontogenic tumor most commonly found in the posterior mandible, with high recurrence rate if not adequately excised.", "sq": "Një tumor odontogjen beninj por lokalisht agresiv, më shpesh në mandibulën posteriore, me shkallë të lartë përsëritjeje nëse nuk ekscidohet mjaftueshëm." },
+    "difficulty": 3
+  },
+  {
+    "id": "pharm_001",
+    "category": "Pharmacology",
+    "question": { "en": "What is the maximum recommended dose of lidocaine with epinephrine for a 70 kg adult?", "sq": "Sa është doza maksimale e rekomanduar e lidokainës me epinefrinë për një të rritur 70 kg?" },
+    "answer": { "en": "7 mg/kg, so 490 mg (approximately 13 cartridges of 2% lidocaine at 1.8 mL each).", "sq": "7 mg/kg, pra 490 mg (përafërsisht 13 kartusha të lidokainës 2% me 1.8 mL secila)." },
+    "difficulty": 2
+  },
+  {
+    "id": "pharm_002",
+    "category": "Pharmacology",
+    "question": { "en": "Which antibiotic is first-line for odontogenic infections?", "sq": "Cili antibiotik është i linjës së parë për infeksionet odontogjenike?" },
+    "answer": { "en": "Amoxicillin 500 mg three times daily. Clindamycin for penicillin-allergic patients.", "sq": "Amoksicilinë 500 mg tri herë në ditë. Klindamicinë për pacientët alergjikë ndaj penicilinës." },
+    "difficulty": 1
+  },
+  {
+    "id": "pharm_003",
+    "category": "Pharmacology",
+    "question": { "en": "Why is epinephrine added to local anaesthetics in dentistry?", "sq": "Pse shtohet epinefrina në anestetikët lokalë në stomatologji?" },
+    "answer": { "en": "It causes local vasoconstriction, which slows absorption, prolongs anaesthetic duration, reduces bleeding, and lowers systemic toxicity.", "sq": "Shkakton vazokonstriksion lokal, që ngadalëson absorbimin, zgjat kohëzgjatjen e anestezisë, pakëson gjakderdhjen dhe ul toksicitetin sistemik." },
+    "difficulty": 1
+  },
+  {
+    "id": "pharm_004",
+    "category": "Pharmacology",
+    "question": { "en": "What analgesic regimen is recommended after a dental extraction?", "sq": "Cili regjim analgjezik rekomandohet pas nxjerrjes së dhëmbit?" },
+    "answer": { "en": "Ibuprofen 400–600 mg every 6–8 hours, often combined with paracetamol 1 g for synergistic effect.", "sq": "Ibuprofen 400–600 mg çdo 6–8 orë, shpesh i kombinuar me paracetamol 1 g për efekt sinergjik." },
+    "difficulty": 1
+  },
+  {
+    "id": "radio_001",
+    "category": "Radiology",
+    "question": { "en": "What is the difference between a periapical and a panoramic radiograph?", "sq": "Cili është ndryshimi midis një radiografie periapikale dhe një panoramike?" },
+    "answer": { "en": "Periapical shows 2–3 teeth with detailed root and periapical anatomy; panoramic shows the entire maxillofacial region in a single image.", "sq": "Periapikalja tregon 2–3 dhëmbë me anatomi të detajuar të rrënjës dhe zonës periapikale; panoramikja tregon të gjithë rajonin maksilofacial në një imazh të vetëm." },
+    "difficulty": 1
+  },
+  {
+    "id": "radio_002",
+    "category": "Radiology",
+    "question": { "en": "What does ALARA stand for and why is it important in dental radiology?", "sq": "Çfarë do të thotë ALARA dhe pse është e rëndësishme në radiologjinë dentare?" },
+    "answer": { "en": "As Low As Reasonably Achievable — the principle of minimizing radiation exposure to patients while obtaining diagnostically adequate images.", "sq": "Aq e Ulët Sa Arsyeshëm e Arritshme — parimi i minimizimit të ekspozimit ndaj rrezatimit duke marrë imazhe diagnostikisht adekuate." },
+    "difficulty": 1
+  },
+  {
+    "id": "radio_003",
+    "category": "Radiology",
+    "question": { "en": "What radiographic sign suggests a periapical abscess?", "sq": "Cila shenjë radiografike sugjeron një absces periapical?" },
+    "answer": { "en": "A well-defined or diffuse radiolucency at the apex of the affected tooth.", "sq": "Një radiotransparencë e mirëpërcaktuar ose difuze në apeksin e dhëmbit të prekur." },
+    "difficulty": 1
+  },
+  {
+    "id": "pedo_001",
+    "category": "Pediatric Dentistry",
+    "question": { "en": "At what age does the first primary tooth typically erupt?", "sq": "Në cilën moshë del zakonisht dhëmbi i parë i qumështit?" },
+    "answer": { "en": "Around 6 months of age (mandibular central incisor).", "sq": "Rreth moshës 6 muajsh (incizivi qendror mandibular)." },
+    "difficulty": 1
+  },
+  {
+    "id": "pedo_002",
+    "category": "Pediatric Dentistry",
+    "question": { "en": "What is a space maintainer and when is it indicated?", "sq": "Çfarë është mbajtësi i hapësirës dhe kur indikohet?" },
+    "answer": { "en": "A fixed or removable appliance used to preserve the space of a prematurely lost primary tooth until the permanent successor erupts.", "sq": "Një aparaturë fikse ose e lëvizshme që përdoret për ruajtjen e hapësirës së një dhëmbi qumështi të humbur para kohe derisa të dalë dhëmbi i përhershëm pasardhës." },
+    "difficulty": 2
+  },
+  {
+    "id": "pedo_003",
+    "category": "Pediatric Dentistry",
+    "question": { "en": "What is pulpotomy in primary teeth?", "sq": "Çfarë është pulpotomia në dhëmbët e qumështit?" },
+    "answer": { "en": "Removal of the coronal pulp while preserving the vital radicular pulp, typically using formocresol or MTA.", "sq": "Heqja e pulpës koronale duke ruajtur pulpën radikulare vitale, zakonisht duke përdorur formokrezol ose MTA." },
+    "difficulty": 2
+  },
+  {
+    "id": "mat_001",
+    "category": "Dental Materials",
+    "question": { "en": "What are the main components of glass ionomer cement (GIC)?", "sq": "Cilat janë komponentët kryesorë të çimentos glas jonomer (GIC)?" },
+    "answer": { "en": "Powder: fluoroaluminosilicate glass; Liquid: polyacrylic acid. GIC bonds chemically to tooth structure and releases fluoride.", "sq": "Pluhuri: qelq fluoroaluminosilikat; Lëngu: acid poliakrillik. GIC lidhet kimikisht me strukturën e dhëmbit dhe çliron fluorid." },
+    "difficulty": 2
+  },
+  {
+    "id": "mat_002",
+    "category": "Dental Materials",
+    "question": { "en": "What is the difference between composite resin and amalgam restorations?", "sq": "Cili është ndryshimi midis restaurimeve me rezinë kompozite dhe amalgamë?" },
+    "answer": { "en": "Composite is tooth-colored, bonds adhesively, and requires less tooth removal; amalgam is silver-colored, self-retentive, and more durable in high-stress posterior areas.", "sq": "Kompoziti ka ngjyrën e dhëmbit, lidhet me ngjitje dhe kërkon më pak heqje të dhëmbit; amalgama ka ngjyrë argjendi, vetëmbajtëse dhe më e qëndrueshme në zona posteriore me stres të lartë." },
+    "difficulty": 1
+  },
+  {
+    "id": "mat_003",
+    "category": "Dental Materials",
+    "question": { "en": "What is the setting reaction of zinc oxide eugenol cement?", "sq": "Cila është reaksioni i ngurtësimit të çimentos oksid zinku eugenol?" },
+    "answer": { "en": "Zinc oxide reacts with eugenol to form zinc eugenolate, a chelate compound, in a slow acid-base setting reaction.", "sq": "Oksidi i zinkut reagon me eugenolin për të formuar eugenolat zinku, një komponim kelat, në një reaksion ngurtësimi acid-bazë të ngadaltë." },
+    "difficulty": 2
+  }
+]
