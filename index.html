@@ -454,21 +454,10 @@ function openSubject(sub) {
 
 function openSubjectTopics() {
   const sub = currentSubject;
-  document.getElementById('back-topics').textContent = ui('back');
-  document.getElementById('topic-subject-name').textContent = sub.emoji + ' ' + t(sub.name);
-  document.getElementById('topic-subject-desc').textContent = t(sub.desc);
-  const list = document.getElementById('topic-list');
-  list.innerHTML = '';
-  sub.topics.forEach(topic => {
-    const key = sub.id + '_' + (topic.name.en || topic.name);
-    const sc = stats.topicScores[key];
-    const card = document.createElement('div');
-    card.className = 'topic-card';
-    card.innerHTML = `<div class="left"><div class="name">${t(topic.name)}</div><div class="meta">${topic.questions.length} ${ui('questions')}</div></div><div class="right">${sc ? `<span class="score">${Math.round(sc.correct/sc.answered*100)}%</span>` : ''}<span class="arrow">›</span></div>`;
-    card.onclick = () => startQuiz(topic);
-    list.appendChild(card);
-  });
-  showScreen('topics');
+  // Combine all questions from all topics into one quiz
+  const allQs = sub.topics.reduce((acc, tp) => acc.concat(tp.questions), []);
+  const combinedTopic = { name: sub.name, questions: allQs };
+  startQuiz(combinedTopic);
 }
 
 // ===== QUIZ =====

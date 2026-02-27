@@ -740,6 +740,131 @@
               "en": "The lingual nerve (branch of V3) provides general sensation (touch, pain, temperature) to the anterior 2/3 of the tongue, floor of mouth, and lingual gingiva.",
               "sq": "Nervi lingual (degë e V3) siguron ndjeshmëri të përgjithshme për 2/3 anteriore të gjuhës, dyshemenë e gojës dhe gingivën linguale."
             }
+          },
+          {
+            "q": {
+              "en": "The floor of the mouth is primarily formed by which muscle?",
+              "sq": "Dyshemeja e gojës formohet kryesisht nga cili muskul?"
+            },
+            "options": {
+              "en": [
+                "Geniohyoid",
+                "Stylohyoid",
+                "Mylohyoid",
+                "Digastric"
+              ],
+              "sq": [
+                "Geniohioidi",
+                "Stilohioidi",
+                "Milohioidi",
+                "Digastriku"
+              ]
+            },
+            "correct": 2,
+            "explanation": {
+              "en": "The mylohyoid muscle forms a muscular diaphragm (floor of the mouth), separating the oral cavity from the submandibular region.",
+              "sq": "Milohioidi formon diafragmën muskulore të gojës."
+            }
+          },
+          {
+            "q": {
+              "en": "Which artery is the main blood supply to the face?",
+              "sq": "Cila arterie është furnizimi kryesor me gjak i fytyrës?"
+            },
+            "options": {
+              "en": [
+                "Internal carotid",
+                "Vertebral artery",
+                "Maxillary artery",
+                "Facial artery"
+              ],
+              "sq": [
+                "Karotida interne",
+                "Arteria vertebrale",
+                "Arteria maksilare",
+                "Arteria faciale"
+              ]
+            },
+            "correct": 3,
+            "explanation": {
+              "en": "The facial artery (branch of external carotid) provides the main blood supply to the face, giving off inferior/superior labial and angular arteries.",
+              "sq": "Arteria faciale (degë e karotidës eksterne) është furnizuesi kryesor."
+            }
+          },
+          {
+            "q": {
+              "en": "The mandibular foramen is located on which surface of the ramus?",
+              "sq": "Forameni mandibular ndodhet në cilën sipërfaqe të ramusit?"
+            },
+            "options": {
+              "en": [
+                "Medial",
+                "Lateral",
+                "Anterior",
+                "Posterior"
+              ],
+              "sq": [
+                "Mediale",
+                "Laterale",
+                "Anteriore",
+                "Posteriore"
+              ]
+            },
+            "correct": 0,
+            "explanation": {
+              "en": "The mandibular foramen is on the medial surface of the ramus. The lingula is a bony projection anterior to it — landmark for IAN block injection.",
+              "sq": "Forameni mandibular është në sipërfaqen mediale të ramusit. Lingula është pikë referuese për bllokun e IAN."
+            }
+          },
+          {
+            "q": {
+              "en": "How many primary (deciduous) teeth does a child have?",
+              "sq": "Sa dhëmbë primarë (qumështorë) ka një fëmijë?"
+            },
+            "options": {
+              "en": [
+                "20",
+                "28",
+                "32",
+                "24"
+              ],
+              "sq": [
+                "20",
+                "28",
+                "32",
+                "24"
+              ]
+            },
+            "correct": 0,
+            "explanation": {
+              "en": "Children have 20 primary teeth: 8 incisors, 4 canines, 8 molars. No premolars in primary dentition. Primary dentition is complete by approximately age 2.5-3 years.",
+              "sq": "Fëmijët kanë 20 dhëmbë primarë: 8 incizivë, 4 kaninë, 8 molarë. Përfundon rreth moshës 2.5-3 vjeç."
+            }
+          },
+          {
+            "q": {
+              "en": "The retromolar pad is located:",
+              "sq": "Zona retromolare ndodhet:"
+            },
+            "options": {
+              "en": [
+                "Behind the last mandibular molar",
+                "Below the tongue",
+                "On the palate",
+                "Anterior to canines"
+              ],
+              "sq": [
+                "Pas molarit të fundit mandibular",
+                "Nën gjuhë",
+                "Në qiellzë",
+                "Para kaninëve"
+              ]
+            },
+            "correct": 0,
+            "explanation": {
+              "en": "The retromolar pad is a soft tissue pad posterior to the last mandibular molar. Important landmark in prosthodontics for denture extension and in surgery for third molar access.",
+              "sq": "Zona retromolare është ind i butë pas molarit të fundit. E rëndësishme në protetikë dhe kirurgji."
+            }
           }
         ]
       },
@@ -1360,6 +1485,131 @@
             "explanation": {
               "en": "Epinephrine stimulates alpha receptors (vasoconstriction) while beta-2 vasodilation is blocked. This can cause severe hypertension with reflex bradycardia. Use minimal epinephrine (max 2 cartridges of 1:100,000) with careful aspiration.",
               "sq": "Epinefrina stimulon receptorët alfa (vazokonstriksion) ndërsa vazodilatimi beta-2 është i bllokuar. Kjo mund të shkaktojë hipertension të rëndë. Përdor epinefrinë minimale (maks 2 karpula 1:100,000)."
+            }
+          },
+          {
+            "q": {
+              "en": "Tramadol is classified as which type of analgesic?",
+              "sq": "Tramadoli klasifikohet si çfarë lloj analgjeziku?"
+            },
+            "options": {
+              "en": [
+                "Muscle relaxant",
+                "Local anesthetic",
+                "NSAID",
+                "Weak opioid analgesic"
+              ],
+              "sq": [
+                "Relaksues muskulor",
+                "Anestetik lokal",
+                "NSAID",
+                "Analgjezik opioid i dobët"
+              ]
+            },
+            "correct": 3,
+            "explanation": {
+              "en": "Tramadol is a weak opioid (mu-receptor agonist) also inhibiting serotonin/norepinephrine reuptake. Used for moderate dental pain when NSAIDs insufficient. Risk: nausea, dizziness, dependence potential.",
+              "sq": "Tramadoli është opioid i dobët. Përdoret për dhimbje të moderuar kur NSAID-të nuk mjaftojnë."
+            }
+          },
+          {
+            "q": {
+              "en": "What is the drug of choice for oral candidiasis (thrush)?",
+              "sq": "Cili është medikamenti i zgjedhur për kandidozën orale?"
+            },
+            "options": {
+              "en": [
+                "Metronidazole",
+                "Amoxicillin",
+                "Acyclovir",
+                "Fluconazole or nystatin"
+              ],
+              "sq": [
+                "Metronidazoli",
+                "Amoksiçilina",
+                "Açikloviri",
+                "Flukonazoli ose nistatina"
+              ]
+            },
+            "correct": 3,
+            "explanation": {
+              "en": "Oral candidiasis: topical nystatin (100,000 IU QID) for mild cases, systemic fluconazole (100-200mg/day for 7-14 days) for moderate-severe. Caused by Candida albicans, common in denture wearers, immunocompromised, after antibiotics.",
+              "sq": "Kandidoza orale: nistatin topikale për raste të lehta, flukonazol sistemik për moderate-severe."
+            }
+          },
+          {
+            "q": {
+              "en": "Azithromycin is preferred over erythromycin in dentistry because:",
+              "sq": "Azitromicina preferohet mbi eritromicinën në stomatologji sepse:"
+            },
+            "options": {
+              "en": [
+                "Better tissue penetration and once-daily dosing",
+                "It is cheaper",
+                "It has no side effects",
+                "It treats viral infections"
+              ],
+              "sq": [
+                "Depërtim më i mirë në inde dhe dozim njëherë në ditë",
+                "Është më e lirë",
+                "Nuk ka efekte anësore",
+                "Trajton infeksione virale"
+              ]
+            },
+            "correct": 0,
+            "explanation": {
+              "en": "Azithromycin: superior tissue penetration, long half-life (68h) allowing 3-5 day courses, once-daily dosing improves compliance. Same spectrum as erythromycin but better tolerated GI-wise.",
+              "sq": "Azitromicina: depërtim superior, gjysma-jetë e gjatë (68h), dozim njëherë në ditë, toleruar më mirë."
+            }
+          },
+          {
+            "q": {
+              "en": "The main risk of long-term NSAID use in dental patients is:",
+              "sq": "Rreziku kryesor i përdorimit afatgjatë të NSAID-ve është:"
+            },
+            "options": {
+              "en": [
+                "Tooth discoloration",
+                "Gastrointestinal ulceration and bleeding",
+                "Hair loss",
+                "Increased caries risk"
+              ],
+              "sq": [
+                "Ngjyrosje dhëmbësh",
+                "Ulçerim gastrointestinal dhe gjakderdhje",
+                "Rënie flokësh",
+                "Rritje rreziku kariesi"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "NSAIDs inhibit COX-1 (protective prostaglandins in gastric mucosa) → increased risk of peptic ulcers and GI bleeding. Also: renal impairment, cardiovascular risk, platelet inhibition. Prescribe with PPI for patients at risk.",
+              "sq": "NSAID-të inhibojnë COX-1 → rrezik ulcerash peptike dhe gjakderdhje GI. Përshkruaj me PPI për pacientë me rrezik."
+            }
+          },
+          {
+            "q": {
+              "en": "Which vitamin deficiency causes delayed wound healing after oral surgery?",
+              "sq": "Cili deficit vitaminor shkakton vonesë në shërimin e plagës pas kirurgjisë?"
+            },
+            "options": {
+              "en": [
+                "Vitamin C",
+                "Vitamin D",
+                "Vitamin B12",
+                "Vitamin A"
+              ],
+              "sq": [
+                "Vitamina C",
+                "Vitamina D",
+                "Vitamina B12",
+                "Vitamina A"
+              ]
+            },
+            "correct": 0,
+            "explanation": {
+              "en": "Vitamin C (ascorbic acid) is essential for collagen synthesis. Deficiency (scurvy) → impaired wound healing, gingival swelling/bleeding, tooth mobility. Also important: Vitamin A (epithelialization), Vitamin D (bone healing), Zinc.",
+              "sq": "Vitamina C është thelbësore për sintezën e kolagjenit. Deficiti → shërim i dëmtuar, gingiva të ënjtjura."
             }
           }
         ]
@@ -2107,6 +2357,131 @@
               "en": "The radicular (periapical) cyst is the most common odontogenic cyst (~50-70% of all jaw cysts). It develops from epithelial cell rests of Malassez stimulated by periapical inflammation from a non-vital tooth.",
               "sq": "Cista radikulare (periapikale) është cista odontogjene më e shpeshtë (~50-70%). Zhvillohet nga mbetjet epiteliale të Malassez të stimuluara nga inflamacioni periapìkal."
             }
+          },
+          {
+            "q": {
+              "en": "What is the treatment for a displaced condylar fracture in adults?",
+              "sq": "Cili është trajtimi për frakturë kondilare të zhvendosur te adultët?"
+            },
+            "options": {
+              "en": [
+                "No treatment needed",
+                "Extraction of all molars",
+                "Open reduction and internal fixation (ORIF) or closed reduction with IMF",
+                "Antibiotic therapy only"
+              ],
+              "sq": [
+                "Nuk nevojitet trajtim",
+                "Ekstraktim i të gjithë molarëve",
+                "Reduktim i hapur dhe fiksim intern (ORIF) ose reduktim i mbyllur me IMF",
+                "Vetëm terapi antibiotike"
+              ]
+            },
+            "correct": 2,
+            "explanation": {
+              "en": "Displaced condylar fractures: ORIF with miniplates for significant displacement, or closed reduction with intermaxillary fixation (IMF) for 2-4 weeks. Early mobilization important to prevent ankylosis.",
+              "sq": "Fraktura kondilare të zhvendosura: ORIF me minipllaka ose reduktim i mbyllur me IMF 2-4 javë."
+            }
+          },
+          {
+            "q": {
+              "en": "Pericoronitis most commonly affects which tooth?",
+              "sq": "Perikoroniti prek më shpesh cilin dhëmb?"
+            },
+            "options": {
+              "en": [
+                "Maxillary first premolar",
+                "Maxillary canine",
+                "Mandibular first molar",
+                "Mandibular third molar"
+              ],
+              "sq": [
+                "Premolari i parë maksillare",
+                "Kanini maksillare",
+                "Molari i parë mandibular",
+                "Molari i tretë mandibular"
+              ]
+            },
+            "correct": 3,
+            "explanation": {
+              "en": "Pericoronitis: inflammation of soft tissue (operculum) around a partially erupted tooth, most commonly mandibular third molars. Acute: pain, swelling, trismus, lymphadenopathy. Treatment: irrigation, antibiotics if systemic, eventual extraction.",
+              "sq": "Perikoroniti: inflamacion i indit përreth dhëmbit gjysmë të dalë, më shpesh molari i tretë mandibular."
+            }
+          },
+          {
+            "q": {
+              "en": "What is the most important step before performing a tooth extraction?",
+              "sq": "Cili është hapi më i rëndësishëm para kryerjes së ekstraktimit?"
+            },
+            "options": {
+              "en": [
+                "Prescribing antibiotics",
+                "Taking a selfie",
+                "Asking about diet",
+                "Thorough medical history and clinical/radiographic examination"
+              ],
+              "sq": [
+                "Përshkrimi i antibiotikëve",
+                "Bërja e selfie",
+                "Pyetje për dietën",
+                "Histori e plotë mjekësore dhe ekzaminim klinik/radiografik"
+              ]
+            },
+            "correct": 3,
+            "explanation": {
+              "en": "Complete assessment includes: medical history (allergies, medications, systemic conditions), clinical exam (tooth condition, mobility, access), radiographic evaluation (root morphology, pathology, proximity to vital structures). Informed consent essential.",
+              "sq": "Vlerësimi përfshin: histori mjekësore, ekzaminim klinik, vlerësim radiografik, dhe pëlqim i informuar."
+            }
+          },
+          {
+            "q": {
+              "en": "Surgical emphysema during dental procedures is caused by:",
+              "sq": "Emfizema kirurgjikale gjatë procedurave dentare shkaktohet nga:"
+            },
+            "options": {
+              "en": [
+                "Nerve damage",
+                "Air forced into tissue planes, usually from high-speed handpiece",
+                "Excessive bleeding",
+                "Allergic reaction"
+              ],
+              "sq": [
+                "Dëmtim nervi",
+                "Ajër i shtyrë në planet e indeve, zakonisht nga doreza me shpejtësi të lartë",
+                "Gjakderdhje e tepërt",
+                "Reaksion alergjik"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "Surgical emphysema: air enters fascial planes, causing rapid swelling with crepitus on palpation. Common causes: high-speed air turbine near surgical sites, air syringe use in flap. Usually self-limiting but monitor for airway compromise and mediastinal spread.",
+              "sq": "Emfizema kirurgjikale: ajri hyn në planet fasciale duke shkaktuar ënjtje me krepitus. Zakonisht vetë-kufizuese por monitorohu."
+            }
+          },
+          {
+            "q": {
+              "en": "Which suture material is most commonly used for intraoral wound closure?",
+              "sq": "Cili material suture përdoret më shpesh për mbylljen e plagëve intraorale?"
+            },
+            "options": {
+              "en": [
+                "Silk or resorbable (Vicryl)",
+                "Nylon",
+                "Stainless steel wire",
+                "Staples"
+              ],
+              "sq": [
+                "Mëndafsh ose rezorbuese (Vicryl)",
+                "Najlon",
+                "Tel çeliku",
+                "Kapëse"
+              ]
+            },
+            "correct": 0,
+            "explanation": {
+              "en": "Silk: easy handling, good knot security, but not resorbable (remove in 5-7 days). Vicryl (polyglactin 910): resorbable in 60-90 days, good for areas hard to access for removal. Chromic gut also used. Typically 3-0 or 4-0 gauge for oral surgery.",
+              "sq": "Mëndafshi: manipulim i lehtë. Vicryl: rezorbuese. Zakonisht 3-0 ose 4-0 për kirurgji orale."
+            }
           }
         ]
       }
@@ -2745,6 +3120,106 @@
               "en": "For permanent tooth avulsion: reimplant within 5 min if possible. If not, store in milk, saline, or saliva (NOT water). Time is critical — PDL cell viability decreases rapidly after 60 min. Splint for 2 weeks, start endodontic treatment within 2 weeks.",
               "sq": "Për avulzion: riimplanto brenda 5 min nëse mundur. Nëse jo, ruaj në qumësht, solucion fiziologjik. Koha është kritike — qelizat e PDL-së vdesin shpejt pas 60 min. Splintim 2 javë."
             }
+          },
+          {
+            "q": {
+              "en": "What is the purpose of the glide path in root canal preparation?",
+              "sq": "Cili është qëllimi i glide path në preparimin e kanalit?"
+            },
+            "options": {
+              "en": [
+                "To bleach the tooth",
+                "To create a smooth pathway to the apex before using rotary files",
+                "To take radiographs",
+                "To fill the canal"
+              ],
+              "sq": [
+                "Të zbardh dhëmbin",
+                "Të krijojë rrugë të lëmuar deri në apeks para fileve rrotulluese",
+                "Të marr radiografi",
+                "Të mbushë kanalin"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "Glide path: smooth reproducible tunnel from orifice to apex, created with small hand files (#10, #15) or dedicated rotary pathfiles. Essential to prevent NiTi file separation — rotary files should never be the first to negotiate the canal.",
+              "sq": "Glide path: tunel i lëmuar nga orifici te apeksi. Thelbësor për parandalimin e thyerjes së fileve NiTi."
+            }
+          },
+          {
+            "q": {
+              "en": "Which irrigant is used to remove the smear layer during root canal treatment?",
+              "sq": "Cili irigant përdoret për heqjen e shtresës smear gjatë trajtimit të kanalit?"
+            },
+            "options": {
+              "en": [
+                "Sodium hypochlorite",
+                "17% EDTA",
+                "Saline",
+                "Chlorhexidine"
+              ],
+              "sq": [
+                "Hipoklorit natriumi",
+                "EDTA 17%",
+                "Solucion fiziologjik",
+                "Klorheksidinë"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "17% EDTA (ethylenediaminetetraacetic acid) chelates calcium ions, dissolving the inorganic component of the smear layer. Used as final rinse for 1 minute. NaOCl dissolves organic component. Together they completely remove the smear layer.",
+              "sq": "EDTA 17% kelaton jonet e kalciumit. Përdoret si larje finale 1 minutë. NaOCl tret komponentin organik."
+            }
+          },
+          {
+            "q": {
+              "en": "A sinus tract (fistula) draining pus on the gingiva usually indicates:",
+              "sq": "Trakti sinusal (fistula) me qelb në gingiva zakonisht tregon:"
+            },
+            "options": {
+              "en": [
+                "Periodontal health",
+                "Gingivitis",
+                "Oral cancer",
+                "Chronic periapical abscess"
+              ],
+              "sq": [
+                "Shëndet periodontal",
+                "Gingivit",
+                "Kancer oral",
+                "Absces kronik periapìkal"
+              ]
+            },
+            "correct": 3,
+            "explanation": {
+              "en": "A sinus tract (parulis/gum boil) indicates chronic periapical infection with drainage. The tooth is non-vital. May be traced to source with gutta-percha cone on radiograph. Treatment: root canal therapy eliminates the source.",
+              "sq": "Trakti sinusal tregon infeksion kronik periapìkal me drenim. Dhëmbi është jo-vital. Trajtimi: terapi kanali."
+            }
+          },
+          {
+            "q": {
+              "en": "What percentage of maxillary first molars have an MB2 canal?",
+              "sq": "Sa përqind e molarëve të parë maksillarë kanë kanal MB2?"
+            },
+            "options": {
+              "en": [
+                "100%",
+                "30-40%",
+                "60-90%",
+                "10-20%"
+              ],
+              "sq": [
+                "100%",
+                "30-40%",
+                "60-90%",
+                "10-20%"
+              ]
+            },
+            "correct": 2,
+            "explanation": {
+              "en": "Studies show 60-90% of maxillary first molars have an MB2 canal (second canal in mesiobuccal root). It is the most commonly missed canal, and a major cause of endodontic treatment failure. Dental operating microscope improves detection significantly.",
+              "sq": "60-90% e molarëve të parë kanë MB2. Është kanali më shpesh i humbur dhe shkak kryesor dështimi."
+            }
           }
         ]
       }
@@ -3049,6 +3524,81 @@
             "explanation": {
               "en": "Digital radiography advantages: 50-80% dose reduction, instant image display, image enhancement (brightness, contrast, measurement tools), easy storage/sharing, no chemical processing, environmentally friendly. Types: CCD, CMOS sensors (direct) and PSP plates (indirect).",
               "sq": "Përparësitë e radiografisë dixhitale: 50-80% zvogëlim doze, imazh i menjëhershëm, përmirësim imazhi, ruajtje e lehtë, pa përpunim kimik."
+            }
+          },
+          {
+            "q": {
+              "en": "Panoramic radiograph artifacts commonly include:",
+              "sq": "Artifaktet e zakonshme në radiografinë panoramike përfshijnë:"
+            },
+            "options": {
+              "en": [
+                "No artifacts possible",
+                "Perfect image every time",
+                "Only film fog",
+                "Ghost images, patient positioning errors, and lead apron artifacts"
+              ],
+              "sq": [
+                "Pa artifakte",
+                "Imazh perfekt çdo herë",
+                "Vetëm mjegull filmi",
+                "Imazhe fantazmë, gabime pozicionimi dhe artifakte nga përparësja e plumbit"
+              ]
+            },
+            "correct": 3,
+            "explanation": {
+              "en": "Common panoramic errors: ghost images (contralateral duplicates), tongue not on palate (dark band over apices), chin tipped down/up, patient too far forward/back (magnification errors), lead apron too high (radiopaque shadow). Proper positioning is critical.",
+              "sq": "Gabimet: imazhe fantazmë, gjuha jo në qiellzë, mjekra shumë lart/poshtë, pacient shumë para/prapa."
+            }
+          },
+          {
+            "q": {
+              "en": "What is the recommended interval for bitewing radiographs in a high-caries-risk adult?",
+              "sq": "Cili është intervali i rekomanduar për radiografi bitewing te adulti me rrezik të lartë kariesi?"
+            },
+            "options": {
+              "en": [
+                "Every month",
+                "Every 6-12 months",
+                "Only when symptomatic",
+                "Every 5 years"
+              ],
+              "sq": [
+                "Çdo muaj",
+                "Çdo 6-12 muaj",
+                "Vetëm kur simptomatik",
+                "Çdo 5 vite"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "ADA/FDA guidelines: High risk adults: bitewings every 6-12 months. Low risk adults: every 24-36 months. Children high risk: every 6-12 months. Always based on individual risk assessment — not routine/calendar-based. Selection criteria, not 'routine' radiographs.",
+              "sq": "Udhëzimet: rrezik i lartë çdo 6-12 muaj. Rrezik i ulët çdo 24-36 muaj. Bazuar në vlerësim individual."
+            }
+          },
+          {
+            "q": {
+              "en": "What does a 'widened PDL space' on a radiograph suggest?",
+              "sq": "Çfarë sugjeron 'hapësira e zgjeruar e PDL' në radiografi?"
+            },
+            "options": {
+              "en": [
+                "Trauma, occlusal overload, or early periapical pathology",
+                "Normal finding",
+                "Excellent periodontal health",
+                "Tooth eruption completed"
+              ],
+              "sq": [
+                "Traumë, mbingarkesë okluzale, ose patologji e hershme periapikale",
+                "Gjetje normale",
+                "Shëndet periodontal shkëlqyer",
+                "Dalja e dhëmbit e kompletuar"
+              ]
+            },
+            "correct": 0,
+            "explanation": {
+              "en": "Widened PDL space suggests: occlusal trauma/overload, orthodontic movement, early periapical pathology (before frank radiolucency develops), scleroderma (generalized widening). Compare with adjacent teeth. Correlate with vitality tests and clinical findings.",
+              "sq": "Hapësira e zgjeruar sugjeron: traumë okluzale, lëvizje ortodontike, ose patologji e hershme periapikale."
             }
           }
         ]
@@ -3679,6 +4229,106 @@
             "explanation": {
               "en": "Mucogingival surgery includes: free gingival grafts, connective tissue grafts, coronally advanced flaps, laterally positioned flaps. Indications: gingival recession, inadequate attached gingiva, ridge augmentation, implant soft tissue management.",
               "sq": "Kirurgjia mukogingivale përfshin: greftime gingivale të lira, greftime indi lidhës, flape koronalisht avancuese. Indikimet: recesion gingival, gingiva e pamjaftueshme e ngjitur."
+            }
+          },
+          {
+            "q": {
+              "en": "What probing depth is considered a periodontal pocket?",
+              "sq": "Cila thellësi sondimi konsiderohet xhep periodontal?"
+            },
+            "options": {
+              "en": [
+                "1-2mm",
+                "Any depth",
+                "4mm or greater",
+                "2-3mm"
+              ],
+              "sq": [
+                "1-2mm",
+                "Çdo thellësi",
+                "4mm ose më shumë",
+                "2-3mm"
+              ]
+            },
+            "correct": 2,
+            "explanation": {
+              "en": "Normal sulcus depth: 1-3mm. Probing depth ≥4mm with clinical attachment loss indicates a periodontal pocket. However, depth alone isn't diagnostic — must correlate with attachment loss, BOP, and radiographic bone loss.",
+              "sq": "Sulkus normal: 1-3mm. Thellësi sondimi ≥4mm me humbje atashimi = xhep periodontal."
+            }
+          },
+          {
+            "q": {
+              "en": "What is the function of the junctional epithelium?",
+              "sq": "Cili është funksioni i epitelit junkional?"
+            },
+            "options": {
+              "en": [
+                "Producing saliva",
+                "Generating enamel",
+                "Attaching the gingiva to the tooth surface, forming a barrier",
+                "Absorbing nutrients"
+              ],
+              "sq": [
+                "Prodhimi i pështymës",
+                "Gjenerimi i smaltimit",
+                "Lidhja e gingivës me dhëmbin, duke formuar barrierë",
+                "Absorbimi i nutrientëve"
+              ]
+            },
+            "correct": 2,
+            "explanation": {
+              "en": "Junctional epithelium (JE): non-keratinized epithelium attaching gingiva to tooth via hemidesmosomes. Forms the epithelial attachment at the base of the gingival sulcus. In disease, JE migrates apically → pocket formation. High turnover rate (4-6 days).",
+              "sq": "Epiteli junkional lidh gingivën me dhëmbin. Në sëmundje migron apikalisht → formim xhepi."
+            }
+          },
+          {
+            "q": {
+              "en": "Chlorhexidine mouthwash can cause which notable side effect?",
+              "sq": "Larja e gojës me klorheksidinë mund të shkaktojë cilin efekt anësor?"
+            },
+            "options": {
+              "en": [
+                "Tooth sensitivity",
+                "Gingival recession",
+                "Increased caries",
+                "Brown staining of teeth and altered taste"
+              ],
+              "sq": [
+                "Ndjeshmëri dhëmbi",
+                "Recesion gingival",
+                "Rritje kariesi",
+                "Ngjyrosje kafe të dhëmbëve dhe ndryshim shije"
+              ]
+            },
+            "correct": 3,
+            "explanation": {
+              "en": "Chlorhexidine side effects: extrinsic brown staining (binds tannins from tea/coffee/wine), altered taste perception, increased supragingival calculus, rare desquamation. Staining is reversible with professional cleaning. Benefits outweigh risks short-term.",
+              "sq": "Efektet anësore: ngjyrosje kafe, ndryshim shije, rritje guri. Ngjyrosja hiqet me pastrim profesional."
+            }
+          },
+          {
+            "q": {
+              "en": "Crown lengthening surgery is indicated when:",
+              "sq": "Kirurgjia e zgjatjes së kurorës indikohet kur:"
+            },
+            "options": {
+              "en": [
+                "Patient wants whiter teeth",
+                "Patient has periodontal pockets",
+                "Tooth needs extraction",
+                "Subgingival margin of restoration violates biologic width or insufficient clinical crown"
+              ],
+              "sq": [
+                "Pacienti dëshiron dhëmbë më të bardhë",
+                "Pacienti ka xhepa periodontale",
+                "Dhëmbi duhet ekstraktuar",
+                "Skaji subgingival i restaurimit shkel gjerësinë biologjike ose kurorë klinike e pamjaftueshme"
+              ]
+            },
+            "correct": 3,
+            "explanation": {
+              "en": "Crown lengthening: surgical removal of bone and soft tissue to expose more tooth structure. Indications: restorative (subgingival caries/fracture, short clinical crown), esthetic (gummy smile). Must maintain adequate biologic width post-surgery.",
+              "sq": "Zgjatja e kurorës: heqje kirurgjikale e kockës dhe indit. Indikimet: restaurative ose estetike."
             }
           }
         ]
@@ -6049,6 +6699,106 @@
               "en": "Standard recommendation: 20 seconds per 2mm increment with LED light >1000 mW/cm². Deeper/darker shades may need 40s. Inadequate curing leads to: reduced hardness, increased wear, greater solubility, more discoloration, compromised bond.",
               "sq": "Rekomandimi: 20 sekonda për 2mm inkrement me LED >1000 mW/cm². Ngjyra më të errëta mund të kenë nevojë 40s. Polimerizim i pamjaftueshëm ul fortësinë dhe rrit konsumimin."
             }
+          },
+          {
+            "q": {
+              "en": "What shade guide is most commonly used for composite color matching?",
+              "sq": "Cila shkallë ngjyrash përdoret më shpesh për përputhjen e ngjyrës së kompozitit?"
+            },
+            "options": {
+              "en": [
+                "Munsell color system",
+                "VITA Classical shade guide",
+                "Pantone guide",
+                "RAL color system"
+              ],
+              "sq": [
+                "Sistemi Munsell",
+                "Shkalla VITA Classical",
+                "Shkalla Pantone",
+                "Sistemi RAL"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "VITA Classical (A1-D4) is the most widely used. Organized by hue: A=reddish-brown, B=reddish-yellow, C=gray, D=reddish-gray. Shade should be selected before isolation (dehydrated teeth appear lighter). Natural light or corrected artificial light preferred.",
+              "sq": "VITA Classical (A1-D4) më e përdorura. Ngjyra zgjidhet para izolimit. Dritë natyrale e preferuar."
+            }
+          },
+          {
+            "q": {
+              "en": "Amalgam restorations require which type of cavity preparation?",
+              "sq": "Restaurimet me amalgamë kërkojnë cilin lloj preparimi kaviteti?"
+            },
+            "options": {
+              "en": [
+                "Acid etching only",
+                "No preparation needed",
+                "Minimal preparation only",
+                "Mechanical retention features (undercuts, dovetails)"
+              ],
+              "sq": [
+                "Vetëm gravim acidik",
+                "Nuk nevojitet preparim",
+                "Vetëm preparim minimal",
+                "Karakteristika retencioni mekanik (nënprerje, dovetail)"
+              ]
+            },
+            "correct": 3,
+            "explanation": {
+              "en": "Amalgam is not adhesive — requires mechanical retention: convergent walls, undercuts, dovetails, retention grooves/locks. Minimum depth: 1.5mm for adequate bulk. Despite declining use, still relevant for posterior teeth in certain clinical situations.",
+              "sq": "Amalgama nuk është adezive — kërkon retencion mekanik: mure konvergjente, nënprerje. Thellësi minimale: 1.5mm."
+            }
+          },
+          {
+            "q": {
+              "en": "What is the purpose of a dental liner?",
+              "sq": "Cili është qëllimi i linerit dentar?"
+            },
+            "options": {
+              "en": [
+                "To bond composite to enamel",
+                "To whiten the tooth",
+                "To replace missing enamel",
+                "To provide a thin protective barrier over dentin near the pulp"
+              ],
+              "sq": [
+                "Të lidhë kompozitin me smaltimin",
+                "Të zbardh dhëmbin",
+                "Të zëvendësojë smaltimin",
+                "Të sigurojë barrierë mbrojtëse të hollë mbi dentinën afër pulpës"
+              ]
+            },
+            "correct": 3,
+            "explanation": {
+              "en": "Dental liners (Ca(OH)2, resin-modified GIC) provide: pulp protection from chemical/thermal irritation, therapeutic effect (Ca(OH)2 stimulates reparative dentin formation). Applied as thin layer (<0.5mm) in deep cavities only. Not needed in shallow/moderate cavities with modern bonding systems.",
+              "sq": "Lineri siguron mbrojtje pulpare. Ca(OH)2 stimulon formimin e dentinës reparative. Aplikohet vetëm në kavitete të thella."
+            }
+          },
+          {
+            "q": {
+              "en": "Bulk-fill composites differ from conventional composites in that they:",
+              "sq": "Kompozitet bulk-fill dallojnë nga konvencionale sepse:"
+            },
+            "options": {
+              "en": [
+                "Do not require light curing",
+                "Can be placed in 4-5mm increments instead of 2mm",
+                "Are only for anterior teeth",
+                "Are weaker"
+              ],
+              "sq": [
+                "Nuk kërkojnë fotopolimerizim",
+                "Mund të vendosen në shtresa 4-5mm në vend të 2mm",
+                "Janë vetëm për dhëmbë anteriorë",
+                "Janë më të dobëta"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "Bulk-fill composites: increased translucency for deeper light penetration, modified photoinitiators, stress-relieving monomers → less shrinkage stress. Can be placed in 4-5mm increments. Saves time. Available in flowable (need capping layer) and sculptable viscosity.",
+              "sq": "Bulk-fill: vendosen në shtresa 4-5mm. Translucencë e shtuar, stres i ulur tkurrjeje. Kursejnë kohë."
+            }
           }
         ]
       }
@@ -6529,6 +7279,106 @@
               "en": "Xylitol is a 5-carbon sugar alcohol that S. mutans cannot ferment to acid. It also: reduces S. mutans counts over time, stimulates saliva flow, promotes remineralization. Recommended: 5-10g/day via gum or lozenges.",
               "sq": "Ksilitoli është alkool sheqeri 5-karbonësh që S. mutans nuk mund ta fermentojë në acid. Zvogëlon numrin e S. mutans, stimulon pështymën, nxit rimineralizimin."
             }
+          },
+          {
+            "q": {
+              "en": "The cariogenicity of a food depends primarily on:",
+              "sq": "Kariogjeniciteti i ushqimit varet kryesisht nga:"
+            },
+            "options": {
+              "en": [
+                "Its protein content",
+                "Its sugar content, frequency of consumption, and oral clearance time",
+                "Its temperature",
+                "Its color"
+              ],
+              "sq": [
+                "Përmbajtja e proteinave",
+                "Përmbajtja e sheqerit, frekuenca e konsumit dhe koha e pastrimit oral",
+                "Temperatura",
+                "Ngjyra"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "Key factors: type of sugar (sucrose most cariogenic), frequency > amount, sticky/retentive foods (longer clearance), timing (between meals worse than with meals). Cheese, nuts, and sugar-free gum are protective.",
+              "sq": "Faktorët: lloji i sheqerit, frekuenca > sasia, ushqime ngjitëse, koha (midis vakteve më keq)."
+            }
+          },
+          {
+            "q": {
+              "en": "Silver Diamine Fluoride (SDF) is used in dentistry for:",
+              "sq": "Fluoridi i Argjendit Diaminik (SDF) përdoret në stomatologji për:"
+            },
+            "options": {
+              "en": [
+                "Arresting active caries lesions non-invasively",
+                "Taking impressions",
+                "Root canal irrigation",
+                "Teeth whitening"
+              ],
+              "sq": [
+                "Ndalimin e lezioneve aktive të kariesit pa ndërhyrje",
+                "Marrje impresionesh",
+                "Irigim kanali",
+                "Zbardhje dhëmbësh"
+              ]
+            },
+            "correct": 0,
+            "explanation": {
+              "en": "SDF (38%): silver provides antibacterial action, fluoride promotes remineralization, ammonia stabilizes the solution. Arrests caries non-invasively. Main disadvantage: turns carious dentin black. Ideal for: pediatric, elderly, special needs patients.",
+              "sq": "SDF: argjendi jep veprim antibakterial, fluoridi nxit rimineralizimin. Disavantazh: ngjyros dentinën në të zezë."
+            }
+          },
+          {
+            "q": {
+              "en": "Which of the following is NOT a risk factor for dental caries?",
+              "sq": "Cila nga të mëposhtmet NUK është faktor rreziku për kariesin dentar?"
+            },
+            "options": {
+              "en": [
+                "High sugar diet",
+                "Xerostomia (dry mouth)",
+                "Poor oral hygiene",
+                "Regular fluoride use"
+              ],
+              "sq": [
+                "Dietë me sheqer të lartë",
+                "Kserostomia (gojë e thatë)",
+                "Higjenë e dobët orale",
+                "Përdorim i rregullt fluoridi"
+              ]
+            },
+            "correct": 3,
+            "explanation": {
+              "en": "Fluoride use is PROTECTIVE, not a risk factor. Risk factors include: xerostomia, high sugar frequency, poor oral hygiene, deep pits/fissures, active caries lesions, low socioeconomic status, orthodontic appliances.",
+              "sq": "Fluoridi është MBROJTËS. Faktorët e rrezikut: kserostomia, sheqer i shpeshtë, higjenë e dobët, brazda të thella."
+            }
+          },
+          {
+            "q": {
+              "en": "What is the role of saliva in caries prevention?",
+              "sq": "Cili është roli i pështymës në parandalimin e kariesit?"
+            },
+            "options": {
+              "en": [
+                "It causes demineralization",
+                "Buffering acids, providing minerals for remineralization, clearing food, and antibacterial action",
+                "It only lubricates food",
+                "It has no significant role"
+              ],
+              "sq": [
+                "Shkakton demineralizim",
+                "Neutralizim acidesh, furnizim mineralesh, pastrim ushqimi, dhe veprim antibakterial",
+                "Vetëm lubrifikion ushqimin",
+                "Nuk ka rol të rëndësishëm"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "Saliva is the most important natural defense against caries. Functions: acid buffering (bicarbonate), supersaturated with Ca/PO4 (remineralization), mechanical clearance, antimicrobial proteins (lysozyme, lactoferrin, IgA). Reduced flow = dramatically increased caries risk.",
+              "sq": "Pështyma është mbrojtja më e rëndësishme natyrale kundër kariesit: neutralizim, rimineralizim, pastrim, antibakterial."
+            }
           }
         ]
       }
@@ -7008,6 +7858,106 @@
             "explanation": {
               "en": "The neutral zone is the potential space where outward tongue forces balance inward cheek/lip forces. Placing denture teeth in this zone maximizes stability and retention. Especially important for severely resorbed ridges.",
               "sq": "Zona neutrale është hapësira ku forcat e gjuhës balancojnë forcat e faqeve/buzëve. Vendosja e dhëmbëve këtu maksimizon stabilitetin."
+            }
+          },
+          {
+            "q": {
+              "en": "What is a dental implant made of?",
+              "sq": "Nga çfarë materiali bëhet implanti dentar?"
+            },
+            "options": {
+              "en": [
+                "Gold",
+                "Commercially pure titanium or titanium alloy (Ti-6Al-4V)",
+                "Stainless steel",
+                "Porcelain"
+              ],
+              "sq": [
+                "Ar",
+                "Titanium i pastër komercial ose aliazh titaniumi (Ti-6Al-4V)",
+                "Çelik inoks",
+                "Porcelan"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "Titanium is the material of choice due to biocompatibility and osseointegration (direct bone-to-implant contact without fibrous tissue). Zirconia implants are emerging as metal-free alternatives.",
+              "sq": "Titaniumi zgjidhet për biokompatibilitet dhe osteointegracion. Implantet zirkonia po shfaqen si alternativë."
+            }
+          },
+          {
+            "q": {
+              "en": "Osseointegration was first described by:",
+              "sq": "Osteointegrimi u përshkrua fillimisht nga:"
+            },
+            "options": {
+              "en": [
+                "Pierre Fauchard",
+                "Per-Ingvar Brånemark",
+                "Edward Angle",
+                "G.V. Black"
+              ],
+              "sq": [
+                "Pierre Fauchard",
+                "Per-Ingvar Brånemark",
+                "Edward Angle",
+                "G.V. Black"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "Professor Per-Ingvar Brånemark (1965) discovered osseointegration accidentally while studying blood flow in rabbit tibias with titanium chambers. Defined as direct structural and functional connection between living bone and implant surface.",
+              "sq": "Prof. Brånemark (1965) zbuloi osteointegrimin aksidentalisht. Definuar si lidhje direkte strukturore midis kockës dhe implantit."
+            }
+          },
+          {
+            "q": {
+              "en": "What is the minimum bone healing time required for conventional implant loading?",
+              "sq": "Cila është koha minimale e shërimit kockor për ngarkimin konvencional të implantit?"
+            },
+            "options": {
+              "en": [
+                "3-6 months",
+                "2-4 weeks",
+                "1 year",
+                "1 week"
+              ],
+              "sq": [
+                "3-6 muaj",
+                "2-4 javë",
+                "1 vit",
+                "1 javë"
+              ]
+            },
+            "correct": 0,
+            "explanation": {
+              "en": "Conventional loading: 3-6 months healing (3 months mandible, 6 months maxilla — Brånemark protocol). Early loading: 6-8 weeks. Immediate loading: within 48 hours (selected cases with good primary stability >35 Ncm).",
+              "sq": "Ngarkimi konvencional: 3-6 muaj shërim. Ngarkimi i hershëm: 6-8 javë. Imediat: brenda 48 orësh (raste të zgjedhura)."
+            }
+          },
+          {
+            "q": {
+              "en": "What is the most common cause of implant failure?",
+              "sq": "Cila është shkaku më i shpeshtë i dështimit të implantit?"
+            },
+            "options": {
+              "en": [
+                "Peri-implantitis (infection and bone loss around implant)",
+                "Patient allergy to titanium",
+                "Incorrect shade selection",
+                "Implant fracture"
+              ],
+              "sq": [
+                "Peri-implantiti (infeksion dhe humbje kocke rreth implantit)",
+                "Alergjia ndaj titaniumit",
+                "Zgjedhje e gabuar ngjyre",
+                "Frakturë implanti"
+              ]
+            },
+            "correct": 0,
+            "explanation": {
+              "en": "Peri-implantitis: inflammatory condition affecting soft and hard tissues around implants, leading to progressive bone loss. Risk factors: poor oral hygiene, smoking, history of periodontitis, diabetes. Prevention: regular maintenance, proper oral hygiene.",
+              "sq": "Peri-implantiti: gjendje inflamatore me humbje progressive kocke. Faktorë rreziku: higjenë e dobët, duhani, periodontit."
             }
           }
         ]

@@ -1258,5 +1258,125 @@
       "en": "The pterygomandibular raphe is a tendinous band between buccinator and superior pharyngeal constrictor. Clinical significance: it serves as the landmark for inferior alveolar nerve block injection. The needle is inserted lateral to the raphe, at the level of the occlusal plane of mandibular molars.",
       "sq": "Rafeja pterigomandibulare është pikë referuese për injeksionin e bllokut të nervit alveolar inferior. Gjilpëra futet lateralisht nga rafeja, në nivelin e planit okluzal."
     }
+  },
+  {
+    "id": "fc_pharm_12",
+    "subject": "Pharmacology",
+    "question": {
+      "en": "What is the dental significance of patients on antiplatelet therapy (aspirin, clopidogrel)?",
+      "sq": "Cila është rëndësia dentare e pacientëve nën terapi antitrombocitare?"
+    },
+    "answer": {
+      "en": "Do NOT stop antiplatelet therapy for routine dental procedures — risk of cardiovascular event outweighs bleeding risk. Use local hemostatic measures: sutures, gelatin sponge, tranexamic acid rinse. For dual antiplatelet therapy or complex surgery, consult cardiologist.",
+      "sq": "MOS ndërprit terapinë antitrombocitare për procedura rutinore — rreziku kardiovaskular tejkalon rrezikun e gjakderdhjes. Përdor masa hemostatike lokale."
+    }
+  },
+  {
+    "id": "fc_pharm_13",
+    "subject": "Pharmacology",
+    "question": {
+      "en": "What is conscious sedation in dentistry?",
+      "sq": "Çfarë është sedacioni i ndërgjegjshëm në stomatologji?"
+    },
+    "answer": {
+      "en": "A technique using drugs (midazolam IV, nitrous oxide inhalation) to reduce anxiety while maintaining verbal contact. Patient responds to commands, protective reflexes intact, breathes independently. Requires: trained operator, monitoring (pulse oximetry), emergency equipment, post-sedation escort.",
+      "sq": "Teknikë me medikamente (midazolam IV, oksid azoti) për ulje ankthi duke ruajtur kontaktin verbal. Kërkon: operator të trajnuar, monitorim, pajisje urgjence."
+    }
+  },
+  {
+    "id": "fc_rad_10",
+    "subject": "Oral Radiology",
+    "question": {
+      "en": "What is the difference between direct and indirect digital radiography?",
+      "sq": "Cili është dallimi midis radiografisë dixhitale direkte dhe indirekte?"
+    },
+    "answer": {
+      "en": "Direct: CCD/CMOS sensor connected to computer by wire, instant image display. Indirect: PSP (photostimulable phosphor) plate scanned by laser reader after exposure, slight delay. Direct has faster workflow; PSP plates are thinner and more flexible (better patient comfort).",
+      "sq": "Direkte: sensor CCD/CMOS me tel, imazh i menjëhershëm. Indirekte: pllakë PSP e skanuar pas ekspozimit. Direkte më e shpejtë; PSP më komode."
+    }
+  },
+  {
+    "id": "fc_oper_12",
+    "subject": "Operative Dentistry",
+    "question": {
+      "en": "What is dental erosion and how does it differ from caries?",
+      "sq": "Çfarë është erozioni dentar dhe si dallon nga kariesi?"
+    },
+    "answer": {
+      "en": "Erosion: chemical dissolution of tooth structure by acids NOT from bacteria (intrinsic: GERD, vomiting; extrinsic: citrus, sodas, wine). Differs from caries: no bacterial involvement, affects smooth surfaces broadly, saucer-shaped lesions, no plaque accumulation pattern. Often combined with attrition/abrasion.",
+      "sq": "Erozioni: tretje kimike nga acide JO bakteriale (GERD, vjelljet; agrume, pije gazuara). Dallon nga kariesi: pa bakterie, prek sipërfaqe të gjera, lezione në formë pjate."
+    }
+  },
+  {
+    "id": "fc_endo_14",
+    "subject": "Endodontics",
+    "question": {
+      "en": "What is internal resorption and how is it diagnosed?",
+      "sq": "Çfarë është rezorbimi intern dhe si diagnostikohet?"
+    },
+    "answer": {
+      "en": "Internal resorption: destruction of dentin from within the root canal by clastic cells (dentinoclasts). Usually asymptomatic, discovered on routine radiograph as a well-defined, oval radiolucency within the root canal ('pink spot' if it reaches the crown). Cause: trauma, chronic pulpitis. Treatment: immediate RCT with MTA.",
+      "sq": "Rezorbimi intern: shkatërrim i dentinës nga brenda kanalit. Zakonisht asimptomatik, zbulohet në radiografi si radiotransparencë ovale. Trajtimi: RCT me MTA."
+    }
+  },
+  {
+    "id": "fc_perio_14",
+    "subject": "Periodontology",
+    "question": {
+      "en": "What is the difference between supragingival and subgingival calculus?",
+      "sq": "Cili është dallimi midis gurit supragingival dhe subgingival?"
+    },
+    "answer": {
+      "en": "Supragingival: above gingival margin, white/yellow, easily visible, mainly from saliva minerals (parotid/submandibular ducts), softer. Subgingival: below gingival margin, dark brown/black (blood pigments), harder, firmly attached, detected by probing, more harmful (harbors anaerobic pathogens).",
+      "sq": "Supragingival: mbi skajen gingival, bardhë/verdhë, i dukshëm. Subgingival: nën skaj, kafe/zi, më i fortë, më i dëmshëm (strehon patogjenë anaerobë)."
+    }
+  },
+  {
+    "id": "fc_prosth_13",
+    "subject": "Prosthodontics",
+    "question": {
+      "en": "What is CAD/CAM in modern prosthodontics?",
+      "sq": "Çfarë është CAD/CAM në protetikën moderne?"
+    },
+    "answer": {
+      "en": "Computer-Aided Design / Computer-Aided Manufacturing. Digital workflow: intraoral scan → software design → milling or 3D printing of restoration (crowns, bridges, inlays). Advantages: single-visit restorations possible (CEREC), consistent quality, no impression material, digital records. Materials: lithium disilicate, zirconia.",
+      "sq": "Dizajn dhe Prodhim me Ndihmë Kompjuteri. Skanim intraoral → dizajn → frezim ose printim 3D. Përparësi: restaurime në një vizitë, cilësi konstante, pa material impresioni."
+    }
+  },
+  {
+    "id": "fc_surg_13",
+    "subject": "Oral Surgery",
+    "question": {
+      "en": "What is the difference between incisional and excisional biopsy?",
+      "sq": "Cili është dallimi midis biopsisë incizionale dhe ekscizionale?"
+    },
+    "answer": {
+      "en": "Incisional: removing a representative portion of the lesion for diagnosis. Used for large lesions (>1cm) or when malignancy suspected. Excisional: removing the entire lesion. Used for small benign lesions (<1cm), serves as both diagnosis and treatment. Include normal tissue margin in specimen.",
+      "sq": "Incizionale: heqje e pjesës përfaqësuese për diagnozë (lezione >1cm). Ekscizionale: heqje e gjithë lezionit (lezione <1cm beninje), shërben si diagnozë dhe trajtim."
+    }
+  },
+  {
+    "id": "fc_anat_13",
+    "subject": "Oral Anatomy",
+    "question": {
+      "en": "What is the significance of the maxillary tuberosity in dentistry?",
+      "sq": "Cila është rëndësia e tuberozitetit maksillare në stomatologji?"
+    },
+    "answer": {
+      "en": "The maxillary tuberosity is the rounded eminence behind the last maxillary molar. Significance: 1) Posterior limit of maxillary denture, 2) Site of posterior superior alveolar nerve block, 3) Can fracture during difficult upper molar extractions, 4) Contains posterior superior alveolar artery (bleeding risk).",
+      "sq": "Tuberoziteti maksillare: 1) Kufiri posterior i protezës, 2) Vend i bllokut PSA, 3) Mund të thyhet gjatë ekstraktimeve, 4) Përmban arterien PSA."
+    }
+  },
+  {
+    "id": "fc_cario_13",
+    "subject": "Cariology",
+    "question": {
+      "en": "What is the difference between primary, secondary, and recurrent caries?",
+      "sq": "Cili është dallimi midis kariesit primar, sekondar dhe rekurrent?"
+    },
+    "answer": {
+      "en": "Primary caries: new lesion on a previously unaffected surface. Secondary (recurrent) caries: new caries developing at the margin of an existing restoration (most common reason for restoration replacement). Residual caries: demineralized dentin intentionally left under a restoration (indirect pulp cap). Important distinction for treatment planning.",
+      "sq": "Primar: lezion i ri. Sekondar (rekurrent): karies i ri te skaji i restaurimit (arsyeja më e shpeshtë e zëvendësimit). Rezidual: dentinë e lënë qëllimisht nën restaurim."
+    }
   }
 ]
