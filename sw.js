@@ -1,4 +1,4 @@
-const CACHE = 'dentprep-v13';
+const CACHE = 'dentprep-v14';
 const ASSETS = ['./manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {

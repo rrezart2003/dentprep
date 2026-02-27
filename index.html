@@ -322,6 +322,7 @@ body {
   <div class="exam-timer" id="exam-timer-bar">
     <span class="timer-left" id="exam-q-info">1 / 20</span>
     <span class="timer-clock" id="exam-clock">01:00</span>
+    <button onclick="quitExam()" style="background:none;border:1px solid var(--card-border);color:var(--text-dim);border-radius:8px;padding:4px 12px;font-size:13px;cursor:pointer;">✕</button>
   </div>
   <div class="exam-q-area">
     <div class="question-text" id="exam-q-text" style="margin-bottom:20px;font-size:17px;line-height:1.5;font-weight:600;"></div>
@@ -824,6 +825,14 @@ async function startFlashcardsMode() {
   fcKnew = 0;
   showScreen('flashcards');
   renderFlashcard();
+}
+
+function quitExam() {
+  const msg = lang === 'sq' ? 'Je i sigurt që dëshiron ta lësh provimin?' : 'Are you sure you want to quit the exam?';
+  if (confirm(msg)) {
+    if (examTimerInterval) clearInterval(examTimerInterval);
+    showScreen('home');
+  }
 }
 
 function startExam() {
