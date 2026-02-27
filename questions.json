@@ -24,16 +24,16 @@
             },
             "options": {
               "en": [
-                "Mandibular canine",
-                "Maxillary canine",
                 "Maxillary first premolar",
-                "Maxillary central incisor"
+                "Maxillary canine",
+                "Maxillary central incisor",
+                "Mandibular canine"
               ],
               "sq": [
-                "Kanini mandibular",
-                "Kanini maksillrar",
                 "Premolari i parë maksillrar",
-                "Incizivi qendror maksillrar"
+                "Kanini maksillrar",
+                "Incizivi qendror maksillrar",
+                "Kanini mandibular"
               ]
             },
             "correct": 1,
@@ -49,19 +49,19 @@
             },
             "options": {
               "en": [
-                "Mandibular second molar",
-                "Maxillary second premolar",
+                "Maxillary first molar",
                 "Mandibular first molar",
-                "Maxillary first molar"
+                "Mandibular second molar",
+                "Maxillary second premolar"
               ],
               "sq": [
-                "Molari i dytë mandibular",
-                "Premolari i dytë maksillrar",
+                "Molari i parë maksillrar",
                 "Molari i parë mandibular",
-                "Molari i parë maksillrar"
+                "Molari i dytë mandibular",
+                "Premolari i dytë maksillrar"
               ]
             },
-            "correct": 3,
+            "correct": 0,
             "explanation": {
               "en": "The <strong>oblique ridge</strong> connects the mesiopalatal cusp to the distobuccal cusp on the <strong>maxillary first molar</strong>.",
               "sq": "<strong>Kreshtë e pjerrët</strong> lidh kuspin meziopalatinal me kuspin distobukal në <strong>molarin e parë maksillrar</strong>."
@@ -74,16 +74,16 @@
             },
             "options": {
               "en": [
-                "4",
                 "2",
+                "3",
                 "5",
-                "3"
+                "4"
               ],
               "sq": [
-                "4",
                 "2",
+                "3",
                 "5",
-                "3"
+                "4"
               ]
             },
             "correct": 2,
@@ -99,19 +99,19 @@
             },
             "options": {
               "en": [
-                "First molar",
                 "Canine",
                 "Maxillary central incisor",
+                "First molar",
                 "Second premolar"
               ],
               "sq": [
-                "Molari i parë",
                 "Kanini",
                 "Incizivi qendror maksillrar",
+                "Molari i parë",
                 "Premolari i dytë"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "The <strong>canine</strong> is the cornerstone of the dental arch.",
               "sq": "<strong>Kanini</strong> është gurthemeli i harkut dentar — ndodhet në pikën kthese të harkut, ka rrënjën më të gjatë."
@@ -124,19 +124,19 @@
             },
             "options": {
               "en": [
-                "Maxillary first molar",
                 "Mandibular first molar",
                 "Maxillary first premolar",
-                "Maxillary second molar"
+                "Maxillary second molar",
+                "Maxillary first molar"
               ],
               "sq": [
-                "Molari i parë maksillrar",
                 "Molari i parë mandibular",
                 "Premolari i parë maksillrar",
-                "Molari i dytë maksillrar"
+                "Molari i dytë maksillrar",
+                "Molari i parë maksillrar"
               ]
             },
-            "correct": 0,
+            "correct": 3,
             "explanation": {
               "en": "The <strong>Cusp of Carabelli</strong> is found on the mesiopalatal cusp of the <strong>maxillary first molar</strong>.",
               "sq": "<strong>Kuspi i Carabelli</strong> gjendet në kuspin meziopalatinal të <strong>molarit të parë maksillrar</strong>."
@@ -157,19 +157,19 @@
             },
             "options": {
               "en": [
-                "Lateral pterygoid",
                 "Temporalis",
+                "Masseter",
                 "Medial pterygoid",
-                "Masseter"
+                "Lateral pterygoid"
               ],
               "sq": [
-                "Pterigoideus lateral",
                 "Temporalisi",
+                "Maseteri",
                 "Pterigoideus medial",
-                "Maseteri"
+                "Pterigoideus lateral"
               ]
             },
-            "correct": 0,
+            "correct": 3,
             "explanation": {
               "en": "The <strong>lateral pterygoid</strong> (inferior head) is the primary protruder of the mandible.",
               "sq": "<strong>Pterigoideus lateral</strong> (koka inferiore) është protruzioni kryesor i mandibulës."
@@ -182,15 +182,15 @@
             },
             "options": {
               "en": [
-                "Medial pterygoid",
-                "Masseter",
                 "Temporalis",
+                "Masseter",
+                "Medial pterygoid",
                 "Lateral pterygoid"
               ],
               "sq": [
-                "Pterigoideus medial",
-                "Maseteri",
                 "Temporalisi",
+                "Maseteri",
+                "Pterigoideus medial",
                 "Pterigoideus lateral"
               ]
             },
@@ -207,19 +207,19 @@
             },
             "options": {
               "en": [
-                "Mandibular division of trigeminal (V3)",
                 "Hypoglossal nerve (CN XII)",
-                "Facial nerve (CN VII)",
-                "Maxillary division of trigeminal (V2)"
+                "Maxillary division of trigeminal (V2)",
+                "Mandibular division of trigeminal (V3)",
+                "Facial nerve (CN VII)"
               ],
               "sq": [
-                "Dega mandibulare e trigeminusit (V3)",
                 "Nervi hipoglosal (CN XII)",
-                "Nervi facial (CN VII)",
-                "Dega maksillare e trigeminusit (V2)"
+                "Dega maksillare e trigeminusit (V2)",
+                "Dega mandibulare e trigeminusit (V3)",
+                "Nervi facial (CN VII)"
               ]
             },
-            "correct": 0,
+            "correct": 2,
             "explanation": {
               "en": "All four muscles of mastication are innervated by the <strong>mandibular division (V3)</strong> of the trigeminal nerve.",
               "sq": "Të katër muskujt e përtypsjes inervohen nga <strong>dega mandibulare (V3)</strong> e nervit trigeminus."
@@ -233,18 +233,18 @@
             "options": {
               "en": [
                 "Anterior fibers",
-                "Posterior fibers",
                 "Middle fibers",
+                "Posterior fibers",
                 "All fibers equally"
               ],
               "sq": [
                 "Fibrat anteriore",
-                "Fibrat posteriore",
                 "Fibrat e mesme",
+                "Fibrat posteriore",
                 "Të gjitha fibrat njësoj"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "The <strong>posterior (horizontal) fibers</strong> of the temporalis retract the mandible.",
               "sq": "<strong>Fibrat posteriore (horizontale)</strong> të temporalisit e tërheqin mandibulën prapa."
@@ -257,19 +257,19 @@
             },
             "options": {
               "en": [
-                "Pterygoid fovea and TMJ disc",
-                "Mandibular foramen",
                 "Angle of the mandible",
-                "Coronoid process"
+                "Coronoid process",
+                "Pterygoid fovea and TMJ disc",
+                "Mandibular foramen"
               ],
               "sq": [
-                "Fovea pterigoidale dhe disku i TMJ",
-                "Forameni mandibular",
                 "Këndi i mandibulës",
-                "Procesi koronoid"
+                "Procesi koronoid",
+                "Fovea pterigoidale dhe disku i TMJ",
+                "Forameni mandibular"
               ]
             },
-            "correct": 0,
+            "correct": 2,
             "explanation": {
               "en": "The <strong>superior head</strong> inserts into the TMJ disc and capsule. The <strong>inferior head</strong> inserts into the pterygoid fovea.",
               "sq": "<strong>Koka superiore</strong> insertohet në diskun e TMJ. <strong>Koka inferiore</strong> insertohet në fovean pterigoidale."
@@ -290,16 +290,16 @@
             },
             "options": {
               "en": [
-                "Internal carotid and vertebral",
-                "Lingual, facial, and maxillary arteries",
                 "Subclavian and brachiocephalic",
-                "Ophthalmic and middle meningeal"
+                "Lingual, facial, and maxillary arteries",
+                "Ophthalmic and middle meningeal",
+                "Internal carotid and vertebral"
               ],
               "sq": [
-                "Karotidja e brendshme dhe vertebralja",
-                "Arteriet linguale, faciale dhe maksilare",
                 "Subklavia dhe brakiocefalika",
-                "Oftalmike dhe meningeale e mesme"
+                "Arteriet linguale, faciale dhe maksilare",
+                "Oftalmike dhe meningeale e mesme",
+                "Karotidja e brendshme dhe vertebralja"
               ]
             },
             "correct": 1,
@@ -315,19 +315,19 @@
             },
             "options": {
               "en": [
-                "Mental foramen",
-                "Mandibular foramen",
+                "Greater palatine foramen",
                 "Infraorbital foramen",
-                "Greater palatine foramen"
+                "Mandibular foramen",
+                "Mental foramen"
               ],
               "sq": [
-                "Foraminës mentale",
-                "Foraminës mandibulare",
+                "Foraminës palatine të madhe",
                 "Foraminës infraorbitale",
-                "Foraminës palatine të madhe"
+                "Foraminës mandibulare",
+                "Foraminës mentale"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "The <strong>inferior alveolar nerve</strong> (branch of V3) enters through the <strong>mandibular foramen</strong> on the medial aspect of the ramus, travels through the mandibular canal, and exits via the mental foramen.",
               "sq": "<strong>Nervi alveolar inferior</strong> (degë e V3) hyn nëpërmjet <strong>foraminës mandibulare</strong> dhe del përmes foraminës mentale."
@@ -340,19 +340,19 @@
             },
             "options": {
               "en": [
-                "Simple hinge joint",
+                "Pivot joint",
                 "Ball and socket",
-                "Ginglymo-arthrodial (hinge and sliding)",
-                "Pivot joint"
+                "Simple hinge joint",
+                "Ginglymo-arthrodial (hinge and sliding)"
               ],
               "sq": [
-                "Nyje e thjeshtë çernierë",
+                "Nyje pivot",
                 "Nyje sfere",
-                "Ginglimo-artrodiale (çernierë dhe rrëshqitëse)",
-                "Nyje pivot"
+                "Nyje e thjeshtë çernierë",
+                "Ginglimo-artrodiale (çernierë dhe rrëshqitëse)"
               ]
             },
-            "correct": 2,
+            "correct": 3,
             "explanation": {
               "en": "The <strong>TMJ</strong> is a synovial, ginglymo-arthrodial joint allowing both hinge (rotation) and sliding (translation) movements, with an articular disc separating two compartments.",
               "sq": "<strong>NYT</strong> është nyje sinoviale ginglimo-artrodiale që lejon lëvizje çernierë dhe rrëshqitëse, me disk artikular."
@@ -365,19 +365,19 @@
             },
             "options": {
               "en": [
-                "Posterior superior alveolar nerve block",
-                "Inferior alveolar nerve block injection",
                 "Mental nerve block",
-                "Infraorbital nerve block"
+                "Infraorbital nerve block",
+                "Inferior alveolar nerve block injection",
+                "Posterior superior alveolar nerve block"
               ],
               "sq": [
-                "Bllokun e nervit alveolar superior posterior",
-                "Injeksionin e bllokut të nervit alveolar inferior",
                 "Bllokun e nervit mental",
-                "Bllokun e nervit infraorbital"
+                "Bllokun e nervit infraorbital",
+                "Injeksionin e bllokut të nervit alveolar inferior",
+                "Bllokun e nervit alveolar superior posterior"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "The <strong>pterygomandibular raphe</strong> is a fibrous band serving as a key landmark for the inferior alveolar nerve block. The injection is placed lateral to the raphe.",
               "sq": "<strong>Rafe pterigomandibulare</strong> është pikë referimi kryesore për bllokun e nervit alveolar inferior."
@@ -392,17 +392,17 @@
               "en": [
                 "Buccal space only",
                 "Canine space only",
-                "Lateral pharyngeal and retropharyngeal spaces",
-                "Submental space only"
+                "Submental space only",
+                "Lateral pharyngeal and retropharyngeal spaces"
               ],
               "sq": [
                 "Vetëm hapësira bukale",
                 "Vetëm hapësira kanine",
-                "Hapësirat faringeale laterale dhe retrofaringeale",
-                "Vetëm hapësira submentale"
+                "Vetëm hapësira submentale",
+                "Hapësirat faringeale laterale dhe retrofaringeale"
               ]
             },
-            "correct": 2,
+            "correct": 3,
             "explanation": {
               "en": "Infections of the <strong>lateral pharyngeal and retropharyngeal spaces</strong> can descend along fascial planes into the mediastinum, causing mediastinitis — a life-threatening complication.",
               "sq": "Infeksionet e <strong>hapësirave faringeale laterale dhe retrofaringeale</strong> mund të zbresin në mediastinum."
@@ -415,16 +415,16 @@
             },
             "options": {
               "en": [
+                "34",
                 "28",
-                "30",
                 "32",
-                "34"
+                "30"
               ],
               "sq": [
+                "34",
                 "28",
-                "30",
                 "32",
-                "34"
+                "30"
               ]
             },
             "correct": 2,
@@ -440,19 +440,19 @@
             },
             "options": {
               "en": [
-                "Glossopharyngeal nerve (IX)",
                 "Chorda tympani of facial nerve (VII)",
+                "Hypoglossal nerve (XII)",
                 "Vagus nerve (X)",
-                "Hypoglossal nerve (XII)"
+                "Glossopharyngeal nerve (IX)"
               ],
               "sq": [
-                "Nervi glosofaringeal (IX)",
                 "Korda timpani e nervit facial (VII)",
+                "Nervi hipoglosal (XII)",
                 "Nervi vagus (X)",
-                "Nervi hipoglosal (XII)"
+                "Nervi glosofaringeal (IX)"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "Taste in the anterior 2/3 of the tongue is carried by the <strong>chorda tympani</strong> (branch of CN VII). General sensation is by the lingual nerve (V3). Posterior 1/3: glossopharyngeal (IX).",
               "sq": "Shija në 2/3 anteriore të gjuhës mbartet nga <strong>korda timpani</strong> (degë e CN VII). Ndjesia e përgjithshme nga nervi lingual (V3)."
@@ -465,19 +465,19 @@
             },
             "options": {
               "en": [
-                "Lesser palatine artery",
                 "Ascending pharyngeal artery",
-                "Greater palatine artery",
-                "Inferior alveolar artery"
+                "Inferior alveolar artery",
+                "Lesser palatine artery",
+                "Greater palatine artery"
               ],
               "sq": [
-                "Arteria palatine e vogël",
                 "Arteria faringeale ascendente",
-                "Arteria palatine e madhe",
-                "Arteria alveolare inferiore"
+                "Arteria alveolare inferiore",
+                "Arteria palatine e vogël",
+                "Arteria palatine e madhe"
               ]
             },
-            "correct": 2,
+            "correct": 3,
             "explanation": {
               "en": "The <strong>greater palatine artery</strong> (branch of the descending palatine from the maxillary artery) is the main blood supply to the hard palate.",
               "sq": "<strong>Arteria palatine e madhe</strong> (degë e palatines zbritëse nga arteria maksilare) është furnizimi kryesor me gjak i qiellzës së fortë."
@@ -512,19 +512,19 @@
             },
             "options": {
               "en": [
-                "7 mg/kg",
-                "500 mg",
+                "245 mg",
                 "4.4 mg/kg (308 mg)",
-                "245 mg"
+                "500 mg",
+                "7 mg/kg"
               ],
               "sq": [
-                "7 mg/kg",
-                "500 mg",
+                "245 mg",
                 "4.4 mg/kg (308 mg)",
-                "245 mg"
+                "500 mg",
+                "7 mg/kg"
               ]
             },
-            "correct": 2,
+            "correct": 1,
             "explanation": {
               "en": "Lidocaine with epi: <strong>7 mg/kg</strong>, max 500mg. Know BOTH values — examiners test either.",
               "sq": "Lidokaina me epi: <strong>7 mg/kg</strong>, max 500mg. Dini TË DY vlerat — provuesit pyesin cilindo."
@@ -563,18 +563,18 @@
             "options": {
               "en": [
                 "Non-existent",
-                "Rare but significant",
                 "Very common",
-                "Extremely rare (<1%)"
+                "Extremely rare (<1%)",
+                "Rare but significant"
               ],
               "sq": [
                 "Nuk ekzistojnë",
-                "Të rralla por të rëndësishme",
                 "Shumë të zakonshme",
-                "Jashtëzakonisht të rralla (<1%)"
+                "Jashtëzakonisht të rralla (<1%)",
+                "Të rralla por të rëndësishme"
               ]
             },
-            "correct": 3,
+            "correct": 2,
             "explanation": {
               "en": "True allergy to amide LAs is <strong>extremely rare</strong> (<1%). Most reactions are vasovagal syncope or epinephrine response.",
               "sq": "Alergjia e vërtetë ndaj LA amide është <strong>jashtëzakonisht e rrallë</strong> (<1%). Shumica e reaksioneve janë sinkopë vazovagale ose përgjigje ndaj epinefrinës."
@@ -588,15 +588,15 @@
             "options": {
               "en": [
                 "Bupivacaine",
-                "Articaine",
+                "Lidocaine",
                 "Mepivacaine",
-                "Lidocaine"
+                "Articaine"
               ],
               "sq": [
                 "Bupivakaina",
-                "Artikaina",
+                "Lidokaina",
                 "Mepivakaina",
-                "Lidokaina"
+                "Artikaina"
               ]
             },
             "correct": 0,
@@ -612,19 +612,19 @@
             },
             "options": {
               "en": [
-                "It's the only ester used",
                 "It contains a thiophene ring instead of benzene",
+                "It cannot be used with epinephrine",
                 "It has no maximum dose",
-                "It cannot be used with epinephrine"
+                "It's the only ester used"
               ],
               "sq": [
-                "Është i vetmi ester i përdorur",
                 "Përmban unazë tiofeni në vend të benzenit",
+                "Nuk mund të përdoret me epinefrinë",
                 "Nuk ka dozë maksimale",
-                "Nuk mund të përdoret me epinefrinë"
+                "Është i vetmi ester i përdorur"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "Articaine has a <strong>thiophene ring</strong> instead of benzene, making it more lipid-soluble with better tissue diffusion.",
               "sq": "Artikaina ka <strong>unazë tiofeni</strong> në vend të benzenit, duke e bërë më të tretshme në lipide me difuzion më të mirë në inde."
@@ -645,19 +645,19 @@
             },
             "options": {
               "en": [
-                "Clindamycin",
-                "Metronidazole",
                 "Amoxicillin",
-                "Azithromycin"
+                "Azithromycin",
+                "Clindamycin",
+                "Metronidazole"
               ],
               "sq": [
-                "Klindamicina",
-                "Metronidazoli",
                 "Amoksicilina",
-                "Azitromicina"
+                "Azitromicina",
+                "Klindamicina",
+                "Metronidazoli"
               ]
             },
-            "correct": 2,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Amoxicillin 500mg TID</strong> is the first-line for dental infections.",
               "sq": "<strong>Amoksicilina 500mg TID</strong> është linja e parë për infeksionet dentare."
@@ -670,19 +670,19 @@
             },
             "options": {
               "en": [
+                "Amoxicillin-clavulanate",
                 "Clindamycin",
                 "Tetracycline",
-                "Amoxicillin-clavulanate",
                 "Cephalexin"
               ],
               "sq": [
+                "Amoksicilina-klavulanate",
                 "Klindamicina",
                 "Tetraciklina",
-                "Amoksicilina-klavulanate",
                 "Cefaleksina"
               ]
             },
-            "correct": 0,
+            "correct": 1,
             "explanation": {
               "en": "<strong>Clindamycin 300mg QID</strong> — excellent bone penetration, covers anaerobes. Risk of C. difficile.",
               "sq": "<strong>Klindamicina 300mg QID</strong> — penetrim i shkëlqyer në kockë, mbulon anaerobët. Rrezik i C. difficile."
@@ -695,19 +695,19 @@
             },
             "options": {
               "en": [
-                "Obligate anaerobes",
                 "Fungi",
-                "Aerobic gram-positive cocci",
-                "Gram-negative aerobes"
+                "Gram-negative aerobes",
+                "Obligate anaerobes",
+                "Aerobic gram-positive cocci"
               ],
               "sq": [
-                "Anaerobët obligat",
                 "Kërpudhat",
-                "Kokët gram-pozitive aerobe",
-                "Aerobët gram-negativ"
+                "Aerobët gram-negativ",
+                "Anaerobët obligat",
+                "Kokët gram-pozitive aerobe"
               ]
             },
-            "correct": 0,
+            "correct": 2,
             "explanation": {
               "en": "<strong>Metronidazole</strong> targets <strong>obligate anaerobes</strong>. Often combined with amoxicillin.",
               "sq": "<strong>Metronidazoli</strong> vepron kundër <strong>anaerobëve obligat</strong>. Shpesh kombinohet me amoksicilinë."
@@ -720,19 +720,19 @@
             },
             "options": {
               "en": [
-                "Clindamycin 600mg after",
-                "Amoxicillin 500mg TID for 7 days",
+                "Amoxicillin 250mg 1hr before",
                 "Amoxicillin 2g 30-60min before",
-                "Amoxicillin 250mg 1hr before"
+                "Amoxicillin 500mg TID for 7 days",
+                "Clindamycin 600mg after"
               ],
               "sq": [
-                "Klindamicina 600mg pas",
-                "Amoksicilina 500mg TID për 7 ditë",
+                "Amoksicilina 250mg 1 orë para",
                 "Amoksicilina 2g 30-60min para",
-                "Amoksicilina 250mg 1 orë para"
+                "Amoksicilina 500mg TID për 7 ditë",
+                "Klindamicina 600mg pas"
               ]
             },
-            "correct": 2,
+            "correct": 1,
             "explanation": {
               "en": "<strong>Amoxicillin 2g, 30-60 minutes before</strong>. Single dose, oral. AHA guideline — examiners LOVE this.",
               "sq": "<strong>Amoksicilina 2g, 30-60 minuta para</strong>. Dozë e vetme, orale. Guideline e AHA — provuesit e DUAN këtë pyetje."
@@ -745,19 +745,19 @@
             },
             "options": {
               "en": [
-                "Ibuprofen",
                 "Alcohol",
-                "Paracetamol",
-                "Omeprazole"
+                "Omeprazole",
+                "Ibuprofen",
+                "Paracetamol"
               ],
               "sq": [
-                "Ibuprofeni",
                 "Alkooli",
-                "Paracetamoli",
-                "Omeprazoli"
+                "Omeprazoli",
+                "Ibuprofeni",
+                "Paracetamoli"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "Metronidazole + <strong>alcohol</strong> = disulfiram-like reaction. Board exam classic.",
               "sq": "Metronidazoli + <strong>alkooli</strong> = reaksion i tipit disulfiram. Klasike e provimeve."
@@ -792,19 +792,19 @@
             },
             "options": {
               "en": [
-                "Vertical",
+                "Mesioangular",
                 "Distoangular",
-                "Horizontal",
-                "Mesioangular"
+                "Vertical",
+                "Horizontal"
               ],
               "sq": [
-                "Vertikal",
+                "Mezioanuglar",
                 "Distoanuglar",
-                "Horizontal",
-                "Mezioanuglar"
+                "Vertikal",
+                "Horizontal"
               ]
             },
-            "correct": 3,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Mesioangular</strong> is the most common (~43%).",
               "sq": "<strong>Mezioanuglar</strong> është më i zakonshmi (~43%)."
@@ -842,19 +842,19 @@
             },
             "options": {
               "en": [
-                "Alveolar osteitis (dry socket)",
-                "Hemorrhage",
                 "Mandibular fracture",
-                "Inferior alveolar nerve damage"
+                "Alveolar osteitis (dry socket)",
+                "Inferior alveolar nerve damage",
+                "Hemorrhage"
               ],
               "sq": [
-                "Osteiti alveolar (dry socket)",
-                "Hemorragjia",
                 "Fraktura e mandibulës",
-                "Dëmtimi i nervit alveolar inferior"
+                "Osteiti alveolar (dry socket)",
+                "Dëmtimi i nervit alveolar inferior",
+                "Hemorragjia"
               ]
             },
-            "correct": 0,
+            "correct": 1,
             "explanation": {
               "en": "<strong>Alveolar osteitis (dry socket)</strong> occurs in 2-5% of routine extractions, up to 25-30% for impacted third molars.",
               "sq": "<strong>Osteiti alveolar (dry socket)</strong> ndodh në 2-5% të ekstraktimeve rutinore, deri 25-30% për molarët e tretë të impaktuar."
@@ -868,18 +868,18 @@
             "options": {
               "en": [
                 "Buccal nerve",
-                "Mylohyoid nerve",
+                "Lingual nerve",
                 "Mental nerve",
-                "Lingual nerve"
+                "Mylohyoid nerve"
               ],
               "sq": [
                 "Nervi bukal",
-                "Nervi milohioid",
+                "Nervi lingual",
                 "Nervi mental",
-                "Nervi lingual"
+                "Nervi milohioid"
               ]
             },
-            "correct": 3,
+            "correct": 1,
             "explanation": {
               "en": "The <strong>lingual nerve</strong> is most commonly damaged (0.4-0.6% temporary).",
               "sq": "<strong>Nervi lingual</strong> dëmtohet më shpesh (0.4-0.6% e përkohshme)."
@@ -925,19 +925,19 @@
             },
             "options": {
               "en": [
-                "Distomolar",
                 "Supplemental lateral incisor",
-                "Paramolar",
-                "Mesiodens"
+                "Mesiodens",
+                "Distomolar",
+                "Paramolar"
               ],
               "sq": [
-                "Distomolari",
                 "Incizivi lateral suplementar",
-                "Paramolari",
-                "Meziodentja"
+                "Meziodentja",
+                "Distomolari",
+                "Paramolari"
               ]
             },
-            "correct": 3,
+            "correct": 1,
             "explanation": {
               "en": "<strong>Mesiodens</strong> accounts for ~80% of all supernumeraries.",
               "sq": "<strong>Meziodentja</strong> përbën ~80% të të gjithë supranumerarëve."
@@ -950,19 +950,19 @@
             },
             "options": {
               "en": [
-                "Turner syndrome",
                 "Cleidocranial dysplasia",
                 "Gardner syndrome",
+                "Turner syndrome",
                 "Down syndrome"
               ],
               "sq": [
-                "Sindromi Turner",
                 "Displazia kleidokraniale",
                 "Sindromi Gardner",
+                "Sindromi Turner",
                 "Sindromi Down"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Cleidocranial dysplasia</strong> — multiple supernumeraries, absent/hypoplastic clavicles, delayed fontanelle closure.",
               "sq": "<strong>Displazia kleidokraniale</strong> — supranumerar të shumëfishtë, klavikula të munguar/hipoplastike, mbyllje e vonuar e fontanelave."
@@ -975,19 +975,19 @@
             },
             "options": {
               "en": [
-                "Delayed/failed eruption of permanent teeth",
                 "Crowding",
                 "Root resorption of adjacent teeth",
-                "Odontogenic cyst formation"
+                "Odontogenic cyst formation",
+                "Delayed/failed eruption of permanent teeth"
               ],
               "sq": [
-                "Erupcioni i vonuar/dështuar i dhëmbëve të përhershëm",
                 "Ngjeshja",
                 "Resorbimi i rrënjës së dhëmbëve fqinj",
-                "Formimi i cistës odontogjenë"
+                "Formimi i cistës odontogjenë",
+                "Erupcioni i vonuar/dështuar i dhëmbëve të përhershëm"
               ]
             },
-            "correct": 0,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Delayed or failed eruption</strong> of adjacent permanent teeth is the most common complication (~30-60%).",
               "sq": "<strong>Erupcioni i vonuar ose i dështuar</strong> i dhëmbëve të përhershëm fqinj është komplikacioni më i zakonshëm (~30-60%)."
@@ -1000,14 +1000,14 @@
             },
             "options": {
               "en": [
-                "Panoramic radiograph",
                 "Clinical examination",
+                "Panoramic radiograph",
                 "Periapical radiograph",
                 "CBCT scan"
               ],
               "sq": [
-                "Radiografi panoramike",
                 "Ekzaminim klinik",
+                "Radiografi panoramike",
                 "Radiografi periapikale",
                 "CBCT skanim"
               ]
@@ -1026,18 +1026,18 @@
             "options": {
               "en": [
                 "Mesiodens",
-                "Paramolars or distomolars",
                 "Odontomas",
+                "Paramolars or distomolars",
                 "Supplemental teeth"
               ],
               "sq": [
                 "Meziodentë",
-                "Paramolarë ose distomolarë",
                 "Odontoma",
+                "Paramolarë ose distomolarë",
                 "Dhëmbë suplementarë"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "<strong>Paramolars</strong> are buccal/palatal to molars. <strong>Distomolars</strong> are distal to third molar. Bilateral occurrence is rare (<1%).",
               "sq": "<strong>Paramolarët</strong> janë bukale/palatinale ndaj molarëve. <strong>Distomolarët</strong> janë distale ndaj molarit të tretë. Paraqitja bilaterale është e rrallë (<1%)."
@@ -1058,19 +1058,19 @@
             },
             "options": {
               "en": [
-                "Immediately after extraction",
                 "2-5 days post-extraction with severe pain and exposed bone",
-                "With high fever and pus",
-                "Only in upper jaw extractions"
+                "Immediately after extraction",
+                "Only in upper jaw extractions",
+                "With high fever and pus"
               ],
               "sq": [
-                "Menjëherë pas nxjerrjes",
                 "2-5 ditë pas nxjerrjes me dhimbje të fortë dhe kockë të ekspozuar",
-                "Me temperaturë të lartë dhe qelb",
-                "Vetëm në nxjerrjet e nofullës së sipërme"
+                "Menjëherë pas nxjerrjes",
+                "Vetëm në nxjerrjet e nofullës së sipërme",
+                "Me temperaturë të lartë dhe qelb"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Dry socket</strong> presents 2-5 days post-extraction with severe throbbing pain, empty socket with exposed bone, foul taste/odor, and radiating ear pain. Irrigate and place medicated dressing.",
               "sq": "<strong>Alveoliti i thatë</strong> paraqitet 2-5 ditë pas nxjerrjes me dhimbje pulsuese, alveol bosh me kockë të ekspozuar."
@@ -1083,16 +1083,16 @@
             },
             "options": {
               "en": [
-                "Depth relative to occlusal plane",
+                "Number of roots",
                 "Angulation relative to the second molar",
                 "Proximity to the inferior alveolar canal",
-                "Number of roots"
+                "Depth relative to occlusal plane"
               ],
               "sq": [
-                "Thellësinë relative ndaj planit okluzal",
+                "Numrin e rrënjëve",
                 "Këndin relativ ndaj molarit të dytë",
                 "Afërsinë me kanalin alveolar inferior",
-                "Numrin e rrënjëve"
+                "Thellësinë relative ndaj planit okluzal"
               ]
             },
             "correct": 1,
@@ -1108,16 +1108,16 @@
             },
             "options": {
               "en": [
-                "Loss of taste on the tongue",
+                "Difficulty swallowing",
                 "Numbness/tingling of lower lip, chin, and gingiva on affected side",
-                "Facial paralysis",
-                "Difficulty swallowing"
+                "Loss of taste on the tongue",
+                "Facial paralysis"
               ],
               "sq": [
-                "Humbje e shijes në gjuhë",
+                "Vështirësi në gëlltitje",
                 "Mpirje/ndjesi shpuese e buzës së poshtme, mjekrës dhe gingivës",
-                "Paralizë faciale",
-                "Vështirësi në gëlltitje"
+                "Humbje e shijes në gjuhë",
+                "Paralizë faciale"
               ]
             },
             "correct": 1,
@@ -1133,15 +1133,15 @@
             },
             "options": {
               "en": [
-                "Immediate surgical flap closure",
-                "Blood clot protection, no nose blowing, antibiotics, decongestants",
                 "Packing with gauze and suturing",
+                "Blood clot protection, no nose blowing, antibiotics, decongestants",
+                "Immediate surgical flap closure",
                 "No treatment needed"
               ],
               "sq": [
-                "Mbyllje kirurgjikale të menjëhershme me flap",
-                "Mbrojtje e mpiksjes, mos fryrje e hundës, antibiotikë, dekongjestantë",
                 "Paketim me garzë dhe qepje",
+                "Mbrojtje e mpiksjes, mos fryrje e hundës, antibiotikë, dekongjestantë",
+                "Mbyllje kirurgjikale të menjëhershme me flap",
                 "Pa trajtim"
               ]
             },
@@ -1158,16 +1158,16 @@
             },
             "options": {
               "en": [
-                "Severe tooth pain",
+                "Allergic reaction",
                 "Potential airway obstruction from bilateral submandibular/sublingual cellulitis",
                 "Uncontrolled bleeding",
-                "Allergic reaction"
+                "Severe tooth pain"
               ],
               "sq": [
-                "Dhimbjes së fortë të dhëmbit",
+                "Reaksionit alergjik",
                 "Bllokimit potencial të rrugëve të frymëmarrjes nga celuliti dypalësh",
                 "Gjakderdhjes së pakontrolluar",
-                "Reaksionit alergjik"
+                "Dhimbjes së fortë të dhëmbit"
               ]
             },
             "correct": 1,
@@ -1183,19 +1183,19 @@
             },
             "options": {
               "en": [
+                "Pregnancy in second trimester",
                 "Mild hypertension",
-                "Active radiation therapy to the jaws",
                 "Controlled diabetes",
-                "Pregnancy in second trimester"
+                "Active radiation therapy to the jaws"
               ],
               "sq": [
+                "Shtatzëni në tremujorin e dytë",
                 "Hipertension i lehtë",
-                "Radioterapi aktive ndaj nofullës",
                 "Diabet i kontrolluar",
-                "Shtatzëni në tremujorin e dytë"
+                "Radioterapi aktive ndaj nofullës"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Active radiation therapy to the jaws</strong> is an absolute contraindication due to risk of osteoradionecrosis. Other absolute contraindications: uncontrolled bleeding disorders, recent MI (<6 months), malignant tumors involving the tooth.",
               "sq": "<strong>Radioterapia aktive ndaj nofullës</strong> është kundërindikacion absolut për shkak të rrezikut të osteoradionekrozës."
@@ -1208,19 +1208,19 @@
             },
             "options": {
               "en": [
-                "It only creates a window in the cyst wall",
                 "It completely removes the cyst lining in one piece",
-                "It is less invasive",
-                "It is used only for large cysts"
+                "It only creates a window in the cyst wall",
+                "It is used only for large cysts",
+                "It is less invasive"
               ],
               "sq": [
-                "Krijon vetëm dritare në murin e cistës",
                 "Heq plotësisht shtresën e cistës në një copë",
-                "Është më pak invaziv",
-                "Përdoret vetëm për cista të mëdha"
+                "Krijon vetëm dritare në murin e cistës",
+                "Përdoret vetëm për cista të mëdha",
+                "Është më pak invaziv"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Enucleation</strong>: complete removal of the cyst lining. <strong>Marsupialization</strong>: creating a window to decompress, used for large cysts to reduce surgical morbidity.",
               "sq": "<strong>Enukleimi</strong>: heqje e plotë e shtresës. <strong>Marsupializimi</strong>: krijim dritareje për dekompresim."
@@ -1233,19 +1233,19 @@
             },
             "options": {
               "en": [
-                "Orthodontic wire placement",
-                "Miniplate placement in mandibular fractures",
                 "Implant positioning",
-                "Root canal obturation"
+                "Orthodontic wire placement",
+                "Root canal obturation",
+                "Miniplate placement in mandibular fractures"
               ],
               "sq": [
-                "Vendosjen e telit ortodontik",
-                "Vendosjen e miniplakave në frakturat mandibulare",
                 "Pozicionimin e implanteve",
-                "Obturimin e kanalit"
+                "Vendosjen e telit ortodontik",
+                "Obturimin e kanalit",
+                "Vendosjen e miniplakave në frakturat mandibulare"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Champy's lines</strong> guide miniplate placement along ideal lines of osteosynthesis for mandibular fracture fixation, based on biomechanical tension zones.",
               "sq": "<strong>Linjat e Champy-t</strong> udhëzojnë vendosjen e miniplakave përgjatë linjave ideale të osteosintezës për fiksimin e frakturave mandibulare."
@@ -1280,16 +1280,16 @@
             },
             "options": {
               "en": [
-                "Pulp necrosis",
+                "Reversible pulpitis",
                 "Irreversible pulpitis",
                 "Normal pulp response",
-                "Reversible pulpitis"
+                "Pulp necrosis"
               ],
               "sq": [
-                "Nekrozë pulpe",
+                "Pulpit reversibil",
                 "Pulpit ireversibil",
                 "Përgjigje normale e pulpës",
-                "Pulpit reversibil"
+                "Nekrozë pulpe"
               ]
             },
             "correct": 2,
@@ -1305,15 +1305,15 @@
             },
             "options": {
               "en": [
-                "Reversible pulpitis",
                 "Cracked tooth",
                 "Apical periodontitis",
+                "Reversible pulpitis",
                 "Irreversible pulpitis"
               ],
               "sq": [
-                "Pulpit reversibil",
                 "Dhëmb i çarë",
                 "Periodontit apikal",
+                "Pulpit reversibil",
                 "Pulpit ireversibil"
               ]
             },
@@ -1330,19 +1330,19 @@
             },
             "options": {
               "en": [
+                "Internal resorption",
                 "Reversible pulpitis",
                 "Normal pulp",
-                "Pulp necrosis",
-                "Internal resorption"
+                "Pulp necrosis"
               ],
               "sq": [
+                "Resorbim intern",
                 "Pulpit reversibil",
                 "Pulpë normale",
-                "Nekrozë pulpe",
-                "Resorbim intern"
+                "Nekrozë pulpe"
               ]
             },
-            "correct": 2,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Pulp necrosis</strong> — no response to vitality tests.",
               "sq": "<strong>Nekroza e pulpës</strong> — pa përgjigje ndaj testeve të vitalitetit."
@@ -1355,19 +1355,19 @@
             },
             "options": {
               "en": [
-                "Electric pulp test",
                 "Heat test",
                 "Cold test",
-                "Laser Doppler flowmetry"
+                "Laser Doppler flowmetry",
+                "Electric pulp test"
               ],
               "sq": [
-                "Testi elektrik i pulpës",
                 "Testi i nxehtë",
                 "Testi i ftohtë",
-                "Flowmetria Laser Doppler"
+                "Flowmetria Laser Doppler",
+                "Testi elektrik i pulpës"
               ]
             },
-            "correct": 3,
+            "correct": 2,
             "explanation": {
               "en": "<strong>Laser Doppler flowmetry</strong> measures actual blood flow (true vitality), not nerve response.",
               "sq": "<strong>Flowmetria Laser Doppler</strong> mat qarkullimin e vërtetë (vitalitetin), jo përgjigjen nervore."
@@ -1380,19 +1380,19 @@
             },
             "options": {
               "en": [
-                "Periapical tissues (PDL)",
+                "Gingiva",
                 "Enamel",
                 "Pulp",
-                "Gingiva"
+                "Periapical tissues (PDL)"
               ],
               "sq": [
-                "Indet periapikale (PDL)",
+                "Gingivën",
                 "Smaltën",
                 "Pulpën",
-                "Gingivën"
+                "Indet periapikale (PDL)"
               ]
             },
-            "correct": 0,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Periapical tissues / PDL</strong> — percussion tests the periodontal ligament, NOT the pulp.",
               "sq": "<strong>Indet periapikale / PDL</strong> — perkusioni teston ligamentin periodontal, JO pulpën."
@@ -1413,19 +1413,19 @@
             },
             "options": {
               "en": [
-                "Dissolves organic tissue",
                 "Removes smear layer by chelating calcium ions",
+                "Lubricates rotary files",
                 "Kills anaerobic bacteria",
-                "Lubricates rotary files"
+                "Dissolves organic tissue"
               ],
               "sq": [
-                "Tret indin organik",
                 "Heq shtresën smear duke keluar jonet e kalciumit",
+                "Lubrikon filat rrotulluese",
                 "Vret bakteret anaerobe",
-                "Lubrikon filat rrotulluese"
+                "Tret indin organik"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "<strong>EDTA (17%)</strong> is a chelating agent that removes the inorganic component of the smear layer by binding calcium ions from dentin. Used as a final rinse for 1 minute before obturation.",
               "sq": "<strong>EDTA (17%)</strong> është agjent kelator që heq komponentin inorganik të shtresës smear duke lidhur jonet e kalciumit nga dentina. Përdoret si shplarje finale për 1 minutë para obturimit."
@@ -1439,18 +1439,18 @@
             "options": {
               "en": [
                 "Coronal flaring first, then apical preparation",
-                "Apical preparation to master file, then larger files at shorter lengths",
+                "Alternating between large and small files",
                 "Using only one file size throughout",
-                "Alternating between large and small files"
+                "Apical preparation to master file, then larger files at shorter lengths"
               ],
               "sq": [
                 "Zgjerim koronal fillimisht, pastaj përgatitje apikale",
-                "Përgatitje apikale deri te fila kryesore, pastaj fila më të mëdha në gjatësi më të shkurtra",
+                "Alternimin midis filave të mëdha dhe të vogla",
                 "Përdorimi i vetëm një madhësie file",
-                "Alternimin midis filave të mëdha dhe të vogla"
+                "Përgatitje apikale deri te fila kryesore, pastaj fila më të mëdha në gjatësi më të shkurtra"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "The <strong>step-back technique</strong> prepares the apical portion to a master apical file size, then uses sequentially larger files at progressively shorter working lengths to create a tapered preparation.",
               "sq": "<strong>Teknika step-back</strong> përgatit pjesën apikale deri në madhësinë e filës apikale kryesore, pastaj përdor fila progresivisht më të mëdha në gjatësi pune më të shkurtra për të krijuar përgatitje konike."
@@ -1464,18 +1464,18 @@
             "options": {
               "en": [
                 "Any failed root canal treatment",
-                "Only for anterior teeth",
                 "Failed retreatment with anatomical limitations preventing surgical access",
-                "Only for primary teeth"
+                "Only for primary teeth",
+                "Only for anterior teeth"
               ],
               "sq": [
                 "Çdo trajtim i dështuar i kanalit",
-                "Vetëm për dhëmbë anteriorë",
                 "Ritrajtim i dështuar me kufizime anatomike që pengojnë aksesin kirurgjik",
-                "Vetëm për dhëmbë qumështi"
+                "Vetëm për dhëmbë qumështi",
+                "Vetëm për dhëmbë anteriorë"
               ]
             },
-            "correct": 2,
+            "correct": 1,
             "explanation": {
               "en": "<strong>Intentional replantation</strong> is indicated when conventional retreatment fails and anatomical limitations prevent surgical access, or for teeth with complex root anatomy where apicoectomy is impractical.",
               "sq": "<strong>Riplantimi i qëllimshëm</strong> indikohet kur ritrajtimi konvencional dështon dhe kufizimet anatomike pengojnë aksesin kirurgjik, ose për dhëmbë me anatomi komplekse rrënjësh."
@@ -1488,19 +1488,19 @@
             },
             "options": {
               "en": [
+                "Required only for posterior teeth",
                 "Only for patient comfort",
-                "Isolation, contamination prevention, aspiration protection, and visibility",
                 "To speed up the procedure",
-                "Required only for posterior teeth"
+                "Isolation, contamination prevention, aspiration protection, and visibility"
               ],
               "sq": [
+                "Kërkohet vetëm për dhëmbë posteriorë",
                 "Vetëm për komfortin e pacientit",
-                "Izolim, parandalim kontaminimi, mbrojtje nga aspirimi dhe dukshmëri",
                 "Për të përshpejtuar procedurën",
-                "Kërkohet vetëm për dhëmbë posteriorë"
+                "Izolim, parandalim kontaminimi, mbrojtje nga aspirimi dhe dukshmëri"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "A <strong>rubber dam</strong> isolates the tooth, prevents salivary contamination, protects the patient from instrument aspiration/chemical ingestion, and improves visibility. It is the standard of care in endodontics.",
               "sq": "<strong>Diga e gomës</strong> izolon dhëmbin, parandalon kontaminimin nga pështyma, mbron pacientin nga aspirimi i instrumenteve dhe përmirëson dukshmërinë."
@@ -1514,18 +1514,18 @@
             "options": {
               "en": [
                 "Irregular radiolucency on root surface",
+                "Widened periodontal ligament space",
                 "Well-defined, uniform, oval radiolucency within the canal space",
-                "Diffuse radiolucency at the apex",
-                "Widened periodontal ligament space"
+                "Diffuse radiolucency at the apex"
               ],
               "sq": [
                 "Radiotransparencë e parregullt në sipërfaqen e rrënjës",
+                "Hapësirë e zgjeruar e ligamentit periodontal",
                 "Radiotransparencë e mirëpërcaktuar, uniforme, ovale brenda hapësirës së kanalit",
-                "Radiotransparencë difuze në apeks",
-                "Hapësirë e zgjeruar e ligamentit periodontal"
+                "Radiotransparencë difuze në apeks"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "<strong>Internal root resorption</strong> appears as a well-defined, uniform, oval radiolucency within the root canal space. It is caused by clastic cell activity from within the canal.",
               "sq": "<strong>Resorbimi i brendshëm</strong> shfaqet si radiotransparencë e mirëpërcaktuar, uniforme, ovale brenda kanalit. Shkaktohet nga aktiviteti i qelizave klastike."
@@ -1563,19 +1563,19 @@
             },
             "options": {
               "en": [
-                "Starting with the smallest file at the apex",
                 "Flaring the coronal portion first, then working toward the apex",
                 "Using hand files only",
-                "Preparing all canal walls simultaneously"
+                "Preparing all canal walls simultaneously",
+                "Starting with the smallest file at the apex"
               ],
               "sq": [
-                "Fillimin me filën më të vogël në apeks",
                 "Zgjerimin e pjesës koronale fillimisht, pastaj punimin drejt apeksit",
                 "Përdorimin vetëm të filave manuale",
-                "Përgatitjen e të gjitha mureve njëkohësisht"
+                "Përgatitjen e të gjitha mureve njëkohësisht",
+                "Fillimin me filën më të vogël në apeks"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "The <strong>crown-down technique</strong> flares the coronal portion first with larger instruments, progressively working toward the apex. This reduces debris extrusion, improves irrigant access, and decreases file separation risk.",
               "sq": "<strong>Teknika crown-down</strong> zgjeron pjesën koronale fillimisht me instrumente më të mëdha, duke punuar progresivisht drejt apeksit."
@@ -1588,19 +1588,19 @@
             },
             "options": {
               "en": [
-                "A periodontal probe",
-                "A gutta-percha cone with radiograph",
                 "Digital palpation",
-                "Thermal testing"
+                "Thermal testing",
+                "A gutta-percha cone with radiograph",
+                "A periodontal probe"
               ],
               "sq": [
-                "Sondë periodontale",
-                "Kon guta-perka me radiografi",
                 "Palpim dixhital",
-                "Testim termal"
+                "Testim termal",
+                "Kon guta-perka me radiografi",
+                "Sondë periodontale"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "A <strong>sinus tract</strong> is traced by inserting a gutta-percha cone into the opening and taking a radiograph to identify the source tooth.",
               "sq": "<strong>Trakti sinusal</strong> gjurmohet duke futur një kon guta-perka në hapjen dhe duke marrë radiografi për të identifikuar dhëmbin burimor."
@@ -1613,19 +1613,19 @@
             },
             "options": {
               "en": [
+                "Procedural errors like perforation",
                 "Missed canals",
-                "Excessive fluoride use",
                 "Poor obturation and coronal leakage",
-                "Procedural errors like perforation"
+                "Excessive fluoride use"
               ],
               "sq": [
+                "Gabime procedurale si perforimi",
                 "Kanale të pakapura",
-                "Përdorim i tepërt i fluoridit",
                 "Obturim i dobët dhe rrjedhje koronale",
-                "Gabime procedurale si perforimi"
+                "Përdorim i tepërt i fluoridit"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "Common causes of endodontic failure include: missed canals, inadequate debridement, poor obturation, coronal leakage, persistent infection, and procedural errors. <strong>Excessive fluoride use</strong> is not a cause of endodontic failure.",
               "sq": "Shkaqet e zakonshme të dështimit endodontik: kanale të pakapura, debridim joadekuat, obturim i dobët, rrjedhje koronale, infeksion persistent dhe gabime procedurale."
@@ -1660,19 +1660,19 @@
             },
             "options": {
               "en": [
-                "Lower radiation dose",
                 "Higher soft tissue resolution",
                 "Faster processing",
-                "Better soft tissue contrast"
+                "Better soft tissue contrast",
+                "Lower radiation dose"
               ],
               "sq": [
-                "Dozë më e ulët e rrezatimit",
                 "Rezolucion më i lartë i indeve të buta",
                 "Përpunim më i shpejtë",
-                "Kontrast më i mirë i indeve të buta"
+                "Kontrast më i mirë i indeve të buta",
+                "Dozë më e ulët e rrezatimit"
               ]
             },
-            "correct": 0,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Lower radiation dose</strong> — up to 98% less than medical CT.",
               "sq": "<strong>Dozë më e ulët rrezatimi</strong> — deri 98% më pak se CT mjekësore."
@@ -1685,19 +1685,19 @@
             },
             "options": {
               "en": [
-                "Routine endodontic treatment",
-                "Diagnosing simple caries",
+                "Checking periodontal bone levels",
                 "Complex impactions near vital structures",
-                "Checking periodontal bone levels"
+                "Routine endodontic treatment",
+                "Diagnosing simple caries"
               ],
               "sq": [
-                "Trajtimi endodontik rutinor",
-                "Diagnostikimi i kariesit të thjeshtë",
+                "Kontrollimi i niveleve të kockës periodontale",
                 "Impaktime komplekse pranë strukturave vitale",
-                "Kontrollimi i niveleve të kockës periodontale"
+                "Trajtimi endodontik rutinor",
+                "Diagnostikimi i kariesit të thjeshtë"
               ]
             },
-            "correct": 2,
+            "correct": 1,
             "explanation": {
               "en": "CBCT for <strong>complex cases</strong>: impactions near IAN/sinus, supernumeraries, root resorption, pre-implant planning.",
               "sq": "CBCT për <strong>raste komplekse</strong>: impaktime pranë IAN/sinusit, supranumerar, resorbim rrënje, planifikim para-implantit."
@@ -1710,19 +1710,19 @@
             },
             "options": {
               "en": [
-                "A 2D pixel",
                 "A type of artifact",
-                "A 3D volumetric unit",
-                "A radiation dose measure"
+                "A radiation dose measure",
+                "A 2D pixel",
+                "A 3D volumetric unit"
               ],
               "sq": [
-                "Piksel 2D",
                 "Lloj artefakti",
-                "Njësi vëllimore 3D",
-                "Masë e dozës së rrezatimit"
+                "Masë e dozës së rrezatimit",
+                "Piksel 2D",
+                "Njësi vëllimore 3D"
               ]
             },
-            "correct": 2,
+            "correct": 3,
             "explanation": {
               "en": "A <strong>voxel</strong> is the smallest 3D unit in a CBCT dataset. Smaller = higher resolution but more radiation.",
               "sq": "<strong>Vokseli</strong> është njësia më e vogël 3D në të dhënat CBCT. Më i vogël = rezolucion më i lartë por më shumë rrezatim."
@@ -1737,14 +1737,14 @@
               "en": [
                 "Beam hardening (streak artifacts)",
                 "Motion blur",
-                "Aliasing",
-                "Ghost images"
+                "Ghost images",
+                "Aliasing"
               ],
               "sq": [
                 "Ngurtësim i rrezes (artefakte me vija)",
                 "Turbullim nga lëvizja",
-                "Aliasing",
-                "Imazhe fantazmë"
+                "Imazhe fantazmë",
+                "Aliasing"
               ]
             },
             "correct": 0,
@@ -1760,19 +1760,19 @@
             },
             "options": {
               "en": [
+                "Always use the largest",
                 "Machine type",
-                "The diagnostic question — as small as achievable",
                 "Patient age only",
-                "Always use the largest"
+                "The diagnostic question — as small as achievable"
               ],
               "sq": [
+                "Gjithmonë përdor më të madhin",
                 "Llojin e aparatit",
-                "Pyetjen diagnostike — sa më i vogël të jetë i mundur",
                 "Vetëm moshën e pacientit",
-                "Gjithmonë përdor më të madhin"
+                "Pyetjen diagnostike — sa më i vogël të jetë i mundur"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "Follow <strong>ALARA</strong> — smallest FOV that answers the clinical question.",
               "sq": "Ndiq <strong>ALARA</strong> — FOV më i vogël që i përgjigjet pyetjes klinike."
@@ -1807,15 +1807,15 @@
             },
             "options": {
               "en": [
-                "No bone loss",
-                "CAL 3-4mm",
                 "CAL 1-2mm",
+                "CAL 3-4mm",
+                "No bone loss",
                 "CAL ≥5mm"
               ],
               "sq": [
-                "Pa humbje kocke",
-                "CAL 3-4mm",
                 "CAL 1-2mm",
+                "CAL 3-4mm",
+                "Pa humbje kocke",
                 "CAL ≥5mm"
               ]
             },
@@ -1832,19 +1832,19 @@
             },
             "options": {
               "en": [
-                "Rapid progression",
                 "Moderate progression",
                 "Slow progression",
+                "Rapid progression",
                 "No progression"
               ],
               "sq": [
-                "Progresion të shpejtë",
                 "Progresion të moderuar",
                 "Progresion të ngadaltë",
+                "Progresion të shpejtë",
                 "Pa progresion"
               ]
             },
-            "correct": 0,
+            "correct": 2,
             "explanation": {
               "en": "<strong>Grade C = rapid progression</strong>. >2mm bone loss over 5 years.",
               "sq": "<strong>Grada C = progresion i shpejtë</strong>. >2mm humbje kocke gjatë 5 viteve."
@@ -1857,16 +1857,16 @@
             },
             "options": {
               "en": [
-                "Genetic susceptibility",
+                "Calculus",
                 "Bacterial biofilm (plaque)",
                 "Smoking",
-                "Calculus"
+                "Genetic susceptibility"
               ],
               "sq": [
-                "Predispozita gjenetike",
+                "Gurët e dhëmbëve",
                 "Biofilmi bakterial (pllaka)",
                 "Pirja e duhanit",
-                "Gurët e dhëmbëve"
+                "Predispozita gjenetike"
               ]
             },
             "correct": 1,
@@ -1883,18 +1883,18 @@
             "options": {
               "en": [
                 "Need for antibiotics",
+                "Gingival/periodontal inflammation",
                 "Active bone loss",
-                "Irreversible damage",
-                "Gingival/periodontal inflammation"
+                "Irreversible damage"
               ],
               "sq": [
                 "Nevojë për antibiotikë",
+                "Inflamacion gingival/periodontal",
                 "Humbje aktive kocke",
-                "Dëmtim ireversibil",
-                "Inflamacion gingival/periodontal"
+                "Dëmtim ireversibil"
               ]
             },
-            "correct": 3,
+            "correct": 1,
             "explanation": {
               "en": "<strong>BOP = inflammation</strong>. Earliest clinical sign. Absence of BOP predicts stability.",
               "sq": "<strong>BOP = inflamacion</strong>. Shenja e parë klinike. Mungesa e BOP parashikon stabilitet."
@@ -1907,19 +1907,19 @@
             },
             "options": {
               "en": [
-                "Has apical migration of junctional epithelium",
                 "Has gingival enlargement only",
+                "Has apical migration of junctional epithelium",
                 "No bone loss",
                 "Probing depth <3mm"
               ],
               "sq": [
-                "Ka migrim apikal të epitelit bashkues",
                 "Ka vetëm zmadhim gingival",
+                "Ka migrim apikal të epitelit bashkues",
                 "Pa humbje kocke",
                 "Thellësia e sondimit <3mm"
               ]
             },
-            "correct": 0,
+            "correct": 1,
             "explanation": {
               "en": "True pocket: <strong>apical migration of junctional epithelium</strong> with attachment loss.",
               "sq": "Xhepi i vërtetë: <strong>migrim apikal i epitelit bashkues</strong> me humbje të lidhjes."
@@ -1940,16 +1940,16 @@
             },
             "options": {
               "en": [
-                "Dark brown and derived from crevicular fluid",
-                "Yellowish-white and derived from saliva",
                 "Always harder than subgingival",
-                "Found only on molars"
+                "Yellowish-white and derived from saliva",
+                "Found only on molars",
+                "Dark brown and derived from crevicular fluid"
               ],
               "sq": [
-                "Kafe i errët nga lëngu krevikular",
-                "I verdhë-bardhë nga pështyma",
                 "Gjithmonë më i fortë se subgingivali",
-                "Gjendet vetëm te molarët"
+                "I verdhë-bardhë nga pështyma",
+                "Gjendet vetëm te molarët",
+                "Kafe i errët nga lëngu krevikular"
               ]
             },
             "correct": 1,
@@ -1965,19 +1965,19 @@
             },
             "options": {
               "en": [
-                "Only probing depth",
                 "Stage (severity/complexity) and Grade (progression/risk)",
-                "Only radiographic bone loss",
-                "Number of missing teeth"
+                "Number of missing teeth",
+                "Only probing depth",
+                "Only radiographic bone loss"
               ],
               "sq": [
-                "Vetëm thellësi sondimi",
                 "Stadi (ashpërsi/kompleksitet) dhe Grada (progresion/rrezik)",
-                "Vetëm humbje kockore radiografike",
-                "Numri i dhëmbëve të humbur"
+                "Numri i dhëmbëve të humbur",
+                "Vetëm thellësi sondimi",
+                "Vetëm humbje kockore radiografike"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "The <strong>2017 World Workshop</strong> classification uses <strong>Stage (I-IV)</strong> for severity/complexity and <strong>Grade (A-C)</strong> for progression rate and risk factors, replacing the 1999 Armitage system.",
               "sq": "Klasifikimi i <strong>2017</strong> përdor <strong>Stadin (I-IV)</strong> për ashpërsi dhe <strong>Gradën (A-C)</strong> për shkallën e progresionit."
@@ -1990,19 +1990,19 @@
             },
             "options": {
               "en": [
-                "Removing all gingival tissue",
-                "Using barrier membranes to exclude epithelium and allow PDL/bone cells to regenerate",
                 "Applying fluoride to root surfaces",
-                "Grafting only soft tissue"
+                "Grafting only soft tissue",
+                "Removing all gingival tissue",
+                "Using barrier membranes to exclude epithelium and allow PDL/bone cells to regenerate"
               ],
               "sq": [
-                "Hequr të gjithë indin gingival",
-                "Përdorur membrana barrierë për të përjashtuar epitelin dhe lejuar rigjenerimin e qelizave PDL/kockore",
                 "Aplikuar fluorid në sipërfaqet e rrënjëve",
-                "Graftuar vetëm ind të butë"
+                "Graftuar vetëm ind të butë",
+                "Hequr të gjithë indin gingival",
+                "Përdorur membrana barrierë për të përjashtuar epitelin dhe lejuar rigjenerimin e qelizave PDL/kockore"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "<strong>GTR</strong> uses barrier membranes to exclude fast-growing gingival epithelium, allowing slower periodontal ligament and bone cells to repopulate the defect. Indicated for intrabony defects and furcation involvement.",
               "sq": "<strong>GTR</strong> përdor membrana barrierë për të përjashtuar epitelin gingival, duke lejuar qelizat e PDL dhe kockës të rigjenerojnë defektin."
@@ -2015,19 +2015,19 @@
             },
             "options": {
               "en": [
-                "Normal healthy tissue",
-                "Earliest clinical sign of gingival inflammation",
                 "Advanced bone loss only",
-                "Need for immediate surgery"
+                "Normal healthy tissue",
+                "Need for immediate surgery",
+                "Earliest clinical sign of gingival inflammation"
               ],
               "sq": [
-                "Ind të shëndoshë normal",
-                "Shenjën e parë klinike të inflamacionit gingival",
                 "Vetëm humbje të avancuar kockore",
-                "Nevojë për kirurgji të menjëhershme"
+                "Ind të shëndoshë normal",
+                "Nevojë për kirurgji të menjëhershme",
+                "Shenjën e parë klinike të inflamacionit gingival"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "<strong>BOP</strong> is the earliest clinical sign of gingival inflammation and indicates active disease. It is elicited by gentle probing of the gingival sulcus.",
               "sq": "<strong>BOP</strong> është shenja e parë klinike e inflamacionit gingival dhe tregon sëmundje aktive."
@@ -2040,19 +2040,19 @@
             },
             "options": {
               "en": [
+                "Clinically open through-and-through",
                 "No bone loss in furcation",
                 "Partial bone loss (cul-de-sac, not through-and-through)",
-                "Complete through-and-through but tissue-covered",
-                "Clinically open through-and-through"
+                "Complete through-and-through but tissue-covered"
               ],
               "sq": [
+                "Klinikisht e hapur përmes",
                 "Pa humbje kockore në furkacion",
                 "Humbje e pjesshme kockore (nuk kalon përmes)",
-                "E plotë përmes por e mbuluar me ind",
-                "Klinikisht e hapur përmes"
+                "E plotë përmes por e mbuluar me ind"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "<strong>Grade II</strong> furcation: partial bone loss creating a cul-de-sac — a probe enters the furcation but does not pass completely through. Grade I = incipient, Grade III = through but covered, Grade IV = open.",
               "sq": "<strong>Grada II</strong>: humbje e pjesshme kockore — sonda hyn por nuk kalon plotësisht."
@@ -2065,19 +2065,19 @@
             },
             "options": {
               "en": [
-                "Enamel, dentin, pulp, cementum",
-                "Gingiva, PDL, cementum, alveolar bone",
                 "Mucosa, submucosa, bone, cartilage",
-                "Epithelium, lamina propria, periosteum, cortical bone"
+                "Epithelium, lamina propria, periosteum, cortical bone",
+                "Gingiva, PDL, cementum, alveolar bone",
+                "Enamel, dentin, pulp, cementum"
               ],
               "sq": [
-                "Smalti, dentina, pulpa, çementi",
-                "Gingiva, PDL, çementi, kocka alveolare",
                 "Mukoza, submukoza, kocka, kërc",
-                "Epiteli, lamina propria, periosti, kocka kortikale"
+                "Epiteli, lamina propria, periosti, kocka kortikale",
+                "Gingiva, PDL, çementi, kocka alveolare",
+                "Smalti, dentina, pulpa, çementi"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "The <strong>periodontium</strong> consists of: gingiva, periodontal ligament (PDL), cementum, and alveolar bone. These structures support and anchor the teeth.",
               "sq": "<strong>Periodonciumi</strong> përbëhet nga: gingiva, ligamenti periodontal (PDL), çementi dhe kocka alveolare."
@@ -2090,19 +2090,19 @@
             },
             "options": {
               "en": [
-                "A replacement for scaling and root planing",
                 "Adjunctive to mechanical debridement in aggressive/refractory cases",
+                "Only used post-surgically",
                 "Never indicated",
-                "Only used post-surgically"
+                "A replacement for scaling and root planing"
               ],
               "sq": [
-                "Zëvendësim i pastrimit dhe rrafshimit",
                 "Ndihmës ndaj debridimit mekanik në raste agresive/refraktore",
+                "Vetëm post-kirurgjikisht",
                 "Kurrë të indikuar",
-                "Vetëm post-kirurgjikisht"
+                "Zëvendësim i pastrimit dhe rrafshimit"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "Systemic antibiotics are <strong>adjunctive</strong> to SRP, not a substitute. Common regimen for aggressive periodontitis: amoxicillin + metronidazole.",
               "sq": "Antibiotikët sistemikë janë <strong>ndihmës</strong> ndaj SRP, jo zëvendësim."
@@ -2115,19 +2115,19 @@
             },
             "options": {
               "en": [
-                "Reflects a mucoperiosteal flap",
                 "Excises excess gingival tissue without flap reflection",
                 "Always involves bone recontouring",
-                "Is used only for periodontitis"
+                "Is used only for periodontitis",
+                "Reflects a mucoperiosteal flap"
               ],
               "sq": [
-                "Reflekton flap mukoperiosteal",
                 "Heq indin gingival të tepërt pa reflektim flapi",
                 "Përfshin gjithmonë rikonturim kockor",
-                "Përdoret vetëm për periodontit"
+                "Përdoret vetëm për periodontit",
+                "Reflekton flap mukoperiosteal"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Gingivectomy</strong> excises excess gingival tissue (for pseudopockets/gingival enlargement). <strong>Flap surgery</strong> reflects tissue to access roots and bone.",
               "sq": "<strong>Gingivektomia</strong> heq indin gingival të tepërt. <strong>Kirurgjia me flap</strong> reflekton indin për akses."
@@ -2141,18 +2141,18 @@
             "options": {
               "en": [
                 "Root canal treatment",
-                "Correcting defects in gingival morphology, position, or amount",
                 "Orthodontic tooth movement",
+                "Correcting defects in gingival morphology, position, or amount",
                 "Caries removal"
               ],
               "sq": [
                 "Trajtimin e kanalit",
-                "Korrigjimin e defekteve në morfologjinë, pozicionin ose sasinë e gingivës",
                 "Lëvizjen ortodontike",
+                "Korrigjimin e defekteve në morfologjinë, pozicionin ose sasinë e gingivës",
                 "Heqjen e kariesit"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "<strong>Mucogingival surgery</strong> includes soft tissue grafting for recession coverage, vestibuloplasty, and other plastic periodontal procedures.",
               "sq": "<strong>Kirurgjia mukogingivale</strong> përfshin graftimin e indeve të buta për mbulimin e recesionit dhe vestibuloplastikën."
@@ -2187,19 +2187,19 @@
             },
             "options": {
               "en": [
-                "Quartz + barium glass",
-                "Zinc oxide + magnesium oxide",
                 "Polymethyl methacrylate",
-                "Calcium-fluoroaluminosilicate glass"
+                "Quartz + barium glass",
+                "Calcium-fluoroaluminosilicate glass",
+                "Zinc oxide + magnesium oxide"
               ],
               "sq": [
-                "Kuarc + qelq bariumi",
-                "Oksid zinku + oksid magnezi",
                 "Polimetilmetakrilat",
-                "Qelq kalcium-fluoroaluminosilikat"
+                "Kuarc + qelq bariumi",
+                "Qelq kalcium-fluoroaluminosilikat",
+                "Oksid zinku + oksid magnezi"
               ]
             },
-            "correct": 3,
+            "correct": 2,
             "explanation": {
               "en": "The powder is <strong>calcium-fluoroaluminosilicate glass</strong> (SiO₂, Al₂O₃, CaF₂, Na₃AlF₆, AlPO₄). The fluoride gives GIC its anticariogenic property.",
               "sq": "Pluhuri është <strong>qelq kalcium-fluoroaluminosilikat</strong> (SiO₂, Al₂O₃, CaF₂, Na₃AlF₆, AlPO₄). Fluoridi i jep GIC-së vetinë antikariogjene."
@@ -2212,19 +2212,19 @@
             },
             "options": {
               "en": [
-                "MMA monomer",
-                "Eugenol",
                 "Polyacrylic acid (PAA)",
-                "Phosphoric acid"
+                "MMA monomer",
+                "Phosphoric acid",
+                "Eugenol"
               ],
               "sq": [
-                "Monomeri MMA",
-                "Eugenoli",
                 "Acidi poliakrillik (PAA)",
-                "Acidi fosforik"
+                "Monomeri MMA",
+                "Acidi fosforik",
+                "Eugenoli"
               ]
             },
-            "correct": 2,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Polyacrylic acid</strong> (40-50% solution). Some also contain tartaric acid which controls setting time.",
               "sq": "<strong>Acidi poliakrillik</strong> (solucioni 40-50%). Disa përmbajnë edhe acid tartarik që kontrollon kohën e ngurtësimit."
@@ -2238,18 +2238,18 @@
             "options": {
               "en": [
                 "Condensation polymerization",
-                "Acid-base reaction",
                 "Addition polymerization",
+                "Acid-base reaction",
                 "Light-activated polymerization"
               ],
               "sq": [
                 "Polimerizim i kondensimit",
-                "Reaksion acid-bazë",
                 "Polimerizim i adicionit",
+                "Reaksion acid-bazë",
                 "Polimerizim i aktivizuar me dritë"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "GIC sets by an <strong>acid-base reaction</strong>. Ca²⁺ cross-links first (initial set), then Al³⁺ (final set, 24-48h).",
               "sq": "GIC ngurtësohet me <strong>reaksion acid-bazë</strong>. Ca²⁺ lidhet i pari (ngurtësim fillestar), pastaj Al³⁺ (ngurtësim final, 24-48h)."
@@ -2263,18 +2263,18 @@
             "options": {
               "en": [
                 "1:1",
+                "4:1",
                 "1.5:1",
-                "3:1",
-                "4:1"
+                "3:1"
               ],
               "sq": [
                 "1:1",
+                "4:1",
                 "1.5:1",
-                "3:1",
-                "4:1"
+                "3:1"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "Luting GIC: <strong>1.5:1</strong> (thin). Restorative: 3:1 to 4:1 (thick).",
               "sq": "GIC çimentuese: <strong>1.5:1</strong> (e hollë). Restauruese: 3:1 deri 4:1 (e trashë)."
@@ -2287,19 +2287,19 @@
             },
             "options": {
               "en": [
-                "Cermet",
-                "Resin-modified GIC (RMGIC)",
                 "High-viscosity GIC",
-                "Conventional GIC"
+                "Conventional GIC",
+                "Cermet",
+                "Resin-modified GIC (RMGIC)"
               ],
               "sq": [
-                "Cermet",
-                "GIC e modifikuar me rezinë (RMGIC)",
                 "GIC me viskozitet të lartë",
-                "GIC konvencionale"
+                "GIC konvencionale",
+                "Cermet",
+                "GIC e modifikuar me rezinë (RMGIC)"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "<strong>RMGIC</strong> contains HEMA + photoinitiators. Sets by BOTH acid-base AND light-cured polymerization.",
               "sq": "<strong>RMGIC</strong> përmban HEMA + fotoiniciatorë. Ngurtësohet me TË DY reaksion acid-bazë DHE polimerizim me dritë."
@@ -2312,19 +2312,19 @@
             },
             "options": {
               "en": [
-                "Van der Waals forces only",
-                "Chemical bond to calcium in hydroxyapatite",
+                "Micromechanical retention only",
                 "Resin infiltration of etched enamel",
-                "Micromechanical retention only"
+                "Van der Waals forces only",
+                "Chemical bond to calcium in hydroxyapatite"
               ],
               "sq": [
-                "Vetëm forca Van der Waals",
-                "Lidhje kimike me kalciumin në hidroksiapatit",
+                "Vetëm retension mekanike",
                 "Infiltrim rezine në smalt të gdhendur",
-                "Vetëm retension mekanike"
+                "Vetëm forca Van der Waals",
+                "Lidhje kimike me kalciumin në hidroksiapatit"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "GIC forms a <strong>chemical bond</strong> — carboxyl groups bond to calcium in hydroxyapatite. No etching needed.",
               "sq": "GIC formon <strong>lidhje kimike</strong> — grupet karboksile lidhen me kalciumin në hidroksiapatit. Nuk nevojitet gdhendja."
@@ -2337,19 +2337,19 @@
             },
             "options": {
               "en": [
-                "Type II — high viscosity",
                 "Type III (liner)",
-                "RMGIC",
-                "Type I (luting)"
+                "Type I (luting)",
+                "Type II — high viscosity",
+                "RMGIC"
               ],
               "sq": [
-                "Tipi II — viskozitet i lartë",
                 "Tipi III (liner)",
-                "RMGIC",
-                "Tipi I (çimentuese)"
+                "Tipi I (çimentuese)",
+                "Tipi II — viskozitet i lartë",
+                "RMGIC"
               ]
             },
-            "correct": 0,
+            "correct": 2,
             "explanation": {
               "en": "<strong>High-viscosity GIC (Type II)</strong> for ART — hand instruments only, ideal for field conditions.",
               "sq": "<strong>GIC me viskozitet të lartë (Tipi II)</strong> për ART — vetëm instrumente dore, ideale për kushte në terren."
@@ -2362,14 +2362,14 @@
             },
             "options": {
               "en": [
-                "Constant forever",
                 "No release after setting",
+                "Constant forever",
                 "Only when exposed to acid",
                 "High initial burst, then sustained low release"
               ],
               "sq": [
-                "Konstant përgjithmonë",
                 "Pa lirim pas ngurtësimit",
+                "Konstant përgjithmonë",
                 "Vetëm kur ekspozohet ndaj acidit",
                 "Shpërthim fillestar i lartë, pastaj lirim i ulët i vazhdueshëm"
               ]
@@ -2387,19 +2387,19 @@
             },
             "options": {
               "en": [
-                "Gold",
                 "Stainless steel",
+                "Silver-tin alloy",
                 "Titanium",
-                "Silver-tin alloy"
+                "Gold"
               ],
               "sq": [
-                "Ar",
                 "Çelik inox",
+                "Aliazh argjend-kallaj",
                 "Titan",
-                "Aliazh argjend-kallaj"
+                "Ar"
               ]
             },
-            "correct": 3,
+            "correct": 1,
             "explanation": {
               "en": "<strong>Silver-tin alloy</strong> sintered with glass powder. Rarely used today — poor esthetics.",
               "sq": "<strong>Aliazhi argjend-kallaj</strong> i sinteruar me pluhur qelqi. Rrallë përdoret sot — estetikë e dobët."
@@ -2412,19 +2412,19 @@
             },
             "options": {
               "en": [
-                "Requires etching",
-                "No fluoride release",
+                "Cannot bond to tooth",
                 "Poor esthetics and low fracture toughness",
-                "Cannot bond to tooth"
+                "Requires etching",
+                "No fluoride release"
               ],
               "sq": [
-                "Kërkon gdhendje",
-                "Pa lirim fluoridi",
+                "Nuk lidhet me dhëmbin",
                 "Estetikë e dobët dhe rezistencë e ulët ndaj thyerjes",
-                "Nuk lidhet me dhëmbin"
+                "Kërkon gdhendje",
+                "Pa lirim fluoridi"
               ]
             },
-            "correct": 2,
+            "correct": 1,
             "explanation": {
               "en": "GIC: <strong>poor esthetics, low fracture toughness, low tensile strength</strong>. But great biocompatibility and fluoride release.",
               "sq": "GIC: <strong>estetikë e dobët, rezistencë e ulët ndaj thyerjes, forcë e ulët tensioni</strong>. Por biokompatibilitet i shkëlqyer dhe lirim fluoridi."
@@ -2445,19 +2445,19 @@
             },
             "options": {
               "en": [
-                "Silver, tin, zinc, copper",
-                "Nickel, chromium, cobalt",
                 "Silver, tin, copper, zinc (±mercury)",
-                "Gold, palladium, silver"
+                "Silver, tin, zinc, copper",
+                "Gold, palladium, silver",
+                "Nickel, chromium, cobalt"
               ],
               "sq": [
-                "Argjend, kallaj, zink, bakër",
-                "Nikel, krom, kobalt",
                 "Argjend, kallaj, bakër, zink (±mërkur)",
-                "Ar, paladium, argjend"
+                "Argjend, kallaj, zink, bakër",
+                "Ar, paladium, argjend",
+                "Nikel, krom, kobalt"
               ]
             },
-            "correct": 2,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Ag ~40-70%, Sn ~25-30%, Cu ~13-30%, Zn 0-2%</strong>. Mixed with mercury to form amalgam.",
               "sq": "<strong>Ag ~40-70%, Sn ~25-30%, Cu ~13-30%, Zn 0-2%</strong>. Përzihet me mërkur për të formuar amalgamin."
@@ -2470,19 +2470,19 @@
             },
             "options": {
               "en": [
+                "Cu₆Sn₅",
                 "Ag₃Sn",
-                "Ag₂Hg₃",
                 "Sn₇₋₈Hg",
-                "Cu₆Sn₅"
+                "Ag₂Hg₃"
               ],
               "sq": [
+                "Cu₆Sn₅",
                 "Ag₃Sn",
-                "Ag₂Hg₃",
                 "Sn₇₋₈Hg",
-                "Cu₆Sn₅"
+                "Ag₂Hg₃"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "<strong>γ₁ = Ag₂Hg₃</strong> — the matrix phase, strongest reaction product.",
               "sq": "<strong>γ₁ = Ag₂Hg₃</strong> — faza matrice, produkti më i fortë i reaksionit."
@@ -2495,19 +2495,19 @@
             },
             "options": {
               "en": [
-                "Corrodes and is the weakest phase",
-                "Releases excessive mercury",
+                "Too hard and brittle",
                 "Expands too much",
-                "Too hard and brittle"
+                "Releases excessive mercury",
+                "Corrodes and is the weakest phase"
               ],
               "sq": [
-                "Korodohet dhe është faza më e dobët",
-                "Liron mërkur të tepërt",
+                "Shumë e fortë dhe e brishtë",
                 "Zgjerohet shumë",
-                "Shumë e fortë dhe e brishtë"
+                "Liron mërkur të tepërt",
+                "Korodohet dhe është faza më e dobët"
               ]
             },
-            "correct": 0,
+            "correct": 3,
             "explanation": {
               "en": "<strong>γ₂ (Sn₇₋₈Hg)</strong> — weakest, most corrosion-prone. High-copper amalgams eliminate it.",
               "sq": "<strong>γ₂ (Sn₇₋₈Hg)</strong> — më e dobëta, më e prirur për korozion. Amalgamet me bakër të lartë e eliminojnë."
@@ -2520,19 +2520,19 @@
             },
             "options": {
               "en": [
-                "Eliminate gamma-2 phase",
+                "Improve esthetics",
                 "Increase working time",
-                "Reduce mercury",
-                "Improve esthetics"
+                "Eliminate gamma-2 phase",
+                "Reduce mercury"
               ],
               "sq": [
-                "Eliminim faza gamma-2",
+                "Përmirësim estetike",
                 "Rritje kohës së punës",
-                "Ulje mërkuri",
-                "Përmirësim estetike"
+                "Eliminim faza gamma-2",
+                "Ulje mërkuri"
               ]
             },
-            "correct": 0,
+            "correct": 2,
             "explanation": {
               "en": "High-copper (>12% Cu) <strong>eliminates γ₂</strong>. Cu₆Sn₅ forms instead — much more stable.",
               "sq": "Bakri i lartë (>12% Cu) <strong>eliminon γ₂</strong>. Formohet Cu₆Sn₅ — shumë më stabil."
@@ -2546,18 +2546,18 @@
             "options": {
               "en": [
                 "1:10",
-                "1:1 (equal parts)",
                 "2:1",
-                "1:2"
+                "1:2",
+                "1:1 (equal parts)"
               ],
               "sq": [
                 "1:10",
-                "1:1 (pjesë të barabarta)",
                 "2:1",
-                "1:2"
+                "1:2",
+                "1:1 (pjesë të barabarta)"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "Approximately <strong>1:1 by weight</strong> (42-50% mercury). Proper condensation minimizes residual mercury.",
               "sq": "Afërsisht <strong>1:1 sipas peshës</strong> (42-50% mërkur). Kondensimi i duhur minimizon mërkurin e mbetur."
@@ -2571,15 +2571,15 @@
             "options": {
               "en": [
                 "Scavenger/deoxidizer during manufacturing",
-                "Improves corrosion resistance",
+                "Increases strength",
                 "Reduces expansion",
-                "Increases strength"
+                "Improves corrosion resistance"
               ],
               "sq": [
                 "Pastrues/deoksidues gjatë prodhimit",
-                "Përmirëson rezistencën ndaj korozionit",
+                "Rrit forcën",
                 "Ul zgjerimin",
-                "Rrit forcën"
+                "Përmirëson rezistencën ndaj korozionit"
               ]
             },
             "correct": 0,
@@ -2595,15 +2595,15 @@
             },
             "options": {
               "en": [
+                "Carving",
                 "Condensing",
                 "Polishing",
-                "Carving",
                 "Mixing alloy with mercury"
               ],
               "sq": [
+                "Gdhendjes",
                 "Kondensimit",
                 "Lustrimit",
-                "Gdhendjes",
                 "Përzierjes së aliazhit me mërkur"
               ]
             },
@@ -2620,19 +2620,19 @@
             },
             "options": {
               "en": [
-                "Slow deformation under constant load",
-                "Mercury release",
                 "Expansion from moisture",
-                "Corrosion at interface"
+                "Corrosion at interface",
+                "Mercury release",
+                "Slow deformation under constant load"
               ],
               "sq": [
-                "Deformim i ngadaltë nën ngarkesë konstante",
-                "Lirim mërkuri",
                 "Zgjerim nga lagështia",
-                "Korozion në ndërfaqe"
+                "Korozion në ndërfaqe",
+                "Lirim mërkuri",
+                "Deformim i ngadaltë nën ngarkesë konstante"
               ]
             },
-            "correct": 0,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Creep = slow plastic deformation under constant compressive load</strong>. Related to γ₂ presence.",
               "sq": "<strong>Creep = deformim plastik i ngadaltë nën ngarkesë kompresive konstante</strong>. Lidhet me praninë e γ₂."
@@ -2645,19 +2645,19 @@
             },
             "options": {
               "en": [
-                "Gamma-1",
                 "Gamma-2",
+                "Gamma (γ)",
                 "Eta (η)",
-                "Gamma (γ)"
+                "Gamma-1"
               ],
               "sq": [
-                "Gamma-1",
                 "Gamma-2",
+                "Gamma (γ)",
                 "Eta (η)",
-                "Gamma (γ)"
+                "Gamma-1"
               ]
             },
-            "correct": 3,
+            "correct": 1,
             "explanation": {
               "en": "<strong>Gamma (γ) = Ag₃Sn</strong> — the original unreacted alloy, strongest phase.",
               "sq": "<strong>Gamma (γ) = Ag₃Sn</strong> — aliazhi origjinal i pareaguar, faza më e fortë."
@@ -2670,19 +2670,19 @@
             },
             "options": {
               "en": [
-                "All can be spherical",
+                "Admixed",
                 "Lathe-cut only",
-                "Spherical",
-                "Admixed"
+                "All can be spherical",
+                "Spherical"
               ],
               "sq": [
-                "Të gjitha mund të jenë sferike",
+                "Admixed",
                 "Vetëm lathe-cut",
-                "Sferike",
-                "Admixed"
+                "Të gjitha mund të jenë sferike",
+                "Sferike"
               ]
             },
-            "correct": 2,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Spherical particles</strong> (e.g., Tytin). Require less mercury and less condensation force.",
               "sq": "<strong>Grimca sferike</strong> (p.sh., Tytin). Kërkojnë më pak mërkur dhe forcë kondensimi."
@@ -2703,16 +2703,16 @@
             },
             "options": {
               "en": [
-                "HEMA, polyacrylic acid, glass",
-                "Resin matrix, filler particles, coupling agent",
                 "Powder, liquid, catalyst",
-                "Monomer, polymer, solvent"
+                "Resin matrix, filler particles, coupling agent",
+                "Monomer, polymer, solvent",
+                "HEMA, polyacrylic acid, glass"
               ],
               "sq": [
-                "HEMA, acid poliakrillik, qelq",
-                "Matrica rezinore, grimca mbushëse, agjent lidhës",
                 "Pluhur, lëng, katalizator",
-                "Monomer, polimer, tretës"
+                "Matrica rezinore, grimca mbushëse, agjent lidhës",
+                "Monomer, polimer, tretës",
+                "HEMA, acid poliakrillik, qelq"
               ]
             },
             "correct": 1,
@@ -2728,19 +2728,19 @@
             },
             "options": {
               "en": [
-                "The most common resin matrix monomer",
+                "The coupling agent",
                 "A type of GIC",
-                "The filler",
-                "The coupling agent"
+                "The most common resin matrix monomer",
+                "The filler"
               ],
               "sq": [
-                "Monomeri më i zakonshëm i matricës rezinore",
+                "Agjenti lidhës",
                 "Lloj i GIC",
-                "Mbushësi",
-                "Agjenti lidhës"
+                "Monomeri më i zakonshëm i matricës rezinore",
+                "Mbushësi"
               ]
             },
-            "correct": 0,
+            "correct": 2,
             "explanation": {
               "en": "<strong>Bis-GMA</strong> — developed by Bowen 1962. Diluted with TEGDMA for workability.",
               "sq": "<strong>Bis-GMA</strong> — zhvilluar nga Bowen 1962. Hollohet me TEGDMA për punueshmëri."
@@ -2753,19 +2753,19 @@
             },
             "options": {
               "en": [
-                "BHT",
                 "Silane",
-                "Benzoyl peroxide",
-                "Camphorquinone"
+                "BHT",
+                "Camphorquinone",
+                "Benzoyl peroxide"
               ],
               "sq": [
-                "BHT",
                 "Silani",
-                "Benzoil peroksidit",
-                "Kamforokinoni"
+                "BHT",
+                "Kamforokinoni",
+                "Benzoil peroksidit"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Silane</strong> — bonds filler to resin matrix. Without it, composite would be weak.",
               "sq": "<strong>Silani</strong> — lidh mbushësin me matricën rezinore. Pa të, kompoziti do ishte i dobët."
@@ -2778,19 +2778,19 @@
             },
             "options": {
               "en": [
-                "Inhibitor",
                 "Coupling agent",
-                "Photoinitiator (~470nm blue light)",
-                "UV stabilizer"
+                "Inhibitor",
+                "UV stabilizer",
+                "Photoinitiator (~470nm blue light)"
               ],
               "sq": [
-                "Frenues",
                 "Agjent lidhës",
-                "Fotoiniciator (~470nm dritë blu)",
-                "Stabilizues UV"
+                "Frenues",
+                "Stabilizues UV",
+                "Fotoiniciator (~470nm dritë blu)"
               ]
             },
-            "correct": 2,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Camphorquinone</strong> absorbs blue light at ~468nm, generating free radicals for polymerization.",
               "sq": "<strong>Kamforokinoni</strong> absorbon dritë blu në ~468nm, duke gjeneruar radikale të lira për polimerizim."
@@ -2803,19 +2803,19 @@
             },
             "options": {
               "en": [
-                "Nanoparticles (5-100nm) and nanoclusters",
-                "Larger filler particles",
                 "No resin matrix",
-                "Chemical cure only"
+                "Nanoparticles (5-100nm) and nanoclusters",
+                "Chemical cure only",
+                "Larger filler particles"
               ],
               "sq": [
-                "Nanogrimca (5-100nm) dhe nanoklustere",
-                "Grimca mbushëse më të mëdha",
                 "Pa matrice rezinore",
-                "Vetëm polimerizim kimik"
+                "Nanogrimca (5-100nm) dhe nanoklustere",
+                "Vetëm polimerizim kimik",
+                "Grimca mbushëse më të mëdha"
               ]
             },
-            "correct": 0,
+            "correct": 1,
             "explanation": {
               "en": "<strong>Nanofilled</strong> = excellent polishability + strength. Usable anterior and posterior.",
               "sq": "<strong>Nanofilled</strong> = lustrim i shkëlqyer + forcë. Përdoret anterior dhe posterior."
@@ -2828,19 +2828,19 @@
             },
             "options": {
               "en": [
-                "Microfill → Macrofill → Hybrid → Nanofill",
                 "Nanofill → Microfill → Hybrid → Macrofill",
+                "Macrofill → Hybrid → Microfill → Nanofill",
                 "Hybrid → Macrofill → Nanofill → Microfill",
-                "Macrofill → Hybrid → Microfill → Nanofill"
+                "Microfill → Macrofill → Hybrid → Nanofill"
               ],
               "sq": [
-                "Mikrofill → Makrofill → Hibrid → Nanofill",
                 "Nanofill → Mikrofill → Hibrid → Makrofill",
+                "Makrofill → Hibrid → Mikrofill → Nanofill",
                 "Hibrid → Makrofill → Nanofill → Mikrofill",
-                "Makrofill → Hibrid → Mikrofill → Nanofill"
+                "Mikrofill → Makrofill → Hibrid → Nanofill"
               ]
             },
-            "correct": 3,
+            "correct": 1,
             "explanation": {
               "en": "<strong>Macrofill (10-100μm) → Hybrid → Microfill (0.04μm) → Nanofill (5-100nm)</strong>.",
               "sq": "<strong>Makrofill (10-100μm) → Hibrid → Mikrofill (0.04μm) → Nanofill (5-100nm)</strong>."
@@ -2853,19 +2853,19 @@
             },
             "options": {
               "en": [
+                "10-15%",
                 "1-5%",
                 "15-20%",
-                "0.1-0.5%",
-                "10-15%"
+                "0.1-0.5%"
               ],
               "sq": [
+                "10-15%",
                 "1-5%",
                 "15-20%",
-                "0.1-0.5%",
-                "10-15%"
+                "0.1-0.5%"
               ]
             },
-            "correct": 0,
+            "correct": 1,
             "explanation": {
               "en": "<strong>1-5% volumetric shrinkage</strong>. Managed by incremental layering (2mm layers).",
               "sq": "<strong>1-5% tkurrje vëllimore</strong>. Menaxhohet me shtresim inkremental (shtresa 2mm)."
@@ -2878,19 +2878,19 @@
             },
             "options": {
               "en": [
-                "Save material",
+                "Reduce shrinkage stress and improve cure depth",
                 "Speed up procedure",
-                "Improve esthetics only",
-                "Reduce shrinkage stress and improve cure depth"
+                "Save material",
+                "Improve esthetics only"
               ],
               "sq": [
-                "Kursim materiali",
+                "Ulje stresit të tkurrjes dhe përmirësim thellësisë së polimerizimit",
                 "Shpejtim procedure",
-                "Vetëm përmirësim estetike",
-                "Ulje stresit të tkurrjes dhe përmirësim thellësisë së polimerizimit"
+                "Kursim materiali",
+                "Vetëm përmirësim estetike"
               ]
             },
-            "correct": 3,
+            "correct": 0,
             "explanation": {
               "en": "Max <strong>2mm layers</strong>: reduces C-factor stress + ensures light penetration.",
               "sq": "Maksimum <strong>shtresa 2mm</strong>: ul stresin e C-faktorit + siguron penetrim të dritës."
@@ -2903,15 +2903,15 @@
             },
             "options": {
               "en": [
+                "Shrinkage to expansion",
                 "Powder to liquid",
                 "Filler to resin",
-                "Shrinkage to expansion",
                 "Bonded to unbonded surfaces"
               ],
               "sq": [
+                "Tkurrjes ndaj zgjerimit",
                 "Pluhur ndaj lëng",
                 "Mbushësit ndaj rezinës",
-                "Tkurrjes ndaj zgjerimit",
                 "Sipërfaqeve të lidhura ndaj të palidhura"
               ]
             },
@@ -2928,19 +2928,19 @@
             },
             "options": {
               "en": [
-                "Zirconia only",
+                "Barium glass or strontium glass",
                 "Quartz",
                 "Colloidal silica",
-                "Barium glass or strontium glass"
+                "Zirconia only"
               ],
               "sq": [
-                "Vetëm zirkonia",
+                "Qelq bariumi ose qelq stronsimi",
                 "Kuarci",
                 "Silikë koloidale",
-                "Qelq bariumi ose qelq stronsimi"
+                "Vetëm zirkonia"
               ]
             },
-            "correct": 3,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Barium glass, strontium glass, or ytterbium fluoride</strong> for radiopacity.",
               "sq": "<strong>Qelq bariumi, qelq stronsimi, ose fluorid iteribiumi</strong> për radiopacitet."
@@ -2961,19 +2961,19 @@
             },
             "options": {
               "en": [
-                "ZnO + phosphoric acid",
                 "Ca(OH)₂ + water",
-                "ZnO + eugenol (oil of cloves)",
-                "ZnO + polyacrylic acid"
+                "ZnO + polyacrylic acid",
+                "ZnO + phosphoric acid",
+                "ZnO + eugenol (oil of cloves)"
               ],
               "sq": [
-                "ZnO + acid fosforik",
                 "Ca(OH)₂ + ujë",
-                "ZnO + eugenol (vaj karafilash)",
-                "ZnO + acid poliakrillik"
+                "ZnO + acid poliakrillik",
+                "ZnO + acid fosforik",
+                "ZnO + eugenol (vaj karafilash)"
               ]
             },
-            "correct": 2,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Powder: ZnO. Liquid: Eugenol</strong> (from oil of cloves/oleum caryophylli). Most biocompatible cement.",
               "sq": "<strong>Pluhuri: ZnO. Lëngu: Eugenol</strong> (nga vaji i karafilashit/oleum caryophylli). Çimentoja më biokompatibile."
@@ -2986,19 +2986,19 @@
             },
             "options": {
               "en": [
-                "Zinc eugenolate",
+                "Zinc phosphate",
                 "Calcium eugenolate",
-                "Zinc polycarboxylate",
-                "Zinc phosphate"
+                "Zinc eugenolate",
+                "Zinc polycarboxylate"
               ],
               "sq": [
-                "Eugenolat zinku",
+                "Fosfat zinku",
                 "Eugenolat kalciumi",
-                "Polikarboksilat zinku",
-                "Fosfat zinku"
+                "Eugenolat zinku",
+                "Polikarboksilat zinku"
               ]
             },
-            "correct": 0,
+            "correct": 2,
             "explanation": {
               "en": "ZnO + Eugenol → <strong>Zinc eugenolate</strong> (chelate compound).",
               "sq": "ZnO + Eugenol → <strong>Eugenolat zinku</strong> (kompound kelat)."
@@ -3012,15 +3012,15 @@
             "options": {
               "en": [
                 "Eugenol inhibits resin polymerization",
-                "Releases too much fluoride",
+                "Too strong",
                 "Bonds too strongly",
-                "Too strong"
+                "Releases too much fluoride"
               ],
               "sq": [
                 "Eugenoli frenon polimerizimin e rezinës",
-                "Liron shumë fluorid",
+                "Shumë e fortë",
                 "Lidhet shumë fortë",
-                "Shumë e fortë"
+                "Liron shumë fluorid"
               ]
             },
             "correct": 0,
@@ -3036,14 +3036,14 @@
             },
             "options": {
               "en": [
-                "ZnO only",
                 "Calcium fluoroaluminosilicate glass",
+                "ZnO only",
                 "ZnO (~90%) + MgO (~10%)",
                 "Silver-tin alloy"
               ],
               "sq": [
-                "Vetëm ZnO",
                 "Qelq kalcium-fluoroaluminosilikat",
+                "Vetëm ZnO",
                 "ZnO (~90%) + MgO (~10%)",
                 "Aliazh argjend-kallaj"
               ]
@@ -3061,19 +3061,19 @@
             },
             "options": {
               "en": [
-                "Phosphoric acid (~67%)",
                 "Eugenol",
                 "Water",
-                "Polyacrylic acid"
+                "Polyacrylic acid",
+                "Phosphoric acid (~67%)"
               ],
               "sq": [
-                "Acid fosforik (~67%)",
                 "Eugenol",
                 "Ujë",
-                "Acid poliakrillik"
+                "Acid poliakrillik",
+                "Acid fosforik (~67%)"
               ]
             },
-            "correct": 0,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Phosphoric acid (~67%)</strong> buffered with aluminum and zinc phosphate.",
               "sq": "<strong>Acidi fosforik (~67%)</strong> i buferuar me fosfat alumini dhe zinku."
@@ -3086,19 +3086,19 @@
             },
             "options": {
               "en": [
-                "Increase film thickness",
-                "Improve esthetics",
                 "Reduce fluoride release",
-                "Slow exothermic reaction, extend working time"
+                "Slow exothermic reaction, extend working time",
+                "Improve esthetics",
+                "Increase film thickness"
               ],
               "sq": [
-                "Rrit trashësinë e filmit",
-                "Përmirëson estetikën",
                 "Ul lirimin e fluoridit",
-                "Ngadalëson reaksionin ekzotermik, zgjat kohën e punës"
+                "Ngadalëson reaksionin ekzotermik, zgjat kohën e punës",
+                "Përmirëson estetikën",
+                "Rrit trashësinë e filmit"
               ]
             },
-            "correct": 3,
+            "correct": 1,
             "explanation": {
               "en": "<strong>Highly exothermic</strong>. Cooled slab slows reaction, allows more powder = stronger cement.",
               "sq": "<strong>Shumë ekzotermike</strong>. Pllaka e ftohur ngadalëson reaksionin, lejon më shumë pluhur = çimento më e fortë."
@@ -3111,19 +3111,19 @@
             },
             "options": {
               "en": [
-                "Phosphoric acid",
                 "Polyacrylic acid (37-40%)",
                 "Eugenol",
+                "Phosphoric acid",
                 "HEMA"
               ],
               "sq": [
-                "Acid fosforik",
                 "Acid poliakrillik (37-40%)",
                 "Eugenol",
+                "Acid fosforik",
                 "HEMA"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Polyacrylic acid (37-40%)</strong>. First cement to chemically bond to tooth (Smith, 1968).",
               "sq": "<strong>Acid poliakrillik (37-40%)</strong>. Çimentoja e parë me lidhje kimike me dhëmbin (Smith, 1968)."
@@ -3136,19 +3136,19 @@
             },
             "options": {
               "en": [
+                "ZOE",
                 "Zinc phosphate",
                 "All equally",
-                "Zinc polycarboxylate",
-                "ZOE"
+                "Zinc polycarboxylate"
               ],
               "sq": [
+                "ZOE",
                 "Fosfat zinku",
                 "Të gjitha njësoj",
-                "Polikarboksilat zinku",
-                "ZOE"
+                "Polikarboksilat zinku"
               ]
             },
-            "correct": 3,
+            "correct": 0,
             "explanation": {
               "en": "<strong>ZOE</strong> — best biocompatibility, sedative effect from eugenol's anti-inflammatory properties.",
               "sq": "<strong>ZOE</strong> — biokompatibiliteti më i mirë, efekt sedativ nga vetitë anti-inflamatore të eugenolit."
@@ -3161,19 +3161,19 @@
             },
             "options": {
               "en": [
-                "GIC",
                 "Composite",
-                "Zinc phosphate",
-                "ZOE"
+                "ZOE",
+                "GIC",
+                "Zinc phosphate"
               ],
               "sq": [
-                "GIC",
                 "Kompozitit",
-                "Fosfatit të zinkut",
-                "ZOE"
+                "ZOE",
+                "GIC",
+                "Fosfatit të zinkut"
               ]
             },
-            "correct": 3,
+            "correct": 1,
             "explanation": {
               "en": "<strong>IRM = reinforced ZOE</strong> with PMMA fillers and EBA replacing some eugenol.",
               "sq": "<strong>IRM = ZOE e përforcuar</strong> me mbushëse PMMA dhe EBA duke zëvendësuar disa eugenol."
@@ -3186,19 +3186,19 @@
             },
             "options": {
               "en": [
-                "Zinc oxide",
-                "Polyacrylic acid",
+                "Eugenol",
                 "Phosphoric acid",
-                "Eugenol"
+                "Polyacrylic acid",
+                "Zinc oxide"
               ],
               "sq": [
-                "Oksidit të zinkut",
-                "Acidit poliakrillik",
+                "Eugenolit",
                 "Acidit fosforik",
-                "Eugenolit"
+                "Acidit poliakrillik",
+                "Oksidit të zinkut"
               ]
             },
-            "correct": 3,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Eugenol</strong> — constitutes 85-90% of clove oil. Analgesic, anti-inflammatory, antibacterial.",
               "sq": "<strong>Eugenoli</strong> — përbën 85-90% të vajit të karafilashit. Analgjezik, anti-inflamator, antibakterial."
@@ -3219,19 +3219,19 @@
             },
             "options": {
               "en": [
-                "Michael Buonocore (1955)",
-                "Smith (1968)",
+                "Bowen (1962)",
                 "G.V. Black",
-                "Bowen (1962)"
+                "Michael Buonocore (1955)",
+                "Smith (1968)"
               ],
               "sq": [
-                "Michael Buonocore (1955)",
-                "Smith (1968)",
+                "Bowen (1962)",
                 "G.V. Black",
-                "Bowen (1962)"
+                "Michael Buonocore (1955)",
+                "Smith (1968)"
               ]
             },
-            "correct": 0,
+            "correct": 2,
             "explanation": {
               "en": "<strong>Buonocore 1955</strong> — phosphoric acid creates microporosities for resin tags.",
               "sq": "<strong>Buonocore 1955</strong> — acidi fosforik krijon mikroporozitete për resin tags."
@@ -3244,19 +3244,19 @@
             },
             "options": {
               "en": [
-                "2 steps",
-                "1 step",
                 "3 steps (etch + prime + bond)",
-                "4 steps"
+                "2 steps",
+                "4 steps",
+                "1 step"
               ],
               "sq": [
-                "2 hapa",
-                "1 hap",
                 "3 hapa (gdhendë + prime + bond)",
-                "4 hapa"
+                "2 hapa",
+                "4 hapa",
+                "1 hap"
               ]
             },
-            "correct": 2,
+            "correct": 0,
             "explanation": {
               "en": "<strong>4th gen = 3 steps</strong>: etch, primer, adhesive. Gold standard for bond strength.",
               "sq": "<strong>Gjenerata 4 = 3 hapa</strong>: gdhendje, primer, adeziv. Standardi i artë për forcën lidhëse."
@@ -3270,15 +3270,15 @@
             "options": {
               "en": [
                 "Combining primer + bond in one bottle",
-                "Using GIC instead",
+                "Eliminating etching",
                 "All three in one",
-                "Eliminating etching"
+                "Using GIC instead"
               ],
               "sq": [
                 "Kombinuar primer + bond në një shishe",
-                "Përdorur GIC",
+                "Eliminuar gdhendjen",
                 "Të tria në një",
-                "Eliminuar gdhendjen"
+                "Përdorur GIC"
               ]
             },
             "correct": 0,
@@ -3294,14 +3294,14 @@
             },
             "options": {
               "en": [
-                "Require 60s light curing",
                 "Only work on enamel",
+                "Require 60s light curing",
                 "Use stronger acid",
                 "No separate etching — acidic primer etches and primes"
               ],
               "sq": [
-                "Kërkojnë polimerizim 60s",
                 "Punojnë vetëm në smalt",
+                "Kërkojnë polimerizim 60s",
                 "Përdorin acid më të fortë",
                 "Pa gdhendja veçmas — primeri acidik gdhend dhe primon njëkohësisht"
               ]
@@ -3319,19 +3319,19 @@
             },
             "options": {
               "en": [
-                "Etch + prime + bond in ONE step",
                 "Etch + prime only",
-                "None — 4 separate steps",
-                "Prime + bond only"
+                "Prime + bond only",
+                "Etch + prime + bond in ONE step",
+                "None — 4 separate steps"
               ],
               "sq": [
-                "Gdhendë + prime + bond në NJË hap",
                 "Vetëm gdhendë + prime",
-                "Asnjë — 4 hapa të veçuara",
-                "Vetëm prime + bond"
+                "Vetëm prime + bond",
+                "Gdhendë + prime + bond në NJË hap",
+                "Asnjë — 4 hapa të veçuara"
               ]
             },
-            "correct": 0,
+            "correct": 2,
             "explanation": {
               "en": "<strong>7th gen = all-in-one</strong>. Most convenient but controversial — higher water sorption, lower longevity.",
               "sq": "<strong>Gjenerata 7 = gjithçka-në-një</strong>. Më e përshtatshme por kontroverse — absorbim më i lartë uji, jetëgjatësi më e ulët."
@@ -3344,15 +3344,15 @@
             },
             "options": {
               "en": [
-                "G.V. Black",
-                "Buonocore",
                 "Bowen",
+                "Buonocore",
+                "G.V. Black",
                 "Nakabayashi (1982)"
               ],
               "sq": [
-                "G.V. Black",
-                "Buonocore",
                 "Bowen",
+                "Buonocore",
+                "G.V. Black",
                 "Nakabayashi (1982)"
               ]
             },
@@ -3369,19 +3369,19 @@
             },
             "options": {
               "en": [
-                "Glass ionomer",
-                "ZOE cement",
                 "Self-etch adhesives",
-                "4th gen total-etch"
+                "4th gen total-etch",
+                "Glass ionomer",
+                "ZOE cement"
               ],
               "sq": [
-                "Glas ionomer",
-                "Çimenton ZOE",
                 "Adezivët self-etch",
-                "Gjeneratën 4 total-etch"
+                "Gjeneratën 4 total-etch",
+                "Glas ionomer",
+                "Çimenton ZOE"
               ]
             },
-            "correct": 2,
+            "correct": 0,
             "explanation": {
               "en": "<strong>10-MDP</strong> chemically bonds to hydroxyapatite. Found in Clearfil SE Bond, Scotchbond Universal.",
               "sq": "<strong>10-MDP</strong> lidhet kimikisht me hidroksiapatitin. Gjendet në Clearfil SE Bond, Scotchbond Universal."
@@ -3394,19 +3394,19 @@
             },
             "options": {
               "en": [
+                "Self-etch systems",
                 "GIC bonding",
                 "Dentin bonding with total-etch",
-                "Enamel bonding",
-                "Self-etch systems"
+                "Enamel bonding"
               ],
               "sq": [
+                "Sistemet self-etch",
                 "Lidhjen me GIC",
                 "Lidhjen me dentinë me total-etch",
-                "Lidhjen me smalt",
-                "Sistemet self-etch"
+                "Lidhjen me smalt"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "<strong>Wet bonding</strong> — keep dentin moist after etching so collagen doesn't collapse.",
               "sq": "<strong>Wet bonding</strong> — mbaje dentinën të lagët pas gdhendjes që kolagjeni të mos kollapsohet."
@@ -3419,19 +3419,19 @@
             },
             "options": {
               "en": [
-                "Total-etch only",
-                "Both total-etch and self-etch modes",
+                "Self-etch only",
                 "Only with amalgam",
-                "Self-etch only"
+                "Total-etch only",
+                "Both total-etch and self-etch modes"
               ],
               "sq": [
-                "Vetëm total-etch",
-                "Të dy mënyrat total-etch dhe self-etch",
+                "Vetëm self-etch",
                 "Vetëm me amalgam",
-                "Vetëm self-etch"
+                "Vetëm total-etch",
+                "Të dy mënyrat total-etch dhe self-etch"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Universal adhesives</strong> work in all modes. Most clinicians use selective etch (phosphoric on enamel only).",
               "sq": "<strong>Adezivët universal</strong> punojnë në të gjitha mënyrat. Shumica e klinicistëve përdorin gdhendja selektive (fosforik vetëm në smalt)."
@@ -3445,18 +3445,18 @@
             "options": {
               "en": [
                 "10%",
-                "50%",
                 "37% (30-40% range)",
+                "50%",
                 "20%"
               ],
               "sq": [
                 "10%",
-                "50%",
                 "37% (rangu 30-40%)",
+                "50%",
                 "20%"
               ]
             },
-            "correct": 2,
+            "correct": 1,
             "explanation": {
               "en": "<strong>37%</strong> for 15-30s on enamel. Etched enamel appears frosty white.",
               "sq": "<strong>37%</strong> për 15-30s në smalt. Smalti i gdhendur duket i bardhë si brymë."
@@ -3477,19 +3477,19 @@
             },
             "options": {
               "en": [
-                "Luting cement",
-                "Permanent restoration",
+                "Impression material",
                 "Pulp capping agent and liner",
-                "Impression material"
+                "Permanent restoration",
+                "Luting cement"
               ],
               "sq": [
-                "Çimento çimentuese",
-                "Restaurim i përhershëm",
+                "Material për impresion",
                 "Agjent për mbulim pulpe dhe liner",
-                "Material për impresion"
+                "Restaurim i përhershëm",
+                "Çimento çimentuese"
               ]
             },
-            "correct": 2,
+            "correct": 1,
             "explanation": {
               "en": "<strong>Ca(OH)₂</strong> for direct/indirect pulp capping. High pH (~12.5) stimulates reparative dentin.",
               "sq": "<strong>Ca(OH)₂</strong> për mbulim direkt/indirekt të pulpës. pH i lartë (~12.5) stimulon dentinë reparative."
@@ -3527,19 +3527,19 @@
             },
             "options": {
               "en": [
-                "Seal tubules and reduce microleakage",
-                "Whiten tooth",
                 "Strengthen amalgam",
-                "Bond amalgam"
+                "Whiten tooth",
+                "Bond amalgam",
+                "Seal tubules and reduce microleakage"
               ],
               "sq": [
-                "Mbyllje tubulash dhe ulje mikroderdhjes",
-                "Zbardhje dhëmbi",
                 "Përforcim amalgami",
-                "Lidhje amalgami"
+                "Zbardhje dhëmbi",
+                "Lidhje amalgami",
+                "Mbyllje tubulash dhe ulje mikroderdhjes"
               ]
             },
-            "correct": 0,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Seal dentinal tubules, reduce microleakage</strong>. Never under composite (interferes with bonding).",
               "sq": "<strong>Mbyll tubulat dentinore, ul mikroderdhjen</strong>. Kurrë nën kompozit (ndërhyn në lidhje)."
@@ -3553,18 +3553,18 @@
             "options": {
               "en": [
                 "Zinc phosphate",
-                "MTA (Mineral Trioxide Aggregate)",
+                "Composite",
                 "ZOE",
-                "Composite"
+                "MTA (Mineral Trioxide Aggregate)"
               ],
               "sq": [
                 "Fosfat zinku",
-                "MTA (Mineral Trioxide Aggregate)",
+                "Kompoziti",
                 "ZOE",
-                "Kompoziti"
+                "MTA (Mineral Trioxide Aggregate)"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "<strong>MTA</strong> and bioceramics (Biodentine) — better seal, higher quality dentin bridge.",
               "sq": "<strong>MTA</strong> dhe bioqeramikat (Biodentine) — mbyllje më e mirë, urë dentine me cilësi më të lartë."
@@ -3577,16 +3577,16 @@
             },
             "options": {
               "en": [
-                "Chelation",
-                "Light-activated polymerization",
                 "Condensation",
-                "Acid-base reaction"
+                "Light-activated polymerization",
+                "Acid-base reaction",
+                "Chelation"
               ],
               "sq": [
-                "Kelacion",
-                "Polimerizim i aktivizuar me dritë",
                 "Kondensim",
-                "Reaksion acid-bazë"
+                "Polimerizim i aktivizuar me dritë",
+                "Reaksion acid-bazë",
+                "Kelacion"
               ]
             },
             "correct": 1,
@@ -3612,17 +3612,17 @@
               "en": [
                 "Only acute and chronic",
                 "Reversible, irreversible, and necrosis",
-                "Acute (serous and purulent) and chronic (ulcerative, hyperplastic, gangrenous)",
-                "Superficial and deep only"
+                "Superficial and deep only",
+                "Acute (serous and purulent) and chronic (ulcerative, hyperplastic, gangrenous)"
               ],
               "sq": [
                 "Vetëm akut dhe kronik",
                 "Reversibil, ireversibil, dhe nekrozë",
-                "Akut (seroz dhe purulent) dhe kronik (ulcerativ, hiperplastik, gangrenoz)",
-                "Vetëm sipërfaqësor dhe i thellë"
+                "Vetëm sipërfaqësor dhe i thellë",
+                "Akut (seroz dhe purulent) dhe kronik (ulcerativ, hiperplastik, gangrenoz)"
               ]
             },
-            "correct": 2,
+            "correct": 3,
             "explanation": {
               "en": "Clinical classification: <strong>Acute pulpitis</strong> — serous (partial/total) and purulent (partial/total). <strong>Chronic pulpitis</strong> — ulcerative, hyperplastic (pulp polyp), gangrenous. Each has distinct symptomatology and test responses.",
               "sq": "Klasifikimi klinik: <strong>Pulpiti akut</strong> — seroz (parcial/total) dhe purulent (parcial/total). <strong>Pulpiti kronik</strong> — ulcerativ, hiperplastik (polipi i pulpës), gangrenoz. Secili ka simptomatologji dhe përgjigje testesh të dallueshme."
@@ -3635,14 +3635,14 @@
             },
             "options": {
               "en": [
-                "Continuous spontaneous pain that doesn't stop",
                 "No pain at all",
+                "Continuous spontaneous pain that doesn't stop",
                 "Provoked pain from thermal/chemical stimuli that stops shortly after stimulus removal; no spontaneous pain",
                 "Fistula with purulent drainage"
               ],
               "sq": [
-                "Dhimbje e vazhdueshme spontane që nuk ndalet",
                 "Pa dhimbje fare",
+                "Dhimbje e vazhdueshme spontane që nuk ndalet",
                 "Dhimbje e provokuar nga stimujt termikë/kimikë që ndalet pak pas largimit të stimulit; pa dhimbje spontane",
                 "Fistulë me drenazh purulent"
               ]
@@ -3660,19 +3660,19 @@
             },
             "options": {
               "en": [
-                "Total involves necrosis",
                 "In partial, inflammation is limited to pulp horns; in total, the entire pulp is involved",
+                "Total involves necrosis",
                 "Partial affects only the root pulp",
                 "There is no difference clinically"
               ],
               "sq": [
-                "Totali përfshin nekrozë",
                 "Në parcial, inflamacioni kufizohet në brirët e pulpës; në total, e gjithë pulpa është e përfshirë",
+                "Totali përfshin nekrozë",
                 "Parciali prek vetëm pulpën e rrënjës",
                 "Nuk ka dallim klinik"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Serous partial</strong>: inflammation confined to the coronal pulp/pulp horns — pain is more localizable, provoked, shorter duration. <strong>Serous total</strong>: entire pulp involved — pain becomes more diffuse, longer lasting, may have brief episodes of spontaneous pain. This represents progression toward purulent stage.",
               "sq": "<strong>Seroz parcial</strong>: inflamacioni i kufizuar në pulpën koronale/brirët e pulpës — dhimbja lokalizohet më mirë, e provokuar, kohëzgjatje më e shkurtër. <strong>Seroz total</strong>: e gjithë pulpa e përfshirë — dhimbja bëhet më difuze, më e gjatë, mund të ketë episode të shkurtra dhimbjeje spontane. Kjo përfaqëson progresion drejt fazës purulente."
@@ -3685,19 +3685,19 @@
             },
             "options": {
               "en": [
-                "No response",
+                "Cold relieves the pain",
                 "Pain that persists for hours",
-                "Exaggerated response that lasts longer than normal but subsides within seconds to minutes",
-                "Cold relieves the pain"
+                "No response",
+                "Exaggerated response that lasts longer than normal but subsides within seconds to minutes"
               ],
               "sq": [
-                "Pa përgjigje",
+                "Ftohja lehtëson dhimbjen",
                 "Dhimbje që vazhdon me orë",
-                "Përgjigje e ekzagjeruar që zgjat më shumë se normalisht por pushon brenda sekondave deri minutave",
-                "Ftohja lehtëson dhimbjen"
+                "Pa përgjigje",
+                "Përgjigje e ekzagjeruar që zgjat më shumë se normalisht por pushon brenda sekondave deri minutave"
               ]
             },
-            "correct": 2,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Acute serous pulpitis</strong>: cold provokes <strong>exaggerated, prolonged response</strong> but it <strong>does subside</strong> after stimulus removal (seconds to a few minutes). Compare: normal pulp = brief response. Purulent = spontaneous pain, cold may initially worsen then relieve. Necrosis = no response.",
               "sq": "<strong>Pulpiti akut seroz</strong>: ftohja provokon <strong>përgjigje të ekzagjeruar, të zgjatur</strong> por ajo <strong>pushon</strong> pas largimit të stimulit (sekonda deri disa minuta). Krahaso: pulpa normale = përgjigje e shkurtër. Purulent = dhimbje spontane, ftohja fillimisht përkeqëson pastaj lehtëson. Nekroza = pa përgjigje."
@@ -3710,19 +3710,19 @@
             },
             "options": {
               "en": [
-                "Pain only when eating sweets",
                 "Severe, spontaneous, throbbing, continuous pain; poorly localized; worse at night; may radiate along trigeminal branches",
+                "Pain only on percussion",
                 "Mild discomfort that resolves on its own",
-                "Pain only on percussion"
+                "Pain only when eating sweets"
               ],
               "sq": [
-                "Dhimbje vetëm gjatë ngrënies së ëmblësirave",
                 "Dhimbje e rëndë, spontane, pulsuese, e vazhdueshme; e lokalizuar keq; përkeqësohet natën; mund të rrezatojë përgjatë degëve të trigeminusit",
+                "Dhimbje vetëm në perkusion",
                 "Parehati e lehtë që zgjidhet vetë",
-                "Dhimbje vetëm në perkusion"
+                "Dhimbje vetëm gjatë ngrënies së ëmblësirave"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Pulpitis acuta purulenta</strong>: suppurative inflammation with <strong>microabscess formation</strong> within the pulp. Pain is <strong>severe, spontaneous, continuous, throbbing</strong>. Patient cannot sleep. Pain radiates (to ear, temple, opposite jaw). Poorly localized — patient cannot identify the exact tooth. <strong>Intrapulpal pressure is elevated</strong> due to pus accumulation.",
               "sq": "<strong>Pulpitis acuta purulenta</strong>: inflamacion supurativ me <strong>formim mikroabscesi</strong> brenda pulpës. Dhimbja është <strong>e rëndë, spontane, e vazhdueshme, pulsuese</strong>. Pacienti nuk mund të flejë. Dhimbja rrezaton (në vesh, tëmth, nofullën e kundërt). E lokalizuar keq — pacienti nuk mund ta identifikojë dhëmbin e saktë. <strong>Presioni intrapulpar i ngritur</strong> për shkak të akumulimit të qelbës."
@@ -3735,19 +3735,19 @@
             },
             "options": {
               "en": [
+                "Cold always worsens the pain",
                 "Both relieve pain equally",
                 "Heat exacerbates pain (gas expansion); cold initially worsens then may relieve (vasoconstriction)",
-                "Neither affects the pain",
-                "Cold always worsens the pain"
+                "Neither affects the pain"
               ],
               "sq": [
+                "Ftohja gjithmonë përkeqëson dhimbjen",
                 "Të dyja lehtësojnë dhimbjen njësoj",
                 "Nxehtësia përkeqëson dhimbjen (zgjerim i gazrave); ftohja fillimisht përkeqëson pastaj mund ta lehtësojë (vazokonstriksion)",
-                "Asnjëra nuk ndikon në dhimbje",
-                "Ftohja gjithmonë përkeqëson dhimbjen"
+                "Asnjëra nuk ndikon në dhimbje"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "<strong>Heat worsens pain</strong> in purulent pulpitis — thermal expansion of gases and increased intrapulpal pressure. <strong>Cold may provide temporary relief</strong> by causing vasoconstriction and reducing pressure. Classic patient complaint: 'I keep cold water in my mouth to reduce the pain.' This distinguishes purulent from serous pulpitis.",
               "sq": "<strong>Nxehtësia përkeqëson dhimbjen</strong> në pulpitin purulent — zgjerimi termik i gazrave dhe rritja e presionit intrapulpar. <strong>Ftohja mund të japë lehtësim të përkohshëm</strong> duke shkaktuar vazokonstriksion dhe ulje presioni. Ankesa klasike e pacientit: 'Mbaj ujë të ftohtë në gojë për ta ulur dhimbjen.' Kjo dallon purulentin nga serozi."
@@ -3762,14 +3762,14 @@
               "en": [
                 "The color of the tooth",
                 "Serous: provoked pain that subsides; Purulent: spontaneous, continuous, severe pain that doesn't subside",
-                "Patient's age",
-                "Size of the cavity"
+                "Size of the cavity",
+                "Patient's age"
               ],
               "sq": [
                 "Ngjyra e dhëmbit",
                 "Seroz: dhimbje e provokuar që pushon; Purulent: dhimbje spontane, e vazhdueshme, e rëndë që nuk pushon",
-                "Mosha e pacientit",
-                "Madhësia e kavitetit"
+                "Madhësia e kavitetit",
+                "Mosha e pacientit"
               ]
             },
             "correct": 1,
@@ -3785,16 +3785,16 @@
             },
             "options": {
               "en": [
-                "Both show no response",
+                "Serous: no response; Purulent: normal response",
                 "Serous: response at lower threshold than normal; Purulent: response at even lower threshold with intense pain",
                 "Both show normal threshold",
-                "Serous: no response; Purulent: normal response"
+                "Both show no response"
               ],
               "sq": [
-                "Të dy tregojnë pa përgjigje",
+                "Seroz: pa përgjigje; Purulent: përgjigje normale",
                 "Seroz: përgjigje në prag më të ulët se normalen; Purulent: përgjigje në prag edhe më të ulët me dhimbje intensive",
                 "Të dy tregojnë prag normal",
-                "Seroz: pa përgjigje; Purulent: përgjigje normale"
+                "Të dy tregojnë pa përgjigje"
               ]
             },
             "correct": 1,
@@ -3812,14 +3812,14 @@
               "en": [
                 "Whether the pulp chamber communicates with the oral cavity or not",
                 "The patient's age",
-                "The type of bacteria",
-                "Whether the tooth is anterior or posterior"
+                "Whether the tooth is anterior or posterior",
+                "The type of bacteria"
               ],
               "sq": [
                 "Nëse dhoma e pulpës komunikon me kavitetin oral apo jo",
                 "Mosha e pacientit",
-                "Lloji i baktereve",
-                "Nëse dhëmbi është anterior apo posterior"
+                "Nëse dhëmbi është anterior apo posterior",
+                "Lloji i baktereve"
               ]
             },
             "correct": 0,
@@ -3836,18 +3836,18 @@
             "options": {
               "en": [
                 "Because the bacteria are different",
+                "Because the patient has lower pain tolerance",
                 "Because the tooth is larger",
-                "Because purulent exudate accumulates with no drainage, raising intrapulpal pressure and compressing nerve fibers",
-                "Because the patient has lower pain tolerance"
+                "Because purulent exudate accumulates with no drainage, raising intrapulpal pressure and compressing nerve fibers"
               ],
               "sq": [
                 "Sepse bakteret janë të ndryshme",
+                "Sepse pacienti ka tolerancë më të ulët ndaj dhimbjes",
                 "Sepse dhëmbi është më i madh",
-                "Sepse eksudata purulente akumulohet pa drenazh, duke rritur presionin intrapulpar dhe duke kompresuar fibrat nervore",
-                "Sepse pacienti ka tolerancë më të ulët ndaj dhimbjes"
+                "Sepse eksudata purulente akumulohet pa drenazh, duke rritur presionin intrapulpar dhe duke kompresuar fibrat nervore"
               ]
             },
-            "correct": 2,
+            "correct": 3,
             "explanation": {
               "en": "In <strong>clausa purulenta</strong>: pus forms inside a closed pulp chamber → <strong>no escape route</strong> → intrapulpal pressure increases dramatically → compression and ischemia of nerve fibers → <strong>excruciating, continuous, throbbing pain</strong>. Emergency treatment: trepanation (opening the pulp chamber) provides immediate pressure relief and dramatic pain reduction.",
               "sq": "Në <strong>clausa purulenta</strong>: qelbi formohet brenda dhomës së mbyllur të pulpës → <strong>pa rrugë dalje</strong> → presioni intrapulpar rritet dramatikisht → kompresion dhe ishemi e fibrave nervore → <strong>dhimbje torturuese, e vazhdueshme, pulsuese</strong>. Trajtimi urgjent: trepanacioni (hapja e dhomës së pulpës) jep lehtësim të menjëhershëm presioni dhe ulje dramatike të dhimbjes."
@@ -3860,19 +3860,19 @@
             },
             "options": {
               "en": [
-                "Severe spontaneous pain",
-                "Usually asymptomatic or mild dull ache; open pulp chamber with necrotic surface; provoked pain from food impaction or thermal stimuli",
                 "Pulp polyp protruding from cavity",
-                "Complete calcification of pulp"
+                "Complete calcification of pulp",
+                "Severe spontaneous pain",
+                "Usually asymptomatic or mild dull ache; open pulp chamber with necrotic surface; provoked pain from food impaction or thermal stimuli"
               ],
               "sq": [
-                "Dhimbje spontane e rëndë",
-                "Zakonisht asimptomatik ose dhimbje e shurdhër e lehtë; dhomë pulpe e hapur me sipërfaqe nekrotike; dhimbje e provokuar nga impaksioni i ushqimit ose stimuj termal",
                 "Polip pulpe që del nga kaviteti",
-                "Kalcifikim i plotë i pulpës"
+                "Kalcifikim i plotë i pulpës",
+                "Dhimbje spontane e rëndë",
+                "Zakonisht asimptomatik ose dhimbje e shurdhër e lehtë; dhomë pulpe e hapur me sipërfaqe nekrotike; dhimbje e provokuar nga impaksioni i ushqimit ose stimuj termal"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Chronic ulcerative pulpitis</strong> (pulpitis chronica ulcerosa): open pulp chamber with a <strong>necrotic/ulcerated surface layer</strong> covering inflamed but still vital underlying pulp. Patient usually pain-free unless food packs into the cavity. Mild dull ache on hot liquids. Represents chronic, low-grade, open (aperta) inflammation.",
               "sq": "<strong>Pulpiti kronik ulcerativ</strong> (pulpitis chronica ulcerosa): dhomë pulpe e hapur me <strong>shtresë sipërfaqësore nekrotike/ulceruar</strong> që mbulon pulpën e inflamuar por ende vitale nën. Pacienti zakonisht pa dhimbje përveç kur ushqimi futet në kavitet. Dhimbje e shurdhër e lehtë nga lëngjet e nxehta. Përfaqëson inflamacion kronik, me intensitet të ulët, të hapur (aperta)."
@@ -3885,14 +3885,14 @@
             },
             "options": {
               "en": [
-                "Calcified pulp tissue",
                 "Abscess cavity",
+                "Calcified pulp tissue",
                 "Necrotic bone",
                 "Proliferating granulation tissue protruding through the carious exposure into the oral cavity"
               ],
               "sq": [
-                "Ind pulpor i kalcifikuar",
                 "Kavitet abscesi",
+                "Ind pulpor i kalcifikuar",
                 "Kockë nekrotike",
                 "Ind granulacioni proliferues që del nëpër ekspozimin karioz në kavitetin oral"
               ]
@@ -3910,19 +3910,19 @@
             },
             "options": {
               "en": [
+                "Normal pulp vitality tests",
                 "Bright red bleeding pulp",
                 "Painful response to all tests",
-                "Putrid odor (fetor ex ore), grayish-brown discolored tooth, necrotic pulp tissue, usually asymptomatic until periapical involvement",
-                "Normal pulp vitality tests"
+                "Putrid odor (fetor ex ore), grayish-brown discolored tooth, necrotic pulp tissue, usually asymptomatic until periapical involvement"
               ],
               "sq": [
+                "Teste vitaliteti normal të pulpës",
                 "Pulpë me gjakderdhje të kuqe të ndritshme",
                 "Përgjigje dhimbëse ndaj të gjitha testeve",
-                "Erë e keqe (fetor ex ore), dhëmb me ngjyrim gri-kafe, ind pulpor nekrotik, zakonisht asimptomatik deri në përfshirje periapikale",
-                "Teste vitaliteti normal të pulpës"
+                "Erë e keqe (fetor ex ore), dhëmb me ngjyrim gri-kafe, ind pulpor nekrotik, zakonisht asimptomatik deri në përfshirje periapikale"
               ]
             },
-            "correct": 2,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Gangrenous pulpitis</strong>: <strong>putrefactive necrosis</strong> of the pulp — caused by anaerobic bacteria (particularly in closed pulp chambers). Characteristic <strong>putrid/foul odor</strong> when cavity is opened. Tooth may be discolored (gray/brown). Usually asymptomatic chronically, but can undergo <strong>acute exacerbation</strong> (Phoenix abscess). EPT: negative. Percussion: positive if periapical involvement.",
               "sq": "<strong>Pulpiti gangrenoz</strong>: <strong>nekrozë putrefaktive</strong> e pulpës — shkaktohet nga baktere anaerobe (veçanërisht në dhoma pulpore të mbyllura). <strong>Erë e keqe/putride</strong> karakteristike kur hapet kaviteti. Dhëmbi mund të jetë i ngjyrosur (gri/kafe). Zakonisht asimptomatik kronikisht, por mund të kalojë në <strong>përkeqësim akut</strong> (absces Phoenix). EPT: negativ. Perkusion: pozitiv nëse ka përfshirje periapikale."
@@ -3935,19 +3935,19 @@
             },
             "options": {
               "en": [
+                "Positive only in chronic hyperplastic",
                 "Always positive in all types",
                 "Negative in serous and early purulent; becomes positive when inflammation extends to periapical tissues",
-                "Always negative in all types",
-                "Positive only in chronic hyperplastic"
+                "Always negative in all types"
               ],
               "sq": [
+                "Pozitiv vetëm në kronik hiperplastik",
                 "Gjithmonë pozitiv në të gjitha llojet",
                 "Negativ në seroz dhe purulent të hershëm; bëhet pozitiv kur inflamacioni shtrihet në indet periapikale",
-                "Gjithmonë negativ në të gjitha llojet",
-                "Pozitiv vetëm në kronik hiperplastik"
+                "Gjithmonë negativ në të gjitha llojet"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "Percussion tests the <strong>PDL and periapical tissues</strong>, not the pulp directly. In <strong>serous pulpitis</strong>: percussion negative (inflammation limited to pulp). In <strong>advanced purulent</strong>: may become slightly positive as inflammation approaches the apex. <strong>Clearly positive</strong>: indicates periapical involvement (periodontitis apicalis) — disease has progressed beyond pulpitis.",
               "sq": "Perkusioni teston <strong>PDL-në dhe indet periapikale</strong>, jo pulpën direkt. Në <strong>pulpitin seroz</strong>: perkusion negativ (inflamacioni i kufizuar në pulpë). Në <strong>purulentin e avancuar</strong>: mund të bëhet pak pozitiv ndërsa inflamacioni afrohet apeksit. <strong>Qartësisht pozitiv</strong>: tregon përfshirje periapikale (periodontitis apicalis) — sëmundja ka progreduar përtej pulpitit."
@@ -3994,14 +3994,14 @@
             "options": {
               "en": [
                 "Sensitivity to sweet, cold, or osmotic stimuli that resolves quickly",
-                "Spontaneous pain at night",
                 "Positive percussion test",
+                "Spontaneous pain at night",
                 "Fistula formation"
               ],
               "sq": [
                 "Ndjeshmëri ndaj ëmblës, ftohjës, ose stimujve osmotikë që zgjidhet shpejt",
-                "Dhimbje spontane natën",
                 "Test perkusioni pozitiv",
+                "Dhimbje spontane natën",
                 "Formim fistule"
               ]
             },
@@ -4019,15 +4019,15 @@
             "options": {
               "en": [
                 "When a thin layer of affected (but not infected) dentin remains over the pulp",
-                "When there is a frank pulp exposure",
+                "When the pulp is already necrotic",
                 "When the tooth is symptomatic with spontaneous pain",
-                "When the pulp is already necrotic"
+                "When there is a frank pulp exposure"
               ],
               "sq": [
                 "Kur mbetet një shtresë e hollë e dentinës së prekur (por jo të infektuar) mbi pulpë",
-                "Kur ka ekspozim të plotë të pulpës",
+                "Kur pulpa është tashmë nekrotike",
                 "Kur dhëmbi është simptomatik me dhimbje spontane",
-                "Kur pulpa është tashmë nekrotike"
+                "Kur ka ekspozim të plotë të pulpës"
               ]
             },
             "correct": 0,
@@ -4043,16 +4043,16 @@
             },
             "options": {
               "en": [
+                "There is a large carious exposure with chronic irreversible pulpitis",
                 "The tooth has been symptomatic for weeks with spontaneous pain",
-                "Percussion test is strongly positive",
                 "There is a small traumatic/mechanical exposure in a tooth with normal pulp or reversible pulpitis",
-                "There is a large carious exposure with chronic irreversible pulpitis"
+                "Percussion test is strongly positive"
               ],
               "sq": [
+                "Ka ekspozim të madh karioz me pulpit kronik ireversibil",
                 "Dhëmbi ka qenë simptomatik për javë me dhimbje spontane",
-                "Testi i perkusionit është fuqimisht pozitiv",
                 "Ka ekspozim të vogël traumatik/mekanik në dhëmb me pulpë normale ose pulpit reversibil",
-                "Ka ekspozim të madh karioz me pulpit kronik ireversibil"
+                "Testi i perkusionit është fuqimisht pozitiv"
               ]
             },
             "correct": 2,
@@ -4070,14 +4070,14 @@
               "en": [
                 "MTA (Mineral Trioxide Aggregate) or Biodentine",
                 "Composite resin directly on pulp",
-                "ZOE cement",
-                "Zinc phosphate cement"
+                "Zinc phosphate cement",
+                "ZOE cement"
               ],
               "sq": [
                 "MTA (Mineral Trioxide Aggregate) ose Biodentine",
                 "Rezina kompozite direkt mbi pulpë",
-                "Çimentoja ZOE",
-                "Çimentoja fosfat zinku"
+                "Çimentoja fosfat zinku",
+                "Çimentoja ZOE"
               ]
             },
             "correct": 0,
@@ -4093,19 +4093,19 @@
             },
             "options": {
               "en": [
-                "It releases fluoride",
-                "It strengthens the restoration",
                 "Its high pH is bactericidal and stimulates tertiary dentin formation",
-                "It improves the bond strength of composite"
+                "It strengthens the restoration",
+                "It improves the bond strength of composite",
+                "It releases fluoride"
               ],
               "sq": [
-                "Liron fluorid",
-                "Përforcon restaurimin",
                 "pH-ja e lartë është baktericide dhe stimulon formimin e dentinës terciare",
-                "Përmirëson forcën lidhëse të kompozitit"
+                "Përforcon restaurimin",
+                "Përmirëson forcën lidhëse të kompozitit",
+                "Liron fluorid"
               ]
             },
-            "correct": 2,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Ca(OH)₂ pH ~12.5</strong>: kills bacteria in remaining carious dentin + stimulates odontoblasts to form <strong>tertiary (reparative/reactionary) dentin</strong>. Used as a liner over near-exposures before placing the final restoration. Note: Ca(OH)₂ is NOT a strong base material — it should be covered with a stronger material (GIC, RMGIC) before composite.",
               "sq": "<strong>Ca(OH)₂ pH ~12.5</strong>: vret bakteret në dentinën e mbetur karioze + stimulon odontoblastet për formimin e <strong>dentinës terciare (reparative/reaksionare)</strong>. Përdoret si liner mbi pothuaj-ekspozime para vendosjes së restaurimit final. Vërejtje: Ca(OH)₂ NUK është material bazë i fortë — duhet mbuluar me material më të fortë (GIC, RMGIC) para kompozitit."
@@ -4118,19 +4118,19 @@
             },
             "options": {
               "en": [
-                "Partial caries removal → Ca(OH)₂ liner → temporary restoration → re-entry after 6-12 months",
-                "Extracting the tooth",
+                "Placing composite directly without removing any caries",
                 "Removing all caries in one visit aggressively",
-                "Placing composite directly without removing any caries"
+                "Partial caries removal → Ca(OH)₂ liner → temporary restoration → re-entry after 6-12 months",
+                "Extracting the tooth"
               ],
               "sq": [
-                "Largim i pjesshëm i kariesit → liner Ca(OH)₂ → restaurim i përkohshëm → ri-hyrje pas 6-12 muajsh",
-                "Ekstraksioni i dhëmbit",
+                "Vendosja e kompozitit direkt pa larguar asnjë karies",
                 "Largimi i të gjithë kariesit në një vizitë në mënyrë agresive",
-                "Vendosja e kompozitit direkt pa larguar asnjë karies"
+                "Largim i pjesshëm i kariesit → liner Ca(OH)₂ → restaurim i përkohshëm → ri-hyrje pas 6-12 muajsh",
+                "Ekstraksioni i dhëmbit"
               ]
             },
-            "correct": 0,
+            "correct": 2,
             "explanation": {
               "en": "<strong>Stepwise excavation</strong>: 1st visit — remove peripheral caries completely, leave affected dentin over the pulp, apply Ca(OH)₂, seal with temporary restoration. 2nd visit (6-12 months later) — re-enter, remove remaining softened dentin (which has remineralized/arrested), place final restoration. Goal: <strong>avoid pulp exposure</strong> while allowing reparative processes.",
               "sq": "<strong>Ekskavimi hap pas hapi</strong>: vizita 1 — largo kariesin periferik plotësisht, lëre dentinën e prekur mbi pulpë, vendos Ca(OH)₂, mbyll me restaurim të përkohshëm. Vizita 2 (6-12 muaj më vonë) — ri-hyr, largo dentinën e mbetur të zbutur (e cila është remineralizuar/arrestuar), vendos restaurimin final. Qëllimi: <strong>shmangja e ekspozimit të pulpës</strong> duke lejuar proceset reparative."
@@ -4143,19 +4143,19 @@
             },
             "options": {
               "en": [
-                "Patient's age",
                 "Color of the dentin",
                 "Presence of spontaneous pain and pain that lingers after stimulus removal",
-                "Size of the cavity"
+                "Size of the cavity",
+                "Patient's age"
               ],
               "sq": [
-                "Mosha e pacientit",
                 "Ngjyra e dentinës",
                 "Prania e dhimbjes spontane dhe dhimbjes që zgjat pas largimit të stimulit",
-                "Madhësia e kavitetit"
+                "Madhësia e kavitetit",
+                "Mosha e pacientit"
               ]
             },
-            "correct": 2,
+            "correct": 1,
             "explanation": {
               "en": "<strong>Reversible</strong>: pain only when provoked, stops within seconds → conservative treatment (indirect pulp cap, restoration). <strong>Irreversible</strong>: spontaneous pain, lingers >30s, may wake at night → RCT or extraction. The TREATMENT DECISION depends entirely on this distinction.",
               "sq": "<strong>Reversibil</strong>: dhimbje vetëm kur provokohet, ndalet brenda sekondave → trajtim konservativ (mbulim indirekt, restaurim). <strong>Ireversibil</strong>: dhimbje spontane, zgjat >30s, mund të zgjojë natën → RCT ose ekstraksion. VENDIMI I TRAJTIMIT varet plotësisht nga ky dallim."
@@ -4176,14 +4176,14 @@
             },
             "options": {
               "en": [
-                "No symptoms at all",
                 "Draining sinus tract",
+                "No symptoms at all",
                 "Asymptomatic with large radiolucency",
                 "Sharp, well-localized pain; tender to percussion/palpation; tooth feels 'high'"
               ],
               "sq": [
-                "Pa simptoma fare",
                 "Fistulë drenuese",
+                "Pa simptoma fare",
                 "Asimptomatik me radiotransparencë të madhe",
                 "Dhimbje e mprehtë, e lokalizuar mirë; i ndijshëm ndaj perkusionit/palpacionit; dhëmbi ndjehet 'i lartë'"
               ]
@@ -4201,15 +4201,15 @@
             },
             "options": {
               "en": [
+                "Mobile tooth with deep pockets",
                 "Acute swelling with pus",
                 "Severe spontaneous pain",
-                "Mobile tooth with deep pockets",
                 "Usually asymptomatic; discovered on routine radiograph as periapical radiolucency"
               ],
               "sq": [
+                "Dhëmb mobil me xhepa të thellë",
                 "Ënjtje akute me qelb",
                 "Dhimbje spontane e rëndë",
-                "Dhëmb mobil me xhepa të thellë",
                 "Zakonisht asimptomatik; zbulohet në radiografi rutinore si radiotransparencë periapikale"
               ]
             },
@@ -4227,14 +4227,14 @@
             "options": {
               "en": [
                 "It has no pain",
-                "It resolves without treatment",
                 "It only affects vital teeth",
+                "It resolves without treatment",
                 "It involves pus formation (suppuration), swelling, and possibly fever/lymphadenopathy"
               ],
               "sq": [
                 "Nuk ka dhimbje",
-                "Zgjidhet pa trajtim",
                 "Prek vetëm dhëmbë vital",
+                "Zgjidhet pa trajtim",
                 "Përfshin formimin e qelbës (supuracion), ënjtje, dhe mundësisht temperaturë/limfadenopati"
               ]
             },
@@ -4251,19 +4251,19 @@
             },
             "options": {
               "en": [
-                "Chronic periapical abscess",
-                "Reversible pulpitis",
+                "Cracked tooth",
                 "Acute apical periodontitis",
-                "Cracked tooth"
+                "Chronic periapical abscess",
+                "Reversible pulpitis"
               ],
               "sq": [
-                "Absces periapical kronik",
-                "Pulpit reversibil",
+                "Dhëmb i çarë",
                 "Periodontit apikal akut",
-                "Dhëmb i çarë"
+                "Absces periapical kronik",
+                "Pulpit reversibil"
               ]
             },
-            "correct": 0,
+            "correct": 2,
             "explanation": {
               "en": "<strong>Chronic periapical abscess</strong>: a draining sinus tract indicates chronic, low-grade infection with a pathway for pus drainage. The tooth is usually <strong>asymptomatic</strong> (pressure is relieved through the fistula). Trace with gutta-percha cone → radiograph to identify the source tooth.",
               "sq": "<strong>Abscesi periapical kronik</strong>: fistula drenuese tregon infeksion kronik me intensitet të ulët me rrugë për drenazh qelbi. Dhëmbi zakonisht është <strong>asimptomatik</strong> (presioni lirohet nëpër fistulë). Gjurmo me kon gutta-percha → radiografi për identifikimin e dhëmbit burimor."
@@ -4276,19 +4276,19 @@
             },
             "options": {
               "en": [
-                "Acute exacerbation of a chronic periapical lesion",
-                "An abscess caused by periodontal disease",
                 "The first abscess a patient ever has",
-                "An abscess in the maxillary sinus"
+                "An abscess in the maxillary sinus",
+                "An abscess caused by periodontal disease",
+                "Acute exacerbation of a chronic periapical lesion"
               ],
               "sq": [
-                "Përkeqësimit akut të një lezionit periapical kronik",
-                "Absces i shkaktuar nga sëmundja periodontale",
                 "Abscesit të parë që pacienti ka",
-                "Absces në sinusin maksillrar"
+                "Absces në sinusin maksillrar",
+                "Absces i shkaktuar nga sëmundja periodontale",
+                "Përkeqësimit akut të një lezionit periapical kronik"
               ]
             },
-            "correct": 0,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Phoenix abscess</strong>: an existing chronic lesion (granuloma/cyst) undergoes <strong>acute flare-up</strong> — sudden severe pain, swelling on a tooth that was previously asymptomatic. Often occurs spontaneously or during/after root canal treatment. Named because it 'rises from the ashes' of a chronic lesion.",
               "sq": "<strong>Abscesi Phoenix</strong>: lezion kronik ekzistues (granulomë/cistë) kalon në <strong>përkeqësim akut</strong> — dhimbje e papritur e rëndë, ënjtje në dhëmb që ishte më parë asimptomatik. Shpesh ndodh spontanisht ose gjatë/pas trajtimit endodontik. Quhet sepse 'ngrihet nga hiri' i lezionit kronik."
@@ -4302,18 +4302,18 @@
             "options": {
               "en": [
                 "Fluoride application",
-                "Drainage (pulp chamber opening or I&D) + antibiotics + analgesics + definitive treatment",
+                "Observation without intervention",
                 "Restoration of the tooth only",
-                "Observation without intervention"
+                "Drainage (pulp chamber opening or I&D) + antibiotics + analgesics + definitive treatment"
               ],
               "sq": [
                 "Aplikim fluoridi",
-                "Drenazh (hapje e dhomës së pulpës ose I&D) + antibiotikë + analgjezikë + trajtim definitiv",
+                "Vëzhgim pa ndërhyrje",
                 "Vetëm restaurim të dhëmbit",
-                "Vëzhgim pa ndërhyrje"
+                "Drenazh (hapje e dhomës së pulpës ose I&D) + antibiotikë + analgjezikë + trajtim definitiv"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "<strong>1) Emergency drainage</strong> — through pulp chamber (access opening) or incision & drainage if fluctuant swelling. <strong>2) Antibiotics</strong> — Amoxicillin 500mg TID (or Clindamycin if allergic) ONLY if systemic signs (fever, lymphadenopathy, swelling). <strong>3) Analgesics</strong> — NSAIDs (Ibuprofen). <strong>4) Definitive</strong> — RCT or extraction once acute phase resolves.",
               "sq": "<strong>1) Drenazh urgjent</strong> — nëpër dhomën e pulpës (hapje aksesi) ose incizion & drenazh nëse ënjtje fluktuante. <strong>2) Antibiotikë</strong> — Amoksicilina 500mg TID (ose Klindamicina nëse alergjik) VETËM nëse ka shenja sistemike (temperaturë, limfadenopati, ënjtje). <strong>3) Analgjezikë</strong> — NSAID (Ibuprofen). <strong>4) Definitiv</strong> — RCT ose ekstraksion pasi faza akute zgjidhet."
@@ -4326,19 +4326,19 @@
             },
             "options": {
               "en": [
-                "It covers only fungi",
                 "It has no side effects",
+                "Broad spectrum covering most oral flora (streptococci + some anaerobes), good absorption, low toxicity",
                 "It's the cheapest",
-                "Broad spectrum covering most oral flora (streptococci + some anaerobes), good absorption, low toxicity"
+                "It covers only fungi"
               ],
               "sq": [
-                "Mbulon vetëm kërpudhat",
                 "Nuk ka efekte anësore",
+                "Spektër i gjerë që mbulon shumicën e florës orale (streptokokët + disa anaerobë), absorbim i mirë, toksicitet i ulët",
                 "Është më e lira",
-                "Spektër i gjerë që mbulon shumicën e florës orale (streptokokët + disa anaerobë), absorbim i mirë, toksicitet i ulët"
+                "Mbulon vetëm kërpudhat"
               ]
             },
-            "correct": 3,
+            "correct": 1,
             "explanation": {
               "en": "<strong>Amoxicillin</strong>: broad-spectrum β-lactam covering aerobic and some anaerobic oral pathogens. Good oral bioavailability (~90%), well-tolerated. For resistant infections: add <strong>metronidazole</strong> (covers obligate anaerobes) or use <strong>amoxicillin-clavulanate</strong> (covers β-lactamase producers).",
               "sq": "<strong>Amoksicilina</strong>: β-laktam me spektër të gjerë që mbulon patogjenët oralë aerobë dhe disa anaerobë. Biodisponibilitet i mirë oral (~90%), tolerohet mirë. Për infeksione rezistente: shto <strong>metronidazol</strong> (mbulon anaerobët obligat) ose përdor <strong>amoksicilinë-klavulanat</strong> (mbulon prodhuesit e β-laktamazës)."
@@ -4351,19 +4351,19 @@
             },
             "options": {
               "en": [
-                "Oral mucosal epithelium",
-                "Dental lamina rests",
                 "Epithelial cell rests of Malassez stimulated by periapical inflammation",
-                "Reduced enamel epithelium"
+                "Reduced enamel epithelium",
+                "Dental lamina rests",
+                "Oral mucosal epithelium"
               ],
               "sq": [
-                "Epiteli i mukozës orale",
-                "Mbetjet e laminës dentare",
                 "Mbetjet qelizore epiteliale të Malassez-it të stimuluara nga inflamacioni periapical",
-                "Epiteli i reduktuar i smaltit"
+                "Epiteli i reduktuar i smaltit",
+                "Mbetjet e laminës dentare",
+                "Epiteli i mukozës orale"
               ]
             },
-            "correct": 2,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Cell rests of Malassez</strong> in the PDL are stimulated to proliferate by chronic periapical inflammation → cyst formation. Treatment: RCT (small cysts may resolve) or apicoectomy/enucleation for persistent lesions. Radicular cyst is the <strong>most common odontogenic cyst</strong>.",
               "sq": "<strong>Mbetjet qelizore të Malassez-it</strong> në PDL stimulohen të proliferojnë nga inflamacioni kronik periapical → formim ciste. Trajtimi: RCT (cistat e vogla mund të zgjidhen) ose apikoektomi/enukleacion për lezionet persistente. Cista radikulare është <strong>cista odontogjenë më e zakonshme</strong>."
@@ -4448,15 +4448,15 @@
             },
             "options": {
               "en": [
-                "Initiates caries on enamel",
-                "Associated with caries progression into dentin",
                 "Has no role in caries",
+                "Associated with caries progression into dentin",
+                "Initiates caries on enamel",
                 "Only causes root caries"
               ],
               "sq": [
-                "Inicion kariesin në smalt",
-                "Lidhet me progresionin e kariesit në dentinë",
                 "Nuk ka rol në karies",
+                "Lidhet me progresionin e kariesit në dentinë",
+                "Inicion kariesin në smalt",
                 "Shkakton vetëm karies rrënjësh"
               ]
             },
@@ -4473,19 +4473,19 @@
             },
             "options": {
               "en": [
+                "Fluoride concentration over time",
                 "Tooth eruption timeline",
                 "Plaque pH drop after sugar exposure and gradual recovery",
-                "Fluoride concentration over time",
                 "Bacterial growth curve"
               ],
               "sq": [
+                "Përqendrimin e fluoridit me kalimin e kohës",
                 "Kronologjinë e daljes së dhëmbëve",
                 "Rënien e pH të pllakës pas sheqerit dhe rikuperimin gradual",
-                "Përqendrimin e fluoridit me kalimin e kohës",
                 "Kurbën e rritjes bakteriale"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "The <strong>Stephan curve</strong> demonstrates rapid plaque pH drop after sugar exposure (minimum within 5-20 min), followed by gradual return to resting pH over 30-60 minutes.",
               "sq": "<strong>Kurba e Stephan-it</strong> tregon rënien e shpejtë të pH pas ekspozimit ndaj sheqerit."
@@ -4500,14 +4500,14 @@
               "en": [
                 "Removal of damaged enamel",
                 "Redeposition of calcium, phosphate, and fluoride ions from saliva",
-                "Application of composite resin",
-                "Surgical enamel replacement"
+                "Surgical enamel replacement",
+                "Application of composite resin"
               ],
               "sq": [
                 "Heqjen e smaltit të dëmtuar",
                 "Ridepozitimin e joneve të kalciumit, fosfatit dhe fluoridit nga pështyma",
-                "Aplikimin e rezinës kompozite",
-                "Zëvendësimin kirurgjik të smaltit"
+                "Zëvendësimin kirurgjik të smaltit",
+                "Aplikimin e rezinës kompozite"
               ]
             },
             "correct": 1,
@@ -4524,18 +4524,18 @@
             "options": {
               "en": [
                 "On previously unaffected surfaces",
-                "At the margins of existing restorations",
                 "Only on root surfaces",
-                "Only in primary teeth"
+                "Only in primary teeth",
+                "At the margins of existing restorations"
               ],
               "sq": [
                 "Në sipërfaqe të paprekura",
-                "Në margjinat e restaurimeve ekzistuese",
                 "Vetëm në sipërfaqe rrënjësh",
-                "Vetëm në dhëmbë qumështi"
+                "Vetëm në dhëmbë qumështi",
+                "Në margjinat e restaurimeve ekzistuese"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Secondary caries</strong> develops at the margins of existing restorations due to microleakage or plaque accumulation at the restoration-tooth interface.",
               "sq": "<strong>Kariesi sekondar</strong> zhvillohet në margjinat e restaurimeve ekzistuese."
@@ -4548,16 +4548,16 @@
             },
             "options": {
               "en": [
-                "A single bacterial species dominates",
+                "Fluoride is absent from the diet",
                 "Environmental changes shift microbial balance toward acidogenic species",
                 "Saliva production stops completely",
-                "Fluoride is absent from the diet"
+                "A single bacterial species dominates"
               ],
               "sq": [
-                "Një specie e vetme bakteriale dominon",
+                "Fluoridi mungon nga dieta",
                 "Ndryshimet mjedisore zhvendosin ekuilibrin mikrobial drejt specieve acidogjenike",
                 "Prodhimi i pështymës ndalet plotësisht",
-                "Fluoridi mungon nga dieta"
+                "Një specie e vetme bakteriale dominon"
               ]
             },
             "correct": 1,
@@ -4574,18 +4574,18 @@
             "options": {
               "en": [
                 "Releasing antibiotics",
-                "Creating a physical barrier preventing bacterial colonization",
                 "Strengthening enamel crystal structure",
-                "Neutralizing all plaque acids"
+                "Neutralizing all plaque acids",
+                "Creating a physical barrier preventing bacterial colonization"
               ],
               "sq": [
                 "Çliruar antibiotikë",
-                "Krijuar barrierë fizike që parandalon kolonizimin bakterial",
                 "Forcuar strukturën kristalore të smaltit",
-                "Neutralizuar të gjitha acidet e pllakës"
+                "Neutralizuar të gjitha acidet e pllakës",
+                "Krijuar barrierë fizike që parandalon kolonizimin bakterial"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "<strong>Sealants</strong> (resin-based or GIC) are applied to occlusal pits and fissures to create a physical barrier preventing bacterial colonization and caries development.",
               "sq": "<strong>Mbyllësat</strong> krijojnë barrierë fizike në gropëzat dhe çarjet okluzale."
@@ -4598,19 +4598,19 @@
             },
             "options": {
               "en": [
-                "Buffering acids",
                 "Providing calcium and phosphate for remineralization",
-                "Dissolving enamel crystals",
-                "Containing antimicrobial proteins like lysozyme"
+                "Buffering acids",
+                "Containing antimicrobial proteins like lysozyme",
+                "Dissolving enamel crystals"
               ],
               "sq": [
-                "Tamponimit të acideve",
                 "Sigurimit të kalciumit dhe fosfatit",
-                "Tretjes së kristaleve të smaltit",
-                "Përmbatjes së proteinave antimikrobiale si lizozima"
+                "Tamponimit të acideve",
+                "Përmbatjes së proteinave antimikrobiale si lizozima",
+                "Tretjes së kristaleve të smaltit"
               ]
             },
-            "correct": 2,
+            "correct": 3,
             "explanation": {
               "en": "Saliva <strong>does NOT dissolve enamel</strong>. It protects teeth by buffering acids, providing minerals for remineralization, containing antimicrobial proteins (lysozyme, lactoferrin, IgA), and clearing food debris.",
               "sq": "Pështyma <strong>NUK tret smaltin</strong>. Mbron dhëmbët duke tamponuar acidet dhe siguruar minerale."
@@ -4623,19 +4623,19 @@
             },
             "options": {
               "en": [
-                "Always requires a restoration",
-                "Is the earliest clinical sign of demineralization and is reversible",
+                "Is only visible on radiographs",
                 "Indicates pulp necrosis",
-                "Is only visible on radiographs"
+                "Always requires a restoration",
+                "Is the earliest clinical sign of demineralization and is reversible"
               ],
               "sq": [
-                "Kërkon gjithmonë restaurim",
-                "Është shenja e parë klinike e demineralizimit dhe është i kthyeshëm",
+                "Duket vetëm në radiografi",
                 "Tregon nekrozë pulpare",
-                "Duket vetëm në radiografi"
+                "Kërkon gjithmonë restaurim",
+                "Është shenja e parë klinike e demineralizimit dhe është i kthyeshëm"
               ]
             },
-            "correct": 1,
+            "correct": 3,
             "explanation": {
               "en": "A <strong>white spot lesion</strong> is the earliest clinical sign of enamel demineralization. It is <strong>reversible</strong> with fluoride therapy and improved oral hygiene before cavitation occurs. Air drying makes it more visible.",
               "sq": "<strong>Lezion me njollë të bardhë</strong> është shenja e parë e demineralizimit, <strong>i kthyeshëm</strong> me fluorid."
@@ -4670,19 +4670,19 @@
             },
             "options": {
               "en": [
-                "Fixed are cheaper",
                 "Fixed are cemented permanently; removable can be taken out by patient",
+                "Fixed are cheaper",
                 "Removable are more aesthetic",
                 "Fixed require no tooth preparation"
               ],
               "sq": [
-                "Fikset janë më të lira",
                 "Fikset çimentohen përgjithmonë; të lëvizshmet hiqen nga pacienti",
+                "Fikset janë më të lira",
                 "Të lëvizshmet janë më estetike",
                 "Fikset nuk kërkojnë përgatitje dhëmbi"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Fixed prostheses</strong> (crowns, bridges) are cemented and cannot be removed. <strong>Removable prostheses</strong> (partial/complete dentures) can be inserted and removed by the patient.",
               "sq": "<strong>Protezat fikse</strong> çimentohen. <strong>Protezat e lëvizshme</strong> hiqen nga pacienti."
@@ -4695,19 +4695,19 @@
             },
             "options": {
               "en": [
-                "Bilateral posterior edentulous areas",
-                "Unilateral bounded edentulous area",
                 "Single bilateral anterior edentulous area crossing the midline",
-                "Unilateral free-end saddle"
+                "Unilateral free-end saddle",
+                "Bilateral posterior edentulous areas",
+                "Unilateral bounded edentulous area"
               ],
               "sq": [
-                "Zona dypalëshe posteriore pa dhëmbë",
-                "Zonë njëpalëshe pa dhëmbë e kufizuar",
                 "Zonë e vetme anteriore dypalëshe pa dhëmbë që kalon vijën e mesit",
-                "Shalë njëpalëshe me fund të lirë"
+                "Shalë njëpalëshe me fund të lirë",
+                "Zona dypalëshe posteriore pa dhëmbë",
+                "Zonë njëpalëshe pa dhëmbë e kufizuar"
               ]
             },
-            "correct": 2,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Kennedy Class IV</strong>: single bilateral edentulous area crossing the midline, anterior to remaining teeth. Class I = bilateral posterior, Class II = unilateral posterior, Class III = unilateral bounded.",
               "sq": "<strong>Klasa IV</strong>: zonë e vetme anteriore pa dhëmbë që kalon vijën e mesit."
@@ -4721,18 +4721,18 @@
             "options": {
               "en": [
                 "The bite is deepest",
-                "Tongue forces are balanced by cheek and lip forces",
                 "The denture base is thinnest",
+                "Tongue forces are balanced by cheek and lip forces",
                 "Teeth are tallest"
               ],
               "sq": [
                 "Kafshimi është më i thellë",
-                "Forcat e gjuhës balancohen nga forcat e faqeve dhe buzëve",
                 "Baza e protezës është më e hollë",
+                "Forcat e gjuhës balancohen nga forcat e faqeve dhe buzëve",
                 "Dhëmbët janë më të gjatë"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "The <strong>neutral zone</strong> is where outward tongue forces balance inward cheek/lip forces. Placing teeth here optimizes denture stability.",
               "sq": "<strong>Zona neutrale</strong>: ku forcat e gjuhës balancohen nga faqet/buzët. Vendosja e dhëmbëve këtu optimizon stabilitetin."
@@ -4745,19 +4745,19 @@
             },
             "options": {
               "en": [
-                "The shade of teeth",
                 "Spatial relationship of maxilla to the hinge axis",
                 "Patient's profile photograph",
+                "The shade of teeth",
                 "Mandibular movements"
               ],
               "sq": [
-                "Ngjyrën e dhëmbëve",
                 "Marrëdhënien hapësinore të maksillës me boshtin e çernierës",
                 "Fotografinë e profilit",
+                "Ngjyrën e dhëmbëve",
                 "Lëvizjet mandibulare"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "A <strong>face-bow</strong> records the spatial relationship of the maxillary arch to the transverse hinge axis for accurate mounting on a semi-adjustable articulator.",
               "sq": "<strong>Face-bow</strong> regjistron marrëdhënien e harkut maksillrar me boshtin e çernierës."
@@ -4770,19 +4770,19 @@
             },
             "options": {
               "en": [
+                "Sanitary (hygienic)",
                 "Saddle (ridge lap)",
                 "Modified ridge lap",
-                "Sanitary (hygienic)",
                 "Ovate in all cases"
               ],
               "sq": [
+                "Sanitar (higjenik)",
                 "Shalë (ridge lap)",
                 "Modified ridge lap",
-                "Sanitar (higjenik)",
                 "Ovat në të gjitha rastet"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "The <strong>modified ridge lap</strong> pontic is most commonly used: convex on the tissue surface for easy cleaning, with a buccal contour matching natural emergence for aesthetics.",
               "sq": "Pontiku <strong>modified ridge lap</strong> përdoret më shpesh: konveks për pastrim, me kontur bukal natyral."
@@ -4795,19 +4795,19 @@
             },
             "options": {
               "en": [
+                "Adding 10mm to face height",
                 "Measuring the longest tooth",
                 "Subtracting freeway space (2-4mm) from rest vertical dimension",
-                "Adding 10mm to face height",
                 "Using only patient preference"
               ],
               "sq": [
+                "Shtuar 10mm lartësisë së fytyrës",
                 "Matur dhëmbin më të gjatë",
                 "Zbritur hapësirën e lirë (2-4mm) nga dimensioni vertikal i pushimit",
-                "Shtuar 10mm lartësisë së fytyrës",
                 "Përdorur vetëm preferencën e pacientit"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "<strong>OVD</strong> = Rest Vertical Dimension minus freeway space (2-4mm). The freeway space is the gap between upper and lower teeth when the mandible is at rest.",
               "sq": "<strong>OVD</strong> = Dimensioni vertikal i pushimit minus hapësira e lirë (2-4mm)."
@@ -4821,18 +4821,18 @@
             "options": {
               "en": [
                 "Only aesthetic improvement",
+                "Reduced need for oral hygiene",
                 "Specific guide planes, rest seats, and undercut areas for RPD retention",
-                "Better root canal access",
-                "Reduced need for oral hygiene"
+                "Better root canal access"
               ],
               "sq": [
                 "Vetëm përmirësim estetik",
+                "Ulje të nevojës për higjienë",
                 "Plane udhëzuese, vende pushimi dhe zona nën-prerëse për mbajtjen e RPD",
-                "Akses më të mirë për kanalin",
-                "Ulje të nevojës për higjienë"
+                "Akses më të mirë për kanalin"
               ]
             },
-            "correct": 1,
+            "correct": 2,
             "explanation": {
               "en": "A <strong>survey crown</strong> is designed with specific guide planes, rest seats, and undercut areas to optimize retention and support for the RPD framework.",
               "sq": "<strong>Kurorë survey</strong> dizajnohet me plane, vende pushimi dhe zona nën-prerëse për RPD."
@@ -4845,19 +4845,19 @@
             },
             "options": {
               "en": [
-                "Are the final restoration",
                 "Protect the tooth, maintain occlusion, prevent migration, and protect the pulp",
+                "Are the final restoration",
                 "Are only used for aesthetics",
                 "Last indefinitely"
               ],
               "sq": [
-                "Janë restaurimi përfundimtar",
                 "Mbrojnë dhëmbin, ruajnë okluzionin, parandalojnë migrimin dhe mbrojnë pulpën",
+                "Janë restaurimi përfundimtar",
                 "Përdoren vetëm për estetikë",
                 "Zgjasin pafundësisht"
               ]
             },
-            "correct": 1,
+            "correct": 0,
             "explanation": {
               "en": "<strong>Provisional crowns</strong> protect the prepared tooth, maintain occlusion and aesthetics, prevent tooth migration, and protect the pulp during lab fabrication.",
               "sq": "<strong>Kurorat e përkohshme</strong> mbrojnë dhëmbin, ruajnë okluzionin dhe parandalojnë migrimin."

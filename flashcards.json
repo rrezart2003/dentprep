@@ -1,0 +1,602 @@
+[
+  {
+    "id": "fc_endo_01",
+    "subject": "Endodontics",
+    "question": {
+      "en": "What is the function of EDTA in root canal irrigation?",
+      "sq": "Cila është funksioni i EDTA në irigimin e kanalit të rrënjës?"
+    },
+    "answer": {
+      "en": "EDTA is a chelating agent that removes the smear layer by dissolving inorganic components (calcium ions) from dentin. Use 17% EDTA as a final rinse for 1 minute before obturation.",
+      "sq": "EDTA është agjent kelator që heq shtresën smear duke tretur komponentët inorganikë (jonet e kalciumit) nga dentina. Përdorni EDTA 17% si shplarje finale për 1 minutë para obturimit."
+    }
+  },
+  {
+    "id": "fc_endo_02",
+    "subject": "Endodontics",
+    "question": {
+      "en": "What is the step-back technique in root canal preparation?",
+      "sq": "Çfarë është teknika step-back në përgatitjen e kanalit të rrënjës?"
+    },
+    "answer": {
+      "en": "The apical portion is prepared to a master apical file size, then sequentially larger files are used at progressively shorter working lengths to create a tapered preparation.",
+      "sq": "Pjesa apikale përgatitet deri në madhësinë e filës apikale kryesore, pastaj fila më të mëdha përdoren në gjatësi pune progresivisht më të shkurtra për përgatitje konike."
+    }
+  },
+  {
+    "id": "fc_endo_03",
+    "subject": "Endodontics",
+    "question": {
+      "en": "What are the indications for intentional replantation?",
+      "sq": "Cilat janë indikacionet për riplantimin e qëllimshëm?"
+    },
+    "answer": {
+      "en": "Failed conventional retreatment, anatomical limitations preventing surgical access, and teeth with complex root anatomy where apicoectomy is impractical.",
+      "sq": "Dështimi i ritrajtimit konvencional, kufizime anatomike që pengojnë aksesin kirurgjik, dhe dhëmbë me anatomi komplekse rrënjësh."
+    }
+  },
+  {
+    "id": "fc_endo_04",
+    "subject": "Endodontics",
+    "question": {
+      "en": "What is the purpose of a rubber dam in endodontics?",
+      "sq": "Cili është qëllimi i digës së gomës në endodonci?"
+    },
+    "answer": {
+      "en": "To isolate the tooth, prevent salivary contamination, protect the patient from instrument aspiration, and improve visibility.",
+      "sq": "Për të izoluar dhëmbin, parandaluar kontaminimin nga pështyma, mbrojtur pacientin nga aspirimi i instrumenteve dhe përmirësuar dukshmërinë."
+    }
+  },
+  {
+    "id": "fc_endo_05",
+    "subject": "Endodontics",
+    "question": {
+      "en": "What is internal root resorption and how is it diagnosed?",
+      "sq": "Çfarë është resorbimi i brendshëm i rrënjës dhe si diagnostikohet?"
+    },
+    "answer": {
+      "en": "Resorption of dentin from within the root canal by clastic cells. Diagnosed radiographically as a well-defined, uniform, oval radiolucency within the root canal space.",
+      "sq": "Resorbimi i dentinës nga brenda kanalit nga qelizat klastike. Diagnostikohet si radiotransparencë e mirëpërcaktuar, uniforme, ovale brenda kanalit."
+    }
+  },
+  {
+    "id": "fc_endo_06",
+    "subject": "Endodontics",
+    "question": {
+      "en": "What is the difference between apexogenesis and apexification?",
+      "sq": "Cili është ndryshimi midis apeksogjenezës dhe apeksifikimit?"
+    },
+    "answer": {
+      "en": "Apexogenesis preserves vital pulp tissue to allow continued root development in immature teeth. Apexification induces a calcified barrier at the apex of a non-vital immature tooth.",
+      "sq": "Apeksogjeneza ruan pulpën vitale për vazhdimin e zhvillimit të rrënjës. Apeksifikimi indukton barrierë të kalcifikuar në apeksin e dhëmbit jovital të papjekur."
+    }
+  },
+  {
+    "id": "fc_endo_07",
+    "subject": "Endodontics",
+    "question": {
+      "en": "Describe the crown-down technique in rotary endodontics.",
+      "sq": "Përshkruani teknikën crown-down në endodoncinë rrotulluese."
+    },
+    "answer": {
+      "en": "Coronal portion is flared first with larger instruments, progressively working toward the apex with smaller files. Reduces debris extrusion, improves irrigant access, decreases file separation risk.",
+      "sq": "Pjesa koronale zgjerohet e para me instrumente më të mëdha, duke punuar progresivisht drejt apeksit. Pakëson ekstruzionin, përmirëson aksesin e irigantit."
+    }
+  },
+  {
+    "id": "fc_endo_08",
+    "subject": "Endodontics",
+    "question": {
+      "en": "What is a sinus tract (fistula) in endodontics?",
+      "sq": "Çfarë është trakti sinusal (fistula) në endodonci?"
+    },
+    "answer": {
+      "en": "A pathological channel draining a periapical abscess through bone and soft tissue. Trace with a gutta-percha cone and radiograph to identify the source tooth.",
+      "sq": "Kanal patologjik që drenon absces periapical. Gjurmoni me kon guta-perka dhe radiografi për të identifikuar dhëmbin burimor."
+    }
+  },
+  {
+    "id": "fc_endo_09",
+    "subject": "Endodontics",
+    "question": {
+      "en": "What are the causes of endodontic treatment failure?",
+      "sq": "Cilat janë shkaqet e dështimit të trajtimit endodontik?"
+    },
+    "answer": {
+      "en": "Missed canals, inadequate debridement, poor obturation, coronal leakage, persistent infection, and procedural errors (ledging, perforation, separated instruments).",
+      "sq": "Kanale të pakapura, debridim joadekuat, obturim i dobët, rrjedhje koronale, infeksion persistent dhe gabime procedurale."
+    }
+  },
+  {
+    "id": "fc_car_01",
+    "subject": "Cariology",
+    "question": {
+      "en": "What is the role of Lactobacillus in dental caries?",
+      "sq": "Cili është roli i Lactobacillus në kariesin dentar?"
+    },
+    "answer": {
+      "en": "Associated with caries progression (not initiation). Thrives in low-pH environments and advances the carious lesion into dentin.",
+      "sq": "Lidhet me progresionin e kariesit (jo inicimin). Rritet në mjedise me pH të ulët dhe avancon lezionin karioz në dentinë."
+    }
+  },
+  {
+    "id": "fc_car_02",
+    "subject": "Cariology",
+    "question": {
+      "en": "What is the Stephan curve?",
+      "sq": "Çfarë është kurba e Stephan-it?"
+    },
+    "answer": {
+      "en": "A graph showing rapid plaque pH drop after sugar exposure (minimum within 5-20 min), followed by gradual return to resting pH over 30-60 minutes.",
+      "sq": "Grafik që tregon rënien e shpejtë të pH pas sheqerit (minimum brenda 5-20 min), pastaj kthim gradual gjatë 30-60 minutave."
+    }
+  },
+  {
+    "id": "fc_car_03",
+    "subject": "Cariology",
+    "question": {
+      "en": "What is remineralization?",
+      "sq": "Çfarë është rimineralizimi?"
+    },
+    "answer": {
+      "en": "The natural repair process where calcium, phosphate, and fluoride ions from saliva are redeposited into demineralized enamel, reversing early carious lesions.",
+      "sq": "Procesi natyral ku jonet e kalciumit, fosfatit dhe fluoridit nga pështyma ridepozohen në smaltin e demineralizuar."
+    }
+  },
+  {
+    "id": "fc_car_04",
+    "subject": "Cariology",
+    "question": {
+      "en": "What is the difference between primary and secondary caries?",
+      "sq": "Cili është ndryshimi midis kariesit primar dhe sekondar?"
+    },
+    "answer": {
+      "en": "Primary caries occurs on a previously unaffected surface. Secondary (recurrent) caries occurs at the margins of an existing restoration due to microleakage.",
+      "sq": "Kariesi primar ndodh në sipërfaqe të paprekur. Kariesi sekondar ndodh në margjinat e restaurimeve ekzistuese."
+    }
+  },
+  {
+    "id": "fc_car_05",
+    "subject": "Cariology",
+    "question": {
+      "en": "Explain the ecological plaque hypothesis.",
+      "sq": "Shpjegoni hipotezën ekologjike të pllakës."
+    },
+    "answer": {
+      "en": "Frequent sugar intake and low pH shift the microbial balance from health-associated species to acidogenic/aciduric species like S. mutans, driving demineralization.",
+      "sq": "Marrja e shpeshtë e sheqerit zhvendos ekuilibrin mikrobial drejt specieve acidogjenike si S. mutans."
+    }
+  },
+  {
+    "id": "fc_car_06",
+    "subject": "Cariology",
+    "question": {
+      "en": "What are pit and fissure sealants?",
+      "sq": "Çfarë janë mbyllësat e gropëzave dhe çarjeve?"
+    },
+    "answer": {
+      "en": "Resin-based or GIC materials applied to occlusal pits and fissures to create a physical barrier preventing bacterial colonization and caries.",
+      "sq": "Materiale me bazë rezine ose GIC të aplikuara në gropëzat okluzale për barrierë fizike kundër kariesit."
+    }
+  },
+  {
+    "id": "fc_car_07",
+    "subject": "Cariology",
+    "question": {
+      "en": "What is the role of saliva in caries prevention?",
+      "sq": "Cili është roli i pështymës në parandalimin e kariesit?"
+    },
+    "answer": {
+      "en": "Buffers acids, provides calcium/phosphate for remineralization, contains antimicrobial proteins (lysozyme, lactoferrin, IgA), and clears food debris.",
+      "sq": "Tamponon acidet, siguron minerale për rimineralizim, përmban proteina antimikrobiale dhe pastron mbeturinat ushqimore."
+    }
+  },
+  {
+    "id": "fc_car_08",
+    "subject": "Cariology",
+    "question": {
+      "en": "What is a white spot lesion?",
+      "sq": "Çfarë është lezion me njollë të bardhë?"
+    },
+    "answer": {
+      "en": "The earliest clinical sign of enamel demineralization. Reversible with fluoride therapy and improved oral hygiene before cavitation. Air drying makes it more visible.",
+      "sq": "Shenja e parë klinike e demineralizimit. I kthyeshëm me fluorid para kavitacionit. Tharja me ajër e bën më të dukshme."
+    }
+  },
+  {
+    "id": "fc_pros_01",
+    "subject": "Prosthodontics",
+    "question": {
+      "en": "What is the difference between fixed and removable prostheses?",
+      "sq": "Cili është ndryshimi midis protezave fikse dhe të lëvizshme?"
+    },
+    "answer": {
+      "en": "Fixed (crown, bridge) is cemented permanently. Removable (partial/complete denture) can be inserted and removed by the patient.",
+      "sq": "Fikse (kurorë, urë) çimentohet përgjithmonë. E lëvizshme (protezë) hiqet nga pacienti."
+    }
+  },
+  {
+    "id": "fc_pros_02",
+    "subject": "Prosthodontics",
+    "question": {
+      "en": "What is Kennedy Class IV in RPD classification?",
+      "sq": "Çfarë është Klasa IV e Kennedy-t në RPD?"
+    },
+    "answer": {
+      "en": "A single bilateral edentulous area crossing the midline anterior to the remaining teeth.",
+      "sq": "Zonë e vetme anteriore pa dhëmbë dypalëshe që kalon vijën e mesit."
+    }
+  },
+  {
+    "id": "fc_pros_03",
+    "subject": "Prosthodontics",
+    "question": {
+      "en": "What is the neutral zone in complete denture prosthodontics?",
+      "sq": "Çfarë është zona neutrale në protezat e plota?"
+    },
+    "answer": {
+      "en": "The area where outward tongue forces balance inward cheek/lip forces. Teeth placed here have optimal denture stability.",
+      "sq": "Zona ku forcat e gjuhës balancohen nga faqet/buzët. Dhëmbët këtu kanë stabilitet optimal."
+    }
+  },
+  {
+    "id": "fc_pros_04",
+    "subject": "Prosthodontics",
+    "question": {
+      "en": "What is the purpose of a face-bow transfer?",
+      "sq": "Cili është qëllimi i transferimit me face-bow?"
+    },
+    "answer": {
+      "en": "To record the spatial relationship of the maxillary arch to the transverse hinge axis for accurate mounting on a semi-adjustable articulator.",
+      "sq": "Për të regjistruar marrëdhënien e harkut maksillrar me boshtin e çernierës për montim të saktë."
+    }
+  },
+  {
+    "id": "fc_pros_05",
+    "subject": "Prosthodontics",
+    "question": {
+      "en": "What are the requirements for an ideal pontic?",
+      "sq": "Cilat janë kërkesat për pontik ideal?"
+    },
+    "answer": {
+      "en": "Biocompatible, aesthetic, easy to clean (convex tissue surface), adequate strength, proper occlusal contacts. Modified ridge lap design is most common.",
+      "sq": "Biokompatibël, estetik, i lehtë për pastrim, fortësi adekuate. Dizajni modified ridge lap më i zakonshëm."
+    }
+  },
+  {
+    "id": "fc_pros_06",
+    "subject": "Prosthodontics",
+    "question": {
+      "en": "How is occlusal vertical dimension (OVD) determined?",
+      "sq": "Si përcaktohet dimensioni vertikal okluzal (OVD)?"
+    },
+    "answer": {
+      "en": "OVD = Rest Vertical Dimension minus freeway space (2-4mm).",
+      "sq": "OVD = Dimensioni vertikal i pushimit minus hapësira e lirë (2-4mm)."
+    }
+  },
+  {
+    "id": "fc_pros_07",
+    "subject": "Prosthodontics",
+    "question": {
+      "en": "What is a survey crown in RPD design?",
+      "sq": "Çfarë është kurorë survey në dizajnin e RPD?"
+    },
+    "answer": {
+      "en": "A crown designed with specific guide planes, rest seats, and undercut areas to optimize retention and support for the RPD framework.",
+      "sq": "Kurorë me plane udhëzuese, vende pushimi dhe zona nën-prerëse për mbajtjen e RPD."
+    }
+  },
+  {
+    "id": "fc_pros_08",
+    "subject": "Prosthodontics",
+    "question": {
+      "en": "Why are temporary crowns important?",
+      "sq": "Pse janë të rëndësishme kurorat e përkohshme?"
+    },
+    "answer": {
+      "en": "They protect the prepared tooth, maintain occlusion and aesthetics, prevent tooth migration, and protect the pulp during lab fabrication.",
+      "sq": "Mbrojnë dhëmbin, ruajnë okluzionin, parandalojnë migrimin dhe mbrojnë pulpën."
+    }
+  },
+  {
+    "id": "fc_perio_01",
+    "subject": "Periodontology",
+    "question": {
+      "en": "What is the difference between supragingival and subgingival calculus?",
+      "sq": "Cili është ndryshimi midis gurit supragingival dhe subgingival?"
+    },
+    "answer": {
+      "en": "Supragingival: above gumline, yellowish-white, from saliva. Subgingival: below gumline, dark brown/black, from gingival crevicular fluid.",
+      "sq": "Supragingival: mbi mishrat, i verdhë-bardhë, nga pështyma. Subgingival: nën mishrat, kafe/zi, nga lëngu krevikular."
+    }
+  },
+  {
+    "id": "fc_perio_02",
+    "subject": "Periodontology",
+    "question": {
+      "en": "What is the 2017 periodontal classification based on?",
+      "sq": "Në çfarë bazohet klasifikimi periodontal i 2017?"
+    },
+    "answer": {
+      "en": "Stage (severity/complexity, I-IV) and Grade (progression rate/risk factors, A-C). Replaced the 1999 Armitage classification.",
+      "sq": "Stadi (I-IV) për ashpërsi dhe Grada (A-C) për progresion. Zëvendësoi klasifikimin e 1999."
+    }
+  },
+  {
+    "id": "fc_perio_03",
+    "subject": "Periodontology",
+    "question": {
+      "en": "What is guided tissue regeneration (GTR)?",
+      "sq": "Çfarë është rigjenerimi i drejtuar i indeve (GTR)?"
+    },
+    "answer": {
+      "en": "Barrier membranes exclude epithelium, allowing PDL and bone cells to regenerate the defect. Indicated for intrabony defects and furcation involvement.",
+      "sq": "Membrana barrierë përjashtojnë epitelin, lejojnë rigjenerimin. Indikohet për defekte intrakockore dhe furkacion."
+    }
+  },
+  {
+    "id": "fc_perio_04",
+    "subject": "Periodontology",
+    "question": {
+      "en": "What does bleeding on probing (BOP) indicate?",
+      "sq": "Çfarë tregon gjakderdhja gjatë sondimit (BOP)?"
+    },
+    "answer": {
+      "en": "The earliest clinical sign of gingival inflammation. Indicates active disease.",
+      "sq": "Shenja e parë klinike e inflamacionit gingival. Tregon sëmundje aktive."
+    }
+  },
+  {
+    "id": "fc_perio_05",
+    "subject": "Periodontology",
+    "question": {
+      "en": "How is furcation involvement classified (Glickman)?",
+      "sq": "Si klasifikohet përfshirja e furkacionit (Glickman)?"
+    },
+    "answer": {
+      "en": "Grade I (incipient), Grade II (partial cul-de-sac), Grade III (through-and-through but covered), Grade IV (clinically open through-and-through).",
+      "sq": "Grada I (fillestare), II (e pjesshme), III (e plotë por e mbuluar), IV (e plotë, e hapur)."
+    }
+  },
+  {
+    "id": "fc_perio_06",
+    "subject": "Periodontology",
+    "question": {
+      "en": "What are the components of the periodontium?",
+      "sq": "Cilat janë komponentët e periodonciumit?"
+    },
+    "answer": {
+      "en": "Gingiva, periodontal ligament (PDL), cementum, and alveolar bone.",
+      "sq": "Gingiva, ligamenti periodontal (PDL), çementi dhe kocka alveolare."
+    }
+  },
+  {
+    "id": "fc_perio_07",
+    "subject": "Periodontology",
+    "question": {
+      "en": "What is the role of systemic antibiotics in periodontal therapy?",
+      "sq": "Cili është roli i antibiotikëve sistemikë në terapinë periodontale?"
+    },
+    "answer": {
+      "en": "Adjunctive to SRP in aggressive/refractory cases. Common: amoxicillin + metronidazole. Not a substitute for mechanical debridement.",
+      "sq": "Ndihmës ndaj SRP në raste agresive. Amoksicilinë + metronidazol. Nuk zëvendëson debridimin mekanik."
+    }
+  },
+  {
+    "id": "fc_perio_08",
+    "subject": "Periodontology",
+    "question": {
+      "en": "What is the difference between gingivectomy and flap surgery?",
+      "sq": "Cili është ndryshimi midis gingivektomisë dhe kirurgjisë me flap?"
+    },
+    "answer": {
+      "en": "Gingivectomy excises excess gingival tissue (pseudopockets). Flap surgery reflects mucoperiosteal flap to access roots and bone for debridement/regeneration.",
+      "sq": "Gingivektomia heq indin e tepërt. Kirurgjia me flap reflekton flap për akses në rrënjë dhe kockë."
+    }
+  },
+  {
+    "id": "fc_perio_09",
+    "subject": "Periodontology",
+    "question": {
+      "en": "What is mucogingival surgery?",
+      "sq": "Çfarë është kirurgjia mukogingivale?"
+    },
+    "answer": {
+      "en": "Plastic periodontal procedures to correct defects in gingival morphology/position/amount, including soft tissue grafting and vestibuloplasty.",
+      "sq": "Procedura plastike për korrigjimin e defekteve gingivale, duke përfshirë graftimin e indeve të buta."
+    }
+  },
+  {
+    "id": "fc_surg_01",
+    "subject": "Oral Surgery",
+    "question": {
+      "en": "What are the signs of dry socket (alveolar osteitis)?",
+      "sq": "Cilat janë shenjat e alveolitit të thatë?"
+    },
+    "answer": {
+      "en": "Severe pain 2-5 days post-extraction, empty socket with exposed bone, foul taste/odor, radiating ear pain. Irrigate and place medicated dressing.",
+      "sq": "Dhimbje e fortë 2-5 ditë pas nxjerrjes, alveol bosh me kockë të ekspozuar, shije/erë e keqe."
+    }
+  },
+  {
+    "id": "fc_surg_02",
+    "subject": "Oral Surgery",
+    "question": {
+      "en": "What is the Winter classification of impacted third molars?",
+      "sq": "Çfarë është klasifikimi i Winter-it?"
+    },
+    "answer": {
+      "en": "Based on angulation relative to the second molar: mesioangular, distoangular, vertical, horizontal, buccoangular, linguoangular, and inverted.",
+      "sq": "Bazuar në këndin relativ ndaj molarit të dytë: meziangular, distoangular, vertikal, horizontal etj."
+    }
+  },
+  {
+    "id": "fc_surg_03",
+    "subject": "Oral Surgery",
+    "question": {
+      "en": "What are the signs of inferior alveolar nerve damage?",
+      "sq": "Cilat janë shenjat e dëmtimit të nervit alveolar inferior?"
+    },
+    "answer": {
+      "en": "Numbness, tingling, or altered sensation of the lower lip, chin, and gingiva on the affected side. May be temporary or permanent.",
+      "sq": "Mpirje, ndjesi shpuese ose e ndryshuar e buzës, mjekrës dhe gingivës. Mund të jetë e përkohshme ose e përhershme."
+    }
+  },
+  {
+    "id": "fc_surg_04",
+    "subject": "Oral Surgery",
+    "question": {
+      "en": "How to manage oro-antral communication after extraction?",
+      "sq": "Si menaxhohet komunikimi oro-antral pas nxjerrjes?"
+    },
+    "answer": {
+      "en": "Small (<2mm): blood clot protection, no nose blowing, antibiotics, decongestants. Large: immediate surgical closure with buccal advancement flap.",
+      "sq": "I vogël (<2mm): mbrojtje mpiksje, mos fryrje hundës, antibiotikë. I madh: mbyllje kirurgjikale me flap bukal."
+    }
+  },
+  {
+    "id": "fc_surg_05",
+    "subject": "Oral Surgery",
+    "question": {
+      "en": "What is Ludwig's angina?",
+      "sq": "Çfarë është angina e Ludwig-ut?"
+    },
+    "answer": {
+      "en": "Rapidly spreading bilateral cellulitis of submandibular/sublingual/submental spaces. Life-threatening due to airway obstruction. Emergency: secure airway, IV antibiotics, surgical drainage.",
+      "sq": "Celulit dypalësh i hapësirave submandibulare/sublinguale. Kërcënim për jetën nga bllokimi i rrugëve të frymëmarrjes."
+    }
+  },
+  {
+    "id": "fc_surg_06",
+    "subject": "Oral Surgery",
+    "question": {
+      "en": "What are absolute contraindications for tooth extraction?",
+      "sq": "Cilat janë kundërindikacionet absolute?"
+    },
+    "answer": {
+      "en": "Uncontrolled diabetes, recent MI (<6 months), uncontrolled bleeding disorders, active radiation to jaws (osteoradionecrosis risk), malignant tumors involving tooth.",
+      "sq": "Diabet i pakontrolluar, infarkt i fundit (<6 muaj), radioterapi aktive (rrezik osteoradionekroze), tumore malinje."
+    }
+  },
+  {
+    "id": "fc_surg_07",
+    "subject": "Oral Surgery",
+    "question": {
+      "en": "Enucleation vs marsupialization of a cyst?",
+      "sq": "Enukleimi vs marsupializimi i cistës?"
+    },
+    "answer": {
+      "en": "Enucleation: complete removal of cyst lining. Marsupialization: surgical window to decompress, used for large cysts.",
+      "sq": "Enukleimi: heqje e plotë. Marsupializimi: dritare kirurgjikale për dekompresim, për cista të mëdha."
+    }
+  },
+  {
+    "id": "fc_surg_08",
+    "subject": "Oral Surgery",
+    "question": {
+      "en": "What are Champy's lines of osteosynthesis?",
+      "sq": "Çfarë janë linjat e osteosintezës së Champy-t?"
+    },
+    "answer": {
+      "en": "Ideal lines for miniplate placement in mandibular fracture fixation, based on biomechanical tension zones.",
+      "sq": "Linja ideale për vendosjen e miniplakave në frakturat mandibulare, bazuar në zonat e tensionit biomekanik."
+    }
+  },
+  {
+    "id": "fc_anat_01",
+    "subject": "Anatomy",
+    "question": {
+      "en": "What external carotid branches are relevant to dentistry?",
+      "sq": "Cilat degë të karotides së jashtme janë relevante?"
+    },
+    "answer": {
+      "en": "Lingual artery (tongue), facial artery (face/lips), maxillary artery (teeth/jaws via alveolar branches).",
+      "sq": "Arteria linguale (gjuha), faciale (fytyra/buzët), maksilare (dhëmbët/nofullat)."
+    }
+  },
+  {
+    "id": "fc_anat_02",
+    "subject": "Anatomy",
+    "question": {
+      "en": "Describe the course of the inferior alveolar nerve.",
+      "sq": "Përshkruani rrjedhën e nervit alveolar inferior."
+    },
+    "answer": {
+      "en": "Branch of V3 → mandibular foramen → mandibular canal (supplies teeth) → exits via mental foramen as mental nerve (chin, lower lip).",
+      "sq": "Degë e V3 → foramina mandibulare → kanali mandibular → del si nervi mental (mjekra, buza e poshtme)."
+    }
+  },
+  {
+    "id": "fc_anat_03",
+    "subject": "Anatomy",
+    "question": {
+      "en": "What type of joint is the TMJ?",
+      "sq": "Çfarë lloji nyje është NYT?"
+    },
+    "answer": {
+      "en": "Synovial, ginglymo-arthrodial (hinge and sliding) joint between mandibular condyle and temporal bone, separated by articular disc.",
+      "sq": "Nyje sinoviale ginglimo-artrodiale midis kondilit mandibular dhe kockës temporale, me disk artikular."
+    }
+  },
+  {
+    "id": "fc_anat_04",
+    "subject": "Anatomy",
+    "question": {
+      "en": "What is the pterygomandibular raphe?",
+      "sq": "Çfarë është rafe pterigomandibulare?"
+    },
+    "answer": {
+      "en": "Fibrous band from medial pterygoid plate hamulus to mylohyoid line. Landmark for inferior alveolar nerve block injection.",
+      "sq": "Brez fibroz nga hamulusi pterigoid deri te vija milohioide. Pikë referimi për bllokun e nervit alveolar inferior."
+    }
+  },
+  {
+    "id": "fc_anat_05",
+    "subject": "Anatomy",
+    "question": {
+      "en": "Which fascial spaces can spread infection to the mediastinum?",
+      "sq": "Cilat hapësira fasciale mund të përhapen në mediastinum?"
+    },
+    "answer": {
+      "en": "Lateral pharyngeal and retropharyngeal spaces. Can descend along fascial planes causing life-threatening mediastinitis.",
+      "sq": "Hapësirat faringeale laterale dhe retrofaringeale. Mund të zbresin duke shkaktuar mediastinit."
+    }
+  },
+  {
+    "id": "fc_anat_06",
+    "subject": "Anatomy",
+    "question": {
+      "en": "How many permanent teeth does an adult have?",
+      "sq": "Sa dhëmbë të përhershëm ka një i rritur?"
+    },
+    "answer": {
+      "en": "32: 8 incisors, 4 canines, 8 premolars, 12 molars (including 4 third molars).",
+      "sq": "32: 8 incizivë, 4 kaninë, 8 premolarë, 12 molarë (përfshirë 4 të mençurisë)."
+    }
+  },
+  {
+    "id": "fc_anat_07",
+    "subject": "Anatomy",
+    "question": {
+      "en": "What is the innervation of the tongue?",
+      "sq": "Cili është inervimi i gjuhës?"
+    },
+    "answer": {
+      "en": "Anterior 2/3: general sensation – lingual nerve (V3), taste – chorda tympani (VII). Posterior 1/3: glossopharyngeal (IX). Root: vagus (X).",
+      "sq": "2/3 anteriore: ndjesia – nervi lingual (V3), shija – korda timpani (VII). 1/3 posteriore: glosofaringeali (IX)."
+    }
+  },
+  {
+    "id": "fc_anat_08",
+    "subject": "Anatomy",
+    "question": {
+      "en": "What is the blood supply of the hard palate?",
+      "sq": "Cili është furnizimi me gjak i qiellzës së fortë?"
+    },
+    "answer": {
+      "en": "Greater palatine artery (branch of descending palatine from maxillary artery). Lesser palatine arteries supply the soft palate.",
+      "sq": "Arteria palatine e madhe (degë e palatines zbritëse). Arteriet palatine të vogla furnizojnë qiellzën e butë."
+    }
+  }
+]

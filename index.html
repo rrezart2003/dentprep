@@ -180,8 +180,44 @@ body {
     <div class="stat-card"><div class="num" id="stat-accuracy">0%</div><div class="label" id="lbl-accuracy"></div></div>
     <div class="stat-card"><div class="num" id="stat-streak">0</div><div class="label" id="lbl-streak"></div></div>
   </div>
+  <div style="margin:16px 0;text-align:center;">
+    <button id="flashcard-btn" onclick="startFlashcards()" style="background:var(--primary);color:#fff;border:none;border-radius:14px;padding:14px 28px;font-size:16px;font-weight:600;cursor:pointer;width:100%;max-width:320px;">📚 Flashcards</button>
+  </div>
   <div class="section-title" id="lbl-subjects"></div>
   <div class="subject-grid" id="subject-grid"></div>
+</div>
+
+<!-- FLASHCARDS -->
+<div id="flashcards" class="screen">
+  <div>
+    <div class="quiz-top">
+      <span class="quiz-counter" id="fc-counter">1 / 50</span>
+      <button class="quit" id="fc-quit-btn" onclick="showScreen('home')"></button>
+    </div>
+    <div class="quiz-progress"><div class="fill" id="fc-progress-fill" style="width:0%"></div></div>
+    <div style="padding:20px;">
+      <div id="fc-subject" style="font-size:12px;color:var(--text-dim);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;"></div>
+      <div id="fc-question" style="font-size:18px;font-weight:600;line-height:1.5;margin-bottom:20px;"></div>
+      <div id="fc-answer" style="display:none;background:var(--card);border:1px solid var(--card-border);border-radius:14px;padding:16px;font-size:16px;line-height:1.6;margin-bottom:16px;"></div>
+      <button id="fc-reveal-btn" onclick="revealFlashcard()" style="background:var(--primary);color:#fff;border:none;border-radius:12px;padding:12px 24px;font-size:15px;font-weight:600;cursor:pointer;width:100%;">👁 Reveal Answer</button>
+      <div id="fc-nav" style="display:none;margin-top:16px;display:flex;gap:10px;">
+        <button id="fc-knew" onclick="fcNext(true)" style="flex:1;background:#22c55e;color:#fff;border:none;border-radius:12px;padding:12px;font-size:14px;font-weight:600;cursor:pointer;">✓ Knew it</button>
+        <button id="fc-didnt" onclick="fcNext(false)" style="flex:1;background:#ef4444;color:#fff;border:none;border-radius:12px;padding:12px;font-size:14px;font-weight:600;cursor:pointer;">✗ Didn't know</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FLASHCARD RESULTS -->
+<div id="fc-results" class="screen">
+  <div style="text-align:center;padding:40px 20px;">
+    <div style="font-size:48px;margin-bottom:16px;">📚</div>
+    <h2 id="fc-results-title" style="margin-bottom:8px;"></h2>
+    <p id="fc-results-score" style="font-size:20px;color:var(--text-dim);margin-bottom:24px;"></p>
+    <button onclick="startFlashcards()" style="background:var(--primary);color:#fff;border:none;border-radius:12px;padding:14px 28px;font-size:15px;font-weight:600;cursor:pointer;margin-bottom:12px;width:80%;">🔄 Again</button>
+    <br>
+    <button onclick="showScreen('home')" style="background:var(--card);color:var(--text);border:1px solid var(--card-border);border-radius:12px;padding:14px 28px;font-size:15px;font-weight:600;cursor:pointer;width:80%;">🏠 Home</button>
+  </div>
 </div>
 
 <!-- TOPICS -->
@@ -439,6 +475,68 @@ function showResults() {
 
 function retryQuiz() { startQuiz(currentTopic); }
 function saveStats() { localStorage.setItem('dentprep_stats', JSON.stringify(stats)); }
+
+// ===== FLASHCARDS =====
+let fcCards = [];
+let fcIdx = 0;
+let fcKnew = 0;
+
+async function loadFlashcards() {
+  try {
+    const resp = await fetch('flashcards.json');
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    return await resp.json();
+  } catch (err) {
+    console.warn('Failed to load flashcards.json:', err.message);
+    return [];
+  }
+}
+
+async function startFlashcards() {
+  const all = await loadFlashcards();
+  fcCards = shuffle(all);
+  fcIdx = 0;
+  fcKnew = 0;
+  showScreen('flashcards');
+  renderFlashcard();
+}
+
+function renderFlashcard() {
+  const fc = fcCards[fcIdx];
+  document.getElementById('fc-quit-btn').textContent = ui('quit');
+  document.getElementById('fc-counter').textContent = `${fcIdx+1} / ${fcCards.length}`;
+  document.getElementById('fc-progress-fill').style.width = `${(fcIdx/fcCards.length)*100}%`;
+  document.getElementById('fc-subject').textContent = fc.subject;
+  document.getElementById('fc-question').textContent = t(fc.question);
+  document.getElementById('fc-answer').style.display = 'none';
+  document.getElementById('fc-answer').innerHTML = t(fc.answer);
+  document.getElementById('fc-reveal-btn').style.display = 'block';
+  document.getElementById('fc-nav').style.display = 'none';
+}
+
+function revealFlashcard() {
+  document.getElementById('fc-answer').style.display = 'block';
+  document.getElementById('fc-reveal-btn').style.display = 'none';
+  document.getElementById('fc-nav').style.display = 'flex';
+}
+
+function fcNext(knew) {
+  if (knew) fcKnew++;
+  fcIdx++;
+  if (fcIdx >= fcCards.length) {
+    showFcResults();
+  } else {
+    renderFlashcard();
+  }
+}
+
+function showFcResults() {
+  const pct = Math.round(fcKnew/fcCards.length*100);
+  document.getElementById('fc-results-title').textContent = pct >= 80 ? '🎉 Excellent!' : pct >= 50 ? '👍 Good effort!' : '💪 Keep studying!';
+  document.getElementById('fc-results-score').textContent = `${fcKnew}/${fcCards.length} (${pct}%)`;
+  document.getElementById('fc-progress-fill').style.width = '100%';
+  showScreen('fc-results');
+}
 
 // ===== INIT =====
 (async function init() {
