@@ -1,128 +1,98 @@
 // questions.js — Dynamic flashcard loader for DentPrep PWA
-// Fetches questions.json from GitHub Pages with offline fallback
+// Fetches questions.json (SUBJECTS array) with offline fallback
 
 const QUESTIONS_URL = 'https://rrezart2003.github.io/dentprep/questions.json';
 
-let _cachedQuestions = null;
+let _cachedSubjects = null;
 
 /**
- * Fetch all questions from the remote JSON file.
- * Falls back to an empty array if offline or fetch fails.
- * Caches the result for subsequent calls within the same session.
- * @returns {Promise<Array>}
+ * Fetch all subjects from the remote JSON file.
+ * @returns {Promise<Array>} Array of subject objects
  */
-export async function fetchQuestions() {
-  if (_cachedQuestions) return _cachedQuestions;
-
+export async function fetchSubjects() {
+  if (_cachedSubjects) return _cachedSubjects;
   try {
     const response = await fetch(QUESTIONS_URL);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    _cachedQuestions = await response.json();
+    _cachedSubjects = await response.json();
   } catch (err) {
-    console.warn('Failed to fetch questions, using fallback:', err.message);
-    _cachedQuestions = [];
+    console.warn('Failed to fetch questions:', err.message);
+    _cachedSubjects = [];
   }
-
-  return _cachedQuestions;
+  return _cachedSubjects;
 }
 
 /**
- * Get all questions (alias for fetchQuestions).
+ * Flatten all questions from all subjects/topics.
  * @returns {Promise<Array>}
  */
 export async function getAllQuestions() {
-  return fetchQuestions();
+  const subjects = await fetchSubjects();
+  return subjects.flatMap(s => s.topics.flatMap(t => t.questions));
 }
 
 /**
- * Get all flashcards (alias for fetchQuestions).
- * @returns {Promise<Array>}
- */
-export async function getFlashcards() {
-  return fetchQuestions();
-}
-
-/**
- * Get questions filtered by subject/category (case-insensitive match).
- * Checks both "subject" and "category" fields for compatibility.
+ * Get all questions for a given subject (case-insensitive match on subject id or name).
  * @param {string} subject
  * @returns {Promise<Array>}
  */
 export async function getQuestionsBySubject(subject) {
-  const questions = await fetchQuestions();
+  const subjects = await fetchSubjects();
   const target = subject.toLowerCase();
-  return questions.filter(q =>
-    (q.subject && q.subject.toLowerCase() === target) ||
-    (q.category && q.category.toLowerCase() === target)
+  const sub = subjects.find(s =>
+    s.id.toLowerCase() === target ||
+    (s.name.en && s.name.en.toLowerCase() === target) ||
+    (s.name.sq && s.name.sq.toLowerCase() === target)
   );
+  return sub ? sub.topics.flatMap(t => t.questions) : [];
 }
 
 /**
- * Get questions filtered by difficulty.
- * Supports both string ("easy","medium","hard") and numeric (1,2,3) formats.
+ * Get questions filtered by difficulty (not applicable to MCQ format, stub for compatibility).
  * @param {string|number} level
  * @returns {Promise<Array>}
  */
 export async function getQuestionsByDifficulty(level) {
-  const questions = await fetchQuestions();
-  const numMap = { easy: 1, medium: 2, hard: 3 };
-  const strMap = { 1: 'easy', 2: 'medium', 3: 'hard' };
-
-  return questions.filter(q => {
-    if (typeof level === 'string') {
-      return q.difficulty === level || q.difficulty === numMap[level.toLowerCase()];
-    }
-    return q.difficulty === level || q.difficulty === strMap[level];
-  });
+  const all = await getAllQuestions();
+  return all.filter(q => q.difficulty === level);
 }
 
 /**
- * Get questions filtered by academic year (1-5).
- * Only applies to questions that have a "year" field.
+ * Get questions filtered by year (not applicable to current MCQ format, stub for compatibility).
  * @param {number} year
  * @returns {Promise<Array>}
  */
 export async function getQuestionsByYear(year) {
-  const questions = await fetchQuestions();
-  return questions.filter(q => q.year === year);
+  const all = await getAllQuestions();
+  return all.filter(q => q.year === year);
 }
 
 /**
- * Get questions filtered by category (legacy alias for getQuestionsBySubject).
- * @param {string} category
+ * Get all flashcards (alias).
  * @returns {Promise<Array>}
  */
-export async function getCategoryQuestions(category) {
-  return getQuestionsBySubject(category);
-}
-
-/**
- * Get questions filtered by difficulty level (legacy numeric alias).
- * @param {number} level
- * @returns {Promise<Array>}
- */
-export async function getDifficultyQuestions(level) {
-  return getQuestionsByDifficulty(level);
-}
-
-/**
- * Get a list of all unique subjects/categories.
- * @returns {Promise<string[]>}
- */
-export async function getCategories() {
-  const questions = await fetchQuestions();
-  return [...new Set(questions.map(q => q.subject || q.category))];
+export async function getFlashcards() {
+  return getAllQuestions();
 }
 
 /**
  * Get a random subset of questions for quiz mode.
- * @param {number} count - Number of questions to return
+ * @param {number} count
  * @returns {Promise<Array>}
  */
 export async function getRandomQuestions(count = 10) {
-  const questions = await fetchQuestions();
+  const questions = await getAllQuestions();
   const shuffled = [...questions].sort(() => Math.random() - 0.5);
   return shuffled.slice(0, Math.min(count, shuffled.length));
+}
+
+/**
+ * Get a list of all unique subject names.
+ * @returns {Promise<string[]>}
+ */
+export async function getCategories() {
+  const subjects = await fetchSubjects();
+  return subjects.map(s => s.name.en);
 }
 
 /**
@@ -130,6 +100,6 @@ export async function getRandomQuestions(count = 10) {
  * @returns {Promise<Array>}
  */
 export async function refreshQuestions() {
-  _cachedQuestions = null;
-  return fetchQuestions();
+  _cachedSubjects = null;
+  return fetchSubjects();
 }
