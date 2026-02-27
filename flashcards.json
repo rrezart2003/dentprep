@@ -505,7 +505,7 @@
   },
   {
     "id": "fc_anat_01",
-    "subject": "Anatomy",
+    "subject": "Oral Anatomy",
     "question": {
       "en": "What external carotid branches are relevant to dentistry?",
       "sq": "Cilat degë të karotides së jashtme janë relevante?"
@@ -517,7 +517,7 @@
   },
   {
     "id": "fc_anat_02",
-    "subject": "Anatomy",
+    "subject": "Oral Anatomy",
     "question": {
       "en": "Describe the course of the inferior alveolar nerve.",
       "sq": "Përshkruani rrjedhën e nervit alveolar inferior."
@@ -529,7 +529,7 @@
   },
   {
     "id": "fc_anat_03",
-    "subject": "Anatomy",
+    "subject": "Oral Anatomy",
     "question": {
       "en": "What type of joint is the TMJ?",
       "sq": "Çfarë lloji nyje është NYT?"
@@ -541,7 +541,7 @@
   },
   {
     "id": "fc_anat_04",
-    "subject": "Anatomy",
+    "subject": "Oral Anatomy",
     "question": {
       "en": "What is the pterygomandibular raphe?",
       "sq": "Çfarë është rafe pterigomandibulare?"
@@ -553,7 +553,7 @@
   },
   {
     "id": "fc_anat_05",
-    "subject": "Anatomy",
+    "subject": "Oral Anatomy",
     "question": {
       "en": "Which fascial spaces can spread infection to the mediastinum?",
       "sq": "Cilat hapësira fasciale mund të përhapen në mediastinum?"
@@ -565,7 +565,7 @@
   },
   {
     "id": "fc_anat_06",
-    "subject": "Anatomy",
+    "subject": "Oral Anatomy",
     "question": {
       "en": "How many permanent teeth does an adult have?",
       "sq": "Sa dhëmbë të përhershëm ka një i rritur?"
@@ -577,7 +577,7 @@
   },
   {
     "id": "fc_anat_07",
-    "subject": "Anatomy",
+    "subject": "Oral Anatomy",
     "question": {
       "en": "What is the innervation of the tongue?",
       "sq": "Cili është inervimi i gjuhës?"
@@ -589,7 +589,7 @@
   },
   {
     "id": "fc_anat_08",
-    "subject": "Anatomy",
+    "subject": "Oral Anatomy",
     "question": {
       "en": "What is the blood supply of the hard palate?",
       "sq": "Cili është furnizimi me gjak i qiellzës së fortë?"
@@ -597,6 +597,426 @@
     "answer": {
       "en": "Greater palatine artery (branch of descending palatine from maxillary artery). Lesser palatine arteries supply the soft palate.",
       "sq": "Arteria palatine e madhe (degë e palatines zbritëse). Arteriet palatine të vogla furnizojnë qiellzën e butë."
+    }
+  },
+  {
+    "id": "fc_pharm_01",
+    "subject": "Pharmacology",
+    "question": {
+      "en": "What is the maximum dose of lidocaine with epinephrine for a 70kg adult?",
+      "sq": "Cila është doza maksimale e lidokainës me epinefrinë për një adult 70kg?"
+    },
+    "answer": {
+      "en": "7 mg/kg with epinephrine (max 500mg). For a 70kg adult = 490mg ≈ 13 cartridges of 2% lidocaine (1.8ml each contains 36mg).",
+      "sq": "7 mg/kg me epinefrinë (maks 500mg). Për adult 70kg = 490mg ≈ 13 karpula lidokainë 2% (secila 1.8ml përmban 36mg)."
+    }
+  },
+  {
+    "id": "fc_pharm_02",
+    "subject": "Pharmacology",
+    "question": {
+      "en": "Why is epinephrine added to local anesthetics in dentistry?",
+      "sq": "Pse shtohet epinefrina në anestetikët lokalë në stomatologji?"
+    },
+    "answer": {
+      "en": "Epinephrine causes local vasoconstriction, which: 1) Prolongs anesthetic duration, 2) Reduces bleeding at the site, 3) Slows systemic absorption (reduces toxicity), 4) Increases depth of anesthesia.",
+      "sq": "Epinefrina shkakton vazokonstriksion lokal, që: 1) Zgjat kohëzgjatjen e anestezisë, 2) Zvogëlon gjakderdhjen, 3) Ngadalëson absorbimin sistemik (zvogëlon toksicitetin), 4) Rrit thellësinë e anestezisë."
+    }
+  },
+  {
+    "id": "fc_pharm_03",
+    "subject": "Pharmacology",
+    "question": {
+      "en": "What analgesic is first-line for dental pain and why?",
+      "sq": "Cili analgjezik është zgjedhja e parë për dhimbjen dentare dhe pse?"
+    },
+    "answer": {
+      "en": "Ibuprofen (400-600mg) is first-line because dental pain is primarily inflammatory. NSAIDs inhibit COX enzymes, reducing prostaglandin synthesis at the inflammation site. Can combine with paracetamol for synergistic effect.",
+      "sq": "Ibuprofeni (400-600mg) është zgjedhja e parë sepse dhimbja dentare është kryesisht inflamatore. NSAID-të inhibojnë enzimat COX, duke zvogëluar sintezën e prostaglandinave. Mund të kombinohet me paracetamol për efekt sinergistik."
+    }
+  },
+  {
+    "id": "fc_pharm_04",
+    "subject": "Pharmacology",
+    "question": {
+      "en": "When is amoxicillin prescribed in dentistry and what is the standard dose?",
+      "sq": "Kur përshkruhet amoksicilina në stomatologji dhe cila është doza standarde?"
+    },
+    "answer": {
+      "en": "Amoxicillin 500mg TID for 5-7 days for: acute dental abscess with systemic signs (fever, lymphadenopathy), spreading infection, or immunocompromised patients. NOT for localized pulpitis or chronic infections without systemic involvement.",
+      "sq": "Amoksicilina 500mg TID për 5-7 ditë për: absces dentar akut me shenja sistemike (temperaturë, limfadenopati), infeksion në përhapje, ose pacientë imunokompromituar. JO për pulpit të lokalizuar ose infeksione kronike pa përfshirje sistemike."
+    }
+  },
+  {
+    "id": "fc_pharm_05",
+    "subject": "Pharmacology",
+    "question": {
+      "en": "What is the antibiotic prophylaxis protocol for infective endocarditis before dental procedures?",
+      "sq": "Cili është protokolli i profilaksisë antibiotike për endokarditin infektiv para procedurave dentare?"
+    },
+    "answer": {
+      "en": "Amoxicillin 2g PO, 30-60 min before procedure. If penicillin-allergic: Clindamycin 600mg PO or Azithromycin 500mg PO. Required for: prosthetic valves, previous IE, congenital heart defects, cardiac transplant with valvulopathy.",
+      "sq": "Amoksicilina 2g PO, 30-60 min para procedurës. Nëse alergjik ndaj penicilinës: Klindamicina 600mg PO ose Azitromicina 500mg PO. Kërkohet për: valvula protetike, IE të mëparshme, defekte kongjenitale të zemrës, transplant kardiak me valvulopati."
+    }
+  },
+  {
+    "id": "fc_pharm_06",
+    "subject": "Pharmacology",
+    "question": {
+      "en": "What are the dental implications of patients on anticoagulant therapy (warfarin)?",
+      "sq": "Cilat janë implikacionet dentare te pacientët nën terapi antikoagulante (warfarin)?"
+    },
+    "answer": {
+      "en": "Check INR before invasive procedures. If INR <3.5: proceed with local hemostatic measures (sutures, gelatin sponge, tranexamic acid mouthwash). Do NOT stop warfarin — risk of thromboembolism outweighs bleeding risk. Consult physician if INR >3.5.",
+      "sq": "Kontrollo INR para procedurave invazive. Nëse INR <3.5: vazhdo me masa hemostatike lokale (sutura, sfungjer xhelatine, larje goje me acid traneksamik). MOS ndërprit warfarinën — rreziku i tromboembolisë është më i madh se rreziku i gjakderdhjes."
+    }
+  },
+  {
+    "id": "fc_pharm_07",
+    "subject": "Pharmacology",
+    "question": {
+      "en": "What is the mechanism of action of chlorhexidine and when is it used?",
+      "sq": "Cili është mekanizmi i veprimit të klorheksidinës dhe kur përdoret?"
+    },
+    "answer": {
+      "en": "Chlorhexidine is a cationic bisbiguanide that disrupts bacterial cell membranes. 0.12-0.2% mouthwash used for: post-surgical rinse, periodontal therapy adjunct, patients unable to brush. Substantivity: binds to oral tissues for 8-12h. Side effects: staining, taste alteration, calculus increase.",
+      "sq": "Klorheksidina është bisbiguanidë kationike që shkatërron membranat qelizore bakteriale. Larje goje 0.12-0.2% përdoret për: larje pas-kirurgjikale, ndihmës në terapi periodontale, pacientë që nuk mund të pastrojnë dhëmbët. Substantiviteti: lidhet me indet orale për 8-12 orë."
+    }
+  },
+  {
+    "id": "fc_pharm_08",
+    "subject": "Pharmacology",
+    "question": {
+      "en": "Why are bisphosphonates a concern in dentistry?",
+      "sq": "Pse janë bisfosfonatet shqetësuese në stomatologji?"
+    },
+    "answer": {
+      "en": "Bisphosphonates (alendronate, zoledronic acid) inhibit osteoclast activity, reducing bone turnover. Risk of MRONJ (Medication-Related Osteonecrosis of the Jaw) after extractions or implants. IV bisphosphonates carry higher risk than oral. Prevention: dental clearance before starting therapy.",
+      "sq": "Bisfosfonatet inhibojnë aktivitetin e osteoklasteve, duke zvogëluar qarkullimin kockor. Rrezik i MRONJ (Osteonekroza e Nofullave) pas ekstraktimeve ose implanteve. Bisfosfonatet IV kanë rrezik më të lartë se orale. Parandalimi: kontroll dentar para fillimit të terapisë."
+    }
+  },
+  {
+    "id": "fc_rad_01",
+    "subject": "Oral Radiology",
+    "question": {
+      "en": "What is the ALARA principle in dental radiology?",
+      "sq": "Çfarë është parimi ALARA në radiologjinë dentare?"
+    },
+    "answer": {
+      "en": "As Low As Reasonably Achievable — minimize radiation dose while obtaining diagnostically useful images. Methods: rectangular collimation, proper exposure settings, digital sensors (50-80% less radiation than film), lead apron + thyroid collar, avoiding unnecessary retakes.",
+      "sq": "Sa Më Pak sa Është E Mundshme Arsyeshëm — minimizo dozën e rrezatimit duke marrë imazhe diagnostikisht të dobishme. Metodat: kolimacion drejtkëndor, ekspozim i duhur, sensorë dixhitalë (50-80% më pak rrezatim), përparëse plumbi + mbrojtëse tiroide."
+    }
+  },
+  {
+    "id": "fc_rad_02",
+    "subject": "Oral Radiology",
+    "question": {
+      "en": "What is the difference between periapical and panoramic radiographs?",
+      "sq": "Cila është dallimi midis radiografive periapikale dhe panoramike?"
+    },
+    "answer": {
+      "en": "Periapical: shows 2-3 teeth with roots and surrounding bone in detail. Used for: caries detection, periapical pathology, root fractures. Panoramic (OPG): shows entire maxilla, mandible, TMJ, sinuses in one image. Used for: overview, impacted teeth, fractures, cysts. Lower resolution than periapical.",
+      "sq": "Periapikale: tregon 2-3 dhëmbë me rrënjë dhe kockën përreth në detaje. Panoramike (OPG): tregon të gjithë maksilën, mandibulën, TMJ, sinuset në një imazh. Rezolucion më i ulët se periapikale."
+    }
+  },
+  {
+    "id": "fc_rad_03",
+    "subject": "Oral Radiology",
+    "question": {
+      "en": "How does dental caries appear on a radiograph?",
+      "sq": "Si duket kariesi dentar në radiografi?"
+    },
+    "answer": {
+      "en": "Caries appears as a radiolucent (dark) area because demineralized enamel/dentin absorbs fewer X-rays. Interproximal caries: seen on bitewing radiographs as dark shadow at contact point. Occlusal caries: often underestimated on radiographs — clinically larger than radiographic appearance.",
+      "sq": "Kariesi duket si zonë radiotransparente (e errët) sepse smaltimi/dentina e demineralizuar absorbon më pak rrezet X. Kariesi interproksimal: shihet në bitewing si hije e errët te pika e kontaktit. Kariesi okluzal: shpesh nënvlerësohet — klinikisht më i madh se sa duket."
+    }
+  },
+  {
+    "id": "fc_rad_04",
+    "subject": "Oral Radiology",
+    "question": {
+      "en": "What structures appear radiopaque on a dental radiograph?",
+      "sq": "Cilat struktura duken radioopake në radiografinë dentare?"
+    },
+    "answer": {
+      "en": "Radiopaque (white/light): enamel (most radiopaque body tissue), dentin, cementum, cortical bone, metallic restorations, implants, calculus. The more mineralized or dense the structure, the more radiopaque it appears.",
+      "sq": "Radioopake (bardhë/e lehtë): smaltimi (indi më radioopak i trupit), dentina, çementi, kocka kortikale, restaurimet metalike, implantet, gurët dentalë. Sa më i mineralizuar ose i dendur, aq më radioopak duket."
+    }
+  },
+  {
+    "id": "fc_rad_05",
+    "subject": "Oral Radiology",
+    "question": {
+      "en": "What is CBCT and when is it indicated in dentistry?",
+      "sq": "Çfarë është CBCT dhe kur indikohet në stomatologji?"
+    },
+    "answer": {
+      "en": "Cone Beam Computed Tomography — 3D imaging with lower radiation than medical CT. Indications: implant planning, impacted teeth assessment, TMJ evaluation, endodontic complications (missed canals, resorption), jaw pathology, orthodontic planning. NOT routine — use only when 2D imaging is insufficient.",
+      "sq": "Tomografia Kompjuterike me Rreze Konike — imazh 3D me rrezatim më të ulët se CT mjekësore. Indikimet: planifikim implantesh, dhëmbë të impaktuar, vlerësim TMJ, komplikime endodontike, patologji të nofullave. JO rutinë — vetëm kur imazhi 2D nuk mjafton."
+    }
+  },
+  {
+    "id": "fc_rad_06",
+    "subject": "Oral Radiology",
+    "question": {
+      "en": "What is the bisecting angle technique?",
+      "sq": "Çfarë është teknika e bisektimit të këndit?"
+    },
+    "answer": {
+      "en": "The X-ray beam is directed perpendicular to the bisector of the angle formed between the tooth's long axis and the film/sensor plane. This reduces image distortion (elongation/foreshortening). If beam too steep → foreshortening. If beam too flat → elongation.",
+      "sq": "Rrezja X drejtohet pingul me bisektoren e këndit midis boshtit të gjatë të dhëmbit dhe planit të filmit/sensorit. Kjo zvogëlon deformimin (zgjatjen/shkurtimin). Nëse rrezja shumë e pjerrët → shkurtim. Nëse rrezja shumë e sheshtë → zgjatje."
+    }
+  },
+  {
+    "id": "fc_rad_07",
+    "subject": "Oral Radiology",
+    "question": {
+      "en": "What are bitewing radiographs used for?",
+      "sq": "Për çfarë përdoren radiografitë bitewing?"
+    },
+    "answer": {
+      "en": "Bitewing radiographs show crowns of upper and lower teeth simultaneously. Primary uses: 1) Interproximal caries detection, 2) Monitoring bone levels (early periodontal disease), 3) Evaluating restorations (overhangs, secondary caries), 4) Detecting calculus. Standard: 4 bitewings (2 premolar + 2 molar regions).",
+      "sq": "Radiografitë bitewing tregojnë kurorat e dhëmbëve sipërë dhe poshtë njëkohësisht. Përdorimet: 1) Zbulim kariesi interproksimal, 2) Monitorim niveli kockor, 3) Vlerësim restaurimesh, 4) Zbulim gurësh dentalë."
+    }
+  },
+  {
+    "id": "fc_oper_01",
+    "subject": "Operative Dentistry",
+    "question": {
+      "en": "What is Black's classification of cavities?",
+      "sq": "Cila është klasifikimi i kaviteteve sipas Black-ut?"
+    },
+    "answer": {
+      "en": "Class I: pits/fissures (occlusal). Class II: proximal of premolars/molars. Class III: proximal of anteriors (no incisal). Class IV: proximal of anteriors (with incisal). Class V: gingival third (facial/lingual). Class VI: cusp tips/incisal edges (added later).",
+      "sq": "Klasa I: gropëza/fisura (okluzale). Klasa II: proksimale e premolarëve/molarëve. Klasa III: proksimale e dhëmbëve anteriorë (pa incizal). Klasa IV: proksimale anteriorë (me incizal). Klasa V: 1/3 gingivale. Klasa VI: maja kuspide/skaje incizale."
+    }
+  },
+  {
+    "id": "fc_oper_02",
+    "subject": "Operative Dentistry",
+    "question": {
+      "en": "What is the acid-etch technique and why is it important?",
+      "sq": "Çfarë është teknika e gravimit acidik dhe pse është e rëndësishme?"
+    },
+    "answer": {
+      "en": "37% phosphoric acid applied to enamel (15-30s) and dentin (15s max). Creates micro-porosities in enamel for resin infiltration (micromechanical bonding). On dentin: removes smear layer, opens dentinal tubules. Essential for composite bonding — without it, restorations fail.",
+      "sq": "Acid fosforik 37% aplikohet në smaltim (15-30s) dhe dentinë (maks 15s). Krijon mikroporozitete në smaltim për infiltrim të rezinës (lidhje mikromekanike). Në dentinë: heq shtresën e smear-it, hap tubulat dentinale. Thelbësore për lidhjen e kompozitit."
+    }
+  },
+  {
+    "id": "fc_oper_03",
+    "subject": "Operative Dentistry",
+    "question": {
+      "en": "What is the difference between direct and indirect restorations?",
+      "sq": "Cili është dallimi midis restaurimeve direkte dhe indirekte?"
+    },
+    "answer": {
+      "en": "Direct: placed chairside in one visit (composite, amalgam, GIC). Indirect: fabricated outside mouth (lab/CAD-CAM) then cemented — inlays, onlays, crowns, veneers. Indirect preferred when: >50% tooth structure lost, cusp replacement needed, high occlusal forces, esthetic demands.",
+      "sq": "Direkte: vendosen në karrige në një vizitë (kompozit, amalgamë, GIC). Indirekte: fabrikohen jashtë gojës (laborator/CAD-CAM) pastaj çimentohen — inlej, onlej, kurora, veneera. Indirekte preferohen kur: >50% e strukturës së humbur, zëvendësim kuspi, forca të larta okluzale."
+    }
+  },
+  {
+    "id": "fc_oper_04",
+    "subject": "Operative Dentistry",
+    "question": {
+      "en": "What are the components of a composite resin?",
+      "sq": "Cilat janë komponentët e rezinës kompozite?"
+    },
+    "answer": {
+      "en": "1) Organic matrix (Bis-GMA, TEGDMA, UDMA), 2) Inorganic fillers (silica, quartz, zirconia — provide strength/wear resistance), 3) Coupling agent (silane — bonds filler to matrix), 4) Initiator system (camphorquinone for light-cure). Filler size determines type: hybrid, nanofill, microfill.",
+      "sq": "1) Matrica organike (Bis-GMA, TEGDMA, UDMA), 2) Mbushëse inorganike (silikë, kuarc, zirkoni), 3) Agjent lidhës (silan), 4) Sistem iniciator (kamforokinon për fotopolimerizim). Madhësia e mbushësit përcakton tipin: hibrid, nanofill, mikrofill."
+    }
+  },
+  {
+    "id": "fc_oper_05",
+    "subject": "Operative Dentistry",
+    "question": {
+      "en": "What is a rubber dam and why is it used?",
+      "sq": "Çfarë është diga (rubber dam) dhe pse përdoret?"
+    },
+    "answer": {
+      "en": "A latex/non-latex sheet isolating teeth during treatment. Benefits: 1) Moisture control (critical for bonding), 2) Prevents aspiration/ingestion of instruments/materials, 3) Better visibility, 4) Patient comfort (no rinse needed). Mandatory for: endodontic treatment, composite bonding. Placed with clamps and frame.",
+      "sq": "Fletë lateksi/jo-lateksi që izolon dhëmbët gjatë trajtimit. Përfitimet: 1) Kontroll lagështie (kritik për lidhje), 2) Parandalon aspirimin e instrumenteve, 3) Dukshmëri më e mirë, 4) Komoditet. E detyrueshme për: trajtim endodontik, lidhje kompoziti."
+    }
+  },
+  {
+    "id": "fc_oper_06",
+    "subject": "Operative Dentistry",
+    "question": {
+      "en": "What is the incremental layering technique for composite placement?",
+      "sq": "Çfarë është teknika e shtresimit inkremental për vendosjen e kompozitit?"
+    },
+    "answer": {
+      "en": "Place composite in layers of max 2mm thickness, light-curing each layer separately. Purpose: reduces polymerization shrinkage stress (C-factor), ensures complete curing throughout. Oblique layering: each increment contacts max 2 walls. Final layer shaped to anatomy before curing.",
+      "sq": "Vendos kompozitin në shtresa me trashësi maks 2mm, fotopolimerizo secilën shtresë veçmas. Qëllimi: zvogëlon stresin e tkurrjes (C-faktor), siguron polimerizim të plotë. Shtresim oblik: secili inkrement prek maks 2 mure."
+    }
+  },
+  {
+    "id": "fc_oper_07",
+    "subject": "Operative Dentistry",
+    "question": {
+      "en": "What is GIC (Glass Ionomer Cement) and when is it preferred over composite?",
+      "sq": "Çfarë është GIC (Çimento Glas Jonomer) dhe kur preferohet mbi kompozitin?"
+    },
+    "answer": {
+      "en": "GIC bonds chemically to tooth structure and releases fluoride. Preferred for: cervical lesions (Class V), pediatric dentistry, sandwich technique (liner under composite), patients with high caries risk, areas hard to isolate from moisture. Disadvantages: weaker, less esthetic, more brittle than composite.",
+      "sq": "GIC lidhet kimikisht me strukturën e dhëmbit dhe çliron fluorid. Preferohet për: lezionet cervikale (Klasa V), stomatologji pediatrike, teknikë sandwich, pacientë me rrezik të lartë kariesi. Disavantazhe: më i dobët, më pak estetik se kompoziti."
+    }
+  },
+  {
+    "id": "fc_oper_08",
+    "subject": "Operative Dentistry",
+    "question": {
+      "en": "What is the smear layer and how does it affect bonding?",
+      "sq": "Çfarë është shtresa e smear-it dhe si ndikon në lidhje?"
+    },
+    "answer": {
+      "en": "A 1-5μm layer of debris (collagen, hydroxyapatite, bacteria) created by rotary instruments on dentin. Acts as a barrier. Etch-and-rinse systems: remove it completely (acid etch). Self-etch systems: modify/incorporate it. Removal gives stronger bonds but risks post-operative sensitivity.",
+      "sq": "Shtresë 1-5μm mbeturinash (kolagjen, hidroksiapatit, bakterie) e krijuar nga instrumente rrotulluese në dentinë. Sistemet etch-and-rinse: e heqin plotësisht. Sistemet self-etch: e modifikojnë/inkorporojnë. Heqja jep lidhje më të forta por rrezikon ndjeshmëri pas-operative."
+    }
+  },
+  {
+    "id": "fc_endo_10",
+    "subject": "Endodontics",
+    "question": {
+      "en": "What is the working length in endodontics and how is it determined?",
+      "sq": "Çfarë është gjatësia punuese në endodonci dhe si përcaktohet?"
+    },
+    "answer": {
+      "en": "The distance from a coronal reference point to the apical constriction (0.5-1mm from radiographic apex). Determined by: 1) Electronic apex locator (most accurate), 2) Radiographic method (subtract 0.5-1mm from apex), 3) Tactile feel. Accurate WL prevents over/under instrumentation.",
+      "sq": "Distanca nga pika referuese koronale deri te ngushtimi apikal (0.5-1mm nga apeksi radiografik). Përcaktohet me: 1) Lokalizues elektronik apeksi (më i saktë), 2) Metodë radiografike, 3) Ndjesi taktile. GL e saktë parandalon instrumentimin e tepërt/pamjaftueshëm."
+    }
+  },
+  {
+    "id": "fc_endo_11",
+    "subject": "Endodontics",
+    "question": {
+      "en": "What is the difference between hot and cold pulp testing?",
+      "sq": "Cili është dallimi midis testit të nxehtë dhe të ftohtë të pulpës?"
+    },
+    "answer": {
+      "en": "Cold test (ethyl chloride/CO2 snow): stimulates A-delta fibers — sharp, quick pain = vital pulp. Lingering pain (>10s) = irreversible pulpitis. No response = necrosis. Hot test (heated gutta-percha): tests C-fibers. Reproduces patient's pain = likely irreversible pulpitis. Both are subjective — use with EPT and clinical findings.",
+      "sq": "Test i ftohtë: stimulon fibrat A-delta — dhimbje e mprehtë, e shpejtë = pulpë vitale. Dhimbje e zgjatur (>10s) = pulpit ireversibël. Pa përgjigje = nekrozë. Test i nxehtë: teston fibrat C. Riprodhon dhimbjen = pulpit ireversibël."
+    }
+  },
+  {
+    "id": "fc_cario_09",
+    "subject": "Cariology",
+    "question": {
+      "en": "What is the critical pH for enamel demineralization?",
+      "sq": "Cili është pH kritik për demineralizimin e smaltimit?"
+    },
+    "answer": {
+      "en": "pH 5.5 for enamel, pH 6.2 for dentin and cementum. Below these values, hydroxyapatite dissolves. After sugar intake, plaque pH drops within 3-5 minutes (Stephan curve), returns to normal in 20-40 minutes. Saliva buffers the acid — reduced saliva flow = higher caries risk.",
+      "sq": "pH 5.5 për smaltim, pH 6.2 për dentinë dhe çement. Nën këto vlera, hidroksiapatiti tretet. Pas marrjes së sheqerit, pH i pllakës bie brenda 3-5 minutave (kurba e Stephan), kthehet normale në 20-40 min. Pështyma neutralizon acidin."
+    }
+  },
+  {
+    "id": "fc_cario_10",
+    "subject": "Cariology",
+    "question": {
+      "en": "What is the role of Streptococcus mutans in dental caries?",
+      "sq": "Cili është roli i Streptococcus mutans në kariesin dentar?"
+    },
+    "answer": {
+      "en": "S. mutans is the primary cariogenic bacterium. Key properties: 1) Produces lactic acid from sugars (acidogenic), 2) Survives in low pH (aciduric), 3) Produces glucans (sticky polysaccharides) for biofilm adhesion, 4) Stores intracellular polysaccharides for continued acid production. Transmitted vertically (mother→child).",
+      "sq": "S. mutans është bakteria kryesore kariogjenike. Vetitë: 1) Prodhon acid laktik nga sheqernat (acidogjenike), 2) Mbijetlon në pH të ulët (acidurike), 3) Prodhon glukane për ngjitje biofilmi, 4) Depoziton polisakaride intracelulare."
+    }
+  },
+  {
+    "id": "fc_perio_10",
+    "subject": "Periodontology",
+    "question": {
+      "en": "What is the difference between gingivitis and periodontitis?",
+      "sq": "Cili është dallimi midis gingivitit dhe periodontitit?"
+    },
+    "answer": {
+      "en": "Gingivitis: inflammation limited to gingiva, reversible, no attachment/bone loss. Signs: redness, swelling, bleeding on probing. Periodontitis: inflammation extends to periodontal ligament and alveolar bone, irreversible attachment loss, pocket formation >3mm, bone loss on radiograph. Gingivitis can progress to periodontitis if untreated.",
+      "sq": "Gingiviti: inflamacion i kufizuar në gingiva, reversibël, pa humbje atashimi/kocke. Periodontiti: inflamacioni shtrihet te ligamenti periodontal dhe kocka alveolare, humbje ireversibëla atashimi, xhepa >3mm, humbje kocke në radiografi."
+    }
+  },
+  {
+    "id": "fc_perio_11",
+    "subject": "Periodontology",
+    "question": {
+      "en": "What is scaling and root planing (SRP)?",
+      "sq": "Çfarë është scaling dhe root planing (SRP)?"
+    },
+    "answer": {
+      "en": "Non-surgical periodontal therapy. Scaling: removal of calculus and plaque from tooth surfaces (supragingival and subgingival). Root planing: smoothing root surfaces to remove embedded calculus and contaminated cementum. Goal: create biologically compatible surface for tissue reattachment. Done with ultrasonic scalers and hand instruments (Gracey curettes).",
+      "sq": "Terapi periodontale jo-kirurgjikale. Scaling: heqja e gurit dhe pllakës. Root planing: lëmimi i rrënjëve për të hequr gurin e ngulitur dhe çementin e kontaminuar. Bëhet me skalerë ultrasonikë dhe instrumente dore (kureta Gracey)."
+    }
+  },
+  {
+    "id": "fc_prosth_09",
+    "subject": "Prosthodontics",
+    "question": {
+      "en": "What is the difference between a crown, bridge, and veneer?",
+      "sq": "Cili është dallimi midis kurorës, urës dhe veneerit?"
+    },
+    "answer": {
+      "en": "Crown: full-coverage restoration covering entire tooth (360° preparation). Bridge: fixed prosthesis replacing missing teeth using adjacent teeth as abutments (pontic + retainers). Veneer: thin shell covering only facial surface (0.3-0.7mm preparation). Crown for severely damaged teeth, bridge for gaps, veneer for esthetic improvement.",
+      "sq": "Kurora: restaurim me mbulim të plotë (preparim 360°). Ura: protezë fikse që zëvendëson dhëmbë me ndihmën e dhëmbëve ngjitur. Veneeri: guaskë e hollë vetëm në sipërfaqen faciale (preparim 0.3-0.7mm)."
+    }
+  },
+  {
+    "id": "fc_prosth_10",
+    "subject": "Prosthodontics",
+    "question": {
+      "en": "What is an impression in prosthodontics and what materials are used?",
+      "sq": "Çfarë është impresiomi në protetikë dhe cilat materiale përdoren?"
+    },
+    "answer": {
+      "en": "An impression is a negative replica of oral structures. Materials: 1) Alginate — irreversible hydrocolloid, for study models, 2) Polyvinyl siloxane (PVS) — most accurate, for crowns/bridges, 3) Polyether — accurate, hydrophilic, 4) Digital impressions (intraoral scanner) — increasingly preferred. Accuracy and detail reproduction are critical.",
+      "sq": "Impresioni është replikë negative e strukturave orale. Materialet: 1) Alginat — për modele studimi, 2) PVS — më i sakti, për kurora/ura, 3) Polieter — i saktë, hidrofilik, 4) Impresione dixhitale (skaner intraoral)."
+    }
+  },
+  {
+    "id": "fc_surg_09",
+    "subject": "Oral Surgery",
+    "question": {
+      "en": "What are the indications for tooth extraction?",
+      "sq": "Cilat janë indikacionet për ekstraktimin e dhëmbit?"
+    },
+    "answer": {
+      "en": "1) Non-restorable caries, 2) Advanced periodontal disease, 3) Failed endodontic treatment, 4) Orthodontic reasons, 5) Impacted teeth (symptomatic), 6) Teeth in fracture line, 7) Supernumerary teeth, 8) Pre-prosthetic surgery, 9) Pre-radiation therapy. Always consider alternatives before extraction.",
+      "sq": "1) Karies i parestaurueshëm, 2) Sëmundje e avancuar periodontale, 3) Trajtim endodontik i dështuar, 4) Arsye ortodontike, 5) Dhëmbë të impaktuar (simptomatikë), 6) Dhëmbë në vijë frakture, 7) Dhëmbë supranumerarë."
+    }
+  },
+  {
+    "id": "fc_surg_10",
+    "subject": "Oral Surgery",
+    "question": {
+      "en": "What is dry socket (alveolar osteitis) and how is it managed?",
+      "sq": "Çfarë është dry socket (osteiti alveolar) dhe si menaxhohet?"
+    },
+    "answer": {
+      "en": "Painful condition 2-4 days post-extraction when blood clot is lost/dissolved. Risk factors: smoking, oral contraceptives, traumatic extraction, lower molars. Management: gentle irrigation with saline/chlorhexidine, medicated dressing (eugenol-based), analgesics. Prevention: avoid smoking, rinsing, straws for 24-48h post-extraction.",
+      "sq": "Gjendje e dhimbshme 2-4 ditë pas ekstraktimit kur koaguli humbet. Faktorë rreziku: duhani, kontraceptivë oralë, ekstraktim traumatik. Menaxhimi: irigim, fashë e medikamentuar, analgjezikë. Parandalimi: shmangu duhanin, larjen, pipëzat për 24-48 orë."
+    }
+  },
+  {
+    "id": "fc_anat_09",
+    "subject": "Oral Anatomy",
+    "question": {
+      "en": "What is the blood supply to the teeth?",
+      "sq": "Cili është furnizimi me gjak i dhëmbëve?"
+    },
+    "answer": {
+      "en": "From branches of the maxillary artery (external carotid). Upper teeth: posterior superior alveolar artery, middle superior alveolar artery, anterior superior alveolar artery (from infraorbital a.). Lower teeth: inferior alveolar artery (enters mandibular foramen). Pulp receives blood through apical foramen via arterioles.",
+      "sq": "Nga degët e arteries maksilare. Dhëmbët e sipërm: arteria alveolare superiore posteriore, e mesme, anteriore. Dhëmbët e poshtëm: arteria alveolare inferiore (hyn në foramenin mandibular). Pulpa merr gjak nëpërmjet foramenit apikal."
+    }
+  },
+  {
+    "id": "fc_anat_10",
+    "subject": "Oral Anatomy",
+    "question": {
+      "en": "What nerves provide sensation to the teeth?",
+      "sq": "Cilat nerva sigurojnë ndjeshmërinë e dhëmbëve?"
+    },
+    "answer": {
+      "en": "All from trigeminal nerve (CN V). Upper teeth: V2 (maxillary) → posterior, middle, anterior superior alveolar nerves. Lower teeth: V3 (mandibular) → inferior alveolar nerve → enters mandibular foramen → dental plexus. Mental nerve: sensation to lower lip and chin (exits mental foramen at premolar region).",
+      "sq": "Të gjitha nga nervi trigeminal (CN V). Dhëmbët e sipërm: V2 → nervat alveolare superiore. Dhëmbët e poshtëm: V3 → nervi alveolar inferior → hyn në foramenin mandibular. Nervi mental: ndjeshmëri e buzës së poshtme."
     }
   }
 ]
