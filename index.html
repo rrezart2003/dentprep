@@ -316,6 +316,36 @@ body {
   </div>
 </div>
 
+
+<!-- EXAM QUIZ -->
+<div id="exam-quiz" class="screen">
+  <div class="exam-timer" id="exam-timer-bar">
+    <span class="timer-left" id="exam-q-info">1 / 20</span>
+    <span class="timer-clock" id="exam-clock">01:00</span>
+  </div>
+  <div class="exam-q-area">
+    <div class="question-text" id="exam-q-text" style="margin-bottom:20px;font-size:17px;line-height:1.5;font-weight:600;"></div>
+    <div id="exam-opts"></div>
+    <div class="exam-nav">
+      <button class="skip-btn" id="exam-skip-btn" onclick="examNext(false)">Kalo →</button>
+      <button class="next-btn" id="exam-confirm-btn" onclick="examNext(true)">Konfirmo →</button>
+    </div>
+  </div>
+</div>
+
+<!-- EXAM RESULTS -->
+<div id="exam-results" class="screen">
+  <div style="text-align:center;padding:30px 20px 10px;">
+    <div style="font-size:48px;margin-bottom:12px;">📋</div>
+    <h2 id="exam-res-title" style="margin-bottom:4px;"></h2>
+    <div id="exam-res-score" style="font-size:36px;font-weight:800;margin:12px 0;"></div>
+    <div id="exam-res-sub" style="color:var(--text-dim);font-size:14px;margin-bottom:4px;"></div>
+    <div id="exam-res-time" style="color:var(--text-dim);font-size:14px;margin-bottom:20px;"></div>
+    <button onclick="showScreen('home')" style="background:var(--primary);color:#fff;border:none;border-radius:12px;padding:14px 28px;font-size:15px;font-weight:600;cursor:pointer;width:80%;margin-bottom:12px;">🏠 Kthehu</button>
+  </div>
+  <div class="exam-review-list" id="exam-review-list"></div>
+</div>
+
 <!-- TOPICS -->
 <div id="topics" class="screen">
   <button class="back-btn" id="back-topics" onclick="showScreen('home')"></button>
