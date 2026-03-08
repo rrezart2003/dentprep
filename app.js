@@ -56,6 +56,7 @@ async function loadQuestions() {
 // ===== STATE =====
 let lang = localStorage.getItem('dentprep_lang') || null;
 let stats = JSON.parse(localStorage.getItem('dentprep_stats') || '{"answered":0,"correct":0,"streak":0,"best_streak":0,"topicScores":{}}');
+let bookmarks = JSON.parse(localStorage.getItem('dentprep_bookmarks') || '[]');
 let currentSubject = null;
 let currentTopic = null;
 let currentQuestions = [];
@@ -109,6 +110,59 @@ function renderHome() {
     document.getElementById('home-fc-title').textContent = 'Flashcards';
     document.getElementById('home-fc-desc').textContent = 'Review cards for quick study';
   }
+  // Render subject progress overview
+  renderSubjectProgress();
+}
+
+function renderSubjectProgress() {
+  let container = document.getElementById('subject-progress');
+  if (!container) {
+    container = document.createElement('div');
+    container.id = 'subject-progress';
+    container.style.cssText = 'margin:16px 0;padding:0 4px;';
+    const homeContent = document.querySelector('#home .content');
+    if (homeContent) homeContent.appendChild(container);
+  }
+  if (!SUBJECTS.length) { container.innerHTML = ''; return; }
+  
+  const title = lang === 'sq' ? 'Progresi sipas lëndës' : 'Progress by Subject';
+  const resetText = lang === 'sq' ? 'Reseto' : 'Reset';
+  let html = `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+    <div style="font-size:14px;font-weight:600;color:rgba(255,255,255,0.7);">${title}</div>
+    <button onclick="resetAllStats()" style="background:rgba(214,48,49,0.2);border:1px solid rgba(214,48,49,0.4);color:#e17055;padding:4px 12px;border-radius:8px;font-size:11px;cursor:pointer;">${resetText}</button>
+  </div>`;
+  
+  SUBJECTS.forEach(sub => {
+    const totalQs = sub.topics.reduce((a, tp) => a + tp.questions.length, 0);
+    // Count answered questions for this subject from topicScores
+    let answeredQs = 0;
+    let correctQs = 0;
+    Object.keys(stats.topicScores).forEach(key => {
+      if (key.startsWith(sub.id + '_') || key === sub.id) {
+        answeredQs += stats.topicScores[key].answered || 0;
+        correctQs += stats.topicScores[key].correct || 0;
+      }
+    });
+    const pct = totalQs > 0 ? Math.min(100, Math.round(answeredQs / totalQs * 100)) : 0;
+    const color = pct >= 80 ? '#00b894' : pct >= 40 ? '#fdcb6e' : '#6c5ce7';
+    html += `<div style="margin-bottom:8px;">
+      <div style="display:flex;justify-content:space-between;font-size:12px;color:rgba(255,255,255,0.6);margin-bottom:3px;">
+        <span>${sub.emoji} ${t(sub.name)}</span>
+        <span>${pct}%${answeredQs > 0 ? ' (' + correctQs + '/' + answeredQs + ')' : ''}</span>
+      </div>
+      <div style="background:rgba(255,255,255,0.1);border-radius:4px;height:6px;overflow:hidden;">
+        <div style="background:${color};height:100%;width:${pct}%;border-radius:4px;transition:width 0.3s;"></div>
+      </div>
+    </div>`;
+  });
+  
+  // Bookmarks count
+  if (bookmarks.length > 0) {
+    const bmText = lang === 'sq' ? `⭐ ${bookmarks.length} pyetje të ruajtura` : `⭐ ${bookmarks.length} bookmarked questions`;
+    html += `<div style="margin-top:12px;text-align:center;font-size:13px;color:rgba(255,255,255,0.5);">${bmText}</div>`;
+  }
+  
+  container.innerHTML = html;
 }
 
 // ===== TOPICS =====
@@ -155,6 +209,21 @@ function renderQuestion() {
   document.getElementById('quiz-counter').textContent = `${currentIdx+1} / ${currentQuestions.length}`;
   document.getElementById('quiz-progress-fill').style.width = `${(currentIdx/currentQuestions.length)*100}%`;
   document.getElementById('question-text').textContent = t(q.q);
+  // Bookmark button
+  const qText = t(q.q);
+  let bmBtn = document.getElementById('bookmark-btn');
+  if (!bmBtn) {
+    bmBtn = document.createElement('button');
+    bmBtn.id = 'bookmark-btn';
+    bmBtn.style.cssText = 'background:none;border:none;font-size:24px;cursor:pointer;position:absolute;top:10px;right:10px;';
+    document.querySelector('.question-area').style.position = 'relative';
+    document.querySelector('.question-area').appendChild(bmBtn);
+  }
+  bmBtn.textContent = isBookmarked(qText) ? '⭐' : '☆';
+  bmBtn.onclick = () => {
+    const now = toggleBookmark(qText);
+    bmBtn.textContent = now ? '⭐' : '☆';
+  };
   document.getElementById('explanation').classList.remove('show');
   document.getElementById('next-btn').classList.remove('show');
   const opts = document.getElementById('options');
@@ -219,6 +288,32 @@ function showResults() {
 
 function retryQuiz() { startQuiz(currentTopic); }
 function saveStats() { localStorage.setItem('dentprep_stats', JSON.stringify(stats)); }
+function saveBookmarks() { localStorage.setItem('dentprep_bookmarks', JSON.stringify(bookmarks)); }
+
+function toggleBookmark(questionText) {
+  const idx = bookmarks.indexOf(questionText);
+  if (idx >= 0) {
+    bookmarks.splice(idx, 1);
+  } else {
+    bookmarks.push(questionText);
+  }
+  saveBookmarks();
+  return idx < 0; // returns true if now bookmarked
+}
+
+function isBookmarked(questionText) {
+  return bookmarks.includes(questionText);
+}
+
+function resetAllStats() {
+  if (!confirm(lang === 'sq' ? 'Jeni të sigurt? Kjo do të fshijë të gjitha statistikat.' : 'Are you sure? This will delete all statistics.')) return;
+  stats = { answered: 0, correct: 0, streak: 0, best_streak: 0, topicScores: {} };
+  bookmarks = [];
+  saveStats();
+  saveBookmarks();
+  localStorage.removeItem('dentprep_exams');
+  renderHome();
+}
 
 // ===== FLASHCARDS =====
 let fcCards = [];
