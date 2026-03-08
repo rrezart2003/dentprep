@@ -121,6 +121,8 @@ function toggleTheme() {
   localStorage.setItem('dentprep_theme', next);
   const btn = document.getElementById('theme-toggle-btn');
   if (btn) btn.textContent = next === 'light' ? '☀️' : '🌙';
+  // Re-render settings if visible
+  if (document.getElementById('settings')?.classList.contains('active')) showSettingsScreen();
 }
 initTheme();
 
@@ -225,6 +227,9 @@ function showScreen(id) {
   if (id === 'home') renderHome();
   if (id === 'mode-config') initModeConfig();
   if (id === 'exam-history') renderExamHistory();
+  if (id === 'settings') showSettingsScreen();
+  if (id === 'challenge') showChallengeScreen();
+  if (id === 'achievements') showAchievementsScreen();
   // Update bottom nav
   document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
   const navMap = { home: 'nav-home', challenge: 'nav-challenge', achievements: 'nav-achievements', settings: 'nav-settings' };
@@ -1287,5 +1292,245 @@ if ('serviceWorker' in navigator) {
   navigator.serviceWorker.addEventListener('controllerchange', () => {
     if (!refreshing) { refreshing = true; window.location.reload(); }
   });
+}
+
+// ===== SETTINGS SCREEN =====
+function showSettingsScreen() {
+  const el = document.getElementById('settings');
+  const settings = JSON.parse(localStorage.getItem('dentprep_settings') || '{"notifications":false,"notifyTime":"09:00","theme":"dark"}');
+  const backText = ui('back');
+  const isDark = (localStorage.getItem('dentprep_theme') || 'dark') === 'dark';
+  
+  el.innerHTML = `
+    <div style="padding:20px;padding-top:env(safe-area-inset-top,20px);padding-bottom:80px;">
+      <button class="back-btn" onclick="showScreen('home')">${backText}</button>
+      <h2 style="text-align:center;margin:20px 0;">⚙️ ${lang === 'sq' ? 'Cilësimet' : 'Settings'}</h2>
+      
+      <div style="display:flex;flex-direction:column;gap:16px;">
+        <!-- Theme -->
+        <div style="background:var(--card);border:1px solid var(--card-border);border-radius:16px;padding:16px;display:flex;justify-content:space-between;align-items:center;">
+          <div>
+            <div style="font-weight:600;">${lang === 'sq' ? 'Tema' : 'Theme'}</div>
+            <div style="font-size:13px;color:var(--text-dim);">${isDark ? '🌙 Dark' : '☀️ Light'}</div>
+          </div>
+          <button onclick="toggleTheme()" style="background:var(--primary);color:#fff;border:none;border-radius:10px;padding:10px 20px;font-size:14px;cursor:pointer;">
+            ${isDark ? '☀️' : '🌙'}
+          </button>
+        </div>
+        
+        <!-- Notifications -->
+        <div style="background:var(--card);border:1px solid var(--card-border);border-radius:16px;padding:16px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+            <div>
+              <div style="font-weight:600;">🔔 ${lang === 'sq' ? 'Kujtesa për studim' : 'Study Reminders'}</div>
+              <div style="font-size:13px;color:var(--text-dim);">${lang === 'sq' ? 'Njoftim ditor' : 'Daily notification'}</div>
+            </div>
+            <button onclick="toggleNotifications()" id="notif-toggle" style="background:${settings.notifications ? 'var(--accent-green)' : 'var(--card-border)'};color:#fff;border:none;border-radius:20px;padding:8px 16px;font-size:13px;cursor:pointer;min-width:60px;">
+              ${settings.notifications ? 'ON' : 'OFF'}
+            </button>
+          </div>
+          <div style="${settings.notifications ? '' : 'opacity:0.5;pointer-events:none;'}">
+            <label style="font-size:13px;color:var(--text-dim);display:block;margin-bottom:6px;">${lang === 'sq' ? 'Ora e kujtesës' : 'Reminder time'}</label>
+            <select onchange="updateNotifyTime(this.value)" style="width:100%;background:var(--bg);border:1px solid var(--card-border);color:var(--text);border-radius:10px;padding:10px;font-size:14px;">
+              ${Array.from({length:15}, (_,i) => {
+                const h = (8+i).toString().padStart(2,'0') + ':00';
+                return `<option value="${h}" ${settings.notifyTime === h ? 'selected' : ''}>${h}</option>`;
+              }).join('')}
+            </select>
+          </div>
+        </div>
+        
+        <!-- Language -->
+        <div onclick="lang=lang==='sq'?'en':'sq';localStorage.setItem('dentprep_lang',lang);document.getElementById('lang-switch-btn').textContent=lang==='sq'?'🇦🇱 SQ':'🇬🇧 EN';showSettingsScreen();" style="background:var(--card);border:1px solid var(--card-border);border-radius:16px;padding:16px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;">
+          <div>
+            <div style="font-weight:600;">${lang === 'sq' ? 'Gjuha' : 'Language'}</div>
+            <div style="font-size:13px;color:var(--text-dim);">${lang === 'sq' ? '🇦🇱 Shqip' : '🇬🇧 English'}</div>
+          </div>
+          <span style="color:var(--text-dim);font-size:18px;">→</span>
+        </div>
+
+        <!-- Submit Question -->
+        <div onclick="showSubmitQuestionScreen()" style="background:var(--card);border:1px solid var(--card-border);border-radius:16px;padding:16px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;">
+          <div>
+            <div style="font-weight:600;">➕ ${lang === 'sq' ? 'Dërgo Pyetje' : 'Submit Question'}</div>
+            <div style="font-size:13px;color:var(--text-dim);">${lang === 'sq' ? 'Kontribuo me pyetje të reja' : 'Contribute new questions'}</div>
+          </div>
+          <span style="color:var(--text-dim);font-size:18px;">→</span>
+        </div>
+        
+        <!-- Danger Zone -->
+        <div style="margin-top:20px;padding-top:20px;border-top:1px solid var(--card-border);">
+          <div style="font-size:12px;color:var(--accent-coral);text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;">${lang === 'sq' ? 'Zona e rrezikshme' : 'Danger Zone'}</div>
+          <button onclick="resetAllStats()" style="background:rgba(255,107,107,0.15);border:1px solid rgba(255,107,107,0.3);color:var(--accent-coral);border-radius:12px;padding:14px;width:100%;font-size:14px;font-weight:600;cursor:pointer;">
+            🗑️ ${lang === 'sq' ? 'Fshi të gjitha të dhënat' : 'Delete all data'}
+          </button>
+        </div>
+      </div>
+    </div>`;
+}
+
+function toggleNotifications() {
+  const settings = JSON.parse(localStorage.getItem('dentprep_settings') || '{"notifications":false,"notifyTime":"09:00"}');
+  if (!settings.notifications) {
+    if ('Notification' in window) {
+      Notification.requestPermission().then(perm => {
+        if (perm === 'granted') {
+          settings.notifications = true;
+          localStorage.setItem('dentprep_settings', JSON.stringify(settings));
+          showToast(lang === 'sq' ? 'Njoftimet u aktivizuan!' : 'Notifications enabled!');
+          showSettingsScreen();
+        } else {
+          showToast(lang === 'sq' ? 'Leja u refuzua' : 'Permission denied');
+        }
+      });
+    } else {
+      showToast(lang === 'sq' ? 'Njoftimet nuk mbështeten' : 'Notifications not supported');
+    }
+  } else {
+    settings.notifications = false;
+    localStorage.setItem('dentprep_settings', JSON.stringify(settings));
+    showSettingsScreen();
+  }
+}
+
+function updateNotifyTime(time) {
+  const settings = JSON.parse(localStorage.getItem('dentprep_settings') || '{"notifications":false,"notifyTime":"09:00"}');
+  settings.notifyTime = time;
+  localStorage.setItem('dentprep_settings', JSON.stringify(settings));
+}
+
+// Check notifications every minute
+setInterval(() => {
+  const settings = JSON.parse(localStorage.getItem('dentprep_settings') || '{}');
+  if (!settings.notifications) return;
+  const now = new Date();
+  const currentTime = now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0');
+  const today = now.toISOString().split('T')[0];
+  if (currentTime === settings.notifyTime && settings.lastNotifyDate !== today) {
+    settings.lastNotifyDate = today;
+    localStorage.setItem('dentprep_settings', JSON.stringify(settings));
+    if (Notification.permission === 'granted') {
+      new Notification('🦷 DentPrep', {
+        body: lang === 'sq' ? 'Koha për të studiuar! Mos e humb serinë tënde.' : "Time to study! Don't lose your streak.",
+        icon: 'icon-192.png'
+      });
+    }
+  }
+}, 60000);
+
+// ===== SUBMIT QUESTION SCREEN =====
+function showSubmitQuestionScreen() {
+  const el = document.getElementById('submit-question');
+  const backText = ui('back');
+  const title = lang === 'sq' ? 'Dërgo Pyetje të Re' : 'Submit New Question';
+  
+  let subjectOpts = SUBJECTS.map(s => `<option value="${s.id}">${t(s.name)}</option>`).join('');
+  
+  el.innerHTML = `
+    <div style="padding:20px;padding-top:env(safe-area-inset-top,20px);padding-bottom:80px;">
+      <button class="back-btn" onclick="showScreen('settings')">${backText}</button>
+      <h2 style="text-align:center;margin:20px 0;">➕ ${title}</h2>
+      
+      <div style="display:flex;flex-direction:column;gap:16px;">
+        <div>
+          <label style="font-size:13px;color:var(--text-dim);display:block;margin-bottom:6px;">${lang === 'sq' ? 'Lënda' : 'Subject'}</label>
+          <select id="sq-subject" style="width:100%;background:var(--card);border:1px solid var(--card-border);color:var(--text);border-radius:12px;padding:12px;font-size:15px;">
+            ${subjectOpts}
+          </select>
+        </div>
+        
+        <div>
+          <label style="font-size:13px;color:var(--text-dim);display:block;margin-bottom:6px;">${lang === 'sq' ? 'Pyetja' : 'Question'}</label>
+          <textarea id="sq-question" rows="3" placeholder="${lang === 'sq' ? 'Shkruani pyetjen këtu...' : 'Write the question here...'}" style="width:100%;background:var(--card);border:1px solid var(--card-border);color:var(--text);border-radius:12px;padding:12px;font-size:15px;resize:vertical;font-family:inherit;"></textarea>
+        </div>
+        
+        <div>
+          <label style="font-size:13px;color:var(--text-dim);display:block;margin-bottom:6px;">${lang === 'sq' ? 'Opsionet (4)' : 'Options (4)'}</label>
+          <input id="sq-opt-a" placeholder="A)" style="width:100%;background:var(--card);border:1px solid var(--card-border);color:var(--text);border-radius:12px;padding:12px;font-size:15px;margin-bottom:8px;">
+          <input id="sq-opt-b" placeholder="B)" style="width:100%;background:var(--card);border:1px solid var(--card-border);color:var(--text);border-radius:12px;padding:12px;font-size:15px;margin-bottom:8px;">
+          <input id="sq-opt-c" placeholder="C)" style="width:100%;background:var(--card);border:1px solid var(--card-border);color:var(--text);border-radius:12px;padding:12px;font-size:15px;margin-bottom:8px;">
+          <input id="sq-opt-d" placeholder="D)" style="width:100%;background:var(--card);border:1px solid var(--card-border);color:var(--text);border-radius:12px;padding:12px;font-size:15px;">
+        </div>
+        
+        <div>
+          <label style="font-size:13px;color:var(--text-dim);display:block;margin-bottom:6px;">${lang === 'sq' ? 'Përgjigja e saktë' : 'Correct answer'}</label>
+          <div style="display:flex;gap:10px;">
+            ${['A','B','C','D'].map((l,i) => `<label style="flex:1;background:var(--card);border:1px solid var(--card-border);border-radius:12px;padding:12px;text-align:center;cursor:pointer;"><input type="radio" name="sq-correct" value="${i}" style="display:none;"><span style="font-weight:600;">${l}</span></label>`).join('')}
+          </div>
+        </div>
+        
+        <div>
+          <label style="font-size:13px;color:var(--text-dim);display:block;margin-bottom:6px;">${lang === 'sq' ? 'Shpjegimi (opsional)' : 'Explanation (optional)'}</label>
+          <textarea id="sq-explanation" rows="2" placeholder="${lang === 'sq' ? 'Pse kjo përgjigje është e saktë...' : 'Why this answer is correct...'}" style="width:100%;background:var(--card);border:1px solid var(--card-border);color:var(--text);border-radius:12px;padding:12px;font-size:15px;resize:vertical;font-family:inherit;"></textarea>
+        </div>
+        
+        <button onclick="submitQuestion()" style="background:linear-gradient(135deg,var(--primary),var(--accent-green));color:#fff;border:none;border-radius:14px;padding:16px;font-size:16px;font-weight:700;cursor:pointer;margin-top:8px;">
+          📤 ${lang === 'sq' ? 'Dërgo & Ndaj' : 'Submit & Share'}
+        </button>
+      </div>
+    </div>`;
+  
+  // Style radio buttons
+  setTimeout(() => {
+    el.querySelectorAll('input[name="sq-correct"]').forEach(radio => {
+      radio.addEventListener('change', () => {
+        el.querySelectorAll('input[name="sq-correct"]').forEach(r => {
+          r.parentElement.style.borderColor = r.checked ? 'var(--accent-green)' : 'var(--card-border)';
+          r.parentElement.style.background = r.checked ? 'rgba(34,197,94,0.15)' : 'var(--card)';
+        });
+      });
+    });
+  }, 100);
+  
+  showScreen('submit-question');
+}
+
+function submitQuestion() {
+  const subject = document.getElementById('sq-subject')?.value;
+  const question = document.getElementById('sq-question')?.value?.trim();
+  const optA = document.getElementById('sq-opt-a')?.value?.trim();
+  const optB = document.getElementById('sq-opt-b')?.value?.trim();
+  const optC = document.getElementById('sq-opt-c')?.value?.trim();
+  const optD = document.getElementById('sq-opt-d')?.value?.trim();
+  const correct = document.querySelector('input[name="sq-correct"]:checked')?.value;
+  const explanation = document.getElementById('sq-explanation')?.value?.trim();
+  
+  if (!question || !optA || !optB || !optC || !optD || correct === undefined) {
+    showToast(lang === 'sq' ? 'Plotësoni të gjitha fushat!' : 'Please fill all fields!');
+    return;
+  }
+  
+  const subName = SUBJECTS.find(s => s.id === subject)?.name;
+  const letters = ['A','B','C','D'];
+  const formatted = `📝 DentPrep - New Question Submission
+━━━━━━━━━━━━━━━━━━━━
+Subject: ${subName ? t(subName) : subject}
+Question: ${question}
+
+A) ${optA}
+B) ${optB}
+C) ${optC}
+D) ${optD}
+
+Correct: ${letters[parseInt(correct)]}
+${explanation ? 'Explanation: ' + explanation : ''}
+━━━━━━━━━━━━━━━━━━━━`;
+  
+  const shareTitle = 'DentPrep Question';
+  const shareText = formatted;
+  
+  if (navigator.share) {
+    navigator.share({ title: shareTitle, text: shareText }).then(() => {
+      showToast(lang === 'sq' ? 'Faleminderit! Pyetja u dërgua!' : 'Thank you! Question submitted!');
+      showScreen('settings');
+    }).catch(() => {});
+  } else {
+    navigator.clipboard.writeText(formatted).then(() => {
+      showToast(lang === 'sq' ? 'U kopjua! Dërgojeni te ekipi i DentPrep.' : 'Copied! Send it to the DentPrep team.');
+      showScreen('settings');
+    }).catch(() => {
+      showToast(lang === 'sq' ? 'Gabim - provoni përsëri' : 'Error - try again');
+    });
+  }
 }
 
