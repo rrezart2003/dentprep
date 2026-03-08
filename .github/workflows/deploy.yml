@@ -1,0 +1,38 @@
+name: Deploy DentPrep
+on:
+  push:
+    branches: [main]
+jobs:
+  validate-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate questions.json
+        run: |
+          node -e "
+          const q = require('./questions.json');
+          const total = q.reduce((s,sub) => s + sub.topics.reduce((t,tp) => t + tp.questions.length, 0), 0);
+          console.log('Subjects:', q.length, '| MCQs:', total);
+          if (q.length < 9) throw new Error('Expected 9+ subjects, got ' + q.length);
+          if (total < 363) throw new Error('Expected 363+ MCQs, got ' + total);
+          "
+      - name: Validate flashcards
+        run: |
+          node -e "
+          const q = require('./questions.json');
+          const total = q.reduce((s,sub) => s + sub.topics.reduce((t,tp) => t + (tp.flashcards||[]).length, 0), 0);
+          console.log('Flashcards:', total);
+          if (total < 131) throw new Error('Expected 131+ flashcards, got ' + total);
+          "
+      - uses: actions/configure-pages@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - uses: actions/deploy-pages@v4
+        id: deployment
