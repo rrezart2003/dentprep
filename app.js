@@ -419,6 +419,9 @@ function renderQuestion() {
     bmBtn.textContent = now ? '⭐' : '☆';
   };
   document.getElementById('explanation').classList.remove('show');
+  document.getElementById('explanation').innerHTML = '';
+  // Remove any lingering AI explanation
+  document.querySelectorAll('.ai-explanation').forEach(el => el.remove());
   document.getElementById('next-btn').classList.remove('show');
   const opts = document.getElementById('options');
   opts.innerHTML = '';
