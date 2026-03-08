@@ -321,12 +321,25 @@ let fcIdx = 0;
 let fcKnew = 0;
 
 async function loadFlashcards() {
+  // Load from consolidated questions.json (flashcards embedded per topic)
+  if (SUBJECTS.length) {
+    const all = [];
+    SUBJECTS.forEach(sub => {
+      sub.topics.forEach(tp => {
+        (tp.flashcards || []).forEach(fc => {
+          all.push({ ...fc, subject: sub.name.en || sub.name });
+        });
+      });
+    });
+    if (all.length > 0) return all;
+  }
+  // Fallback to standalone flashcards.json
   try {
     const resp = await fetch('flashcards.json');
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     return await resp.json();
   } catch (err) {
-    console.warn('Failed to load flashcards.json:', err.message);
+    console.warn('Failed to load flashcards:', err.message);
     return [];
   }
 }
