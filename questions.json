@@ -5444,6 +5444,517 @@
             "difficulty": "medium"
           }
         ]
+      },
+      {
+        "name": {
+          "en": "Periapical & Panoramic Interpretation",
+          "sq": "Interpretimi Periapical & Panoramik"
+        },
+        "questions": [
+          {
+            "q": {
+              "en": "What is the best radiographic view for detecting periapical pathology of mandibular molars?",
+              "sq": "Cila është pamja më e mirë radiografike për zbulimin e patologjisë periapikale të molarëve mandibularë?"
+            },
+            "options": {
+              "en": [
+                "Bitewing",
+                "Periapical",
+                "Panoramic",
+                "Occlusal"
+              ],
+              "sq": [
+                "Bitewing",
+                "Periapikale",
+                "Panoramike",
+                "Okluzale"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "<strong>Periapical radiograph</strong> — provides the best detail of the tooth apex and surrounding bone for detecting periapical lesions.",
+              "sq": "<strong>Radiografia periapikale</strong> — ofron detajin më të mirë të apeksit të dhëmbit dhe kockës përreth për zbulimin e lezioneve periapikale."
+            },
+            "difficulty": "easy"
+          },
+          {
+            "q": {
+              "en": "In a periapical radiograph, a well-defined radiolucency at the apex of a non-vital tooth most likely represents:",
+              "sq": "Në një radiografi periapikale, një radiolucencë e mirëpërcaktuar në apeksin e një dhëmbi jo-vital ka shumë gjasa të përfaqësojë:"
+            },
+            "options": {
+              "en": [
+                "Periapical granuloma",
+                "Periapical cyst",
+                "Cementoma",
+                "Either granuloma or cyst"
+              ],
+              "sq": [
+                "Granulomë periapikale",
+                "Kistë periapikale",
+                "Cementomë",
+                "Ose granulomë ose kistë"
+              ]
+            },
+            "correct": 3,
+            "explanation": {
+              "en": "<strong>Either granuloma or cyst</strong> — radiographically, periapical granulomas and cysts appear identical. Histological examination is needed for definitive diagnosis.",
+              "sq": "<strong>Ose granulomë ose kistë</strong> — radiografikisht, granulomët dhe kistet periapikale duken identike. Nevojitet ekzaminim histologjik për diagnozë përfundimtare."
+            },
+            "difficulty": "medium"
+          },
+          {
+            "q": {
+              "en": "The paralleling technique for periapical radiographs requires the film to be:",
+              "sq": "Teknika e paralelizimit për radiografitë periapikale kërkon që filmi të jetë:"
+            },
+            "options": {
+              "en": [
+                "Parallel to the long axis of the tooth",
+                "Perpendicular to the long axis",
+                "At 45° to the tooth",
+                "Touching the tooth surface"
+              ],
+              "sq": [
+                "Paralel me boshtin e gjatë të dhëmbit",
+                "Pingul me boshtin e gjatë",
+                "Në 45° me dhëmbin",
+                "Duke prekur sipërfaqen e dhëmbit"
+              ]
+            },
+            "correct": 0,
+            "explanation": {
+              "en": "<strong>Parallel to the long axis</strong> — in the paralleling technique, the film is placed parallel to the tooth's long axis with the X-ray beam perpendicular to both.",
+              "sq": "<strong>Paralel me boshtin e gjatë</strong> — në teknikën e paralelizimit, filmi vendoset paralel me boshtin e gjatë të dhëmbit me rrezen X pingul me të dyja."
+            },
+            "difficulty": "easy"
+          },
+          {
+            "q": {
+              "en": "On a panoramic radiograph, the 'ghost image' artifact is caused by:",
+              "sq": "Në një radiografi panoramike, artefakti 'imazh fantazmë' shkaktohet nga:"
+            },
+            "options": {
+              "en": [
+                "Patient movement",
+                "Objects on the opposite side of the focal trough",
+                "Incorrect patient positioning",
+                "Beam collimation error"
+              ],
+              "sq": [
+                "Lëvizja e pacientit",
+                "Objektet në anën e kundërt të kanalit fokal",
+                "Pozicionimi i gabuar i pacientit",
+                "Gabim në kolimimin e rrezes"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "<strong>Objects on the opposite side</strong> — ghost images are produced when dense objects (like earrings or the spine) on the opposite side of the focal trough are projected onto the image.",
+              "sq": "<strong>Objektet në anën e kundërt</strong> — imazhet fantazmë prodhohen kur objektet e dendura (si vathët ose shtylla kurrizore) në anën e kundërt të kanalit fokal projektohen në imazh."
+            },
+            "difficulty": "medium"
+          },
+          {
+            "q": {
+              "en": "Which structure appears as a radiopaque band across the maxillary teeth on a panoramic radiograph?",
+              "sq": "Cila strukturë shfaqet si një brezë radioopake përmes dhëmbëve maksilarë në radiografinë panoramike?"
+            },
+            "options": {
+              "en": [
+                "Hard palate",
+                "Zygomatic arch",
+                "Floor of the nose",
+                "Maxillary sinus wall"
+              ],
+              "sq": [
+                "Qiellza e fortë",
+                "Harku zigomatik",
+                "Dyshemeja e hundës",
+                "Muri i sinusit maksilar"
+              ]
+            },
+            "correct": 0,
+            "explanation": {
+              "en": "<strong>Hard palate</strong> — appears as a broad radiopaque band superimposed over the apices of the maxillary teeth on panoramic radiographs.",
+              "sq": "<strong>Qiellza e fortë</strong> — shfaqet si një brezë e gjerë radioopake e mbivendosur mbi apekset e dhëmbëve maksilarë në radiografitë panoramike."
+            },
+            "difficulty": "easy"
+          },
+          {
+            "q": {
+              "en": "The mental foramen on a panoramic radiograph is typically located:",
+              "sq": "Forameni mental në radiografinë panoramike zakonisht ndodhet:"
+            },
+            "options": {
+              "en": [
+                "Below the mandibular incisors",
+                "Below the premolar area",
+                "Below the molars",
+                "At the angle of the mandible"
+              ],
+              "sq": [
+                "Nën incizivët mandibularë",
+                "Nën zonën e premolarëve",
+                "Nën molarët",
+                "Në këndin e mandibulës"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "<strong>Below the premolar area</strong> — the mental foramen is typically located near the apices of the mandibular premolars.",
+              "sq": "<strong>Nën zonën e premolarëve</strong> — forameni mental zakonisht ndodhet pranë apekseve të premolarëve mandibularë."
+            },
+            "difficulty": "easy"
+          }
+        ],
+        "flashcards": [
+          {
+            "question": {
+              "en": "What is the paralleling technique?",
+              "sq": "Çfarë është teknika e paralelizimit?"
+            },
+            "answer": {
+              "en": "A periapical technique where the film is placed parallel to the tooth's long axis with the X-ray beam perpendicular to both, producing minimal distortion.",
+              "sq": "Një teknikë periapikale ku filmi vendoset paralel me boshtin e gjatë të dhëmbit me rrezen X pingul me të dyja, duke prodhuar distorsion minimal."
+            },
+            "subject": "Oral Radiology"
+          },
+          {
+            "question": {
+              "en": "What causes ghost images on panoramic radiographs?",
+              "sq": "Çfarë shkakton imazhet fantazmë në radiografitë panoramike?"
+            },
+            "answer": {
+              "en": "Dense objects on the opposite side of the focal trough are projected as blurred, magnified mirror images on the other side.",
+              "sq": "Objektet e dendura në anën e kundërt të kanalit fokal projektohen si imazhe pasqyre të turbullta dhe të zmadhuara në anën tjetër."
+            },
+            "subject": "Oral Radiology"
+          }
+        ]
+      },
+      {
+        "name": {
+          "en": "Radiation Safety & Protection",
+          "sq": "Siguria & Mbrojtja nga Rrezatimi"
+        },
+        "questions": [
+          {
+            "q": {
+              "en": "What is the primary advantage of CBCT over panoramic radiography?",
+              "sq": "Cila është përparësia kryesore e CBCT ndaj radiografisë panoramike?"
+            },
+            "options": {
+              "en": [
+                "Lower cost",
+                "3D visualization of structures",
+                "Lower radiation dose",
+                "Faster image acquisition"
+              ],
+              "sq": [
+                "Kosto më e ulët",
+                "Vizualizim 3D i strukturave",
+                "Dozë më e ulët rrezatimi",
+                "Marrje më e shpejtë e imazhit"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "<strong>3D visualization</strong> — CBCT provides three-dimensional imaging allowing evaluation of structures in all planes, unlike the 2D panoramic view.",
+              "sq": "<strong>Vizualizim 3D</strong> — CBCT ofron imazheri tredimensionale duke lejuar vlerësimin e strukturave në të gjitha planet, ndryshe nga pamja 2D panoramike."
+            },
+            "difficulty": "medium"
+          },
+          {
+            "q": {
+              "en": "The ALARA principle in dental radiology stands for:",
+              "sq": "Parimi ALARA në radiologjinë dentare nënkupton:"
+            },
+            "options": {
+              "en": [
+                "As Low As Reasonably Achievable",
+                "Always Limit All Radiation Applications",
+                "As Long As Radiation Allows",
+                "All Limits Are Reasonably Applied"
+              ],
+              "sq": [
+                "Sa Më E Ulët Sa Është E Arsyeshme E Arritshme",
+                "Gjithmonë Limito Të Gjitha Aplikimet E Rrezatimit",
+                "Sa Kohë Sa Lejon Rrezatimi",
+                "Të Gjitha Limitet Zbatohen Arsyeshëm"
+              ]
+            },
+            "correct": 0,
+            "explanation": {
+              "en": "<strong>As Low As Reasonably Achievable</strong> — ALARA is the fundamental radiation safety principle ensuring minimal exposure while obtaining diagnostic-quality images.",
+              "sq": "<strong>Sa Më E Ulët Sa Është E Arsyeshme E Arritshme</strong> — ALARA është parimi themelor i sigurisë së rrezatimit që siguron ekspozimin minimal duke marrë imazhe me cilësi diagnostike."
+            },
+            "difficulty": "easy"
+          },
+          {
+            "q": {
+              "en": "The lead apron protects the patient primarily from:",
+              "sq": "Përparësja e plumbit mbron pacientin kryesisht nga:"
+            },
+            "options": {
+              "en": [
+                "Primary radiation",
+                "Scatter radiation",
+                "Secondary radiation",
+                "Leakage radiation"
+              ],
+              "sq": [
+                "Rrezatimi primar",
+                "Rrezatimi i shpërndarë",
+                "Rrezatimi sekondar",
+                "Rrezatimi i rrjedhur"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "<strong>Scatter radiation</strong> — the lead apron primarily protects the patient from scatter radiation that bounces off tissues during dental X-ray exposure.",
+              "sq": "<strong>Rrezatimi i shpërndarë</strong> — përparësja e plumbit mbron kryesisht pacientin nga rrezatimi i shpërndarë që kthehet nga indet gjatë ekspozimit me rreze X dentare."
+            },
+            "difficulty": "easy"
+          },
+          {
+            "q": {
+              "en": "What is the recommended thyroid collar use during dental radiography?",
+              "sq": "Cila është përdorimi i rekomanduar i jakës tiroide gjatë radiografisë dentare?"
+            },
+            "options": {
+              "en": [
+                "Only for children",
+                "For all intraoral radiographs",
+                "Only for panoramic radiographs",
+                "Only when patient requests it"
+              ],
+              "sq": [
+                "Vetëm për fëmijët",
+                "Për të gjitha radiografitë intraorale",
+                "Vetëm për radiografitë panoramike",
+                "Vetëm kur pacienti e kërkon"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "<strong>For all intraoral radiographs</strong> — thyroid collars should be used for all intraoral radiographs as the thyroid gland is radiosensitive. Note: they are not used with panoramic as they interfere with the image.",
+              "sq": "<strong>Për të gjitha radiografitë intraorale</strong> — jakat tiroide duhet të përdoren për të gjitha radiografitë intraorale pasi gjëndra tiroide është radiosensitive. Shënim: nuk përdoren me panoramike pasi ndërhyjnë me imazhin."
+            },
+            "difficulty": "medium"
+          }
+        ],
+        "flashcards": [
+          {
+            "question": {
+              "en": "What does ALARA stand for?",
+              "sq": "Çfarë nënkupton ALARA?"
+            },
+            "answer": {
+              "en": "As Low As Reasonably Achievable — the principle of minimizing radiation exposure while maintaining diagnostic quality.",
+              "sq": "Sa Më E Ulët Sa Është E Arsyeshme E Arritshme — parimi i minimizimit të ekspozimit ndaj rrezatimit duke ruajtur cilësinë diagnostike."
+            },
+            "subject": "Oral Radiology"
+          }
+        ]
+      },
+      {
+        "name": {
+          "en": "Caries Detection on Radiographs",
+          "sq": "Zbulimi i Kariesit në Radiografi"
+        },
+        "questions": [
+          {
+            "q": {
+              "en": "Interproximal (incipient) caries on a radiograph appears as:",
+              "sq": "Kariesi interproksimal (fillestar) në radiografi shfaqet si:"
+            },
+            "options": {
+              "en": [
+                "A radiopaque area on the enamel surface",
+                "A small radiolucent notch at the contact point",
+                "A dark shadow on the occlusal surface",
+                "A white line along the DEJ"
+              ],
+              "sq": [
+                "Një zonë radioopake në sipërfaqen e smaltit",
+                "Një prerje e vogël radiolucente në pikën e kontaktit",
+                "Një hije e errët në sipërfaqen okluzale",
+                "Një vijë e bardhë përgjatë DEJ"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "<strong>Small radiolucent notch at the contact point</strong> — early interproximal caries appears as a small triangular or notch-shaped radiolucency at the enamel contact area on bitewing radiographs.",
+              "sq": "<strong>Prerje e vogël radiolucente në pikën e kontaktit</strong> — kariesi i hershëm interproksimal shfaqet si një radiolucencë e vogël trekëndore ose në formë prerjeje në zonën e kontaktit të smaltit në radiografitë bitewing."
+            },
+            "difficulty": "medium"
+          },
+          {
+            "q": {
+              "en": "Which radiographic view is best for detecting interproximal caries?",
+              "sq": "Cila pamje radiografike është më e mira për zbulimin e kariesit interproksimal?"
+            },
+            "options": {
+              "en": [
+                "Periapical",
+                "Bitewing",
+                "Panoramic",
+                "Occlusal"
+              ],
+              "sq": [
+                "Periapikale",
+                "Bitewing",
+                "Panoramike",
+                "Okluzale"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "<strong>Bitewing radiograph</strong> — provides the best visualization of interproximal surfaces and is the standard for caries detection between teeth.",
+              "sq": "<strong>Radiografia bitewing</strong> — ofron vizualizimin më të mirë të sipërfaqeve interproksimale dhe është standardi për zbulimin e kariesit ndërmjet dhëmbëve."
+            },
+            "difficulty": "easy"
+          },
+          {
+            "q": {
+              "en": "Recurrent (secondary) caries on a radiograph appears as:",
+              "sq": "Kariesi rekurent (sekondar) në radiografi shfaqet si:"
+            },
+            "options": {
+              "en": [
+                "Radiolucency on the intact tooth surface",
+                "Radiolucency beneath an existing restoration",
+                "Radiopacity near the pulp",
+                "Widening of the PDL space"
+              ],
+              "sq": [
+                "Radiolucencë në sipërfaqen e paprekur të dhëmbit",
+                "Radiolucencë nën një restaurim ekzistues",
+                "Radioopacitet pranë pulpës",
+                "Zgjerim i hapësirës PDL"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "<strong>Radiolucency beneath an existing restoration</strong> — recurrent caries develops at the margins of existing restorations and appears as radiolucency under or adjacent to the restoration.",
+              "sq": "<strong>Radiolucencë nën një restaurim ekzistues</strong> — kariesi rekurent zhvillohet në skajet e restaurimeve ekzistuese dhe shfaqet si radiolucencë nën ose pranë restaurimit."
+            },
+            "difficulty": "medium"
+          }
+        ],
+        "flashcards": [
+          {
+            "question": {
+              "en": "What is the best radiograph for detecting interproximal caries?",
+              "sq": "Cila është radiografia më e mirë për zbulimin e kariesit interproksimal?"
+            },
+            "answer": {
+              "en": "Bitewing radiographs — they show the crowns and crestal bone of both arches, ideal for detecting caries between teeth.",
+              "sq": "Radiografitë bitewing — ato tregojnë kurorat dhe kockën krestale të të dy harqeve, ideale për zbulimin e kariesit ndërmjet dhëmbëve."
+            },
+            "subject": "Oral Radiology"
+          }
+        ]
+      },
+      {
+        "name": {
+          "en": "Advanced CBCT & Radiation Dosimetry",
+          "sq": "CBCT e Avancuar & Dozimetria e Rrezatimit"
+        },
+        "questions": [
+          {
+            "q": {
+              "en": "What is the field of view (FOV) in CBCT imaging?",
+              "sq": "Çfarë është fusha e pamjes (FOV) në imazherinë CBCT?"
+            },
+            "options": {
+              "en": [
+                "The radiation dose delivered",
+                "The area/volume captured in the scan",
+                "The resolution of the image",
+                "The rotation speed of the machine"
+              ],
+              "sq": [
+                "Doza e rrezatimit e dhënë",
+                "Zona/vëllimi i kapur në skanim",
+                "Rezolucioni i imazhit",
+                "Shpejtësia e rrotullimit të makinës"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "<strong>The area/volume captured</strong> — FOV refers to the size of the anatomical area captured. Smaller FOV means less radiation and higher resolution for the area of interest.",
+              "sq": "<strong>Zona/vëllimi i kapur</strong> — FOV i referohet madhësisë së zonës anatomike të kapur. FOV më i vogël nënkupton më pak rrezatim dhe rezolucion më të lartë për zonën e interesit."
+            },
+            "difficulty": "hard"
+          },
+          {
+            "q": {
+              "en": "Which artifact in CBCT imaging is caused by high-density materials like metal restorations?",
+              "sq": "Cili artefakt në imazherinë CBCT shkaktohet nga materialet me densitet të lartë si restaurimet metalike?"
+            },
+            "options": {
+              "en": [
+                "Motion blur",
+                "Beam hardening artifact",
+                "Ghost image",
+                "Mach band effect"
+              ],
+              "sq": [
+                "Turbullim nga lëvizja",
+                "Artefakt i ngurtësimit të rrezes",
+                "Imazh fantazmë",
+                "Efekti i brezit Mach"
+              ]
+            },
+            "correct": 1,
+            "explanation": {
+              "en": "<strong>Beam hardening artifact</strong> — metal restorations cause beam hardening, resulting in dark bands or streaks radiating from the metallic object in CBCT images.",
+              "sq": "<strong>Artefakt i ngurtësimit të rrezes</strong> — restaurimet metalike shkaktojnë ngurtësimin e rrezes, duke rezultuar në breza ose vija të errëta që rrëzatojnë nga objekti metalik në imazhet CBCT."
+            },
+            "difficulty": "hard"
+          },
+          {
+            "q": {
+              "en": "The maximum permissible dose (MPD) for occupationally exposed dental workers per year is:",
+              "sq": "Doza maksimale e lejueshme (MPD) për punonjësit dentalë të ekspozuar profesionalisht në vit është:"
+            },
+            "options": {
+              "en": [
+                "5 mSv",
+                "20 mSv",
+                "50 mSv",
+                "100 mSv"
+              ],
+              "sq": [
+                "5 mSv",
+                "20 mSv",
+                "50 mSv",
+                "100 mSv"
+              ]
+            },
+            "correct": 2,
+            "explanation": {
+              "en": "<strong>50 mSv per year</strong> — the annual MPD for occupationally exposed workers is 50 mSv (5 rem), with a cumulative lifetime limit of 10 × age in mSv.",
+              "sq": "<strong>50 mSv në vit</strong> — MPD vjetore për punonjësit e ekspozuar profesionalisht është 50 mSv (5 rem), me një limit kumulativ jetësor prej 10 × moshën në mSv."
+            },
+            "difficulty": "hard"
+          }
+        ],
+        "flashcards": [
+          {
+            "question": {
+              "en": "What is FOV in CBCT?",
+              "sq": "Çfarë është FOV në CBCT?"
+            },
+            "answer": {
+              "en": "Field of View — the size of the anatomical area captured. Smaller FOV = less radiation and higher resolution.",
+              "sq": "Fusha e Pamjes — madhësia e zonës anatomike të kapur. FOV më i vogël = më pak rrezatim dhe rezolucion më i lartë."
+            },
+            "subject": "Oral Radiology"
+          }
+        ]
       }
     ]
   },

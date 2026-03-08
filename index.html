@@ -34,10 +34,14 @@
 <div id="home" class="screen">
   <div style="padding:20px;padding-top:env(safe-area-inset-top, 20px);">
     <div class="home-top-bar">
-      <div></div>
-      <button class="lang-switch" id="lang-switch-btn" onclick="showScreen('lang-select')">🇦🇱/🇬🇧</button>
+      <div id="offline-indicator" class="offline-indicator">🟢 Online</div>
+      <div style="display:flex;gap:8px;align-items:center;">
+        <button class="lang-switch" id="theme-toggle-btn" onclick="toggleTheme()">🌙</button>
+        <button class="lang-switch" id="lang-switch-btn" onclick="showScreen('lang-select')">🇦🇱/🇬🇧</button>
+      </div>
     </div>
     <div class="home-header">
+      <div id="streak-display" class="streak-display"></div>
       <h1>🦷 DentPrep</h1>
       <p id="home-subtitle"></p>
     </div>
@@ -66,6 +70,20 @@
         <div class="mode-info">
           <div class="mode-title" id="home-fc-title">Flashcards</div>
           <div class="mode-desc" id="home-fc-desc">Karta përmbledhëse për rishikim</div>
+        </div>
+      </div>
+      <div class="mode-btn" id="weak-areas-btn" onclick="startWeakAreas()" style="background:linear-gradient(135deg,rgba(225,112,85,0.1),rgba(214,48,49,0.1));border-color:rgba(225,112,85,0.2);">
+        <div class="mode-icon">🔴</div>
+        <div class="mode-info">
+          <div class="mode-title" id="home-weak-title">Weak Areas</div>
+          <div class="mode-desc" id="home-weak-desc">Practice questions you got wrong</div>
+        </div>
+      </div>
+      <div class="mode-btn" onclick="showScreen('exam-history')" style="background:linear-gradient(135deg,rgba(108,92,231,0.1),rgba(162,155,254,0.1));border-color:rgba(108,92,231,0.2);">
+        <div class="mode-icon">📊</div>
+        <div class="mode-info">
+          <div class="mode-title" id="home-history-title">History</div>
+          <div class="mode-desc" id="home-history-desc">View past exam results & analytics</div>
         </div>
       </div>
     </div>
@@ -141,6 +159,7 @@
     <div id="exam-res-sub" style="color:var(--text-dim);font-size:14px;margin-bottom:4px;"></div>
     <div id="exam-res-time" style="color:var(--text-dim);font-size:14px;margin-bottom:20px;"></div>
     <button onclick="showScreen('home')" style="background:var(--primary);color:#fff;border:none;border-radius:12px;padding:14px 28px;font-size:15px;font-weight:600;cursor:pointer;width:80%;margin-bottom:12px;">🏠 Kthehu</button>
+    <button id="btn-share-exam" onclick="shareExamResults()" style="background:var(--card);color:var(--text);border:1px solid var(--card-border);border-radius:12px;padding:14px 28px;font-size:15px;font-weight:600;cursor:pointer;width:80%;margin-bottom:12px;">📤 Share</button>
   </div>
   <div class="exam-review-list" id="exam-review-list"></div>
 </div>
@@ -160,6 +179,7 @@
   <div>
     <div class="quiz-top">
       <span class="quiz-counter" id="quiz-counter">1 / 10</span>
+      <div id="practice-timer" class="practice-timer" style="display:none;">00:30</div>
       <button class="quit" id="quit-btn" onclick="showScreen('home')"></button>
     </div>
     <div class="quiz-progress"><div class="fill" id="quiz-progress-fill" style="width:0%"></div></div>
@@ -184,14 +204,30 @@
   <div class="results-sub" id="results-sub"></div>
   <div class="results-actions">
     <button class="btn-primary" id="btn-retry" onclick="retryQuiz()"></button>
+    <button class="btn-secondary" id="btn-review-mistakes" onclick="reviewMistakes()" style="display:none;"></button>
+    <button class="btn-secondary" id="btn-share-results" onclick="shareResults()">📤 Share</button>
     <button class="btn-secondary" id="btn-back-home" onclick="showScreen('home')"></button>
   </div>
 </div>
 <!-- MODE CONFIG (unified for all modes) -->
+<div id="exam-history" class="screen">
+  <div style="padding:20px;padding-top:env(safe-area-inset-top, 20px);">
+    <button class="back-btn" onclick="showScreen('home')"><span id="history-back-btn">← Back</span></button>
+    <h2 style="margin:15px 0;" id="history-title">📊 Exam History</h2>
+    <div id="history-analytics"></div>
+    <div id="history-list"></div>
+  </div>
+</div>
+
 <div id="mode-config" class="screen">
   <button class="back-btn" id="config-back-btn" onclick="showScreen('home')"></button>
   <div class="exam-config">
     <h2 id="config-title">📋 Provimi</h2>
+    <div class="exam-field" id="config-search-field" style="display:none;">
+      <label id="lbl-config-search">🔍 Search</label>
+      <input type="text" id="config-search-input" placeholder="Search questions..." oninput="onSearchInput()">
+      <div id="search-count" style="font-size:12px;color:var(--text-dim);margin-top:4px;"></div>
+    </div>
     <div class="exam-field">
       <label id="lbl-config-subject">Lënda</label>
       <select id="config-subject-select"></select>
@@ -225,9 +261,19 @@
         <option value="hard">E vështirë</option>
       </select>
     </div>
+    <div class="exam-field" id="config-practice-timer-field" style="display:none;">
+      <label id="lbl-config-practice-timer">Per-question timer</label>
+      <select id="config-practice-timer-select">
+        <option value="0" selected>Off</option>
+        <option value="30">30s</option>
+        <option value="60">60s</option>
+        <option value="90">90s</option>
+      </select>
+    </div>
     <button class="exam-start-btn" id="config-start-btn" onclick="startSelectedMode()">Fillo</button>
   </div>
 </div>
+<div id="toast" class="toast"></div>
 <script src="app.js"></script>
 </body>
 </html>

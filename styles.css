@@ -178,6 +178,41 @@ body {
 .exam-timer .timer-clock { font-size: 18px; font-weight: 700; font-variant-numeric: tabular-nums; }
 .exam-timer .timer-clock.warning { color: var(--danger); animation: pulse 1s infinite; }
 @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.5} }
+/* LIGHT THEME */
+[data-theme="light"] {
+  --bg: #f5f5f7;
+  --card: #ffffff;
+  --card-border: #e0e0e8;
+  --primary: #6c5ce7;
+  --primary-light: #5a4bd1;
+  --success: #00a884;
+  --danger: #d63031;
+  --text: #1a1a2e;
+  --text-dim: #555577;
+  --text-muted: #8888aa;
+}
+[data-theme="light"] .option-btn .letter { background: #e8e8f0; }
+[data-theme="light"] .exam-timer { background: rgba(245,245,247,0.95); }
+[data-theme="light"] .explanation { background: rgba(108,92,231,0.06); }
+
+/* OFFLINE INDICATOR */
+.offline-indicator { font-size: 11px; color: var(--text-dim); }
+
+/* STREAK DISPLAY */
+.streak-display { font-size: 14px; color: var(--text-dim); margin-bottom: 4px; }
+
+/* PRACTICE TIMER */
+.practice-timer { font-size: 16px; font-weight: 700; color: var(--danger); font-variant-numeric: tabular-nums; }
+.practice-timer.warning { animation: pulse 1s infinite; }
+
+/* TOAST */
+.toast { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%) translateY(100px); background: var(--card); color: var(--text); padding: 12px 24px; border-radius: 12px; font-size: 14px; font-weight: 600; border: 1px solid var(--card-border); z-index: 999; transition: transform 0.3s ease; pointer-events: none; }
+.toast.show { transform: translateX(-50%) translateY(0); }
+
+/* HISTORY SCREEN */
+.history-card { background: var(--card); border: 1px solid var(--card-border); border-radius: 14px; padding: 14px; margin-bottom: 10px; }
+.history-analytics-card { background: var(--card); border: 1px solid var(--card-border); border-radius: 14px; padding: 16px; margin-bottom: 16px; }
+
 .exam-q-area { padding: 20px; padding-top: 60px; }
 .exam-option-btn { width: 100%; background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 14px 16px; margin-bottom: 10px; cursor: pointer; text-align: left; display: flex; align-items: center; gap: 12px; color: var(--text); font-size: 15px; transition: all 0.15s; }
 .exam-option-btn:active { transform: scale(0.98); }
