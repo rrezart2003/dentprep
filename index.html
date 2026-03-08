@@ -36,11 +36,13 @@
     <div class="home-top-bar">
       <div id="offline-indicator" class="offline-indicator">🟢 Online</div>
       <div style="display:flex;gap:8px;align-items:center;">
+        <span id="online-status" class="online-status">🟢</span>
         <button class="lang-switch" id="theme-toggle-btn" onclick="toggleTheme()">🌙</button>
         <button class="lang-switch" id="lang-switch-btn" onclick="showScreen('lang-select')">🇦🇱/🇬🇧</button>
       </div>
     </div>
     <div class="home-header">
+      <div id="streak-pill" class="streak-pill">🔥 0</div>
       <div id="streak-display" class="streak-display"></div>
       <h1>🦷 DentPrep</h1>
       <p id="home-subtitle"></p>
@@ -50,36 +52,36 @@
       <div class="stat-card"><div class="num" id="stat-accuracy">0%</div><div class="label" id="lbl-accuracy"></div></div>
       <div class="stat-card"><div class="num" id="stat-streak">0</div><div class="label" id="lbl-streak"></div></div>
     </div>
-    <div style="display:flex;flex-direction:column;gap:12px;margin-top:24px;">
-      <div class="mode-btn" onclick="selectMode('exam')" style="background:linear-gradient(135deg,rgba(225,112,85,0.15),rgba(214,48,49,0.15));border-color:rgba(225,112,85,0.3);">
+    <div class="mode-scroll">
+      <div class="mode-btn mode-card" onclick="selectMode('exam')" style="background:linear-gradient(135deg,rgba(225,112,85,0.15),rgba(214,48,49,0.15));border-color:rgba(225,112,85,0.3);">
         <div class="mode-icon">📋</div>
         <div class="mode-info">
           <div class="mode-title" id="home-exam-title">Provimi</div>
           <div class="mode-desc" id="home-exam-desc">Testo veten me kohë dhe rezultat</div>
         </div>
       </div>
-      <div class="mode-btn" onclick="selectMode('questions')">
+      <div class="mode-btn mode-card" onclick="selectMode('questions')">
         <div class="mode-icon">📝</div>
         <div class="mode-info">
           <div class="mode-title" id="home-q-title">Pyetje</div>
           <div class="mode-desc" id="home-q-desc">Mëso me përgjigje të menjëhershme</div>
         </div>
       </div>
-      <div class="mode-btn" onclick="selectMode('flashcards')">
+      <div class="mode-btn mode-card" onclick="selectMode('flashcards')">
         <div class="mode-icon">📚</div>
         <div class="mode-info">
           <div class="mode-title" id="home-fc-title">Flashcards</div>
           <div class="mode-desc" id="home-fc-desc">Karta përmbledhëse për rishikim</div>
         </div>
       </div>
-      <div class="mode-btn" id="weak-areas-btn" onclick="startWeakAreas()" style="background:linear-gradient(135deg,rgba(225,112,85,0.1),rgba(214,48,49,0.1));border-color:rgba(225,112,85,0.2);">
+      <div class="mode-btn mode-card" id="weak-areas-btn" onclick="startWeakAreas()" style="background:linear-gradient(135deg,rgba(225,112,85,0.1),rgba(214,48,49,0.1));border-color:rgba(225,112,85,0.2);">
         <div class="mode-icon">🔴</div>
         <div class="mode-info">
           <div class="mode-title" id="home-weak-title">Weak Areas</div>
           <div class="mode-desc" id="home-weak-desc">Practice questions you got wrong</div>
         </div>
       </div>
-      <div class="mode-btn" onclick="showScreen('exam-history')" style="background:linear-gradient(135deg,rgba(108,92,231,0.1),rgba(162,155,254,0.1));border-color:rgba(108,92,231,0.2);">
+      <div class="mode-btn mode-card" onclick="showScreen('exam-history')" style="background:linear-gradient(135deg,rgba(108,92,231,0.1),rgba(162,155,254,0.1));border-color:rgba(108,92,231,0.2);">
         <div class="mode-icon">📊</div>
         <div class="mode-info">
           <div class="mode-title" id="home-history-title">History</div>
@@ -196,6 +198,13 @@
 
 <!-- RESULTS -->
 <div id="results" class="screen">
+  <div id="confetti" class="confetti-container">
+    <div class="confetti-piece"></div><div class="confetti-piece"></div><div class="confetti-piece"></div>
+    <div class="confetti-piece"></div><div class="confetti-piece"></div><div class="confetti-piece"></div>
+    <div class="confetti-piece"></div><div class="confetti-piece"></div><div class="confetti-piece"></div>
+    <div class="confetti-piece"></div><div class="confetti-piece"></div><div class="confetti-piece"></div>
+    <div class="confetti-piece"></div><div class="confetti-piece"></div><div class="confetti-piece"></div>
+  </div>
   <div class="results-circle" id="results-circle">
     <div class="pct" id="results-pct">0%</div>
     <div class="of" id="results-of">0/0</div>
@@ -274,6 +283,36 @@
   </div>
 </div>
 <div id="toast" class="toast"></div>
+
+<!-- NEW SCREENS (empty, JS will populate) -->
+<div id="achievements" class="screen"></div>
+<div id="settings" class="screen"></div>
+<div id="challenge" class="screen"></div>
+<div id="submit-question" class="screen"></div>
+
+<!-- TOAST CONTAINER -->
+<div id="toast-container" class="toast-container"></div>
+
+<!-- BOTTOM NAVIGATION -->
+<nav id="bottom-nav" class="bottom-nav">
+  <button class="nav-item active" onclick="showScreen('home')" id="nav-home">
+    <span class="nav-icon">🏠</span>
+    <span class="nav-label" data-en="Home" data-sq="Ballina">Home</span>
+  </button>
+  <button class="nav-item" onclick="selectMode('exam')" id="nav-challenge">
+    <span class="nav-icon">⚔️</span>
+    <span class="nav-label" data-en="Challenge" data-sq="Sfidë">Challenge</span>
+  </button>
+  <button class="nav-item" onclick="showScreen('achievements')" id="nav-achievements">
+    <span class="nav-icon">🏆</span>
+    <span class="nav-label" data-en="Achievements" data-sq="Arritjet">Achievements</span>
+  </button>
+  <button class="nav-item" onclick="showScreen('settings')" id="nav-settings">
+    <span class="nav-icon">⚙️</span>
+    <span class="nav-label" data-en="Settings" data-sq="Cilësimet">Settings</span>
+  </button>
+</nav>
+
 <script src="app.js"></script>
 </body>
 </html>
