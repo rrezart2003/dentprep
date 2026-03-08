@@ -167,10 +167,20 @@ function renderStreak() {
 }
 
 // ===== TOAST =====
-function showToast(msg) {
+function showToast(message, duration = 3000) {
+  const container = document.getElementById('toast-container');
+  if (container) {
+    const toast = document.createElement('div');
+    toast.className = 'toast show';
+    toast.textContent = message;
+    container.appendChild(toast);
+    setTimeout(() => { toast.className = 'toast hide'; setTimeout(() => toast.remove(), 400); }, duration);
+    return;
+  }
+  // Fallback to old toast element
   const el = document.getElementById('toast');
   if (!el) return;
-  el.textContent = msg;
+  el.textContent = message;
   el.classList.add('show');
   setTimeout(() => el.classList.remove('show'), 2500);
 }
@@ -215,6 +225,11 @@ function showScreen(id) {
   if (id === 'home') renderHome();
   if (id === 'mode-config') initModeConfig();
   if (id === 'exam-history') renderExamHistory();
+  // Update bottom nav
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  const navMap = { home: 'nav-home', challenge: 'nav-challenge', achievements: 'nav-achievements', settings: 'nav-settings' };
+  const navBtn = document.getElementById(navMap[id]);
+  if (navBtn) navBtn.classList.add('active');
 }
 
 // ===== HOME =====
@@ -253,6 +268,13 @@ function renderHome() {
   renderStreak();
   // Online status
   updateOnlineStatus();
+  // Update streak pill
+  const streakPillData = JSON.parse(localStorage.getItem('dentprep_streak') || '{}');
+  const pill = document.getElementById('streak-pill');
+  if (pill) pill.textContent = '🔥 ' + (streakPillData.currentStreak || 0);
+  // Update online status indicator
+  const statusEl = document.getElementById('online-status');
+  if (statusEl) statusEl.textContent = navigator.onLine ? '🟢' : '🔴';
   // Render subject progress overview
   renderSubjectProgress();
 }
@@ -434,10 +456,18 @@ function selectAnswer(idx) {
   const expl = document.getElementById('explanation');
   expl.innerHTML = t(q.explanation);
   expl.classList.add('show');
+  if (idx !== q.correct) {
+    const explainBtn = document.createElement('button');
+    explainBtn.textContent = lang === 'sq' ? '🤖 Shpjego Më Shumë' : '🤖 Explain More';
+    explainBtn.style.cssText = 'background:linear-gradient(135deg,var(--accent-blue),var(--primary));color:#fff;border:none;border-radius:12px;padding:12px 20px;font-size:14px;font-weight:600;cursor:pointer;margin-top:12px;width:100%;';
+    explainBtn.onclick = () => showAIExplanation(q, idx);
+    expl.appendChild(explainBtn);
+  }
   const nb = document.getElementById('next-btn');
   nb.classList.add('show');
   nb.textContent = currentIdx < currentQuestions.length-1 ? ui('next') : ui('seeResults');
   saveStats();
+  checkAchievements();
 }
 
 function nextQuestion() {
@@ -474,6 +504,9 @@ function showResults() {
   saveStats();
   document.getElementById('quiz-progress-fill').style.width = '100%';
   showScreen('results');
+  checkAchievements();
+  checkQuizAchievements(currentQuestions.length, quizCorrect, false, false);
+  if (pct >= 80) { const c = document.getElementById('confetti'); if (c) c.style.display = 'block'; setTimeout(() => { if (c) c.style.display = 'none'; }, 3000); }
 }
 
 function retryQuiz() { startQuiz(currentTopic); }
@@ -1023,11 +1056,220 @@ function showExamResults() {
   showScreen('exam-results');
 }
 
+// ===== CHALLENGE MODE =====
+function generateChallenge() {
+  let allQs = [];
+  SUBJECTS.forEach((sub, si) => {
+    sub.topics.forEach((tp, ti) => {
+      tp.questions.forEach((q, qi) => {
+        allQs.push({ si, ti, qi, q });
+      });
+    });
+  });
+  const selected = shuffle(allQs).slice(0, 10);
+  const code = selected.map(s => `${s.si}.${s.ti}.${s.qi}`).join(',');
+  const encoded = btoa(code);
+  const url = `${window.location.origin}${window.location.pathname}#challenge=${encoded}`;
+  return { url, questions: selected.map(s => s.q) };
+}
+
+function startChallenge() {
+  const { url, questions } = generateChallenge();
+  window._challengeUrl = url;
+  window._challengeMode = true;
+  currentSubject = { id: 'challenge', name: { en: 'Challenge', sq: 'Sfidë' }, emoji: '⚔️' };
+  currentTopic = { name: { en: 'Challenge', sq: 'Sfidë' }, questions };
+  currentQuestions = questions;
+  currentIdx = 0;
+  quizCorrect = 0;
+  showScreen('quiz');
+  renderQuestion();
+}
+
+function loadChallengeFromURL() {
+  const hash = window.location.hash;
+  if (!hash.startsWith('#challenge=')) return false;
+  try {
+    const encoded = hash.substring('#challenge='.length);
+    const code = atob(encoded);
+    const indices = code.split(',').map(s => {
+      const [si, ti, qi] = s.split('.').map(Number);
+      return { si, ti, qi };
+    });
+    const questions = indices.map(({ si, ti, qi }) => SUBJECTS[si]?.topics[ti]?.questions[qi]).filter(Boolean);
+    if (questions.length === 0) return false;
+    window._challengeMode = true;
+    window._challengeUrl = window.location.href;
+    currentSubject = { id: 'challenge', name: { en: 'Challenge', sq: 'Sfidë' }, emoji: '⚔️' };
+    currentTopic = { name: { en: 'Challenge', sq: 'Sfidë' }, questions };
+    currentQuestions = questions;
+    currentIdx = 0;
+    quizCorrect = 0;
+    showScreen('quiz');
+    renderQuestion();
+    history.replaceState(null, '', window.location.pathname);
+    return true;
+  } catch(e) { return false; }
+}
+
+function showChallengeScreen() {
+  const el = document.getElementById('challenge');
+  const title = lang === 'sq' ? 'Sfido Shokët' : 'Challenge Friends';
+  const desc = lang === 'sq' ? 'Gjenero një sfidë me 10 pyetje dhe ndaje me shokët!' : 'Generate a 10-question challenge and share with friends!';
+  const btnText = lang === 'sq' ? '⚔️ Gjenero Sfidë' : '⚔️ Generate Challenge';
+  const backText = ui('back');
+  el.innerHTML = `
+    <div style="padding:20px;padding-top:env(safe-area-inset-top,20px);padding-bottom:80px;">
+      <button class="back-btn" onclick="showScreen('home')">${backText}</button>
+      <div style="text-align:center;padding:40px 0;">
+        <div style="font-size:64px;margin-bottom:16px;">⚔️</div>
+        <h2 style="margin-bottom:8px;">${title}</h2>
+        <p style="color:var(--text-dim);margin-bottom:32px;">${desc}</p>
+        <button onclick="startChallengeWithShare()" style="background:linear-gradient(135deg,var(--primary),var(--accent-coral));color:#fff;border:none;border-radius:14px;padding:16px 32px;font-size:16px;font-weight:700;cursor:pointer;">${btnText}</button>
+      </div>
+    </div>`;
+  showScreen('challenge');
+}
+
+function startChallengeWithShare() {
+  const { url, questions } = generateChallenge();
+  const shareText = lang === 'sq' ? '🦷 Të sfidoj në DentPrep! Provoje: ' : '🦷 I challenge you on DentPrep! Try it: ';
+  if (navigator.share) {
+    navigator.share({ title: 'DentPrep Challenge', text: shareText, url }).then(() => {
+      window._challengeUrl = url;
+      window._challengeMode = true;
+      currentSubject = { id: 'challenge', name: { en: 'Challenge', sq: 'Sfidë' }, emoji: '⚔️' };
+      currentTopic = { name: { en: 'Challenge', sq: 'Sfidë' }, questions };
+      currentQuestions = questions;
+      currentIdx = 0;
+      quizCorrect = 0;
+      showScreen('quiz');
+      renderQuestion();
+    }).catch(() => {});
+  } else {
+    navigator.clipboard.writeText(url).then(() => showToast(lang === 'sq' ? 'Linku u kopjua!' : 'Link copied!')).catch(() => {});
+    window._challengeUrl = url;
+    window._challengeMode = true;
+    currentSubject = { id: 'challenge', name: { en: 'Challenge', sq: 'Sfidë' }, emoji: '⚔️' };
+    currentTopic = { name: { en: 'Challenge', sq: 'Sfidë' }, questions };
+    currentQuestions = questions;
+    currentIdx = 0;
+    quizCorrect = 0;
+    showScreen('quiz');
+    renderQuestion();
+  }
+}
+
+// ===== ACHIEVEMENTS =====
+const ACHIEVEMENT_DEFS = [
+  { id: 'first_steps', emoji: '🏅', name: { en: 'First Steps', sq: 'Hapat e Parë' }, desc: { en: 'Complete your first quiz', sq: 'Përfundo kuizin e parë' } },
+  { id: 'on_fire', emoji: '🔥', name: { en: 'On Fire', sq: 'Në Zjarr' }, desc: { en: '5 day study streak', sq: 'Seria 5-ditore e studimit' } },
+  { id: 'perfect', emoji: '💯', name: { en: 'Perfect Score', sq: 'Rezultat Perfekt' }, desc: { en: '100% on a quiz with 10+ questions', sq: '100% në një kuiz me 10+ pyetje' } },
+  { id: 'bookworm', emoji: '📚', name: { en: 'Bookworm', sq: 'Lexues i Zellshëm' }, desc: { en: 'Answer 100 questions', sq: 'Përgjigju 100 pyetje' } },
+  { id: 'subject_master', emoji: '🧠', name: { en: 'Subject Master', sq: 'Master i Lëndës' }, desc: { en: '80%+ on all questions in a subject', sq: '80%+ në të gjitha pyetjet e një lënde' } },
+  { id: 'elite', emoji: '🏆', name: { en: 'Elite', sq: 'Elitë' }, desc: { en: '90%+ average across 50+ questions', sq: '90%+ mesatare në 50+ pyetje' } },
+  { id: 'speed_demon', emoji: '⚡', name: { en: 'Speed Demon', sq: 'Shpejtësia' }, desc: { en: 'Complete timed quiz 80%+ with time to spare', sq: 'Përfundo kuizin me kohë 80%+ me kohë të mbetur' } },
+  { id: 'challenger', emoji: '⚔️', name: { en: 'Challenger', sq: 'Sfidues' }, desc: { en: 'Complete a challenge', sq: 'Përfundo një sfidë' } }
+];
+
+let achievements = JSON.parse(localStorage.getItem('dentprep_achievements') || '{}');
+
+function unlockAchievement(id) {
+  if (achievements[id]) return false;
+  achievements[id] = { date: new Date().toISOString() };
+  localStorage.setItem('dentprep_achievements', JSON.stringify(achievements));
+  const def = ACHIEVEMENT_DEFS.find(a => a.id === id);
+  if (def) showToast(`${def.emoji} ${t(def.name)}!`);
+  return true;
+}
+
+function checkAchievements() {
+  if (stats.answered > 0) unlockAchievement('first_steps');
+  if (stats.answered >= 100) unlockAchievement('bookworm');
+  if (stats.answered >= 50 && stats.correct / stats.answered >= 0.9) unlockAchievement('elite');
+  const streak = JSON.parse(localStorage.getItem('dentprep_streak') || '{}');
+  if (streak.currentStreak >= 5) unlockAchievement('on_fire');
+  if (window._challengeMode) unlockAchievement('challenger');
+}
+
+function checkQuizAchievements(total, correct, wasTimed, hadTimeLeft) {
+  if (total >= 10 && correct === total) unlockAchievement('perfect');
+  if (wasTimed && hadTimeLeft && total >= 5 && correct / total >= 0.8) unlockAchievement('speed_demon');
+  Object.keys(stats.topicScores).forEach(key => {
+    const score = stats.topicScores[key];
+    if (score.answered >= 10 && score.correct / score.answered >= 0.8) unlockAchievement('subject_master');
+  });
+}
+
+function showAchievementsScreen() {
+  const el = document.getElementById('achievements');
+  const title = lang === 'sq' ? 'Arritjet' : 'Achievements';
+  const backText = ui('back');
+  let html = `<div style="padding:20px;padding-top:env(safe-area-inset-top,20px);padding-bottom:80px;">
+    <button class="back-btn" onclick="showScreen('home')">${backText}</button>
+    <h2 style="text-align:center;margin:20px 0;">${title}</h2>
+    <div style="display:flex;flex-direction:column;gap:12px;">`;
+
+  ACHIEVEMENT_DEFS.forEach(def => {
+    const unlocked = achievements[def.id];
+    const opacity = unlocked ? '1' : '0.4';
+    const dateText = unlocked ? new Date(unlocked.date).toLocaleDateString() : (lang === 'sq' ? '🔒 I kyçur' : '🔒 Locked');
+    html += `<div style="background:var(--card);border:1px solid var(--card-border);border-radius:16px;padding:16px;display:flex;align-items:center;gap:14px;opacity:${opacity};${unlocked ? 'box-shadow:0 0 20px rgba(124,92,252,0.15);' : ''}">
+      <div style="font-size:36px;min-width:44px;text-align:center;">${def.emoji}</div>
+      <div style="flex:1;">
+        <div style="font-weight:600;font-size:15px;">${t(def.name)}</div>
+        <div style="font-size:13px;color:var(--text-dim);margin-top:2px;">${t(def.desc)}</div>
+        <div style="font-size:11px;color:var(--text-muted);margin-top:4px;">${dateText}</div>
+      </div>
+    </div>`;
+  });
+
+  html += '</div></div>';
+  el.innerHTML = html;
+  showScreen('achievements');
+}
+
+// ===== AI EXPLAIN MORE =====
+function showAIExplanation(q, userAnswer) {
+  const options = t(q.options);
+  const letters = ['A', 'B', 'C', 'D'];
+  let html = '<div class="ai-explanation" style="background:var(--card);border:1px solid var(--accent-blue);border-radius:16px;padding:16px;margin-top:12px;animation:fadeIn 0.3s ease;">';
+  html += '<div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;"><span style="font-size:20px;">🤖</span><span style="font-weight:600;color:var(--accent-blue);">' + (lang === 'sq' ? 'Asistenti AI' : 'AI Assistant') + '</span></div>';
+
+  options.forEach((opt, i) => {
+    if (i === q.correct) {
+      html += `<div style="margin-bottom:8px;padding:8px;background:rgba(34,197,94,0.1);border-radius:8px;"><span style="color:var(--accent-green);font-weight:600;">✅ ${letters[i]}) ${opt}</span><br><span style="font-size:13px;color:var(--text-dim);">${lang === 'sq' ? 'Kjo është përgjigja e saktë.' : 'This is the correct answer.'} ${t(q.explanation)}</span></div>`;
+    } else {
+      const wrongColor = i === userAnswer ? 'var(--accent-coral)' : 'var(--text-muted)';
+      const prefix = i === userAnswer ? (lang === 'sq' ? '❌ Zgjedhja juaj: ' : '❌ Your choice: ') : '❌ ';
+      html += `<div style="margin-bottom:8px;padding:8px;border-radius:8px;"><span style="color:${wrongColor};font-weight:500;">${prefix}${letters[i]}) ${opt}</span><br><span style="font-size:13px;color:var(--text-dim);">${lang === 'sq' ? 'Jo e saktë.' : 'Not correct.'}</span></div>`;
+    }
+  });
+
+  html += `<div style="margin-top:12px;padding:12px;background:rgba(245,158,11,0.1);border-radius:10px;border:1px solid rgba(245,158,11,0.2);"><span style="font-size:14px;">💡 <strong>${lang === 'sq' ? 'Këshillë për memorizim' : 'Memory Tip'}:</strong> ${lang === 'sq' ? 'Përgjigja e saktë është' : 'The correct answer is'} <strong>${letters[q.correct]}) ${options[q.correct]}</strong>. ${t(q.explanation)}</span></div>`;
+  html += '</div>';
+
+  const expl = document.getElementById('explanation');
+  const div = document.createElement('div');
+  div.innerHTML = html;
+  expl.parentNode.insertBefore(div.firstElementChild, expl.nextSibling);
+}
+
 // ===== INIT =====
 (async function init() {
   await loadQuestions();
-  if (lang) { document.getElementById('lang-switch-btn').textContent = lang === 'sq' ? '🇦🇱 SQ' : '🇬🇧 EN'; showScreen('home'); }
+  if (lang) {
+    document.getElementById('lang-switch-btn').textContent = lang === 'sq' ? '🇦🇱 SQ' : '🇬🇧 EN';
+    // Check for challenge URL first
+    if (!loadChallengeFromURL()) {
+      showScreen('home');
+    }
+  }
 })();
+
+// ===== ONLINE/OFFLINE STATUS =====
+window.addEventListener('online', () => { const s = document.getElementById('online-status'); if (s) s.textContent = '🟢'; });
+window.addEventListener('offline', () => { const s = document.getElementById('online-status'); if (s) s.textContent = '🔴'; });
 
 // ===== SERVICE WORKER =====
 if ('serviceWorker' in navigator) {
