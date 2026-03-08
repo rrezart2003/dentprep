@@ -1,5 +1,5 @@
-const CACHE = 'dentprep-v14';
-const ASSETS = ['./manifest.json', './icon-192.png', './icon-512.png'];
+const CACHE = 'dentprep-v15';
+const ASSETS = ['./manifest.json', './icon-192.png', './icon-512.png', './styles.css', './app.js'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
