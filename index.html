@@ -35,10 +35,10 @@
 
 <!-- HOME (MODE SELECT) -->
 <div id="home" class="screen">
-  <div style="padding:20px;padding-top:env(safe-area-inset-top, 20px);">
+  <div class="home-shell">
     <div class="home-top-bar">
       <div id="offline-indicator" class="offline-indicator">🟢 Online</div>
-      <div style="display:flex;gap:8px;align-items:center;">
+      <div class="home-actions">
         <span id="online-status" class="online-status">🟢</span>
         <button class="lang-switch" id="theme-toggle-btn" onclick="toggleTheme()">🌙</button>
         <button class="lang-switch" id="lang-switch-btn" onclick="showScreen('lang-select')">🇦🇱/🇬🇧</button>
@@ -56,7 +56,7 @@
       <div class="stat-card"><div class="num" id="stat-streak">0</div><div class="label" id="lbl-streak"></div></div>
     </div>
     <div class="mode-scroll">
-      <div class="mode-btn mode-card" onclick="selectMode('exam')" style="background:linear-gradient(135deg,rgba(225,112,85,0.15),rgba(214,48,49,0.15));border-color:rgba(225,112,85,0.3);">
+      <div class="mode-btn mode-card mode-card--exam" onclick="selectMode('exam')">
         <div class="mode-icon">📋</div>
         <div class="mode-info">
           <div class="mode-title" id="home-exam-title">Provimi</div>
@@ -77,14 +77,14 @@
           <div class="mode-desc" id="home-fc-desc">Karta përmbledhëse për rishikim</div>
         </div>
       </div>
-      <div class="mode-btn mode-card" id="weak-areas-btn" onclick="startWeakAreas()" style="background:linear-gradient(135deg,rgba(225,112,85,0.1),rgba(214,48,49,0.1));border-color:rgba(225,112,85,0.2);">
+      <div class="mode-btn mode-card mode-card--weak" id="weak-areas-btn" onclick="startWeakAreas()">
         <div class="mode-icon">🔴</div>
         <div class="mode-info">
           <div class="mode-title" id="home-weak-title">Weak Areas</div>
           <div class="mode-desc" id="home-weak-desc">Practice questions you got wrong</div>
         </div>
       </div>
-      <div class="mode-btn mode-card" onclick="showScreen('exam-history')" style="background:linear-gradient(135deg,rgba(108,92,231,0.1),rgba(162,155,254,0.1));border-color:rgba(108,92,231,0.2);">
+      <div class="mode-btn mode-card mode-card--history" onclick="showScreen('exam-history')">
         <div class="mode-icon">📊</div>
         <div class="mode-info">
           <div class="mode-title" id="home-history-title">History</div>
