@@ -1,0 +1,262 @@
+[
+  {
+    "id": "cc_01",
+    "title": {
+      "en": "Persistent Toothache",
+      "sq": "Dhimbje e Vazhdueshme e Dhëmbit"
+    },
+    "patient": {
+      "en": "A 35-year-old male presents with severe, spontaneous, throbbing pain in the lower right quadrant. The pain worsens at night and with hot liquids. Cold provides temporary relief. He reports the tooth had a large filling placed 6 months ago.",
+      "sq": "Një mashkull 35-vjeçar paraqitet me dhimbje të rëndë, spontane, pulsuese në kuadrantin e poshtëm djathtas. Dhimbja përkeqësohet natën dhe me lëngje të nxehta. I ftohti jep lehtësim të përkohshëm. Ai raporton se dhëmbi kishte një mbushje të madhe të vendosur 6 muaj më parë."
+    },
+    "question": {
+      "en": "What is the most likely diagnosis?",
+      "sq": "Cila është diagnoza më e mundshme?"
+    },
+    "options": {
+      "en": ["Reversible pulpitis", "Irreversible pulpitis", "Periapical abscess", "Cracked tooth syndrome"],
+      "sq": ["Pulpiti i kthyeshëm", "Pulpiti i pakthyeshëm", "Abscesi periapikal", "Sindromi i dhëmbit të çarë"]
+    },
+    "correct": 1,
+    "explanation": {
+      "en": "The spontaneous, throbbing pain that worsens with heat and improves with cold is classic for <strong>irreversible pulpitis</strong>. The history of a large restoration increases the likelihood of pulpal involvement. Reversible pulpitis would not cause spontaneous pain. A periapical abscess typically presents with tenderness to percussion and swelling.",
+      "sq": "Dhimbja spontane, pulsuese që përkeqësohet me nxehtësinë dhe përmirësohet me të ftohtë është klasike për <strong>pulpitin e pakthyeshëm</strong>. Historia e një restaurimi të madh rrit mundësinë e përfshirjes pulpare. Pulpiti i kthyeshëm nuk do të shkaktonte dhimbje spontane."
+    },
+    "difficulty": "medium",
+    "category": { "en": "Endodontics", "sq": "Endodonci" }
+  },
+  {
+    "id": "cc_02",
+    "title": {
+      "en": "Swollen Gums in Pregnancy",
+      "sq": "Mishrat e Fryra gjatë Shtatzënisë"
+    },
+    "patient": {
+      "en": "A 28-year-old woman in her second trimester presents with swollen, red, bleeding gums, especially in the anterior region. She reports her gums started bleeding more since becoming pregnant. Oral hygiene is fair. A localized, lobulated, red mass is noted on the interdental papilla between #8 and #9.",
+      "sq": "Një grua 28-vjeçare në tremujorin e dytë paraqitet me mishëra të fryra, të kuqe, që gjakosen, veçanërisht në rajonin anterior. Ajo raporton se mishërat filluan të gjakoseshin më shumë që kur mbeti shtatzënë. Një masë e lokalizuar, e lobuluar, e kuqe vërehet në papilën interdentale midis #8 dhe #9."
+    },
+    "question": {
+      "en": "What is this localized lesion most likely?",
+      "sq": "Çfarë është kjo lezion e lokalizuar më e mundshme?"
+    },
+    "options": {
+      "en": ["Peripheral giant cell granuloma", "Pregnancy tumor (pyogenic granuloma)", "Fibroma", "Squamous papilloma"],
+      "sq": ["Granuloma periferike e qelizave gjigante", "Tumori i shtatzënisë (granuloma piogjene)", "Fibroma", "Papiloma skuamoze"]
+    },
+    "correct": 1,
+    "explanation": {
+      "en": "A <strong>pregnancy tumor (pyogenic granuloma)</strong> is a common benign vascular lesion that occurs in 1-5% of pregnancies. It typically appears as a lobulated, red mass on the interdental papilla during the second trimester. It usually regresses after delivery. Treatment during pregnancy is only indicated for functional problems.",
+      "sq": "<strong>Tumori i shtatzënisë (granuloma piogjene)</strong> është një lezion vaskulare beninje e zakonshme që ndodh në 1-5% të shtatzënive. Zakonisht shfaqet si një masë e lobuluar, e kuqe në papilën interdentale gjatë tremujorit të dytë. Zakonisht tërhiqet pas lindjes."
+    },
+    "difficulty": "medium",
+    "category": { "en": "Periodontics", "sq": "Periodontologji" }
+  },
+  {
+    "id": "cc_03",
+    "title": {
+      "en": "White Patch on Tongue",
+      "sq": "Njollë e Bardhë në Gjuhë"
+    },
+    "patient": {
+      "en": "A 55-year-old male who is a heavy smoker and alcohol consumer presents with a white patch on the left lateral border of the tongue. The lesion has been present for 3 months and cannot be scraped off. It is painless. No cervical lymphadenopathy is detected.",
+      "sq": "Një mashkull 55-vjeçar që është duhanpirës i rëndë dhe konsumator alkooli paraqitet me një njollë të bardhë në kufirin lateral të majtë të gjuhës. Lezioni ka qenë e pranishme për 3 muaj dhe nuk mund të hiqet me fërkim. Nuk ka dhimbje. Nuk zbulohet limfadenopati cervikale."
+    },
+    "question": {
+      "en": "What is the most appropriate next step?",
+      "sq": "Cili është hapi më i përshtatshëm i radhës?"
+    },
+    "options": {
+      "en": ["Prescribe antifungal medication", "Reassure and observe", "Incisional biopsy", "Apply topical steroids"],
+      "sq": ["Përshkruaj ilaç antifungal", "Qetëso dhe vëzhgo", "Biopsi incizionale", "Apliko steroide topike"]
+    },
+    "correct": 2,
+    "explanation": {
+      "en": "A white patch on the lateral tongue that cannot be scraped off in a patient with significant risk factors (smoking + alcohol) is highly suspicious for <strong>leukoplakia with potential dysplasia</strong>. The lateral tongue is the highest-risk site for oral malignancy. An <strong>incisional biopsy</strong> is mandatory to rule out dysplasia or carcinoma.",
+      "sq": "Një njollë e bardhë në gjuhën laterale që nuk mund të hiqet me fërkim në një pacient me faktorë rreziku të rëndësishëm (duhan + alkool) është shumë e dyshimtë për <strong>leukoplaki me displazi potenciale</strong>. <strong>Biopsia incizionale</strong> është e detyrueshme për të përjashtuar displazinë ose karcinomën."
+    },
+    "difficulty": "hard",
+    "category": { "en": "Oral Pathology", "sq": "Patologji Orale" }
+  },
+  {
+    "id": "cc_04",
+    "title": {
+      "en": "Post-Extraction Dry Socket",
+      "sq": "Alveoliti pas Nxjerrjes"
+    },
+    "patient": {
+      "en": "A 40-year-old female presents 3 days after extraction of the lower left third molar with severe, radiating pain. Intraoral examination reveals an empty socket with exposed bone and no blood clot. There is a foul odor. The patient is a smoker.",
+      "sq": "Një femër 40-vjeçare paraqitet 3 ditë pas nxjerrjes së molarit të tretë të poshtëm majtas me dhimbje të rëndë, rrezatuese. Ekzaminimi intraoral zbulon një alveol bosh me kockë të ekspozuar dhe pa mpiksje gjaku. Ka erë të keqe. Pacienti është duhanpirëse."
+    },
+    "question": {
+      "en": "What is the diagnosis and best initial management?",
+      "sq": "Cila është diagnoza dhe menaxhimi fillestar më i mirë?"
+    },
+    "options": {
+      "en": ["Osteomyelitis — prescribe IV antibiotics", "Alveolar osteitis — irrigate and place medicated dressing", "Periapical abscess — incision and drainage", "Normal healing — reassure patient"],
+      "sq": ["Osteomieliti — përshkruaj antibiotikë IV", "Osteiti alveolar — irrigo dhe vendos fashë me ilaç", "Abscesi periakipal — incizion dhe drenazh", "Shërim normal — qetëso pacientin"]
+    },
+    "correct": 1,
+    "explanation": {
+      "en": "<strong>Alveolar osteitis (dry socket)</strong> occurs in 2-5% of extractions (up to 30% for mandibular third molars). Risk factors include smoking, oral contraceptives, and traumatic extraction. Management: gentle irrigation with saline/chlorhexidine and placement of a medicated dressing (eugenol-based). Antibiotics are not routinely needed.",
+      "sq": "<strong>Osteiti alveolar (dry socket)</strong> ndodh në 2-5% të nxjerrjeve (deri në 30% për molarët e tretë mandibular). Faktorët e rrezikut përfshijnë duhanin, kontraceptivët oral dhe nxjerrjen traumatike. Menaxhimi: irigim i butë me salinë/klorheksidinë dhe vendosja e fashës me ilaç."
+    },
+    "difficulty": "medium",
+    "category": { "en": "Oral Surgery", "sq": "Kirurgji Orale" }
+  },
+  {
+    "id": "cc_05",
+    "title": {
+      "en": "Child with Tooth Trauma",
+      "sq": "Fëmijë me Traumë Dentare"
+    },
+    "patient": {
+      "en": "An 8-year-old boy is brought to the clinic 30 minutes after falling off his bicycle. His upper right central incisor (#8) has been completely avulsed and the parent brought the tooth in a glass of milk. The root appears fully formed with a closed apex.",
+      "sq": "Një djalë 8-vjeçar sillet në klinikë 30 minuta pasi ra nga biçikleta. Incizivi qendror i sipërm djathtas (#8) është avulsionuar plotësisht dhe prindi e solli dhëmbin në një gotë qumësht. Rrënja duket plotësisht e formuar me apeks të mbyllur."
+    },
+    "question": {
+      "en": "What is the most appropriate immediate treatment?",
+      "sq": "Cili është trajtimi më i përshtatshëm i menjëhershëm?"
+    },
+    "options": {
+      "en": ["Extract and place a space maintainer", "Replant the tooth and splint for 2 weeks", "Store the tooth and wait for the socket to heal", "Replant the tooth and splint for 4-6 weeks"],
+      "sq": ["Nxirr dhe vendos një mbajtës hapësire", "Riplanto dhëmbin dhe splinto për 2 javë", "Ruaj dhëmbin dhe prit që alveoli të shërohet", "Riplanto dhëmbin dhe splinto për 4-6 javë"]
+    },
+    "correct": 1,
+    "explanation": {
+      "en": "For an avulsed permanent tooth with a closed apex and <60 minutes extra-alveolar time stored in an appropriate medium (milk), <strong>immediate replantation with a flexible splint for 2 weeks</strong> is the gold standard (IADT guidelines). Root canal treatment should be initiated 7-10 days later. Milk is an excellent storage medium due to its physiological osmolality.",
+      "sq": "Për një dhëmb të përhershëm të avulsionuar me apeks të mbyllur dhe <60 minuta kohë ekstra-alveolare të ruajtur në medium të përshtatshëm (qumësht), <strong>riplantimi i menjëhershëm me splint fleksibël për 2 javë</strong> është standardi i artë (udhëzimet IADT)."
+    },
+    "difficulty": "hard",
+    "category": { "en": "Pediatric Dentistry", "sq": "Stomatologji Pediatrike" }
+  },
+  {
+    "id": "cc_06",
+    "title": {
+      "en": "Clicking Jaw Joint",
+      "sq": "Klikimet e Nofullës"
+    },
+    "patient": {
+      "en": "A 25-year-old female presents with clicking sounds from the right TMJ during opening, accompanied by occasional pain. She reports clenching her teeth during stressful periods. Maximum opening is 38mm with deviation to the right on opening, which self-corrects. No crepitus is noted.",
+      "sq": "Një femër 25-vjeçare paraqitet me tinguj klikimi nga TMJ e djathtë gjatë hapjes, të shoqëruar me dhimbje të herëpashershme. Ajo raporton se shtrëngon dhëmbët gjatë periudhave stresuese. Hapja maksimale është 38mm me devijim djathtas në hapje, i cili vetë-korrigjohet."
+    },
+    "question": {
+      "en": "What is the most likely diagnosis?",
+      "sq": "Cila është diagnoza më e mundshme?"
+    },
+    "options": {
+      "en": ["Osteoarthritis of TMJ", "Anterior disc displacement with reduction", "Anterior disc displacement without reduction", "Myofascial pain dysfunction"],
+      "sq": ["Osteoartriti i TMJ", "Zhvendosja anteriore e diskut me reduktim", "Zhvendosja anteriore e diskut pa reduktim", "Disfunksioni i dhimbjes miofasciale"]
+    },
+    "correct": 1,
+    "explanation": {
+      "en": "<strong>Anterior disc displacement with reduction</strong> presents with clicking/popping during opening (when the condyle recaptures the displaced disc) and deviation that self-corrects at the click point. Without reduction would present with limited opening and no click. Osteoarthritis would show crepitus. Opening >35mm suggests the disc is being recaptured.",
+      "sq": "<strong>Zhvendosja anteriore e diskut me reduktim</strong> paraqitet me klikime gjatë hapjes (kur kondili rikap diskun e zhvendosur) dhe devijim që vetë-korrigjohet në pikën e klikimit. Pa reduktim do të paraqitej me hapje të kufizuar dhe pa klikim."
+    },
+    "difficulty": "medium",
+    "category": { "en": "Oral Medicine", "sq": "Mjekësi Orale" }
+  },
+  {
+    "id": "cc_07",
+    "title": {
+      "en": "Dental Emergency in Diabetic Patient",
+      "sq": "Urgjencë Dentare në Pacientin Diabetik"
+    },
+    "patient": {
+      "en": "A 60-year-old male with uncontrolled Type 2 diabetes (HbA1c: 10.2%) presents with a large periapical abscess on tooth #19. He has diffuse facial swelling extending to the submandibular space. Temperature is 38.8°C. He reports difficulty swallowing.",
+      "sq": "Një mashkull 60-vjeçar me diabet tip 2 të pakontrolluar (HbA1c: 10.2%) paraqitet me një absces të madh periApikal në dhëmbin #19. Ka ënjtje difuze faciale që shtrihet në hapësirën submandibulare. Temperatura është 38.8°C. Ai raporton vështirësi në gëlltitje."
+    },
+    "question": {
+      "en": "What is the most critical concern and immediate priority?",
+      "sq": "Cila është shqetësimi më kritik dhe prioriteti i menjëhershëm?"
+    },
+    "options": {
+      "en": ["Start root canal treatment immediately", "Prescribe oral antibiotics and review in 1 week", "Hospital referral for IV antibiotics, airway management, and I&D", "Extract the tooth under local anesthesia in clinic"],
+      "sq": ["Fillo trajtimin endodontik menjëherë", "Përshkruaj antibiotikë oralë dhe rishiko pas 1 jave", "Referim spitalor për antibiotikë IV, menaxhim të rrugëve të frymëmarrjes dhe I&D", "Nxirr dhëmbin nën anestezi lokale në klinikë"]
+    },
+    "correct": 2,
+    "explanation": {
+      "en": "This patient has a spreading odontogenic infection with <strong>signs of Ludwig's angina</strong> (submandibular space involvement, dysphagia, fever) in an immunocompromised host (uncontrolled diabetes). This is a life-threatening emergency requiring <strong>immediate hospital referral</strong> for airway management, IV antibiotics, incision and drainage, and glycemic control.",
+      "sq": "Ky pacient ka një infeksion odontogjen që po përhapet me <strong>shenja të anginës së Ludwig</strong> (përfshirja e hapësirës submandibulare, disfagji, temperaturë) në një pritës imunokompromis. Kjo është një urgjencë kërcënuese për jetën që kërkon <strong>referim të menjëhershëm spitalor</strong>."
+    },
+    "difficulty": "hard",
+    "category": { "en": "Oral Surgery", "sq": "Kirurgji Orale" }
+  },
+  {
+    "id": "cc_08",
+    "title": {
+      "en": "Discolored Primary Tooth",
+      "sq": "Dhëmbi Primar i Ngjyrosur"
+    },
+    "patient": {
+      "en": "A mother brings her 4-year-old child who bumped his upper front tooth 3 weeks ago. The maxillary primary central incisor now appears dark gray/yellow. The child is asymptomatic. Radiograph shows no periapical radiolucency and the root shows physiologic resorption consistent with age.",
+      "sq": "Një nënë sjell fëmijën e saj 4-vjeçar i cili goditi dhëmbin e përparmë të sipërm 3 javë më parë. Incizivi qendror primar maksillrar tani duket gri i errët/verdhë. Fëmija është asimptomatik. Radiografia nuk tregon radiotejdukshmëri periapikale dhe rrënja tregon resorbim fiziologjik."
+    },
+    "question": {
+      "en": "What is the most appropriate management?",
+      "sq": "Cili është menaxhimi më i përshtatshëm?"
+    },
+    "options": {
+      "en": ["Immediate extraction to protect the permanent successor", "Pulpectomy and stainless steel crown", "Observation with periodic clinical and radiographic follow-up", "Referral for endodontic treatment"],
+      "sq": ["Nxjerrje e menjëhershme për të mbrojtur pasardhësin e përhershëm", "Pulpektomi dhe kurorë çeliku", "Vëzhgim me ndjekje periodike klinike dhe radiografike", "Referim për trajtim endodontik"]
+    },
+    "correct": 2,
+    "explanation": {
+      "en": "<strong>Observation</strong> is appropriate when a traumatized primary tooth is discolored but asymptomatic with no radiographic pathology. The discoloration is due to intrapulpal hemorrhage. Many such teeth remain asymptomatic until natural exfoliation. Intervention is only needed if signs of infection develop (swelling, sinus tract, or periapical radiolucency).",
+      "sq": "<strong>Vëzhgimi</strong> është i përshtatshëm kur një dhëmb primar i traumatizuar është i ngjyrosur por asimptomatik pa patologji radiografike. Ngjyrosja është për shkak të hemorragjisë intrapulpare. Ndërhyrja nevojitet vetëm nëse zhvillohen shenja infeksioni."
+    },
+    "difficulty": "medium",
+    "category": { "en": "Pediatric Dentistry", "sq": "Stomatologji Pediatrike" }
+  },
+  {
+    "id": "cc_09",
+    "title": {
+      "en": "Burning Mouth Syndrome",
+      "sq": "Sindromi i Gojës Djegëse"
+    },
+    "patient": {
+      "en": "A 58-year-old postmenopausal woman complains of a burning sensation on the tip and sides of her tongue for the past 4 months. The burning is absent upon waking but worsens throughout the day. Clinical examination reveals no visible mucosal abnormalities. Blood tests show normal CBC, iron, B12, folate, and glucose levels.",
+      "sq": "Një grua 58-vjeçare postmenopausale ankohet për ndjenjë djegie në majë dhe anët e gjuhës për 4 muajt e fundit. Djegia mungon në zgjim por përkeqësohet gjatë ditës. Ekzaminimi klinik nuk zbulon abnormalitete të dukshme mukozale. Analizat e gjakut tregojnë vlera normale."
+    },
+    "question": {
+      "en": "What is the most likely diagnosis?",
+      "sq": "Cila është diagnoza më e mundshme?"
+    },
+    "options": {
+      "en": ["Oral candidiasis", "Burning mouth syndrome (primary)", "Geographic tongue", "Vitamin B12 deficiency"],
+      "sq": ["Kandidiaza orale", "Sindromi i gojës djegëse (primar)", "Gjuha gjeografike", "Mungesa e vitaminës B12"]
+    },
+    "correct": 1,
+    "explanation": {
+      "en": "<strong>Primary burning mouth syndrome (BMS)</strong> is characterized by burning oral pain with normal clinical appearance and normal lab results. It predominantly affects postmenopausal women. The classic pattern is absence of symptoms on waking with progressive worsening during the day. It is considered a neuropathic pain condition. Management includes cognitive behavioral therapy, low-dose clonazepam, and alpha-lipoic acid.",
+      "sq": "<strong>Sindromi primar i gojës djegëse (BMS)</strong> karakterizohet nga dhimbje djegëse orale me pamje klinike normale dhe rezultate laboratorike normale. Prek kryesisht gratë postmenopausale. Modeli klasik është mungesa e simptomave në zgjim me përkeqësim progresiv gjatë ditës."
+    },
+    "difficulty": "medium",
+    "category": { "en": "Oral Medicine", "sq": "Mjekësi Orale" }
+  },
+  {
+    "id": "cc_10",
+    "title": {
+      "en": "Failed Composite Restoration",
+      "sq": "Restaurimi i Dështuar me Kompozit"
+    },
+    "patient": {
+      "en": "A 30-year-old patient returns 2 weeks after a Class II composite restoration on tooth #14 complaining of sharp pain when biting. The pain is momentary and occurs only during biting, not spontaneously. Cold test elicits a brief, normal response. The restoration appears intact with no visible gaps.",
+      "sq": "Një pacient 30-vjeçar kthehet 2 javë pas një restaurimi kompozit Klasa II në dhëmbin #14 duke u ankuar për dhimbje të mprehtë kur kafshon. Dhimbja është momentale dhe ndodh vetëm gjatë kafshimit, jo spontanisht. Testi me të ftohtë nxit një përgjigje të shkurtër, normale."
+    },
+    "question": {
+      "en": "What is the most likely cause of the symptoms?",
+      "sq": "Cila është shkaku më i mundshëm i simptomave?"
+    },
+    "options": {
+      "en": ["Irreversible pulpitis", "Occlusal high spot", "Cracked tooth", "Secondary caries"],
+      "sq": ["Pulpit i pakthyeshëm", "Pikë e lartë okluzale", "Dhëmb i çarë", "Karies sekondar"]
+    },
+    "correct": 1,
+    "explanation": {
+      "en": "Pain only on biting (without spontaneous pain) with a normal cold response 2 weeks after a Class II composite is classic for an <strong>occlusal high spot</strong>. Polymerization shrinkage of composite can also contribute. The fix is simple: check and adjust the occlusion with articulating paper. If the pain persists after adjustment, consider other diagnoses.",
+      "sq": "Dhimbja vetëm gjatë kafshimit (pa dhimbje spontane) me përgjigje normale ndaj të ftohtit 2 javë pas një kompoziti Klasa II është klasike për një <strong>pikë të lartë okluzale</strong>. Zgjidhja është e thjeshtë: kontrollo dhe rregullo okluzionin me letër artikuluese."
+    },
+    "difficulty": "easy",
+    "category": { "en": "Restorative Dentistry", "sq": "Stomatologji Restauruese" }
+  }
+]

@@ -1,7 +1,7 @@
 // questions.js — Dynamic flashcard loader for DentPrep PWA
 // Fetches questions.json (SUBJECTS array) with offline fallback
 
-const QUESTIONS_URL = 'https://rrezart2003.github.io/dentprep/questions.json';
+const QUESTIONS_URL = 'https://rrezart2003.github.io/dentprep/data/questions.json';
 
 let _cachedSubjects = null;
 

@@ -68,7 +68,7 @@ let SUBJECTS = [];
 
 async function loadQuestions() {
   try {
-    const resp = await fetch('questions.json');
+    const resp = await fetch('data/questions.json');
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     SUBJECTS = await resp.json();
   } catch (err) {
@@ -682,7 +682,7 @@ async function loadFlashcards() {
   }
   // Fallback to standalone flashcards.json
   try {
-    const resp = await fetch('flashcards.json');
+    const resp = await fetch('data/flashcards.json');
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     return await resp.json();
   } catch (err) {
