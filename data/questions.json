@@ -4914,7 +4914,264 @@
               "sq": "Teste vitaliteti negative + radiotransparencë periapikale = nekrozë pulpare me periodontit apikal kronik. Radiotransparenca përfaqëson granulomë ose cistë periapikale."
             },
             "difficulty": "medium"
-          }
+          },
+          {
+            {
+  "q": {
+    "en": "What is the main function of an apex locator?",
+    "sq": "Cili është funksioni kryesor i apex locator?"
+  },
+  "options": {
+    "en": ["Determine working length", "Clean the canal", "Dry the canal", "Shape the canal"],
+    "sq": ["Përcakton gjatësinë e punës", "Pastron kanalin", "Thar kanalin", "Formon kanalin"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "An apex locator measures the canal length electronically.",
+    "sq": "Apex locator mat gjatësinë e kanalit në mënyrë elektronike."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "Which pulp condition is reversible?",
+    "sq": "Cila gjendje e pulpës është e kthyeshme?"
+  },
+  "options": {
+    "en": ["Reversible pulpitis", "Irreversible pulpitis", "Necrosis", "Abscess"],
+    "sq": ["Pulpiti i kthyeshëm", "Pulpiti i pakthyeshëm", "Nekroza", "Abscesi"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Reversible pulpitis resolves after removal of the irritant.",
+    "sq": "Pulpiti i kthyeshëm zgjidhet pas heqjes së irrituesit."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "Which irrigant dissolves organic tissue?",
+    "sq": "Cili irigant tret indin organik?"
+  },
+  "options": {
+    "en": ["NaOCl", "EDTA", "Saline", "CHX"],
+    "sq": ["NaOCl", "EDTA", "Solucion fiziologjik", "CHX"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Sodium hypochlorite dissolves organic tissue effectively.",
+    "sq": "Hipokloriti i natriumit tret indin organik në mënyrë efektive."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "What does EDTA remove?",
+    "sq": "Çfarë heq EDTA?"
+  },
+  "options": {
+    "en": ["Smear layer", "Organic tissue", "Bacteria only", "Blood"],
+    "sq": ["Smear layer", "Ind organik", "Vetëm bakteret", "Gjaku"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "EDTA removes the inorganic portion of smear layer.",
+    "sq": "EDTA heq pjesën inorganike të smear layer."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "Which file material is most flexible?",
+    "sq": "Cili material i fileve është më fleksibël?"
+  },
+  "options": {
+    "en": ["NiTi", "Stainless steel", "Gold alloy", "Titanium"],
+    "sq": ["NiTi", "Çelik inox", "Ari", "Titan"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Nickel-titanium files are highly flexible.",
+    "sq": "Filet NiTi janë shumë fleksibël."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "What is glide path?",
+    "sq": "Çfarë është glide path?"
+  },
+  "options": {
+    "en": ["Smooth path to working length", "Final obturation", "Irrigation step", "Access cavity"],
+    "sq": ["Rrugë e lëmuar deri në gjatësinë e punës", "Obturim final", "Hap i irigimit", "Kaviteti i aksesit"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Glide path ensures safe shaping of the canal.",
+    "sq": "Glide path siguron formim të sigurt të kanalit."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "Which condition shows no response to vitality tests?",
+    "sq": "Cila gjendje nuk përgjigjet në testet e vitalitetit?"
+  },
+  "options": {
+    "en": ["Necrotic pulp", "Reversible pulpitis", "Healthy pulp", "Hyperemia"],
+    "sq": ["Pulpë nekrotike", "Pulpiti i kthyeshëm", "Pulpë e shëndetshme", "Hiperemia"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Necrotic pulp does not respond to vitality tests.",
+    "sq": "Pulpa nekrotike nuk përgjigjet në testet e vitalitetit."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "Which technique uses a single gutta-percha cone?",
+    "sq": "Cila teknikë përdor një kon të vetëm guta-perke?"
+  },
+  "options": {
+    "en": ["Single cone", "Lateral condensation", "Vertical compaction", "Thermoplastic injection"],
+    "sq": ["Single cone", "Kondensimi lateral", "Kompaktimi vertikal", "Injeksion termoplastik"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Single cone technique uses one master cone with sealer.",
+    "sq": "Teknika single cone përdor një kon kryesor me siler."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "What is the main aim of obturation?",
+    "sq": "Cili është qëllimi kryesor i obturimit?"
+  },
+  "options": {
+    "en": ["Seal canal system", "Shape canal", "Clean canal", "Access cavity"],
+    "sq": ["Të vulosë sistemin e kanalit", "Të formojë kanalin", "Të pastrojë kanalin", "Kavitet akses"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Obturation seals the canal to prevent reinfection.",
+    "sq": "Obturimi vulos kanalin për të parandaluar riinfektimin."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "Which bacteria is commonly found in persistent infections?",
+    "sq": "Cila bakterie gjendet shpesh në infeksione persistente?"
+  },
+  "options": {
+    "en": ["Enterococcus faecalis", "Streptococcus mutans", "Lactobacillus", "Candida"],
+    "sq": ["Enterococcus faecalis", "Streptococcus mutans", "Lactobacillus", "Candida"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "E. faecalis is resistant and found in persistent infections.",
+    "sq": "E. faecalis është rezistent dhe gjendet në infeksione persistente."
+  },
+  "difficulty": "hard"
+},
+{
+  "q": {
+    "en": "Which instrument is used for lateral condensation?",
+    "sq": "Cili instrument përdoret për kondensim lateral?"
+  },
+  "options": {
+    "en": ["Spreader", "Plugger", "File", "Explorer"],
+    "sq": ["Spreader", "Plugger", "File", "Explorer"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Spreader creates space for accessory cones.",
+    "sq": "Spreader krijon hapësirë për kone shtesë."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "What is apical constriction?",
+    "sq": "Çfarë është konstriksioni apikal?"
+  },
+  "options": {
+    "en": ["Narrowest part of canal near apex", "Crown area", "Pulp chamber", "Root surface"],
+    "sq": ["Pjesa më e ngushtë pranë apeksit", "Zona e kurorës", "Dhoma e pulpës", "Sipërfaqja e rrënjës"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Apical constriction is the ideal termination point of instrumentation.",
+    "sq": "Konstriksioni apikal është pika ideale e përfundimit të instrumentimit."
+  },
+  "difficulty": "hard"
+},
+{
+  "q": {
+    "en": "Which irrigant has substantivity?",
+    "sq": "Cili irigant ka substancivitet?"
+  },
+  "options": {
+    "en": ["Chlorhexidine", "NaOCl", "EDTA", "Saline"],
+    "sq": ["Klorheksidina", "NaOCl", "EDTA", "Solucion fiziologjik"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Chlorhexidine binds to dentin and has long-lasting effect.",
+    "sq": "Klorheksidina lidhet me dentinën dhe ka efekt afatgjatë."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "What is flare-up in endodontics?",
+    "sq": "Çfarë është flare-up në endodonti?"
+  },
+  "options": {
+    "en": ["Acute exacerbation of symptoms", "Healing process", "Obturation error", "Tooth fracture"],
+    "sq": ["Përkeqësim akut i simptomave", "Proces shërimi", "Gabim obturimi", "Frakturë e dhëmbit"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Flare-up is sudden pain/swelling after treatment.",
+    "sq": "Flare-up është dhimbje/ënjtje e papritur pas trajtimit."
+  },
+  "difficulty": "hard"
+},
+{
+  "q": {
+    "en": "What is ledge formation?",
+    "sq": "Çfarë është formimi i ledge?"
+  },
+  "options": {
+    "en": ["Artificial irregularity in canal wall", "Perforation", "Fracture", "Cleaning step"],
+    "sq": ["Parregullsi artificiale në murin e kanalit", "Perforim", "Frakturë", "Hap pastrimi"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Ledge prevents proper cleaning to full working length.",
+    "sq": "Ledge pengon pastrimin deri në gjatësinë e plotë të punës."
+  },
+  "difficulty": "hard"
+},
+{
+  "q": {
+    "en": "What is transportation?",
+    "sq": "Çfarë është transportimi i kanalit?"
+  },
+  "options": {
+    "en": ["Deviation from original canal path", "Cleaning method", "Irrigation step", "Sealing method"],
+    "sq": ["Devijim nga rruga origjinale e kanalit", "Metodë pastrimi", "Hap irigimi", "Metodë vulosjeje"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Transportation alters original canal anatomy.",
+    "sq": "Transportimi ndryshon anatominë origjinale të kanalit."
+  },
+  "difficulty": "hard"
+}
         ]
       }
     ]
