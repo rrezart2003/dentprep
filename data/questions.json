@@ -12362,7 +12362,199 @@
             "sq": "Open bite ndodh kur dhëmbët anteriorë nuk mbivendosen vertikalisht."
           },
           "difficulty": "medium"
-        }
+        },
+        {
+  "q": {
+    "en": "What is the ideal age for orthodontic evaluation?",
+    "sq": "Cila është mosha ideale për vlerësim ortodontik?"
+  },
+  "options": {
+    "en": ["7 years", "12 years", "18 years", "5 years"],
+    "sq": ["7 vjeç", "12 vjeç", "18 vjeç", "5 vjeç"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Orthodontic evaluation is recommended around age 7.",
+    "sq": "Vlerësimi ortodontik rekomandohet rreth moshës 7 vjeç."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "Which imaging is most important in orthodontic diagnosis?",
+    "sq": "Cili imazh është më i rëndësishëm në diagnozën ortodontike?"
+  },
+  "options": {
+    "en": ["Cephalometric radiograph", "Bitewing", "Periapical", "Panoramic only"],
+    "sq": ["Radiografi cefalometrike", "Bitewing", "Periapikale", "Vetëm panoramike"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Cephalometric analysis evaluates skeletal relationships.",
+    "sq": "Analiza cefalometrike vlerëson marrëdhëniet skeletike."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "What does ANB angle assess?",
+    "sq": "Çfarë vlerëson këndi ANB?"
+  },
+  "options": {
+    "en": ["Maxilla-mandible relationship", "Tooth size", "Root length", "Occlusal plane"],
+    "sq": ["Marrëdhënia maxillë-mandibulë", "Madhësia e dhëmbëve", "Gjatësia e rrënjës", "Plani okluzal"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "ANB indicates skeletal relationship between jaws.",
+    "sq": "ANB tregon marrëdhënien skeletike midis nofullave."
+  },
+  "difficulty": "hard"
+},
+{
+  "q": {
+    "en": "Which appliance is removable?",
+    "sq": "Cili aparat është i lëvizshëm?"
+  },
+  "options": {
+    "en": ["Hawley retainer", "Brackets", "Archwire", "Bands"],
+    "sq": ["Retainer Hawley", "Braket", "Tel ark", "Bande"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Hawley is a removable orthodontic appliance.",
+    "sq": "Hawley është aparat ortodontik i lëvizshëm."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "Which appliance is fixed?",
+    "sq": "Cili aparat është fiks?"
+  },
+  "options": {
+    "en": ["Brackets", "Hawley", "Retainer", "Functional appliance"],
+    "sq": ["Braket", "Hawley", "Retainer", "Aparat funksional"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Brackets are fixed appliances bonded to teeth.",
+    "sq": "Braket janë aparate fikse të lidhura në dhëmbë."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "What is the purpose of a retainer?",
+    "sq": "Cili është qëllimi i retainer?"
+  },
+  "options": {
+    "en": ["Maintain tooth position", "Move teeth", "Extract teeth", "Polish enamel"],
+    "sq": ["Të mbajë pozicionin e dhëmbëve", "Të lëvizë dhëmbët", "Të nxjerrë dhëmbë", "Të lustrojë smaltin"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Retainers prevent relapse after treatment.",
+    "sq": "Retainer parandalon rikthimin pas trajtimit."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "What is Class II Division 1 characterized by?",
+    "sq": "Cila është karakteristika e Class II Division 1?"
+  },
+  "options": {
+    "en": ["Proclined incisors", "Retroclined incisors", "Open bite", "Crossbite"],
+    "sq": ["Incisivë të përkulur përpara", "Incisivë të përkulur prapa", "Open bite", "Crossbite"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Class II div 1 has proclined upper incisors.",
+    "sq": "Class II div 1 ka incisivë të sipërm të përkulur përpara."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "What is Class II Division 2 characterized by?",
+    "sq": "Cila është karakteristika e Class II Division 2?"
+  },
+  "options": {
+    "en": ["Retroclined incisors", "Proclined incisors", "Spacing", "Crossbite"],
+    "sq": ["Incisivë të përkulur prapa", "Incisivë të përkulur përpara", "Hapësirë", "Crossbite"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Class II div 2 has retroclined incisors.",
+    "sq": "Class II div 2 ka incisivë të përkulur prapa."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "What is the main goal of orthodontic treatment?",
+    "sq": "Cili është qëllimi kryesor i trajtimit ortodontik?"
+  },
+  "options": {
+    "en": ["Functional and aesthetic improvement", "Whitening", "Extraction", "Restoration"],
+    "sq": ["Përmirësim funksional dhe estetik", "Zbardhje", "Ekstraksion", "Restaurim"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Orthodontics improves function and aesthetics.",
+    "sq": "Ortodoncia përmirëson funksionin dhe estetikën."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "Which growth phase is best for functional appliances?",
+    "sq": "Cila fazë e rritjes është më e mira për aparate funksionale?"
+  },
+  "options": {
+    "en": ["Pubertal growth spurt", "Infancy", "Adulthood", "Old age"],
+    "sq": ["Rritja pubertare", "Foshnjëria", "Mosha e rritur", "Pleqëria"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Functional appliances work best during growth spurts.",
+    "sq": "Aparatet funksionale funksionojnë më mirë gjatë rritjes pubertare."
+  },
+  "difficulty": "hard"
+},
+{
+  "q": {
+    "en": "What is deep bite?",
+    "sq": "Çfarë është deep bite?"
+  },
+  "options": {
+    "en": ["Excessive vertical overlap", "No overlap", "Crossbite", "Spacing"],
+    "sq": ["Mbivendosje vertikale e tepërt", "Pa mbivendosje", "Crossbite", "Hapësirë"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Deep bite is excessive vertical overlap.",
+    "sq": "Deep bite është mbivendosje vertikale e tepërt."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "Which appliance is used for expansion?",
+    "sq": "Cili aparat përdoret për ekspansion?"
+  },
+  "options": {
+    "en": ["Rapid palatal expander", "Retainer", "Bracket", "Wire"],
+    "sq": ["Ekspander palatal", "Retainer", "Braket", "Tel"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "RPE expands the maxilla.",
+    "sq": "RPE zgjeron maxillën."
+  },
+  "difficulty": "medium"
+}
       ]
     }
   ]
