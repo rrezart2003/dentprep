@@ -4619,7 +4619,7 @@
                 "Ka ndodhur transportim apikal",
                 "Gjatësia punuese është e pasaktë",
                 "Prania e kanalit të dytë (lingual)",
-                "Fila është thyer"
+                "File është thyer"
               ]
             },
             "correct": 2,
@@ -4814,7 +4814,7 @@
           {
             "q": {
               "en": "The rubber dam is considered mandatory during root canal treatment primarily because it:",
-              "sq": "Diga (rubber dam) konsiderohet e detyrueshme gjatë trajtimit endodontik kryesisht sepse:"
+              "sq": "(rubber dam) konsiderohet e detyrueshme gjatë trajtimit endodontik kryesisht sepse:"
             },
             "options": {
               "en": [
@@ -4890,7 +4890,7 @@
             "difficulty": "medium"
           },
           {
-            "q": {
+           "q": {
               "en": "A tooth tests negative to electric pulp testing and cold testing. The periapical radiograph shows a well-defined radiolucency. The most likely diagnosis is:",
               "sq": "Dhëmbi rezulton negativ në testin elektrik dhe testin me të ftohtë. Radiografia periapikale tregon radiotransparencë të mirëpërcaktuar. Diagnoza më e mundshme është:"
             },
@@ -4914,7 +4914,265 @@
               "sq": "Teste vitaliteti negative + radiotransparencë periapikale = nekrozë pulpare me periodontit apikal kronik. Radiotransparenca përfaqëson granulomë ose cistë periapikale."
             },
             "difficulty": "medium"
-          }
+          },
+          {
+            {
+  "q": {
+    "en": "What is the most commonly used irrigant in root canal treatment?",
+    "sq": "Cili është iriganti më i përdorur në trajtimin e kanalit të rrënjës?"
+  },
+  "options": {
+    "en": ["Sodium hypochlorite (NaOCl)", "Chlorhexidine gluconate", "EDTA", "Hydrogen peroxide"],
+    "sq": ["Hipokloriti i natriumit (NaOCl)", "Glukonate klorheksidine", "EDTA", "Peroksidi i hidrogjenit"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Sodium hypochlorite (NaOCl) is the gold standard irrigant due to antimicrobial and tissue-dissolving properties.",
+    "sq": "Hipokloriti i natriumit (NaOCl) është standardi i artë për shkak të vetive antimikrobiale dhe tretëse të indeve."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "What is the primary function of EDTA in root canal irrigation?",
+    "sq": "Cila është funksioni kryesor i EDTA-s në irigimin e kanalit të rrënjës?"
+  },
+  "options": {
+    "en": ["Dissolving organic tissue", "Removing the smear layer", "Killing anaerobic bacteria", "Lubricating rotary files"],
+    "sq": ["Tretja e indit organik", "Heqja e shtresës së smear-it", "Vrasja e baktereve anaerobe", "Lubrifikimi i fileve rotative"]
+  },
+  "correct": 1,
+  "explanation": {
+    "en": "EDTA removes the inorganic component of the smear layer by chelating calcium.",
+    "sq": "EDTA heq komponentin inorganik të smear layer duke lidhur kalciumin."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "Which obturation technique uses a heated plugger to vertically compact gutta-percha?",
+    "sq": "Cila teknikë obturimi përdor plugger të nxehtë për kompaktim vertikal?"
+  },
+  "options": {
+    "en": ["Lateral condensation", "Warm vertical compaction", "Single cone technique", "Carrier-based obturation"],
+    "sq": ["Kondensimi lateral", "Kompaktimi vertikal i ngrohtë", "Teknika me kon të vetëm", "Obturimi me bazë bartëse"]
+  },
+  "correct": 1,
+  "explanation": {
+    "en": "Warm vertical compaction softens gutta-percha and creates a 3D seal.",
+    "sq": "Kompaktimi vertikal i ngrohtë zbut guta-perkën dhe krijon vulosje 3D."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "What is the main disadvantage of sodium hypochlorite?",
+    "sq": "Cili është disavantazhi kryesor i NaOCl?"
+  },
+  "options": {
+    "en": ["Poor antimicrobial activity", "Cannot dissolve tissue", "Cytotoxic if extruded", "High cost"],
+    "sq": ["Aktivitet i dobët antimikrobial", "Nuk tret indin", "Citotoksik nëse del jashtë apeksit", "Kosto e lartë"]
+  },
+  "correct": 2,
+  "explanation": {
+    "en": "NaOCl is cytotoxic if pushed beyond the apex.",
+    "sq": "NaOCl është citotoksik nëse ekstruzohet përtej apeksit."
+  },
+  "difficulty": "medium"
+},
+{
+  {
+  "q": {
+    "en": "Which sealer type forms a chemical bond with dentin?",
+    "sq": "Cili lloj sileri formon lidhje kimike me dentinën?"
+  },
+  "options": {
+    "en": ["Zinc oxide-eugenol sealer", "Epoxy resin sealer", "Calcium silicate-based sealer", "Glass ionomer sealer"],
+    "sq": ["Siler me oksid zinku-eugenol", "Siler me rrëshirë epokside", "Siler me bazë silikat kalciumi", "Siler me jonomer qelqi"]
+  },
+  "correct": 2,
+  "explanation": {
+    "en": "Calcium silicate-based sealers can chemically bond to dentin through hydroxyapatite formation.",
+    "sq": "Silerët me bazë silikat kalciumi mund të lidhen kimikisht me dentinën përmes formimit të hidroksiapatitit."
+  },
+  "difficulty": "hard"
+},
+{
+  "q": {
+    "en": "What is the recommended needle position during root canal irrigation?",
+    "sq": "Cila është pozita e rekomanduar e gjilpërës gjatë irigimit të kanalit të rrënjës?"
+  },
+  "options": {
+    "en": ["Beyond the apex", "At the apex", "1 mm short of working length", "In the pulp chamber only"],
+    "sq": ["Përtej apeksit", "Në apeks", "1 mm më shkurt se gjatësia e punës", "Vetëm në dhomën e pulpës"]
+  },
+  "correct": 2,
+  "explanation": {
+    "en": "The needle is usually kept 1 mm short of working length to improve safety and reduce extrusion risk.",
+    "sq": "Gjilpëra zakonisht mbahet 1 mm më shkurt se gjatësia e punës për të rritur sigurinë dhe për të ulur rrezikun e ekstruzionit."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "Which irrigation activation method uses ultrasonic energy?",
+    "sq": "Cila metodë aktivizimi të irigimit përdor energji ultrasonike?"
+  },
+  "options": {
+    "en": ["Manual dynamic activation", "Passive ultrasonic irrigation", "Side-vented irrigation", "Paper point activation"],
+    "sq": ["Aktivizimi manual dinamik", "Irigimi pasiv ultrasonik", "Irigimi me dalje anësore", "Aktivizimi me paper point"]
+  },
+  "correct": 1,
+  "explanation": {
+    "en": "Passive ultrasonic irrigation improves irrigant penetration and cleaning efficiency.",
+    "sq": "Irigimi pasiv ultrasonik përmirëson depërtimin e irigantit dhe efikasitetin e pastrimit."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "In lateral condensation, what is the function of the spreader?",
+    "sq": "Në kondensimin lateral, cili është funksioni i spreader-it?"
+  },
+  "options": {
+    "en": ["To remove pulp tissue", "To create space for accessory cones", "To measure working length", "To heat gutta-percha"],
+    "sq": ["Të heqë indin pulpar", "Të krijojë hapësirë për kone aksesore", "Të masë gjatësinë e punës", "Të ngrohë guta-perkën"]
+  },
+  "correct": 1,
+  "explanation": {
+    "en": "The spreader is used to create space for accessory gutta-percha cones.",
+    "sq": "Spreader-i përdoret për të krijuar hapësirë për kone aksesore të guta-perkës."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "What concentration of chlorhexidine is commonly used in endodontics?",
+    "sq": "Cili përqendrim i klorheksidinës përdoret zakonisht në endodonti?"
+  },
+  "options": {
+    "en": ["0.12%", "0.5%", "2%", "5.25%"],
+    "sq": ["0.12%", "0.5%", "2%", "5.25%"]
+  },
+  "correct": 2,
+  "explanation": {
+    "en": "A 2% chlorhexidine solution is commonly used as an endodontic irrigant.",
+    "sq": "Solucioni 2% i klorheksidinës përdoret zakonisht si irigant endodontik."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "What happens if sodium hypochlorite is mixed with chlorhexidine?",
+    "sq": "Çfarë ndodh nëse hipokloriti i natriumit përzihet me klorheksidinën?"
+  },
+  "options": {
+    "en": ["They become more effective", "A precipitate forms", "They completely neutralize each other", "No reaction occurs"],
+    "sq": ["Bëhen më efektivë", "Formohet precipitat", "Neutralizohen plotësisht", "Nuk ndodh reaksion"]
+  },
+  "correct": 1,
+  "explanation": {
+    "en": "Mixing sodium hypochlorite and chlorhexidine produces a precipitate, so they should not be used together directly.",
+    "sq": "Përzierja e hipokloritit të natriumit me klorheksidinën prodhon precipitat, prandaj nuk duhet të përdoren bashkë drejtpërdrejt."
+  },
+  "difficulty": "hard"
+},
+{
+  "q": {
+    "en": "Why can gutta-percha be thermoplasticized during obturation?",
+    "sq": "Pse guta-perka mund të termoplastifikohet gjatë obturimit?"
+  },
+  "options": {
+    "en": ["Because it is metallic", "Because of its beta-phase structure", "Because it bonds chemically to dentin", "Because it contains EDTA"],
+    "sq": ["Sepse është metalike", "Për shkak të strukturës së saj beta-fazë", "Sepse lidhet kimikisht me dentinën", "Sepse përmban EDTA"]
+  },
+  "correct": 1,
+  "explanation": {
+    "en": "Gutta-percha becomes flowable when heated because of its crystalline phase behavior.",
+    "sq": "Guta-perka bëhet e rrjedhshme kur nxehet për shkak të sjelljes së saj kristalore."
+  },
+  "difficulty": "hard"
+},
+{
+  "q": {
+    "en": "Which irrigant is best known for dissolving organic tissue?",
+    "sq": "Cili irigant njihet më së shumti për tretjen e indit organik?"
+  },
+  "options": {
+    "en": ["EDTA", "Chlorhexidine", "Sodium hypochlorite", "Saline"],
+    "sq": ["EDTA", "Klorheksidina", "Hipokloriti i natriumit", "Solucioni fiziologjik"]
+  },
+  "correct": 2,
+  "explanation": {
+    "en": "Sodium hypochlorite is especially valued because it can dissolve organic tissue.",
+    "sq": "Hipokloriti i natriumit vlerësohet veçanërisht sepse mund të tretë indin organik."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "What is the main role of EDTA in root canal treatment?",
+    "sq": "Cili është roli kryesor i EDTA-s në trajtimin e kanalit të rrënjës?"
+  },
+  "options": {
+    "en": ["Dissolve organic tissue", "Remove inorganic smear layer", "Provide anesthesia", "Seal the canal"],
+    "sq": ["Të tretë indin organik", "Të heqë komponentin inorganik të smear layer", "Të japë anestezi", "Të vulosë kanalin"]
+  },
+  "correct": 1,
+  "explanation": {
+    "en": "EDTA is a chelating agent that removes the inorganic portion of the smear layer.",
+    "sq": "EDTA është agjent kelator që heq pjesën inorganike të smear layer."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "Which obturation material is most commonly used with root canal sealers?",
+    "sq": "Cili material obturues përdoret më shpesh me silerët e kanalit të rrënjës?"
+  },
+  "options": {
+    "en": ["Composite resin", "Gutta-percha", "Amalgam", "Calcium hydroxide"],
+    "sq": ["Rezina kompozite", "Guta-perka", "Amalgami", "Hidroksidi i kalciumit"]
+  },
+  "correct": 1,
+  "explanation": {
+    "en": "Gutta-percha is the most commonly used core obturation material in endodontics.",
+    "sq": "Guta-perka është materiali bazë obturues më i përdorur në endodonti."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "What is the purpose of obturation in endodontic treatment?",
+    "sq": "Cili është qëllimi i obturimit në trajtimin endodontik?"
+  },
+  "options": {
+    "en": ["To enlarge the canal", "To disinfect the crown", "To seal the cleaned canal system", "To remove calculus"],
+    "sq": ["Të zgjerojë kanalin", "Të dezinfektojë kurorën", "Të vulosë sistemin e pastruar të kanalit", "Të heqë gurëzat"]
+  },
+  "correct": 2,
+  "explanation": {
+    "en": "Obturation seals the cleaned and shaped canal system to prevent reinfection.",
+    "sq": "Obturimi vulos sistemin e pastruar dhe të formuar të kanalit për të parandaluar riinfektimin."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "Which technique is known for producing a three-dimensional fill of the root canal system?",
+    "sq": "Cila teknikë njihet për prodhimin e një mbushjeje tridimensionale të sistemit të kanalit të rrënjës?"
+  },
+  "options": {
+    "en": ["Warm vertical compaction", "Single cone only", "Temporary dressing", "Dry paper point method"],
+    "sq": ["Kompaktimi vertikal i ngrohtë", "Vetëm teknika single cone", "Mbushja e përkohshme", "Metoda me paper point të thatë"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Warm vertical compaction is valued for producing a dense three-dimensional fill.",
+    "sq": "Kompaktimi vertikal i ngrohtë vlerësohet për krijimin e një mbushjeje të dendur tridimensionale."
+  },
+  "difficulty": "medium"
+}
         ]
       }
     ]
