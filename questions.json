@@ -5172,13 +5172,13 @@
     "sq": "Kompaktimi vertikal i ngrohtë vlerësohet për krijimin e një mbushjeje të dendur tridimensionale."
   },
   "difficulty": "medium"
-}
-        ]
-      }
-    ]
-  },
-  {
-    "id": "radiology",
+        }
+      ]
+    }
+  ]
+},
+{
+  "id": "radiology",
     "name": {
       "en": "Oral Radiology",
       "sq": "Radiologjia Orale"
