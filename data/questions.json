@@ -12183,5 +12183,188 @@
         ]
       }
     ]
-  }
+  },
+  {
+  "id": "orthodontics",
+  "name": {
+    "en": "Orthodontics",
+    "sq": "Ortodoncia"
+  },
+  "emoji": "😁",
+  "desc": {
+    "en": "Diagnosis and treatment of malocclusions",
+    "sq": "Diagnoza dhe trajtimi i malokluzioneve"
+  },
+  "topics": [
+    {
+      "id": "basic_orthodontics",
+      "name": {
+        "en": "Basic Concepts",
+        "sq": "Konceptet bazë"
+      },
+      "questions": [
+        {
+          "q": {
+            "en": "What is malocclusion?",
+            "sq": "Çfarë është malokluzioni?"
+          },
+          "options": {
+            "en": ["Incorrect alignment of teeth or jaws", "Tooth decay", "Gum disease", "Tooth fracture"],
+            "sq": ["Pozicionim i gabuar i dhëmbëve ose nofullave", "Karies", "Sëmundje gingivale", "Frakturë dhëmbi"]
+          },
+          "correct": 0,
+          "explanation": {
+            "en": "Malocclusion refers to improper alignment of teeth or jaws.",
+            "sq": "Malokluzioni i referohet pozicionimit jo korrekt të dhëmbëve ose nofullave."
+          },
+          "difficulty": "easy"
+        },
+        {
+          "q": {
+            "en": "Which Angle class represents normal occlusion?",
+            "sq": "Cila klasë Angle përfaqëson okluzion normal?"
+          },
+          "options": {
+            "en": ["Class I", "Class II", "Class III", "Open bite"],
+            "sq": ["Klasa I", "Klasa II", "Klasa III", "Open bite"]
+          },
+          "correct": 0,
+          "explanation": {
+            "en": "Angle Class I represents normal molar relationship.",
+            "sq": "Klasa I Angle përfaqëson marrëdhënie normale të molarëve."
+          },
+          "difficulty": "easy"
+        },
+        {
+          "q": {
+            "en": "What is overjet?",
+            "sq": "Çfarë është overjet?"
+          },
+          "options": {
+            "en": ["Horizontal overlap of incisors", "Vertical overlap", "Tooth spacing", "Rotation"],
+            "sq": ["Mbivendosje horizontale e incisivëve", "Mbivendosje vertikale", "Hapësirë midis dhëmbëve", "Rotacion"]
+          },
+          "correct": 0,
+          "explanation": {
+            "en": "Overjet is the horizontal distance between upper and lower incisors.",
+            "sq": "Overjet është distanca horizontale midis incisivëve të sipërm dhe të poshtëm."
+          },
+          "difficulty": "easy"
+        },
+        {
+          "q": {
+            "en": "What is overbite?",
+            "sq": "Çfarë është overbite?"
+          },
+          "options": {
+            "en": ["Vertical overlap of incisors", "Horizontal overlap", "Crossbite", "Spacing"],
+            "sq": ["Mbivendosje vertikale e incisivëve", "Mbivendosje horizontale", "Crossbite", "Hapësirë"]
+          },
+          "correct": 0,
+          "explanation": {
+            "en": "Overbite refers to vertical overlap of anterior teeth.",
+            "sq": "Overbite i referohet mbivendosjes vertikale të dhëmbëve anteriorë."
+          },
+          "difficulty": "easy"
+        },
+        {
+          "q": {
+            "en": "Which Angle class shows a distal molar relationship?",
+            "sq": "Cila klasë Angle ka marrëdhënie distale të molarëve?"
+          },
+          "options": {
+            "en": ["Class II", "Class I", "Class III", "Normal"],
+            "sq": ["Klasa II", "Klasa I", "Klasa III", "Normale"]
+          },
+          "correct": 0,
+          "explanation": {
+            "en": "Class II shows distal positioning of the lower molar.",
+            "sq": "Klasa II tregon pozicion distal të molarit të poshtëm."
+          },
+          "difficulty": "medium"
+        },
+        {
+          "q": {
+            "en": "Which Angle class shows a mesial molar relationship?",
+            "sq": "Cila klasë Angle ka marrëdhënie meziale të molarëve?"
+          },
+          "options": {
+            "en": ["Class III", "Class I", "Class II", "Open bite"],
+            "sq": ["Klasa III", "Klasa I", "Klasa II", "Open bite"]
+          },
+          "correct": 0,
+          "explanation": {
+            "en": "Class III shows mesial positioning of the lower molar.",
+            "sq": "Klasa III tregon pozicion mezial të molarit të poshtëm."
+          },
+          "difficulty": "medium"
+        },
+        {
+          "q": {
+            "en": "What is crossbite?",
+            "sq": "Çfarë është crossbite?"
+          },
+          "options": {
+            "en": ["Abnormal buccolingual relationship", "Vertical overlap", "Spacing", "Crowding"],
+            "sq": ["Marrëdhënie jo normale buccolinguale", "Mbivendosje vertikale", "Hapësirë", "Grumbullim"]
+          },
+          "correct": 0,
+          "explanation": {
+            "en": "Crossbite occurs when teeth are positioned abnormally in buccolingual direction.",
+            "sq": "Crossbite ndodh kur dhëmbët janë të pozicionuar jo normalisht në drejtimin buccolingual."
+          },
+          "difficulty": "medium"
+        },
+        {
+          "q": {
+            "en": "What is crowding?",
+            "sq": "Çfarë është crowding?"
+          },
+          "options": {
+            "en": ["Lack of space in dental arch", "Too much spacing", "Tooth fracture", "Tooth discoloration"],
+            "sq": ["Mungesë hapësire në harkun dentar", "Hapësirë e tepërt", "Frakturë dhëmbi", "Diskolorim"]
+          },
+          "correct": 0,
+          "explanation": {
+            "en": "Crowding occurs when there is insufficient space for teeth alignment.",
+            "sq": "Crowding ndodh kur nuk ka hapësirë të mjaftueshme për rreshtimin e dhëmbëve."
+          },
+          "difficulty": "easy"
+        },
+        {
+          "q": {
+            "en": "What is spacing?",
+            "sq": "Çfarë është spacing?"
+          },
+          "options": {
+            "en": ["Excess space between teeth", "Lack of space", "Rotation", "Fracture"],
+            "sq": ["Hapësirë e tepërt midis dhëmbëve", "Mungesë hapësire", "Rotacion", "Frakturë"]
+          },
+          "correct": 0,
+          "explanation": {
+            "en": "Spacing refers to excessive gaps between teeth.",
+            "sq": "Spacing i referohet hapësirave të tepërta midis dhëmbëve."
+          },
+          "difficulty": "easy"
+        },
+        {
+          "q": {
+            "en": "What is open bite?",
+            "sq": "Çfarë është open bite?"
+          },
+          "options": {
+            "en": ["No vertical overlap of incisors", "Excess overlap", "Crossbite", "Crowding"],
+            "sq": ["Mungesë e mbivendosjes vertikale", "Mbivendosje e tepërt", "Crossbite", "Crowding"]
+          },
+          "correct": 0,
+          "explanation": {
+            "en": "Open bite occurs when anterior teeth do not overlap vertically.",
+            "sq": "Open bite ndodh kur dhëmbët anteriorë nuk mbivendosen vertikalisht."
+          },
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}
 ]
