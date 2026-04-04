@@ -12554,6 +12554,214 @@
     "sq": "RPE zgjeron maxillën."
   },
   "difficulty": "medium"
+},
+        {
+  "q": {
+    "en": "Which appliance is used for distalization of molars?",
+    "sq": "Cili aparat përdoret për distalizimin e molarëve?"
+  },
+  "options": {
+    "en": ["Headgear", "Retainer", "Bracket", "Expander"],
+    "sq": ["Headgear", "Retainer", "Braket", "Ekspander"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Headgear applies extraoral force to distalize molars.",
+    "sq": "Headgear përdor forcë ekstraorale për distalizim të molarëve."
+  },
+  "difficulty": "hard"
+},
+{
+  "q": {
+    "en": "What is the function of archwire?",
+    "sq": "Cili është funksioni i telit ark (archwire)?"
+  },
+  "options": {
+    "en": ["Move teeth", "Clean teeth", "Whiten teeth", "Extract teeth"],
+    "sq": ["Lëviz dhëmbët", "Pastron dhëmbët", "Zbardh dhëmbët", "Nxjerr dhëmbët"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Archwires apply force to move teeth.",
+    "sq": "Telat ark aplikojnë forcë për lëvizjen e dhëmbëve."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "What is anchorage in orthodontics?",
+    "sq": "Çfarë është ankërimi në ortodonci?"
+  },
+  "options": {
+    "en": ["Resistance to unwanted tooth movement", "Tooth extraction", "Tooth cleaning", "Diagnosis"],
+    "sq": ["Rezistencë ndaj lëvizjes së padëshiruar", "Ekstraksion dhëmbi", "Pastrimi i dhëmbëve", "Diagnoza"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Anchorage controls unwanted tooth movement.",
+    "sq": "Ankërimi kontrollon lëvizjet e padëshiruara të dhëmbëve."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "Which type of anchorage uses skeletal support?",
+    "sq": "Cili lloj ankërimi përdor mbështetje skeletike?"
+  },
+  "options": {
+    "en": ["Mini-implants", "Teeth", "Muscles", "Retainers"],
+    "sq": ["Mini-implante", "Dhëmbë", "Muskuj", "Retainer"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Mini-implants provide skeletal anchorage.",
+    "sq": "Mini-implantet ofrojnë ankërim skeletik."
+  },
+  "difficulty": "hard"
+},
+{
+  "q": {
+    "en": "What is relapse in orthodontics?",
+    "sq": "Çfarë është relapse në ortodonci?"
+  },
+  "options": {
+    "en": ["Return of teeth to original position", "Tooth movement", "Growth", "Extraction"],
+    "sq": ["Kthimi i dhëmbëve në pozicionin fillestar", "Lëvizje dhëmbësh", "Rritje", "Ekstraksion"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Relapse occurs when teeth move back after treatment.",
+    "sq": "Relapse ndodh kur dhëmbët kthehen pas trajtimit."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "What is cephalometric analysis used for?",
+    "sq": "Për çfarë përdoret analiza cefalometrike?"
+  },
+  "options": {
+    "en": ["Evaluate skeletal relationships", "Clean teeth", "Whiten teeth", "Extract teeth"],
+    "sq": ["Vlerëson marrëdhënie skeletike", "Pastron dhëmbët", "Zbardh dhëmbët", "Nxjerr dhëmbët"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Cephalometric analysis studies craniofacial relationships.",
+    "sq": "Analiza cefalometrike studion marrëdhëniet kraniofaciale."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "Which appliance is used for retention?",
+    "sq": "Cili aparat përdoret për retencion?"
+  },
+  "options": {
+    "en": ["Retainer", "Bracket", "Archwire", "Expander"],
+    "sq": ["Retainer", "Braket", "Tel", "Ekspander"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Retainers maintain tooth position.",
+    "sq": "Retainer ruan pozicionin e dhëmbëve."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "What is skeletal malocclusion?",
+    "sq": "Çfarë është malokluzioni skeletik?"
+  },
+  "options": {
+    "en": ["Jaw discrepancy", "Tooth decay", "Gum disease", "Fracture"],
+    "sq": ["Mospërputhje e nofullave", "Karies", "Sëmundje gingivale", "Frakturë"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Skeletal malocclusion involves jaw relationship problems.",
+    "sq": "Malokluzioni skeletik përfshin probleme të marrëdhënieve të nofullave."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "What is dental malocclusion?",
+    "sq": "Çfarë është malokluzioni dentar?"
+  },
+  "options": {
+    "en": ["Tooth alignment issue", "Jaw problem", "Bone fracture", "Soft tissue issue"],
+    "sq": ["Problem në rreshtimin e dhëmbëve", "Problem i nofullës", "Frakturë kocke", "Problem i indeve të buta"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Dental malocclusion refers to tooth positioning.",
+    "sq": "Malokluzioni dentar i referohet pozicionit të dhëmbëve."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "Which habit can cause open bite?",
+    "sq": "Cili zakon mund të shkaktojë open bite?"
+  },
+  "options": {
+    "en": ["Thumb sucking", "Brushing", "Flossing", "Chewing"],
+    "sq": ["Thithja e gishtit", "Larja e dhëmbëve", "Përdorimi i fillit", "Përtypja"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Thumb sucking can lead to anterior open bite.",
+    "sq": "Thithja e gishtit mund të shkaktojë open bite anterior."
+  },
+  "difficulty": "easy"
+},
+{
+  "q": {
+    "en": "What is functional appliance?",
+    "sq": "Çfarë është aparat funksional?"
+  },
+  "options": {
+    "en": ["Modifies jaw growth", "Cleans teeth", "Extracts teeth", "Whitening"],
+    "sq": ["Modifikon rritjen e nofullës", "Pastron dhëmbët", "Nxjerr dhëmbët", "Zbardh"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Functional appliances guide jaw growth.",
+    "sq": "Aparatet funksionale udhëheqin rritjen e nofullës."
+  },
+  "difficulty": "medium"
+},
+{
+  "q": {
+    "en": "Which malocclusion is associated with prognathism?",
+    "sq": "Cili malokluzion lidhet me prognatizëm?"
+  },
+  "options": {
+    "en": ["Class III", "Class I", "Class II", "Normal"],
+    "sq": ["Klasa III", "Klasa I", "Klasa II", "Normale"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Class III often shows mandibular prognathism.",
+    "sq": "Klasa III shpesh shfaq prognatizëm mandibular."
+  },
+  "difficulty": "hard"
+},
+{
+  "q": {
+    "en": "Which malocclusion is associated with retrognathism?",
+    "sq": "Cili malokluzion lidhet me retrognatizëm?"
+  },
+  "options": {
+    "en": ["Class II", "Class I", "Class III", "Normal"],
+    "sq": ["Klasa II", "Klasa I", "Klasa III", "Normale"]
+  },
+  "correct": 0,
+  "explanation": {
+    "en": "Class II often shows mandibular retrognathism.",
+    "sq": "Klasa II shpesh shfaq retrognatizëm mandibular."
+  },
+  "difficulty": "hard"
 }
       ]
     }
