@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icon-192.png">
-<meta name="theme-color" content="#09090b">
+<meta name="theme-color" content="#1E3A8A">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -57,40 +57,42 @@
         <div class="stat-card"><div class="num" id="stat-streak">0</div><div class="label" id="lbl-streak"></div></div>
       </div>
     </div>
-    <div class="mode-scroll">
-      <div class="mode-btn mode-card mode-card--exam" onclick="selectMode('exam')">
-        <div class="mode-icon">📋</div>
-        <div class="mode-info">
-          <div class="mode-title" id="home-exam-title">Provimi</div>
-          <div class="mode-desc" id="home-exam-desc">Testo veten me kohë dhe rezultat</div>
+    <div style="padding: 16px 20px 0;">
+      <div class="mode-scroll">
+        <div class="mode-btn mode-card mode-card--exam" onclick="selectMode('exam')">
+          <div class="mode-icon">📋</div>
+          <div class="mode-info">
+            <div class="mode-title" id="home-exam-title">Provimi</div>
+            <div class="mode-desc" id="home-exam-desc">Testo veten me kohë dhe rezultat</div>
+          </div>
         </div>
-      </div>
-      <div class="mode-btn mode-card" onclick="selectMode('questions')">
-        <div class="mode-icon">📝</div>
-        <div class="mode-info">
-          <div class="mode-title" id="home-q-title">Pyetje</div>
-          <div class="mode-desc" id="home-q-desc">Mëso me përgjigje të menjëhershme</div>
+        <div class="mode-btn mode-card" onclick="selectMode('questions')">
+          <div class="mode-icon">📝</div>
+          <div class="mode-info">
+            <div class="mode-title" id="home-q-title">Pyetje</div>
+            <div class="mode-desc" id="home-q-desc">Mëso me përgjigje të menjëhershme</div>
+          </div>
         </div>
-      </div>
-      <div class="mode-btn mode-card" onclick="selectMode('flashcards')">
-        <div class="mode-icon">📚</div>
-        <div class="mode-info">
-          <div class="mode-title" id="home-fc-title">Flashcards</div>
-          <div class="mode-desc" id="home-fc-desc">Karta përmbledhëse për rishikim</div>
+        <div class="mode-btn mode-card" onclick="selectMode('flashcards')">
+          <div class="mode-icon">📚</div>
+          <div class="mode-info">
+            <div class="mode-title" id="home-fc-title">Flashcards</div>
+            <div class="mode-desc" id="home-fc-desc">Karta përmbledhëse për rishikim</div>
+          </div>
         </div>
-      </div>
-      <div class="mode-btn mode-card mode-card--weak" id="weak-areas-btn" onclick="startWeakAreas()">
-        <div class="mode-icon">🔴</div>
-        <div class="mode-info">
-          <div class="mode-title" id="home-weak-title">Weak Areas</div>
-          <div class="mode-desc" id="home-weak-desc">Practice questions you got wrong</div>
+        <div class="mode-btn mode-card mode-card--weak" id="weak-areas-btn" onclick="startWeakAreas()">
+          <div class="mode-icon">🔴</div>
+          <div class="mode-info">
+            <div class="mode-title" id="home-weak-title">Weak Areas</div>
+            <div class="mode-desc" id="home-weak-desc">Practice questions you got wrong</div>
+          </div>
         </div>
-      </div>
-      <div class="mode-btn mode-card mode-card--history" onclick="showScreen('exam-history')">
-        <div class="mode-icon">📊</div>
-        <div class="mode-info">
-          <div class="mode-title" id="home-history-title">History</div>
-          <div class="mode-desc" id="home-history-desc">View past exam results & analytics</div>
+        <div class="mode-btn mode-card mode-card--history" onclick="showScreen('exam-history')">
+          <div class="mode-icon">📊</div>
+          <div class="mode-info">
+            <div class="mode-title" id="home-history-title">History</div>
+            <div class="mode-desc" id="home-history-desc">View past exam results & analytics</div>
+          </div>
         </div>
       </div>
     </div>
